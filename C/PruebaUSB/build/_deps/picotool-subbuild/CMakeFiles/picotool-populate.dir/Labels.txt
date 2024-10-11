@@ -1,0 +1,14 @@
+# Target labels
+ picotool-populate
+# Source files and their labels
+/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate
+/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate.rule
+/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate-complete.rule
+/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-build.rule
+/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-configure.rule
+/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-download.rule
+/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-install.rule
+/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-mkdir.rule
+/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-patch.rule
+/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-test.rule
+/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-update.rule

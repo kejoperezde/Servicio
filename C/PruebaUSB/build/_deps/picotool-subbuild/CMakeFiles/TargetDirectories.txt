@@ -1,0 +1,3 @@
+/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate.dir
+/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-subbuild/CMakeFiles/edit_cache.dir
+/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-subbuild/CMakeFiles/rebuild_cache.dir
