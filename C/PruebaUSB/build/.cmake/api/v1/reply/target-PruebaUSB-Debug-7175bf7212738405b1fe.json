@@ -17,18 +17,14 @@
 			"target_link_libraries",
 			"add_dependencies",
 			"pico_define_boot_stage2",
-			"target_compile_definitions",
-			"pico_set_program_name",
-			"pico_set_program_version",
-			"target_include_directories"
+			"target_compile_definitions"
 		],
 		"files" : 
 		[
 			"CMakeLists.txt",
 			"/home/kejoperezde/Downloads/pico/pico-sdk/src/CMakeLists.txt",
 			"/home/kejoperezde/Downloads/pico/pico-sdk/src/cmake/on_device.cmake",
-			"/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/boot_stage2/CMakeLists.txt",
-			"/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/CMakeLists.txt"
+			"/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/boot_stage2/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -38,13 +34,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 28,
+				"line" : 10,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 50,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
@@ -62,7 +58,7 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 37,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
@@ -81,40 +77,10 @@
 				"parent" : 7
 			},
 			{
-				"command" : 8,
-				"file" : 0,
-				"line" : 30,
-				"parent" : 0
-			},
-			{
-				"command" : 7,
-				"file" : 4,
-				"line" : 14,
-				"parent" : 9
-			},
-			{
-				"command" : 9,
-				"file" : 0,
-				"line" : 31,
-				"parent" : 0
-			},
-			{
-				"command" : 7,
-				"file" : 4,
-				"line" : 32,
-				"parent" : 11
-			},
-			{
 				"command" : 7,
 				"file" : 2,
 				"line" : 68,
 				"parent" : 2
-			},
-			{
-				"command" : 10,
-				"file" : 0,
-				"line" : 41,
-				"parent" : 0
 			}
 		]
 	},
@@ -133,25 +99,10 @@
 				{
 					"backtrace" : 5,
 					"fragment" : "-fdata-sections"
-				},
-				{
-					"fragment" : "-std=gnu11"
 				}
 			],
 			"defines" : 
 			[
-				{
-					"backtrace" : 5,
-					"define" : "CFG_TUSB_DEBUG=1"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "CFG_TUSB_MCU=OPT_MCU_RP2040"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "CFG_TUSB_OS=OPT_OS_PICO"
-				},
 				{
 					"backtrace" : 5,
 					"define" : "LIB_PICO_ATOMIC=1"
@@ -191,10 +142,6 @@
 				{
 					"backtrace" : 5,
 					"define" : "LIB_PICO_DOUBLE_PICO=1"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "LIB_PICO_FIX_RP2040_USB_DEVICE_ENUMERATION=1"
 				},
 				{
 					"backtrace" : 5,
@@ -274,7 +221,7 @@
 				},
 				{
 					"backtrace" : 5,
-					"define" : "LIB_PICO_STDIO_USB=1"
+					"define" : "LIB_PICO_STDIO_UART=1"
 				},
 				{
 					"backtrace" : 5,
@@ -303,10 +250,6 @@
 				{
 					"backtrace" : 5,
 					"define" : "LIB_PICO_TIME_ADAPTER=1"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "LIB_PICO_UNIQUE_ID=1"
 				},
 				{
 					"backtrace" : 5,
@@ -349,23 +292,11 @@
 					"define" : "PICO_ON_DEVICE=1"
 				},
 				{
-					"backtrace" : 10,
-					"define" : "PICO_PROGRAM_NAME=\"PruebaUSB\""
-				},
-				{
-					"backtrace" : 12,
-					"define" : "PICO_PROGRAM_VERSION_STRING=\"0.1\""
-				},
-				{
 					"backtrace" : 5,
 					"define" : "PICO_RP2040=1"
 				},
 				{
-					"backtrace" : 5,
-					"define" : "PICO_RP2040_USB_DEVICE_UFRAME_FIX=1"
-				},
-				{
-					"backtrace" : 13,
+					"backtrace" : 9,
 					"define" : "PICO_TARGET_NAME=\"PruebaUSB\""
 				},
 				{
@@ -376,20 +307,8 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 14,
-					"path" : "/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB"
-				},
-				{
-					"backtrace" : 14,
-					"path" : "/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/.."
-				},
-				{
 					"backtrace" : 5,
 					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/include"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src"
 				},
 				{
 					"backtrace" : 5,
@@ -594,17 +513,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/include"
+					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
 				},
 				{
 					"backtrace" : 5,
@@ -620,11 +529,6 @@
 					"backtrace" : 5,
 					"isSystem" : true,
 					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_usb_reset_interface_headers/include"
 				},
 				{
 					"backtrace" : 5,
@@ -649,18 +553,10 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include"
 				}
 			],
 			"language" : "C",
-			"languageStandard" : 
-			{
-				"backtraces" : 
-				[
-					1
-				],
-				"standard" : "11"
-			},
 			"sourceIndexes" : 
 			[
 				0,
@@ -707,29 +603,7 @@
 				53,
 				54,
 				55,
-				56,
-				57,
-				58,
-				59,
-				60,
-				61,
-				62,
-				63,
-				64,
-				65,
-				66,
-				67,
-				68,
-				69,
-				70,
-				71,
-				72,
-				73,
-				74,
-				75,
-				76,
-				77,
-				78
+				56
 			]
 		},
 		{
@@ -749,18 +623,6 @@
 			],
 			"defines" : 
 			[
-				{
-					"backtrace" : 5,
-					"define" : "CFG_TUSB_DEBUG=1"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "CFG_TUSB_MCU=OPT_MCU_RP2040"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "CFG_TUSB_OS=OPT_OS_PICO"
-				},
 				{
 					"backtrace" : 5,
 					"define" : "LIB_PICO_ATOMIC=1"
@@ -800,10 +662,6 @@
 				{
 					"backtrace" : 5,
 					"define" : "LIB_PICO_DOUBLE_PICO=1"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "LIB_PICO_FIX_RP2040_USB_DEVICE_ENUMERATION=1"
 				},
 				{
 					"backtrace" : 5,
@@ -883,7 +741,7 @@
 				},
 				{
 					"backtrace" : 5,
-					"define" : "LIB_PICO_STDIO_USB=1"
+					"define" : "LIB_PICO_STDIO_UART=1"
 				},
 				{
 					"backtrace" : 5,
@@ -912,10 +770,6 @@
 				{
 					"backtrace" : 5,
 					"define" : "LIB_PICO_TIME_ADAPTER=1"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "LIB_PICO_UNIQUE_ID=1"
 				},
 				{
 					"backtrace" : 5,
@@ -958,23 +812,11 @@
 					"define" : "PICO_ON_DEVICE=1"
 				},
 				{
-					"backtrace" : 10,
-					"define" : "PICO_PROGRAM_NAME=\"PruebaUSB\""
-				},
-				{
-					"backtrace" : 12,
-					"define" : "PICO_PROGRAM_VERSION_STRING=\"0.1\""
-				},
-				{
 					"backtrace" : 5,
 					"define" : "PICO_RP2040=1"
 				},
 				{
-					"backtrace" : 5,
-					"define" : "PICO_RP2040_USB_DEVICE_UFRAME_FIX=1"
-				},
-				{
-					"backtrace" : 13,
+					"backtrace" : 9,
 					"define" : "PICO_TARGET_NAME=\"PruebaUSB\""
 				},
 				{
@@ -985,20 +827,8 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 14,
-					"path" : "/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB"
-				},
-				{
-					"backtrace" : 14,
-					"path" : "/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/.."
-				},
-				{
 					"backtrace" : 5,
 					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/include"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src"
 				},
 				{
 					"backtrace" : 5,
@@ -1203,17 +1033,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/include"
+					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
 				},
 				{
 					"backtrace" : 5,
@@ -1229,11 +1049,6 @@
 					"backtrace" : 5,
 					"isSystem" : true,
 					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_usb_reset_interface_headers/include"
 				},
 				{
 					"backtrace" : 5,
@@ -1258,7 +1073,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include"
 				}
 			],
 			"language" : "ASM",
@@ -1306,25 +1121,10 @@
 				{
 					"backtrace" : 5,
 					"fragment" : "-fdata-sections"
-				},
-				{
-					"fragment" : "-std=gnu++17"
 				}
 			],
 			"defines" : 
 			[
-				{
-					"backtrace" : 5,
-					"define" : "CFG_TUSB_DEBUG=1"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "CFG_TUSB_MCU=OPT_MCU_RP2040"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "CFG_TUSB_OS=OPT_OS_PICO"
-				},
 				{
 					"backtrace" : 5,
 					"define" : "LIB_PICO_ATOMIC=1"
@@ -1364,10 +1164,6 @@
 				{
 					"backtrace" : 5,
 					"define" : "LIB_PICO_DOUBLE_PICO=1"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "LIB_PICO_FIX_RP2040_USB_DEVICE_ENUMERATION=1"
 				},
 				{
 					"backtrace" : 5,
@@ -1447,7 +1243,7 @@
 				},
 				{
 					"backtrace" : 5,
-					"define" : "LIB_PICO_STDIO_USB=1"
+					"define" : "LIB_PICO_STDIO_UART=1"
 				},
 				{
 					"backtrace" : 5,
@@ -1476,10 +1272,6 @@
 				{
 					"backtrace" : 5,
 					"define" : "LIB_PICO_TIME_ADAPTER=1"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "LIB_PICO_UNIQUE_ID=1"
 				},
 				{
 					"backtrace" : 5,
@@ -1522,23 +1314,11 @@
 					"define" : "PICO_ON_DEVICE=1"
 				},
 				{
-					"backtrace" : 10,
-					"define" : "PICO_PROGRAM_NAME=\"PruebaUSB\""
-				},
-				{
-					"backtrace" : 12,
-					"define" : "PICO_PROGRAM_VERSION_STRING=\"0.1\""
-				},
-				{
 					"backtrace" : 5,
 					"define" : "PICO_RP2040=1"
 				},
 				{
-					"backtrace" : 5,
-					"define" : "PICO_RP2040_USB_DEVICE_UFRAME_FIX=1"
-				},
-				{
-					"backtrace" : 13,
+					"backtrace" : 9,
 					"define" : "PICO_TARGET_NAME=\"PruebaUSB\""
 				},
 				{
@@ -1549,20 +1329,8 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 14,
-					"path" : "/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB"
-				},
-				{
-					"backtrace" : 14,
-					"path" : "/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/.."
-				},
-				{
 					"backtrace" : 5,
 					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/include"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src"
 				},
 				{
 					"backtrace" : 5,
@@ -1767,17 +1535,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/include"
+					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
 				},
 				{
 					"backtrace" : 5,
@@ -1793,11 +1551,6 @@
 					"backtrace" : 5,
 					"isSystem" : true,
 					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_usb_reset_interface_headers/include"
 				},
 				{
 					"backtrace" : 5,
@@ -1822,18 +1575,10 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+					"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include"
 				}
 			],
 			"language" : "CXX",
-			"languageStandard" : 
-			{
-				"backtraces" : 
-				[
-					1
-				],
-				"standard" : "17"
-			},
 			"sourceIndexes" : 
 			[
 				49
@@ -2745,29 +2490,7 @@
 				53,
 				54,
 				55,
-				56,
-				57,
-				58,
-				59,
-				60,
-				61,
-				62,
-				63,
-				64,
-				65,
-				66,
-				67,
-				68,
-				69,
-				70,
-				71,
-				72,
-				73,
-				74,
-				75,
-				76,
-				77,
-				78
+				56
 			]
 		},
 		{
@@ -3123,145 +2846,13 @@
 		{
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c",
+			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c",
+			"path" : "/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c",
 			"sourceGroupIndex" : 0
 		}
 	],

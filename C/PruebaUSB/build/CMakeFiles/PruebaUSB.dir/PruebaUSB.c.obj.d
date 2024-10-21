@@ -64,4 +64,7 @@ CMakeFiles/PruebaUSB.dir/PruebaUSB.c.obj: \
  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
- /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+ /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+ /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+ /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h

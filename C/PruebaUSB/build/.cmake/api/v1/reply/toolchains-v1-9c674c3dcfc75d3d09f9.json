@@ -5,18 +5,10 @@
 		{
 			"compiler" : 
 			{
-				"id" : "GNU",
 				"implicit" : {},
-				"path" : "/usr/bin/arm-none-eabi-gcc",
-				"version" : ""
+				"path" : "/usr/bin/arm-none-eabi-gcc"
 			},
-			"language" : "ASM",
-			"sourceFileExtensions" : 
-			[
-				"s",
-				"S",
-				"asm"
-			]
+			"language" : "ASM"
 		},
 		{
 			"compiler" : 

@@ -7,6 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from tkinter import filedialog
 
+# CENTRAR VENTANA
 def centrar_ventana(ventana, ancho, alto):
     ancho_pantalla = ventana.winfo_screenwidth()
     alto_pantalla = ventana.winfo_screenheight()

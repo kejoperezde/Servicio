@@ -4,7 +4,6 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
- /usr/include/newlib/c++/10.3.1/pstl/pstl_config.h \
  /usr/include/newlib/c++/10.3.1/stdlib.h /usr/include/newlib/stdlib.h \
  /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \

@@ -202,11 +202,11 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c
@@ -453,11 +453,11 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
@@ -522,11 +522,11 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
@@ -577,11 +577,11 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj: CMakeFiles/PruebaUSB.dir/flags.make
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
@@ -590,11 +590,11 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
@@ -631,11 +631,11 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/PruebaUSB.dir/flags.make
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
@@ -644,11 +644,11 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj: CMakeFiles/PruebaUSB.dir/flags.make
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
@@ -657,11 +657,11 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
@@ -698,11 +698,11 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
@@ -725,11 +725,11 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
@@ -794,11 +794,11 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
 CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
@@ -828,341 +828,33 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
+CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+
+CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
+CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/PruebaUSB.dir/flags.make
+CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/PruebaUSB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+
+CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 # Object files for target PruebaUSB
 PruebaUSB_OBJECTS = \
@@ -1221,30 +913,8 @@ PruebaUSB_OBJECTS = \
 "CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj" \
 "CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj" \
 "CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
-"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 
 # External object files for target PruebaUSB
 PruebaUSB_EXTERNAL_OBJECTS =
@@ -1304,35 +974,13 @@ PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk
 PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
 PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
 PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/build.make
 PruebaUSB.elf: pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
 PruebaUSB.elf: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 PruebaUSB.elf: CMakeFiles/PruebaUSB.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Linking CXX executable PruebaUSB.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Linking CXX executable PruebaUSB.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PruebaUSB.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/PruebaUSB.elf > PruebaUSB.dis
 	/usr/bin/arm-none-eabi-objdump -d /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/PruebaUSB.elf >> PruebaUSB.dis
