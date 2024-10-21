@@ -1,5 +1,3 @@
-Onda
-
 # Desarollo de un sistema electrónico para la adquisicion de una señal EEG
 
 Se busca que a partir de un sistema DAQ, se obtengan senales EEG en sistemas embebidos empleando lenguaje C.
