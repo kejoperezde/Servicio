@@ -92,7 +92,7 @@ def graficar_datos(seleccionar = False):
     frequencies = np.fft.fftfreq(len(voltaje),0.01)
     
     # Gráfica transformada de Fourier con la seña cardiaca
-    axs[1].plot(frequencies, np.abs(fourier_transform**2), label='Voltaje (mV)', color='green', marker='')
+    axs[1].plot(frequencies, np.abs(fourier_transform/np.max(fourier_transform)**2), label='Voltaje (mV)', color='green', marker='')
     # axs[1].stem(np.fft.fftshift(np.fft.fft(voltaje,256)))
     axs[1].set_title('Transformada de Fourier (SC)')
     axs[1].set_xlabel('Tiempo (s)')
@@ -101,7 +101,7 @@ def graficar_datos(seleccionar = False):
     
     # Gráfica del ruido
     #axs[2].plot(tiempo, voltaje, label='Voltaje con Ruido (mV)', color='blue', marker='')
-    axs[2].plot(np.fft.fftshift(np.abs(np.fft.fft(voltaje,256)**2)))
+    axs[2].plot(np.fft.fftshift(np.abs(np.fft.fft(voltaje,256))))
     axs[2].set_title('Transformada de Fourier (Ruido)')
     axs[2].set_xlabel('Tiempo (s)')
     axs[2].set_ylabel('Voltaje (mV)')

@@ -116,6 +116,7 @@ def iniciar_lectura_serial(ventana, etiqueta):
         return
 
     ruta_archivo = '/home/kejoperezde/Documents/Proyecto1/TopSecret/muestras.csv'
+    
     try:
         ser = serial.Serial(puerto_serie, baudrate)
         print(f'Conectado a {puerto_serie} a {baudrate} bps')
