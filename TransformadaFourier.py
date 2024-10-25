@@ -11,6 +11,4 @@ voltaje = df['mV']
 
 plt.plot(tiempo, voltaje, label='Voltaje (mV)', color='red', marker='')
 
-
-
 plt.show()
