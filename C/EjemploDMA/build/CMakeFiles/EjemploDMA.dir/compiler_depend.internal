@@ -82,6 +82,10 @@ CMakeFiles/EjemploDMA.dir/EjemploDMA.c.obj
  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+ /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h
+ /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h
+ /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h
+ /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h
 
 CMakeFiles/EjemploDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
  /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c

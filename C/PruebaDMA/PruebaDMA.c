@@ -47,7 +47,7 @@ int main() {
     // Bucle infinito para leer el ADC y enviar datos cada 50 ms
     while (true) {
         // Lee el valor del ADC
-        uint16_t adc_value = adc_read() / 65535.0;; // Valor sin normalizar
+        uint16_t adc_value = adc_read() / 65535.0; // Valor sin normalizar
 
         // Copia el valor leído en el buffer
         snprintf(adc_buffer, sizeof(adc_buffer), "%u\n", adc_value);

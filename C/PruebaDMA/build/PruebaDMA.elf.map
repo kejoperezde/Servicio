@@ -1841,9 +1841,9 @@ Discarded input sections
                 0x0000000000000000       0xac CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
  .bss._timer_claimed
                 0x0000000000000000        0x1 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccw6mWrP.o
- .data          0x0000000000000000        0x0 /tmp/ccw6mWrP.o
- .bss           0x0000000000000000        0x0 /tmp/ccw6mWrP.o
+ .text          0x0000000000000000        0x0 /tmp/ccudDFC0.o
+ .data          0x0000000000000000        0x0 /tmp/ccudDFC0.o
+ .bss           0x0000000000000000        0x0 /tmp/ccudDFC0.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-atexit.o)
@@ -2718,7 +2718,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccw6mWrP.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccudDFC0.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -4403,7 +4403,7 @@ LOAD CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyu
 LOAD CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 LOAD CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-LOAD /tmp/ccw6mWrP.o
+LOAD /tmp/ccudDFC0.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -4538,7 +4538,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000934       0x2c CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
  .ARM.attributes
-                0x0000000000000960       0x22 /tmp/ccw6mWrP.o
+                0x0000000000000960       0x22 /tmp/ccudDFC0.o
  .ARM.attributes
                 0x0000000000000982       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -4927,63 +4927,63 @@ LOAD linker stubs
  .debug_ranges  0x0000000000005420       0x40 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .debug_ranges  0x0000000000005460       0xb0 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 
-.debug_line     0x0000000000000000    0x1bc6f
- .debug_line    0x0000000000000000      0xadb CMakeFiles/PruebaDMA.dir/PruebaDMA.c.obj
- .debug_line    0x0000000000000adb      0xee4 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00000000000019bf      0x250 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
- .debug_line    0x0000000000001c0f      0x1a5 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_line    0x0000000000001db4      0x5de CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
- .debug_line    0x0000000000002392      0x3ee CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x0000000000002780      0x368 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_line    0x0000000000002ae8     0x11da CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x0000000000003cc2      0x26d CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x0000000000003f2f     0x1215 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x0000000000005144      0x35a CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x000000000000549e     0x1c9c CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x000000000000713a      0xf0b CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x0000000000008045      0x9eb CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x0000000000008a30      0xbc5 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x00000000000095f5      0x526 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x0000000000009b1b      0x4d6 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x0000000000009ff1      0x2b1 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_line    0x000000000000a2a2      0x2ea CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x000000000000a58c      0x231 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x000000000000a7bd      0x4c3 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_line    0x000000000000ac80      0x524 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_line    0x000000000000b1a4      0x143 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x000000000000b2e7      0x200 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x000000000000b4e7      0x2e8 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_line    0x000000000000b7cf      0x439 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_line    0x000000000000bc08      0x374 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_line    0x000000000000bf7c      0x6b7 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_line    0x000000000000c633       0xa6 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x000000000000c6d9      0x3f3 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_line    0x000000000000cacc      0x355 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_line    0x000000000000ce21      0x1dd CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
- .debug_line    0x000000000000cffe       0xd0 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x000000000000d0ce      0x18d CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_line    0x000000000000d25b     0x11cf CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x000000000000e42a       0xd4 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_line    0x000000000000e4fe      0x7a8 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_line    0x000000000000eca6      0xe23 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x000000000000fac9      0xbb0 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_line    0x0000000000010679      0x51a CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_line    0x0000000000010b93     0x1019 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_line    0x0000000000011bac      0x308 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_line    0x0000000000011eb4      0x2fa CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_line    0x00000000000121ae      0x7ff CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .debug_line    0x00000000000129ad     0x11bb CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x0000000000013b68      0xb14 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x000000000001467c     0x274b CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x0000000000016dc7      0x5ad CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x0000000000017374     0x114d CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x00000000000184c1      0xaf7 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
- .debug_line    0x0000000000018fb8      0xf46 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x0000000000019efe     0x11cf CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_line    0x000000000001b0cd      0x390 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_line    0x000000000001b45d      0x640 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
- .debug_line    0x000000000001ba9d       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_line    0x000000000001bafd      0x172 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_line     0x0000000000000000    0x1bc6c
+ .debug_line    0x0000000000000000      0xad8 CMakeFiles/PruebaDMA.dir/PruebaDMA.c.obj
+ .debug_line    0x0000000000000ad8      0xee4 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00000000000019bc      0x250 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
+ .debug_line    0x0000000000001c0c      0x1a5 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_line    0x0000000000001db1      0x5de CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+ .debug_line    0x000000000000238f      0x3ee CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x000000000000277d      0x368 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_line    0x0000000000002ae5     0x11da CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x0000000000003cbf      0x26d CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x0000000000003f2c     0x1215 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x0000000000005141      0x35a CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x000000000000549b     0x1c9c CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x0000000000007137      0xf0b CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x0000000000008042      0x9eb CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x0000000000008a2d      0xbc5 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x00000000000095f2      0x526 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x0000000000009b18      0x4d6 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x0000000000009fee      0x2b1 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_line    0x000000000000a29f      0x2ea CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x000000000000a589      0x231 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x000000000000a7ba      0x4c3 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_line    0x000000000000ac7d      0x524 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_line    0x000000000000b1a1      0x143 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x000000000000b2e4      0x200 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x000000000000b4e4      0x2e8 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_line    0x000000000000b7cc      0x439 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_line    0x000000000000bc05      0x374 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_line    0x000000000000bf79      0x6b7 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_line    0x000000000000c630       0xa6 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x000000000000c6d6      0x3f3 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_line    0x000000000000cac9      0x355 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_line    0x000000000000ce1e      0x1dd CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+ .debug_line    0x000000000000cffb       0xd0 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x000000000000d0cb      0x18d CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_line    0x000000000000d258     0x11cf CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x000000000000e427       0xd4 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_line    0x000000000000e4fb      0x7a8 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_line    0x000000000000eca3      0xe23 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x000000000000fac6      0xbb0 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_line    0x0000000000010676      0x51a CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_line    0x0000000000010b90     0x1019 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_line    0x0000000000011ba9      0x308 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_line    0x0000000000011eb1      0x2fa CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_line    0x00000000000121ab      0x7ff CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_line    0x00000000000129aa     0x11bb CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x0000000000013b65      0xb14 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x0000000000014679     0x274b CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x0000000000016dc4      0x5ad CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x0000000000017371     0x114d CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x00000000000184be      0xaf7 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+ .debug_line    0x0000000000018fb5      0xf46 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x0000000000019efb     0x11cf CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_line    0x000000000001b0ca      0x390 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+ .debug_line    0x000000000001b45a      0x640 CMakeFiles/PruebaDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+ .debug_line    0x000000000001ba9a       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x000000000001bafa      0x172 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
 .debug_str      0x0000000000000000     0x92e5
  .debug_str     0x0000000000000000      0xe87 CMakeFiles/PruebaDMA.dir/PruebaDMA.c.obj

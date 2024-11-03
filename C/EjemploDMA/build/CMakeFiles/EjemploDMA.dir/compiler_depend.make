@@ -80,7 +80,11 @@ CMakeFiles/EjemploDMA.dir/EjemploDMA.c.obj: ../EjemploDMA.c \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
+  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h
 
 CMakeFiles/EjemploDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c \
   /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
@@ -3735,8 +3739,6 @@ CMakeFiles/EjemploDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_commo
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h:
-
 /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c:
@@ -3803,6 +3805,10 @@ CMakeFiles/EjemploDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_commo
 
 /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c:
 
+/usr/include/newlib/unistd.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h:
+
 /home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
@@ -3827,13 +3833,7 @@ CMakeFiles/EjemploDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_commo
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
-
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
 
@@ -3877,8 +3877,6 @@ CMakeFiles/EjemploDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_commo
 
 /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c:
-
 /usr/include/newlib/machine/_types.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
@@ -3900,6 +3898,10 @@ CMakeFiles/EjemploDMA.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_commo
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
+
+/usr/include/newlib/_ansi.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/ssi.h:
 
@@ -3971,8 +3973,6 @@ generated/pico_base/pico/version.h:
 
 /usr/include/newlib/alloca.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c:
-
 /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h:
@@ -4029,6 +4029,12 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c:
 
+/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h:
+
 /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h:
@@ -4049,12 +4055,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
 
-/usr/include/newlib/_ansi.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
-
-/usr/include/newlib/unistd.h:
-
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/tusb.c:
@@ -4068,6 +4068,12 @@ generated/pico_base/pico/config_autogen.h:
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c:
 
@@ -4132,8 +4138,6 @@ generated/pico_base/pico/config_autogen.h:
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h:
 
 ../EjemploDMA.c:
 
