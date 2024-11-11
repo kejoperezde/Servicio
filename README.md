@@ -22,9 +22,9 @@
     - [3.1. Requisitos del sistema](#31-requisitos-del-sistema)
     - [3.2. Esquema de bloques del sistema](#32-esquema-de-bloques-del-sistema)
     - [3.3. Selección de componentes](#33-selección-de-componentes)
-      - [3.3.1. Sensores y electrodos](#331-sensores-y-electrodos)
-      - [3.3.2. Microcontroladores y circuitos integrados](#332-microcontroladores-y-circuitos-integrados)
-      - [3.3.3. Módulos de comunicación](#333-módulos-de-comunicación)
+      - [3.3.1. Microcontroladores y circuitos integrados](#331-microcontroladores-y-circuitos-integrados)
+      - [3.3.2. Módulos de comunicación](#332-módulos-de-comunicación)
+      - [3.3.3. Sensores y electrodos](#333-sensores-y-electrodos)
   - [4. Desarrollo del Software](#4-desarrollo-del-software)
     - [4.1. Entorno de desarrollo](#41-entorno-de-desarrollo)
       - [4.1.1. Herramientas necesarias](#411-herramientas-necesarias)
@@ -129,16 +129,35 @@ Derivaciones
 
 ### 3.1. Requisitos del sistema
 
-### 3.2. Esquema de bloques del sistema
+
+
+
+
+### 3.2. Esquema del sistema
 
 ### 3.3. Selección de componentes
 
-#### 3.3.1. Sensores y electrodos
 
-#### 3.3.2. Microcontroladores y circuitos integrados
+#### 3.3.1. Microcontroladores y circuitos integrados
 
-#### 3.3.3. Módulos de comunicación
+- AD8232
 
+> Es un módulo de sensor de señal bioeléctrica diseñado para medir la actividad eléctrica del corazón mediante un electrocardiograma (ECG)
+
+- Raspberry Pi Pico
+
+> Es una microcontroladora compacta basada en el chip RP2040, Cuenta con un procesador ARM Cortex-M0+ de doble núcleo, 26 pines GPIO, y soporte para interfaces como I2C, SPI, y UART. Es compatible con MicroPython y C/C++.
+
+#### 3.3.2. Módulos de comunicación
+
+- Bluetooth módulo: RN-41-FLY-477
+> El módulo RN-41-FLY-477 es un módulo Bluetooth de clase 1 diseñado para aplicaciones industriales y de bajo consumo
+
+#### 3.3.3. Sensores y electrodos
+
+- Ambiderm T715
+
+> Electrodo Desechable autoadheible para monitoreo cardiaco con broche redondo Ambiderm, espuma de Polietileno, redondo, diámetro 55mm
 
 [⇧ Volver al índice](#índice)
 
@@ -200,7 +219,7 @@ Derivaciones
   >
   > `./pico_project.py --gui`
 
-### 4.2. Programación en C
+### 4.2. Programación en Python
 
 #### 4.2.1. Estructura básica del programa
 
