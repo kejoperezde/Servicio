@@ -97,30 +97,37 @@ El dispositivo capturará la señal electrocardiográfica de una persona y envia
 
 "La  contracción  de  cualquier  músculo  se  asocia  a cambios  eléctricos  denominados  «despolarización», que  pueden  detectarse  mediante  electrodos  unidos a la superficie corpora" (Hampton, 2013). El corazón al tratarse de un músculo, también emite cambios electrónicos mientras está en funcionamiento, los cuales pueden ser medidos con ayuda de electrodos ubicados adecuadamente, tomando en cuenta que los demás músculos al también emitir cambios eléctricos deben estar estos en funcionameinto nulo para evitar intervenir con la señal emitida por el corazón.
 
-#### 2.2. Eithoven Triangle
+#### 2.1.2. Eithoven Triangle
 
 La actividad eléctrica del coración puede ser estuduada con electródos, un electródo son dispositivos que se colocan en la superficie de la piel para registrar la actividad eléctrica del corazón, su función es captar los impulsos eléctricos que genera el corazón.
 
 La actividad eléctrica puede ser transmitida por los tejidos, esto depende de los polos que tengan los electrodos o las derivaciones.
 
-
-
+![Triángulo de Einthoven](https://github.com/kejoperezde/Servicio/blob/main2/README/triangulo.png "Triángulo de Einthoven")
+(Hernand, 2022)
 
 #### 2.1.3. Componentes de la señal ECG
 
 Derivaciones
 
+
+
 ### 2.2. Sistemas de adquisición de datos (DAQ)
 
 #### 2.2.1. Definición y funciones
 
-#### 2.2.2. Tipos de sistemas DAQ
 
-### 2.3. Introducción a sistemas embebidos
+### 3.2. Sistemas de adquisición de datos (DAQ)
 
-#### 2.3.1. Definición y características
+#### 3.2.1. Definición y funciones
 
-#### 2.3.2. Lenguaje C en sistemas embebidos
+#### 3.2.2. Tipos de sistemas DAQ
+
+### 3.3. Introducción a sistemas embebidos
+
+#### 3.3.1. Definición y características
+
+#### 3.3.2. Lenguaje C en sistemas embebidos
 
 
 [⇧ Volver al índice](#índice)
@@ -292,6 +299,8 @@ Uribe, William & Duque, Mauricio & Arango, Eduardo. (2010). Electrocardiografía
 Hampton, J. (2013). The ECG made easy. Elsevier Health Sciences.
 
 Kaplan Berkaya, S., Uysal, A. K., Gunal, E. S., Ergin, S., Gunal, S., & Gulmezoglu, M. B. (2018). A survey on ECG analysis. Biomedical Signal Processing and Control, 43, 216-235. https://doi.org/10.1016/j.bspc.2018.03.003
+
+KatlynMarceloHernand. (2022, 1 mayo). TRIANGULO DE EINTHOVEN. KATLYN MARCELO.pdf [Diapositivas]. SlideShare. https://es.slideshare.net/slideshow/triangulo-de-einthoven-katlyn-marcelopdf/251700420
 
 ### 9.3. Recursos adicionales
 
