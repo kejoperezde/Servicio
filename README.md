@@ -127,18 +127,9 @@ Derivaciones
 
 ## 3. Diseño del Sistema
 
-### 3.1. Requisitos del sistema
+### 3.1. Selección de componentes
 
-
-
-
-
-### 3.2. Esquema del sistema
-
-### 3.3. Selección de componentes
-
-
-#### 3.3.1. Microcontroladores y circuitos integrados
+#### 3.1.1. Microcontroladores y circuitos integrados
 
 - AD8232
 
@@ -148,16 +139,24 @@ Derivaciones
 
 > Es una microcontroladora compacta basada en el chip RP2040, Cuenta con un procesador ARM Cortex-M0+ de doble núcleo, 26 pines GPIO, y soporte para interfaces como I2C, SPI, y UART. Es compatible con MicroPython y C/C++.
 
-#### 3.3.2. Módulos de comunicación
+#### 3.1.2. Módulos de comunicación
 
 - Bluetooth módulo: RN-41-FLY-477
 > El módulo RN-41-FLY-477 es un módulo Bluetooth de clase 1 diseñado para aplicaciones industriales y de bajo consumo
 
-#### 3.3.3. Sensores y electrodos
+#### 3.1.3. Sensores y electrodos
 
 - Ambiderm T715
 
 > Electrodo Desechable autoadheible para monitoreo cardiaco con broche redondo Ambiderm, espuma de Polietileno, redondo, diámetro 55mm
+
+### 3.2. Requisitos del sistema
+
+- Alimentación 5v (En este caso la amientación se dio mediante la conección usb tipo c de la raspberry pi pico)
+
+### 3.3. Esquema del sistema
+
+- ![Esquema](README\esquema.jpg "Esquema")
 
 [⇧ Volver al índice](#índice)
 
