@@ -19,12 +19,12 @@
       - [2.3.1. Definición y características](#231-definición-y-características)
       - [2.3.2. Lenguaje C en sistemas embebidos](#232-lenguaje-c-en-sistemas-embebidos)
   - [3. Diseño del Sistema](#3-diseño-del-sistema)
-    - [3.1. Requisitos del sistema](#31-requisitos-del-sistema)
-    - [3.2. Esquema de bloques del sistema](#32-esquema-de-bloques-del-sistema)
-    - [3.3. Selección de componentes](#33-selección-de-componentes)
-      - [3.3.1. Microcontroladores y circuitos integrados](#331-microcontroladores-y-circuitos-integrados)
-      - [3.3.2. Módulos de comunicación](#332-módulos-de-comunicación)
-      - [3.3.3. Sensores y electrodos](#333-sensores-y-electrodos)
+    - [3.1. Selección de componentes](#31-selección-de-componentes)
+      - [3.1.1. Microcontroladores y circuitos integrados](#311-microcontroladores-y-circuitos-integrados)
+      - [3.1.2. Módulos de comunicación](#312-módulos-de-comunicación)
+      - [3.1.3. Sensores y electrodos](#313-sensores-y-electrodos)
+    - [3.2. Requisitos del sistema](#32-requisitos-del-sistema)
+    - [3.3. Esquema del sistema](#33-esquema-del-sistema)
   - [4. Desarrollo del Software](#4-desarrollo-del-software)
     - [4.1. Entorno de desarrollo](#41-entorno-de-desarrollo)
       - [4.1.1. Herramientas necesarias](#411-herramientas-necesarias)
@@ -156,7 +156,7 @@ Derivaciones
 
 ### 3.3. Esquema del sistema
 
-- ![Esquema](README\esquema.jpg "Esquema")
+- ![Esquema](https://github.com/kejoperezde/Servicio/blob/0bd88815d1d097b9d29344461a53910fb38639e7/README/esquema.jpg "Esquema")
 
 [⇧ Volver al índice](#índice)
 
