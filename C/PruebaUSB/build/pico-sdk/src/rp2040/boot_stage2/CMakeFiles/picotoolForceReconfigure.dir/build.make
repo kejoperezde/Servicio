@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB
+CMAKE_SOURCE_DIR = /home/kevinperez/Documents/Servicio/C/PruebaUSB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build
+CMAKE_BINARY_DIR = /home/kevinperez/Documents/Servicio/C/PruebaUSB/build
 
 # Utility rule file for picotoolForceReconfigure.
 
@@ -67,7 +67,7 @@ include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/
 include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/progress.make
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure:
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch_nocreate /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/CMakeLists.txt
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch_nocreate /home/kevinperez/Documents/Servicio/C/PruebaUSB/CMakeLists.txt
 
 picotoolForceReconfigure: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure
 picotoolForceReconfigure: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build.make
@@ -78,10 +78,10 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build: p
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/clean:
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolForceReconfigure.dir/cmake_clean.cmake
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolForceReconfigure.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/clean
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/depend:
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/boot_stage2 /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevinperez/Documents/Servicio/C/PruebaUSB /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/boot_stage2 /home/kevinperez/Documents/Servicio/C/PruebaUSB/build /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/depend
 

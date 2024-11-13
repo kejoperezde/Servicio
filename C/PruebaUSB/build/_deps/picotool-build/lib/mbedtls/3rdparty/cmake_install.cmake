@@ -1,8 +1,8 @@
-# Install script for directory: /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/3rdparty
+# Install script for directory: /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/3rdparty
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps")
+  set(CMAKE_INSTALL_PREFIX "/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build/lib/mbedtls/3rdparty/everest/cmake_install.cmake")
+  include("/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build/lib/mbedtls/3rdparty/everest/cmake_install.cmake")
 
 endif()
 

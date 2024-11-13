@@ -1,9 +1,9 @@
 lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.o: \
- /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/library/psa_crypto_se.c \
+ /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/library/psa_crypto_se.c \
  /usr/include/stdc-predef.h \
- /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/library/common.h \
- /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/library/common.h \
+ /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+ /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \

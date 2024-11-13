@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/errors
+CXX_INCLUDES = -I/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/errors
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++14
 

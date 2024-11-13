@@ -21,18 +21,18 @@ int main() {
     adc_gpio_init(ADC_PIN);
     adc_select_input(0); // Selecciona el canal 0 (GPIO 26)
 
-    // Bucle infinito para leer el ADC y enviar datos cada 50 ms
+    // Bucle infinito para leer el ADC y enviar datos cada 5 ms
     while (true) {
         // Lee el valor del ADC y normaliza
-        float adc_value = adc_read() / 65535.0; // Normaliza el valor a [0, 1]
+        float adc_value = adc_read();
 
         // Envía el valor del ADC a través de UART
         char buffer[50];
         snprintf(buffer, sizeof(buffer), "%f\n", adc_value);
         uart_puts(UART_ID, buffer);
 
-        // Espera 50 ms
-        sleep_ms(50);
+        // Espera 5 ms
+        sleep_ms(5);
     }
 
     return 0; // Por si acaso

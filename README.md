@@ -14,10 +14,12 @@
       - [2.1.3. Componentes de la señal ECG](#213-componentes-de-la-señal-ecg)
     - [2.2. Sistemas de adquisición de datos (DAQ)](#22-sistemas-de-adquisición-de-datos-daq)
       - [2.2.1. Definición y funciones](#221-definición-y-funciones)
-      - [2.2.2. Tipos de sistemas DAQ](#222-tipos-de-sistemas-daq)
-    - [2.3. Introducción a sistemas embebidos](#23-introducción-a-sistemas-embebidos)
-      - [2.3.1. Definición y características](#231-definición-y-características)
-      - [2.3.2. Lenguaje C en sistemas embebidos](#232-lenguaje-c-en-sistemas-embebidos)
+    - [3.2. Sistemas de adquisición de datos (DAQ)](#32-sistemas-de-adquisición-de-datos-daq)
+      - [3.2.1. Definición y funciones](#321-definición-y-funciones)
+      - [3.2.2. Tipos de sistemas DAQ](#322-tipos-de-sistemas-daq)
+    - [3.3. Introducción a sistemas embebidos](#33-introducción-a-sistemas-embebidos)
+      - [3.3.1. Definición y características](#331-definición-y-características)
+      - [3.3.2. Lenguaje C en sistemas embebidos](#332-lenguaje-c-en-sistemas-embebidos)
   - [3. Diseño del Sistema](#3-diseño-del-sistema)
     - [3.1. Selección de componentes](#31-selección-de-componentes)
       - [3.1.1. Microcontroladores y circuitos integrados](#311-microcontroladores-y-circuitos-integrados)
@@ -28,8 +30,15 @@
   - [4. Desarrollo del Software](#4-desarrollo-del-software)
     - [4.1. Entorno de desarrollo](#41-entorno-de-desarrollo)
       - [4.1.1. Herramientas necesarias](#411-herramientas-necesarias)
+        - [Screen](#screen)
+        - [Dispositivos conectados](#dispositivos-conectados)
       - [4.1.2. Instalación y configuración](#412-instalación-y-configuración)
-    - [4.2. Programación en C](#42-programación-en-c)
+        - [Sistema](#sistema)
+        - [Python](#python)
+        - [Visual Studio Code](#visual-studio-code)
+        - [Blueman](#blueman)
+        - [Thonny (Opcional)](#thonny-opcional)
+    - [4.2. Programación en Python](#42-programación-en-python)
       - [4.2.1. Estructura básica del programa](#421-estructura-básica-del-programa)
       - [4.2.2. Adquisición de datos](#422-adquisición-de-datos)
       - [4.2.3. Procesamiento de señales](#423-procesamiento-de-señales)
@@ -167,6 +176,7 @@ Derivaciones
 
 [⇧ Volver al índice](#índice)
 
+
 ## 4. Desarrollo del Software 
 
 ### 4.1. Entorno de desarrollo
@@ -176,51 +186,121 @@ Derivaciones
 #### 4.1.1. Herramientas necesarias
 
 - Laptop
-- Sistema operativo Pop Os
+- Sistema operativo Linux, distribución Pop Os
+
+##### Screen
+
+Sirve para gestionar sesiones de terminal 
+
+1. Instalar screen (Opcional)
+    
+    `sudo apt-get install screen`
+
+2. Ver sesión (datos recibidos)
+    
+    `sudo screen /dev/K` -> K dispositivo de entrada
+
+##### Dispositivos conectados
+
+1. Ver todos los dispotivios
+
+    `ls /dev/tty*`
+
+2. Dispositivos USB
+
+    `ls /dev/ttyUSB*`
+
+3. Dispositivos bluetooth
+
+    `ls /dev/rfcomm*`
 
 #### 4.1.2. Instalación y configuración
 
+##### Sistema
+
 1. Actualización del sistema
-  > `sudo apt update && sudo apt upgrade -y`
-2. Instalar python
-  > `sudo apt install python3-pip`
-3. Librerías necesarias de python
-  > `sudo apt-get install python3-tk`
+    
+    `sudo apt update && sudo apt upgrade -y`
 
-  - Para crear interfaces gráficas de usuario (GUI)
 
-  > `pip3 install pyserial numpy pybluez pandas matplotlib`
+2. Actualizar linux firmware (Tag usado: 20241110)
 
-  - **pyserial**: Para comunicación serial con dispositivos, como puertos serie o USB.
-  - **numpy**: Para operaciones matemáticas y manipulación de arreglos y matrices.
-  - **pybluez**: Para comunicación Bluetooth en Python (compatible principalmente con Linux y algunas versiones de Windows).
-  - **pandas**: Para manipulación y análisis de datos estructurados, como tablas y series temporales.
-  - **matplotlib**: Para crear gráficos y visualizaciones de datos.
+    - Descargar última versión [linux-firmware](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git "linux-firmware").
+    - Extraer contenido del archivo: `tar -xvf nombre_archivo.tar.yz`
+    - Reemplazar archivos: `sudo cp -r /linux-firmware-####/* /lib/firmware`
+    
+3. Añadir usuario
+    
+    `sudo usermod -a -G dialout $USER`
 
-4. Instalar Thonny (Opcional)
-  > `sudo apt install thonny`
+4. Reiniciar
+  
+    `sudo reboot`
 
-5. Añadir usuario (**Después reiniciar**)
-  > `sudo usermod -a -G dialout $USER`
+##### Python
 
-6. Instalar visual estudio code
-  > `sudo apt-get install code -y`
+1. Instalar python 3 (Versión usada: 22.0.2)
+    
+    `sudo apt install python3-pip`
 
-7. Instalar screen (Opcional)
-  > `sudo apt-get install screen`
+2. Librerías necesarias de python
+    
+    `pip install pyserial numpy pandas matplotlib pybluez`
 
-8. Ver sesión (datos recibidos)
-  > `sudo screen /dev/ttyK` -> K dispositivo de entrada
+    `pip3 install pyserial numpy pandas matplotlib pybluez`
+  
+    `sudo apt-get install python3-tk`
 
-9. Ver puertos
-  > `ls /dev/ tty*` y `ls /dev/ttyUSB*`
+    | Librería   | Versión | Descripción |
+    | ---------- | ------- |------------ |
+    | pyserial   | 3.5     | Para comunicación serial con dispositivos, como puertos serie o USB. |
+    | numpy      | 2.1.3   | Para operaciones matemáticas y manipulación de arreglos y matrices. |
+    | pandas     | 2.2.3   | Para manipulación y análisis de datos estructurados, como tablas y series temporales. |
+    | matplotlib | 3.9.2   | Para crear gráficos y visualizaciones de datos. |
+    | tkinter    | 3.10.8  | Para crear interfaces gráficas de usuario (GUI) |
+    | pybluez    | 0.23    | Para comunicación Bluetooth en Python. |
 
-10. Descargar sdk para Raspberry Pi Principios
+3. Problemas al instalar pybluez (En caso de no tener ningún problema omitir)
+
+    1. `pip3 isntall setuptools==57.0.0`
+
+    2. `sudo apt-get install python3-devel`
+
+    3. `sudo apt-get install libbluetooth-dev`
+
+    4. `pip3 install pybluez`
+
+##### Visual Studio Code
+
+1. Instalar visual studio code (Versión usada: 1.95.2)
+
+    `sudo apt-get install code -y`
+
+2. Actualizar a última versión visual estudio code
+    
+    `sudo apt-get upgrade code -y`
+
+##### Blueman
+
+1. Instalar blueman (Versión usada: 2.2.4)
+    
+    `sudo apt-get install code -y`
+
+##### Thonny (Opcional)
+
+1. Instalar thonny (Versión usada: )
+    
+    `sudo apt install thonny`
+
+
+
+
+1.  Descargar sdk para Raspberry Pi Principios
  > Desacargar [pico.sh](https://github.com/kejoperezde/Servicio/blob/3e0f7b95ebaf8ff6d712780103dedfb72edc734b/PICO/pico.sh)
  >
  > `chmod +x pico.sh`
 
-11. Ejecutar creador de proyectos C
+1.  Ejecutar creador de proyectos C
   > `cd /pico/pico-project-generator`
   >
   > `./pico_project.py --gui`

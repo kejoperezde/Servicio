@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB
+CMAKE_SOURCE_DIR = /home/kevinperez/Documents/Servicio/C/PruebaUSB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build
+CMAKE_BINARY_DIR = /home/kevinperez/Documents/Servicio/C/PruebaUSB/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2_common/hardware_divider//CMakeFiles/progress.marks
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/hardware_divider/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles 0
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/CMakeFiles /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2_common/hardware_divider//CMakeFiles/progress.marks
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/hardware_divider/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/hardware_divider/clean
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/hardware_divider/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,17 +103,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/hardware_divider/preinstall
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/hardware_divider/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/hardware_divider/preinstall
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/hardware_divider/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -135,6 +135,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

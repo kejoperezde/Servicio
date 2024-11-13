@@ -161,9 +161,9 @@ CMakeFiles/picotool.dir/data_locs.cpp.o: data_locs.cpp \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc
 
-CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
+CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
   /usr/include/stdc-predef.h \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami++.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami++.h \
   /usr/include/c++/11/string \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -342,7 +342,7 @@ CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/kejoperezde/Documen
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami.c \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami.c \
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -352,9 +352,9 @@ CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/kejoperezde/Documen
   /usr/include/inttypes.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h
 
-CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami.c \
+CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami.c \
   /usr/include/stdc-predef.h \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -426,9 +426,9 @@ CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/kejoperezde/Documents/P
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h
 
-CMakeFiles/picotool.dir/main.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/main.cpp \
+CMakeFiles/picotool.dir/main.cpp.o: /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/main.cpp \
   /usr/include/stdc-predef.h \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/cli.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/cli.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -656,7 +656,7 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Prue
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/bits/sstream.tcc \
   /usr/include/c++/11/limits \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/clipp/clipp.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/clipp/clipp.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -734,21 +734,21 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Prue
   /usr/include/c++/11/cstdarg \
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/bits/quoted_string.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/host/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/host/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf/addresses.h \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/bintool/bintool.h \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf/addresses.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/bintool/bintool.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
   /usr/include/c++/11/stdlib.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -758,37 +758,37 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Prue
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf/elf_file.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf/elf_file.h \
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf/elf.h \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf/addresses.h \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/bintool/metadata.h \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf/elf.h \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/otp.h \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf/elf.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf/addresses.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/bintool/metadata.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf/elf.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/otp.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/forward_list \
   /usr/include/c++/11/bits/forward_list.h \
@@ -820,8 +820,8 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Prue
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
   /usr/include/c++/11/version \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/errors/errors.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/errors/errors.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
   /usr/include/x86_64-linux-gnu/sys/ioctl.h \
   /usr/include/x86_64-linux-gnu/bits/ioctls.h \
   /usr/include/x86_64-linux-gnu/asm/ioctls.h \
@@ -832,7 +832,7 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Prue
   /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
   /usr/include/x86_64-linux-gnu/sys/ttydefaults.h
 
-CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/no_otp.cpp \
+CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/no_otp.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
@@ -935,7 +935,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Pr
   /usr/include/c++/11/bits/invoke.h \
   /usr/include/c++/11/bits/stl_multimap.h \
   /usr/include/c++/11/bits/erase_if.h \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/otp.h \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/otp.h \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/char_traits.h \
@@ -1012,7 +1012,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Pr
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/refwrap.h \
@@ -1113,21 +1113,21 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Pr
   /usr/include/c++/11/bits/sstream.tcc
 
 
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/no_otp.cpp:
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/no_otp.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/ioctl-types.h:
+
+/usr/include/asm-generic/ioctl.h:
 
 /usr/include/asm-generic/ioctls.h:
 
 /usr/include/x86_64-linux-gnu/asm/ioctls.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
 
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/errors/errors.h:
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/errors/errors.h:
 
 /usr/include/c++/11/version:
-
-/usr/include/c++/11/bits/mask_array.h:
 
 /usr/include/c++/11/bits/gslice.h:
 
@@ -1143,8 +1143,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Pr
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/include/c++/11/valarray:
@@ -1153,81 +1151,71 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Pr
 
 /usr/include/c++/11/bits/hashtable_policy.h:
 
+/usr/include/c++/11/bits/hashtable.h:
+
 /usr/include/c++/11/unordered_map:
 
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/otp.h:
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/otp.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
 
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
 
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/bintool/metadata.h:
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/bintool/metadata.h:
+
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf/elf.h:
 
 /usr/include/c++/11/bits/fstream.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
 
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf/elf_file.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/pk.h:
+
 /usr/include/c++/11/fstream:
 
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf/elf_file.h:
+/home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h:
+/home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/pk.h:
+/home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h:
-
-/usr/include/asm-generic/ioctl.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/aes.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/md.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h:
+/home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
 /usr/include/c++/11/bits/valarray_before.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h:
+/home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h:
 
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/bintool/bintool.h:
+/home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/config.h:
 
-/usr/include/c++/11/bits/hashtable.h:
+/home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h:
 
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf/addresses.h:
+/usr/include/c++/11/bits/mask_array.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/bintool/bintool.h:
 
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
 
 /usr/include/c++/11/bits/stl_multiset.h:
 
@@ -1283,8 +1271,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Pr
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h:
-
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigstksz.h:
@@ -1295,15 +1281,21 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Pr
 
 /usr/include/x86_64-linux-gnu/bits/sigcontext.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/host/pico_platform/include/pico/platform.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/md.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
@@ -1318,6 +1310,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Pr
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
 
 /usr/include/c++/11/numeric:
 
@@ -1347,8 +1341,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Pr
 
 /usr/include/c++/11/bits/stl_pair.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
-
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
@@ -1372,6 +1364,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Pr
 /usr/include/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/c++/11/bits/localefwd.h:
 
@@ -1419,11 +1413,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Pr
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/main.cpp:
 
 /usr/include/c++/11/bits/stringfwd.h:
 
@@ -1448,6 +1438,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kejoperezde/Documents/Proyecto1/C/Pr
 /usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
@@ -1501,13 +1493,15 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/forward_list.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/clipp/clipp.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/c++/11/tuple:
 
 /usr/include/x86_64-linux-gnu/sys/ioctl.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h:
 
 /usr/include/c++/11/bits/stl_tree.h:
 
@@ -1523,8 +1517,6 @@ data_locs.cpp:
 
 /usr/include/x86_64-linux-gnu/asm/ioctl.h:
 
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
 /usr/include/c++/11/bits/functexcept.h:
@@ -1535,7 +1527,9 @@ data_locs.cpp:
 
 /usr/include/c++/11/streambuf:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h:
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami.c:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
@@ -1561,6 +1555,8 @@ data_locs.cpp:
 
 /usr/include/linux/ioctl.h:
 
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf/addresses.h:
+
 /usr/include/c++/11/bits/stl_tempbuf.h:
 
 /usr/include/c++/11/bits/std_function.h:
@@ -1568,12 +1564,6 @@ data_locs.cpp:
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/asm-generic/errno-base.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/config.h:
 
 /usr/include/c++/11/bits/vector.tcc:
 
@@ -1613,13 +1603,13 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/invoke.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
@@ -1636,6 +1626,8 @@ data_locs.cpp:
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/aes.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
 
@@ -1661,6 +1653,8 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/stl_vector.h:
 
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
+
 /usr/include/c++/11/system_error:
 
 /usr/include/c++/11/bits/regex.tcc:
@@ -1678,6 +1672,8 @@ data_locs.cpp:
 /usr/include/c++/11/bits/hash_bytes.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h:
 
 /usr/include/c++/11/map:
 
@@ -1702,8 +1698,6 @@ data_locs.cpp:
 /usr/include/c++/11/vector:
 
 /usr/include/c++/11/bits/align.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/host/pico_platform/include/pico/platform.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
@@ -1732,6 +1726,8 @@ data_locs.cpp:
 /usr/include/c++/11/bits/stl_bvector.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/c++/11/cwctype:
 
 /usr/include/c++/11/cstdio:
 
@@ -1769,9 +1765,11 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami++.h:
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
+
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami++.h:
 
 /usr/include/c++/11/ostream:
 
@@ -1799,6 +1797,8 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/locale_classes.h:
 
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
+
 /usr/include/c++/11/bits/locale_classes.tcc:
 
 /usr/include/c++/11/ios:
@@ -1825,13 +1825,13 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/locale_facets.h:
 
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/main.cpp:
+
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/bits/enable_special_members.h:
-
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf/elf.h:
 
 /usr/include/c++/11/bits/codecvt.h:
 
@@ -1849,9 +1849,11 @@ data_locs.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
 
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami.h:
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami.h:
 
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/cli.h:
+/usr/include/c++/11/sstream:
+
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/cli.h:
 
 /usr/include/limits.h:
 
@@ -1865,9 +1867,13 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/algorithmfwd.h:
 
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
+
 /usr/include/c++/11/bits/std_abs.h:
 
 /usr/include/c++/11/bits/stl_heap.h:
+
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
 
 /usr/include/c++/11/array:
 
@@ -1889,8 +1895,6 @@ data_locs.cpp:
 
 /usr/include/c++/11/memory:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h:
-
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
 /usr/include/c++/11/bits/regex.h:
@@ -1907,12 +1911,6 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/istream.tcc:
 
-/usr/include/c++/11/sstream:
-
-/usr/include/c++/11/cwctype:
-
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/clipp/clipp.h:
-
 /usr/include/c++/11/limits:
 
 /usr/include/math.h:
@@ -1926,6 +1924,8 @@ data_locs.cpp:
 /usr/include/c++/11/bits/stl_deque.h:
 
 /usr/include/c++/11/bits/stl_stack.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 

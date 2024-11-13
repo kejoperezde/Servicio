@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB
+CMAKE_SOURCE_DIR = /home/kevinperez/Documents/Servicio/C/PruebaUSB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build
+CMAKE_BINARY_DIR = /home/kevinperez/Documents/Servicio/C/PruebaUSB/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/CMakeFiles /home/kevinperez/Documents/Servicio/C/PruebaUSB/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -218,1173 +218,1173 @@ PruebaUSB.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/PruebaUSB.c.s
 .PHONY : PruebaUSB.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.obj: home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.i: home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.i: home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.s: home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.s: home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.i: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.i: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.s: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.s: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.obj: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.i: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.i: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.s: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.s: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.obj: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.i: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.i: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.s: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.s: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.obj: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.i: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.i: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.s: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.s: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.obj: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.i: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.i: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.s: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.s: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.obj: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.i: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.i: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.s: home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.s: home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
-
-# target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
+
+# target to build an object file
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
-
-# target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
+
+# target to build an object file
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
-
-# target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
+
+# target to build an object file
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj
-
-# target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
-
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj
+
+# target to build an object file
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj
-
-# target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
-
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj
+
+# target to build an object file
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj
-
-# target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj
+
+# target to build an object file
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj
-
-# target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
-
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj
+
+# target to build an object file
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
+
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
-
-# target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj
+
+# target to build an object file
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 
 # target to build an object file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 
 # target to preprocess a source file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
 
 # target to generate assembly for a file
-home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-.PHONY : home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PruebaUSB.dir/build.make CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 # Help Target
 help:
@@ -1403,152 +1403,152 @@ help:
 	@echo "... PruebaUSB.obj"
 	@echo "... PruebaUSB.i"
 	@echo "... PruebaUSB.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
-	@echo "... home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
+	@echo "... home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
 .PHONY : help
 
 

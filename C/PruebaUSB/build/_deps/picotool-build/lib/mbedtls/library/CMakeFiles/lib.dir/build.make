@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build
 
 # Utility rule file for lib.
 
@@ -76,10 +76,10 @@ lib/mbedtls/library/CMakeFiles/lib.dir/build: lib
 .PHONY : lib/mbedtls/library/CMakeFiles/lib.dir/build
 
 lib/mbedtls/library/CMakeFiles/lib.dir/clean:
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build/lib/mbedtls/library && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean.cmake
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build/lib/mbedtls/library && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean.cmake
 .PHONY : lib/mbedtls/library/CMakeFiles/lib.dir/clean
 
 lib/mbedtls/library/CMakeFiles/lib.dir/depend:
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/library /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build/lib/mbedtls/library /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/library /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build/lib/mbedtls/library /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/mbedtls/library/CMakeFiles/lib.dir/depend
 

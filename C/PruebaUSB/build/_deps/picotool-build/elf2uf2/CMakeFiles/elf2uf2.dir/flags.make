@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf2uf2 -I/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf -I/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/errors -isystem /home/kejoperezde/Downloads/pico/pico-sdk/src/common/boot_uf2_headers/include
+CXX_INCLUDES = -I/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf2uf2 -I/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf -I/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/errors -isystem /home/kevinperez/Downloads/pico/pico-sdk/src/common/boot_uf2_headers/include
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++14
 

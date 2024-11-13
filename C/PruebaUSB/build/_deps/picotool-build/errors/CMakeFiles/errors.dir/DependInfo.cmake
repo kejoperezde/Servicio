@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/errors/errors.cpp" "errors/CMakeFiles/errors.dir/errors.cpp.o" "gcc" "errors/CMakeFiles/errors.dir/errors.cpp.o.d"
+  "/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/errors/errors.cpp" "errors/CMakeFiles/errors.dir/errors.cpp.o" "gcc" "errors/CMakeFiles/errors.dir/errors.cpp.o.d"
   )
 
 # Targets to which this target links.

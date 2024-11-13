@@ -1,4 +1,4 @@
-prefix=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps
+prefix=/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps
 includedir=${prefix}/include
 libdir=${prefix}/lib
 

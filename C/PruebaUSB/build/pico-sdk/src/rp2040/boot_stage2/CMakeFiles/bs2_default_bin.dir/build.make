@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB
+CMAKE_SOURCE_DIR = /home/kevinperez/Documents/Servicio/C/PruebaUSB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build
+CMAKE_BINARY_DIR = /home/kevinperez/Documents/Servicio/C/PruebaUSB/build
 
 # Utility rule file for bs2_default_bin.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/progress.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2040/boot_stage2/bs2_default.bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.elf /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.elf /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 bs2_default_bin: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin
 bs2_default_bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
@@ -82,10 +82,10 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build: bs2_defaul
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/boot_stage2 /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevinperez/Documents/Servicio/C/PruebaUSB /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/boot_stage2 /home/kevinperez/Documents/Servicio/C/PruebaUSB/build /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: \
- /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami.c \
+ /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami.c \
  /usr/include/stdc-predef.h \
- /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami.h \
+ /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/lib/whereami/whereami.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

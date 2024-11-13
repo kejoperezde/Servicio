@@ -1,5 +1,5 @@
 elf/CMakeFiles/elf.dir/elf_file.cpp.o: \
- /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf/elf_file.cpp \
+ /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf/elf_file.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/algorithm \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -185,8 +185,8 @@ elf/CMakeFiles/elf.dir/elf_file.cpp.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf/elf.h \
- /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf/elf_file.h \
- /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf/addresses.h \
- /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/errors/errors.h \
- /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src/elf/portable_endian.h
+ /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf/elf.h \
+ /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf/elf_file.h \
+ /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf/addresses.h \
+ /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/errors/errors.h \
+ /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src/elf/portable_endian.h

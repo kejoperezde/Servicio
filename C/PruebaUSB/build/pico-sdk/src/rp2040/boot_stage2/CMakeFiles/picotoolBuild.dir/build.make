@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB
+CMAKE_SOURCE_DIR = /home/kevinperez/Documents/Servicio/C/PruebaUSB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build
+CMAKE_BINARY_DIR = /home/kevinperez/Documents/Servicio/C/PruebaUSB/build
 
 # Utility rule file for picotoolBuild.
 
@@ -77,56 +77,56 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete: pico-sdk/src/
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'picotoolBuild'"
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'picotoolBuild'"
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-done
 
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'picotoolBuild'"
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'picotoolBuild'"
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build && $(MAKE)
 
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure: pico-sdk/src/rp2040/boot_stage2/picotool/tmp/picotoolBuild-cfgcmd.txt
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'picotoolBuild'"
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build && /usr/bin/cmake --no-warn-unused-cli -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake -DPICO_SDK_PATH:FILEPATH=/home/kejoperezde/Downloads/pico/pico-sdk -DPICOTOOL_NO_LIBUSB=1 -DPICOTOOL_FLAT_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'picotoolBuild'"
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build && /usr/bin/cmake --no-warn-unused-cli -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake -DPICO_SDK_PATH:FILEPATH=/home/kevinperez/Downloads/pico/pico-sdk -DPICOTOOL_NO_LIBUSB=1 -DPICOTOOL_FLAT_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure
 
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'picotoolBuild'"
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E echo_append
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'picotoolBuild'"
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E echo_append
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download
 
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'picotoolBuild'"
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build && $(MAKE) install
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'picotoolBuild'"
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build && $(MAKE) install
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install
 
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'picotoolBuild'"
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-src
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/tmp
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'picotoolBuild'"
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-src
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/tmp
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E make_directory /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
 
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'picotoolBuild'"
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E echo_append
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'picotoolBuild'"
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E echo_append
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch
 
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing test step for 'picotoolBuild'"
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build && /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool/picotool version 2.0.0
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing test step for 'picotoolBuild'"
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build && /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool/picotool version 2.0.0
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test
 
 pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update: pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'picotoolBuild'"
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E echo_append
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'picotoolBuild'"
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E echo_append
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update
 
 picotoolBuild: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild
 picotoolBuild: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete
@@ -146,10 +146,10 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/build: picotoolBuil
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/build
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/clean:
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolBuild.dir/cmake_clean.cmake
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolBuild.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/clean
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/depend:
-	cd /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/boot_stage2 /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 /home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kevinperez/Documents/Servicio/C/PruebaUSB/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevinperez/Documents/Servicio/C/PruebaUSB /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/boot_stage2 /home/kevinperez/Documents/Servicio/C/PruebaUSB/build /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2 /home/kevinperez/Documents/Servicio/C/PruebaUSB/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/depend
 

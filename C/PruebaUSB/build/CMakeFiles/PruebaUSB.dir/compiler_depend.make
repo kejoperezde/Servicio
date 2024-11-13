@@ -31,100 +31,64 @@ CMakeFiles/PruebaUSB.dir/PruebaUSB.c.obj: ../PruebaUSB.c \
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
-  /usr/include/newlib/assert.h \
-  /usr/include/newlib/_ansi.h \
-  /usr/include/newlib/newlib.h \
-  /usr/include/newlib/_newlib_version.h \
-  /usr/include/newlib/sys/config.h \
-  /usr/include/newlib/machine/ieeefp.h \
-  /usr/include/newlib/sys/features.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /usr/include/newlib/sys/cdefs.h \
-  /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -136,35 +100,31 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pic
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -176,36 +136,35 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pic
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -217,38 +176,36 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pic
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -260,31 +217,74 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pic
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c \
   /usr/include/newlib/stdlib.h \
   /usr/include/newlib/machine/ieeefp.h \
   /usr/include/newlib/_ansi.h \
@@ -302,62 +302,62 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pic
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/stdlib.h \
   /usr/include/newlib/alloca.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -369,32 +369,32 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pic
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/include/pico/util/datetime.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/include/pico/util/datetime.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -406,21 +406,21 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pic
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/include/newlib/time.h \
   /usr/include/newlib/sys/reent.h \
   /usr/include/newlib/_ansi.h \
@@ -447,7 +447,7 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pic
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
   /usr/include/newlib/sys/stdio.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -480,29 +480,29 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pic
   /usr/include/newlib/stdlib.h \
   /usr/include/newlib/machine/stdlib.h \
   /usr/include/newlib/alloca.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/include/pico/util/pheap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/include/pico/util/pheap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.c \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.c \
   /usr/include/newlib/stdlib.h \
   /usr/include/newlib/machine/ieeefp.h \
   /usr/include/newlib/_ansi.h \
@@ -524,75 +524,41 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pic
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/include/pico/util/queue.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/include/pico/util/queue.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
-  /usr/include/newlib/assert.h \
-  /usr/include/newlib/_ansi.h \
-  /usr/include/newlib/newlib.h \
-  /usr/include/newlib/_newlib_version.h \
-  /usr/include/newlib/sys/config.h \
-  /usr/include/newlib/machine/ieeefp.h \
-  /usr/include/newlib/sys/features.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /usr/include/newlib/sys/cdefs.h \
-  /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -604,48 +570,29 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -657,28 +604,48 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -690,48 +657,28 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -743,43 +690,48 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -791,45 +743,43 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -841,36 +791,45 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -882,30 +841,36 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -917,29 +882,30 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -951,31 +917,29 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -987,40 +951,31 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1032,40 +987,40 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1077,27 +1032,72 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h
+
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -1127,46 +1127,46 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1178,36 +1178,36 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdatomic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1218,40 +1218,40 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/include/newlib/sys/features.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1263,22 +1263,22 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/sys/reent.h \
   /usr/include/newlib/_ansi.h \
@@ -1288,18 +1288,18 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1311,26 +1311,26 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -1369,38 +1369,38 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/include/newlib/sys/times.h \
   /usr/include/newlib/unistd.h \
   /usr/include/newlib/sys/unistd.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp \
   /usr/include/newlib/c++/10.3.1/cstdlib \
   /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
   /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
@@ -1424,29 +1424,29 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/include/newlib/machine/stdlib.h \
   /usr/include/newlib/alloca.h \
   /usr/include/newlib/c++/10.3.1/bits/std_abs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/c++/10.3.1/cassert \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c \
   /usr/include/newlib/string.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -1465,33 +1465,33 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c \
   /usr/include/newlib/math.h \
   /usr/include/newlib/sys/reent.h \
   /usr/include/newlib/_ansi.h \
@@ -1507,30 +1507,30 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/include/newlib/sys/lock.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/_ansi.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c \
   /usr/include/newlib/string.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -1549,34 +1549,34 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/include/pico/float.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/include/pico/float.h \
   /usr/include/newlib/math.h \
   /usr/include/newlib/sys/reent.h \
   /usr/include/newlib/_ansi.h \
@@ -1593,29 +1593,29 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/_ansi.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c \
   /usr/include/newlib/stdlib.h \
   /usr/include/newlib/machine/ieeefp.h \
   /usr/include/newlib/_ansi.h \
@@ -1633,29 +1633,29 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/stdlib.h \
   /usr/include/newlib/alloca.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -1687,29 +1687,29 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/include/newlib/sys/stdio.h \
   /usr/include/newlib/unistd.h \
   /usr/include/newlib/sys/unistd.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/include/newlib/stdio.h \
@@ -1741,32 +1741,32 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/include/newlib/assert.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/float.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1778,28 +1778,28 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1811,41 +1811,41 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1857,43 +1857,43 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1905,34 +1905,34 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1943,23 +1943,23 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/include/newlib/sys/features.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c \
   /usr/include/newlib/string.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -1993,114 +1993,54 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
 
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
-  /usr/include/newlib/assert.h \
-  /usr/include/newlib/_ansi.h \
-  /usr/include/newlib/newlib.h \
-  /usr/include/newlib/_newlib_version.h \
-  /usr/include/newlib/sys/config.h \
-  /usr/include/newlib/machine/ieeefp.h \
-  /usr/include/newlib/sys/features.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /usr/include/newlib/sys/cdefs.h \
-  /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h
-
-CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -2112,464 +2052,524 @@ CMakeFiles/PruebaUSB.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h
+
+CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
 
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/include/pico/float.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c:
-
-/usr/include/newlib/math.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c:
-
-/usr/include/newlib/c++/10.3.1/bits/std_abs.h:
-
-/usr/include/newlib/c++/10.3.1/stdlib.h:
-
-/usr/include/newlib/c++/10.3.1/cstdlib:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/float.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
+
+/usr/include/newlib/math.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_math.c:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c:
+
+/usr/include/newlib/c++/10.3.1/bits/std_abs.h:
+
+/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h:
+
+/usr/include/newlib/c++/10.3.1/cstdlib:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h:
+
+/usr/include/newlib/unistd.h:
 
 /usr/include/newlib/sys/times.h:
 
 /usr/include/newlib/sys/stat.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c:
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdatomic.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/include/pico/float.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h:
 
-/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h:
 
-/usr/include/newlib/machine/_endian.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
+/usr/include/newlib/c++/10.3.1/stdlib.h:
 
-/usr/include/newlib/unistd.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h:
-
-/usr/include/newlib/sys/lock.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h:
-
-/usr/include/newlib/sys/time.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c:
-
-generated/pico_base/pico/config_autogen.h:
-
-/usr/include/newlib/stdlib.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
 
 /usr/include/newlib/assert.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
-
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h:
-
-/usr/include/newlib/sys/features.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
-
-generated/pico_base/pico/version.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h:
-
-/usr/include/newlib/machine/_default_types.h:
-
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
-
-/usr/include/newlib/sys/_sigset.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/include/pico/util/pheap.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
-
-/usr/include/newlib/sys/config.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
-
-/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c:
-
-/usr/include/newlib/_newlib_version.h:
-
-/usr/include/newlib/newlib.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c:
-
-/usr/include/newlib/_ansi.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h:
-
-/usr/include/newlib/machine/_types.h:
-
-/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h:
-
-/usr/include/newlib/sys/_timespec.h:
-
-/usr/include/newlib/sys/_stdint.h:
-
-/usr/include/newlib/machine/stdlib.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c:
-
-/usr/include/newlib/sys/_pthreadtypes.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
-
-/usr/include/newlib/sys/timespec.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
-
-/usr/include/newlib/sys/types.h:
-
-/usr/include/newlib/machine/types.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
 
 /usr/include/newlib/sys/stdio.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h:
+generated/pico_base/pico/config_autogen.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
+/usr/include/newlib/alloca.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h:
+/usr/include/newlib/sys/reent.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c:
 
-/usr/include/newlib/machine/endian.h:
+/usr/include/newlib/sys/features.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/queue.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c:
+generated/pico_base/pico/version.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
+/usr/include/newlib/machine/_default_types.h:
 
-/usr/include/newlib/sys/_locale.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c:
 
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
+/usr/include/newlib/sys/cdefs.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
+/usr/include/newlib/sys/_sigset.h:
 
 /usr/include/newlib/sys/_types.h:
 
 /usr/include/newlib/machine/ieeefp.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
+/usr/include/newlib/sys/config.h:
 
-/usr/include/newlib/sys/_timeval.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h:
+/usr/include/newlib/stdio.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
+/usr/include/newlib/_ansi.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/include/pico/util/datetime.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/sem.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/platform.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h:
-
-/usr/include/newlib/sys/reent.h:
-
-/usr/include/newlib/alloca.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h:
-
-/usr/include/newlib/sys/cdefs.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/timeout_helper.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
 
 /usr/include/newlib/sys/select.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h:
+/usr/include/newlib/stdlib.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
 
-/usr/include/newlib/time.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c:
 
-/usr/include/newlib/machine/time.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
+/usr/include/newlib/machine/_types.h:
 
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
+/usr/include/newlib/sys/lock.h:
 
-/usr/include/newlib/machine/_time.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
 
-/usr/include/newlib/string.h:
+/usr/include/newlib/sys/_timeval.h:
 
-/usr/include/newlib/c++/10.3.1/cassert:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
 
-/usr/include/newlib/strings.h:
+/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
+/usr/include/newlib/sys/_timespec.h:
 
-/usr/include/newlib/sys/string.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h:
 
 ../PruebaUSB.c:
 
 /usr/include/newlib/sys/sched.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c:
+/usr/include/newlib/sys/_stdint.h:
+
+/usr/include/newlib/machine/stdlib.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h:
+
+/usr/include/newlib/sys/_pthreadtypes.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h:
+
+/usr/include/newlib/machine/endian.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
+
+/usr/include/newlib/sys/timespec.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h:
+
+/usr/include/newlib/sys/types.h:
+
+/usr/include/newlib/machine/types.h:
+
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h:
+
+/usr/include/newlib/newlib.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
+
+/usr/include/newlib/machine/_time.h:
+
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h:
+
+/usr/include/newlib/sys/string.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h:
+
+/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h:
+
+/usr/include/newlib/_newlib_version.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c:
+
+/usr/include/newlib/sys/time.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/pheap.c:
+
+/usr/include/newlib/machine/_endian.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/boards/include/boards/pico.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/include/pico/util/datetime.h:
+
+/usr/include/newlib/string.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c:
+
+/usr/include/newlib/time.h:
+
+/usr/include/newlib/machine/time.h:
 
 /usr/include/newlib/sys/unistd.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c:
 
-/usr/include/newlib/stdio.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/include/pico/util/pheap.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h:
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h:
+
+/usr/include/newlib/sys/_locale.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_util/queue.c:
+
+/usr/include/newlib/c++/10.3.1/cassert:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h:
+
+/usr/include/newlib/strings.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_math.c:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
+
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
+
+/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:

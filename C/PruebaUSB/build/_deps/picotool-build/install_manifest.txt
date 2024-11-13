@@ -1,5 +1,5 @@
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool/picotool
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool/picotoolTargets.cmake
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool/picotoolTargets-release.cmake
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool/picotoolConfig.cmake
-/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool/picotoolConfigVersion.cmake
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool/picotool
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool/picotoolTargets.cmake
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool/picotoolTargets-release.cmake
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool/picotoolConfig.cmake
+/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool/picotoolConfigVersion.cmake

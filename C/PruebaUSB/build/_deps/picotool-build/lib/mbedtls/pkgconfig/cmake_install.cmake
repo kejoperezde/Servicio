@@ -1,8 +1,8 @@
-# Install script for directory: /home/kejoperezde/Downloads/pico/pico-sdk/lib/mbedtls/pkgconfig
+# Install script for directory: /home/kevinperez/Downloads/pico/pico-sdk/lib/mbedtls/pkgconfig
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps")
+  set(CMAKE_INSTALL_PREFIX "/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,14 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedcrypto.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedcrypto.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedtls.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedtls.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedx509.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE MESSAGE_NEVER FILES "/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps/picotool-build/lib/mbedtls/pkgconfig/mbedx509.pc")
 endif()
 

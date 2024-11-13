@@ -115,7 +115,7 @@ def iniciar_lectura_serial(ventana, etiqueta):
         etiqueta.config(text="Tipo de conexión no válido.")
         return
 
-    ruta_archivo = '/home/kejoperezde/Documents/Proyecto1/TopSecret/muestras.csv'
+    ruta_archivo = './muestras.csv'
     
     try:
         ser = serial.Serial(puerto_serie, baudrate)
@@ -152,7 +152,7 @@ def seleccionar_archivo():
     return archivo
 
 def graficar_datos(seleccionar=False):
-    ruta_archivo = seleccionar_archivo() if seleccionar else '/home/kejoperezde/Documents/Proyecto1/TopSecret/muestras.csv'
+    ruta_archivo = seleccionar_archivo() if seleccionar else './muestras.csv'
     data = pd.read_csv(ruta_archivo)
 
     tiempo = data['Seg']

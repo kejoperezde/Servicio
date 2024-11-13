@@ -30,10 +30,12 @@ def iniciar_cuenta_regresiva():
     ventana_cuenta.after(1000, lambda: iniciar_lectura_serial(ventana_cuenta, etiqueta))
 
 def iniciar_lectura_serial(ventana, etiqueta):
-    puerto_serie = '/dev/ttyACM0'  # Cambiar puerto
+    # puerto_serie = '/dev/ttyACM0'  # Cambiar puerto
     # puerto_serie = '/dev/ttyUSB0'  # Cambiar puerto
-    baudrate = 115200
-    ruta_archivo = '/home/kejoperezde/Documents/Proyecto1/TopSecret/muestras.csv'
+    puerto_serie = '/dev/rfcomm0'  # Cambiar puerto
+    # baudrate = 115200
+    baudrate = 9600
+    ruta_archivo = './muestras.csv'
     try:
         ser = serial.Serial(puerto_serie, baudrate)
         print(f'Conectado a {puerto_serie} a {baudrate} bps')
@@ -49,7 +51,6 @@ def iniciar_lectura_serial(ventana, etiqueta):
                 if ser.in_waiting > 0:
                     dato = ser.readline().decode('utf-8').strip()
                     tiempo_transcurrido = time.time() - inicio
-                    # Solo guardar si el tiempo transcurrido es mayor que 0.01
                     if tiempo_transcurrido > 0.01:
                         escritor_csv.writerow([round(tiempo_transcurrido-0.02, 2), dato])
                         print("Dato guardado")
@@ -71,7 +72,7 @@ def seleccionar_archivo():
 
 def graficar_datos(seleccionar = False):
     # Leer los datos desde el archivo CSV
-    ruta_archivo = seleccionar_archivo() if seleccionar else '/home/kejoperezde/Documents/Proyecto1/TopSecret/muestras.csv'
+    ruta_archivo = seleccionar_archivo() if seleccionar else './muestras.csv'
     data = pd.read_csv(ruta_archivo)
 
     # Extraer las columnas

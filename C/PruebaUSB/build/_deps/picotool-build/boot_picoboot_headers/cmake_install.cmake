@@ -1,8 +1,8 @@
-# Install script for directory: /home/kejoperezde/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers
+# Install script for directory: /home/kevinperez/Downloads/pico/pico-sdk/src/common/boot_picoboot_headers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kejoperezde/Documents/Proyecto1/C/PruebaUSB/build/_deps")
+  set(CMAKE_INSTALL_PREFIX "/home/kevinperez/Documents/Servicio/C/PruebaUSB/build/_deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
