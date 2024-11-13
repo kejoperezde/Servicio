@@ -126,6 +126,20 @@ Derivaciones
 #### 2.2.1. Definición y funciones
 
 
+
+
+1.  Descargar sdk para Raspberry Pi Principios
+ > Desacargar [pico.sh](https://github.com/kejoperezde/Servicio/blob/3e0f7b95ebaf8ff6d712780103dedfb72edc734b/PICO/pico.sh)
+ >
+ > `chmod +x pico.sh`
+ >
+ > `./piso.sh`
+
+1.  Ejecutar creador de proyectos C
+  > `cd /pico/pico-project-generator`
+  >
+  > `./pico_project.py --gui`
+
 ### 3.2. Sistemas de adquisición de datos (DAQ)
 
 #### 3.2.1. Definición y funciones
@@ -216,28 +230,36 @@ Sirve para gestionar sesiones de terminal
 
 #### 4.1.2. Instalación y configuración
 
-##### Sistema
+##### Pop OS
 
-1. Actualización del sistema
+Es una distribución de Linux desarrollada por System76. Está diseñada para ser una opción confiable y eficiente para desarrolladores, creadores y usuarios de STEM (ciencia, tecnología, ingeniería y matemáticas).
+
+1. Instalación de Pop OS (Versión usada: 22.04 lts)
+    
+    [pop.system76.com](https://pop.system76.com/ "Pop Os").
+
+2. Actualización del sistema
     
     `sudo apt update && sudo apt upgrade -y`
 
 
-2. Actualizar linux firmware (Tag usado: 20241110)
+3. Actualizar linux firmware (Tag usado: 20241110)
 
     - Descargar última versión [linux-firmware](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git "linux-firmware").
     - Extraer contenido del archivo: `tar -xvf nombre_archivo.tar.yz`
     - Reemplazar archivos: `sudo cp -r /linux-firmware-####/* /lib/firmware`
     
-3. Añadir usuario
+4. Añadir usuario
     
     `sudo usermod -a -G dialout $USER`
 
-4. Reiniciar
+5. Reiniciar
   
     `sudo reboot`
 
 ##### Python
+
+Python es un lenguaje de programación de alto nivel, interpretado y de propósito general.
 
 1. Instalar python 3 (Versión usada: 22.0.2)
     
@@ -272,6 +294,8 @@ Sirve para gestionar sesiones de terminal
 
 ##### Visual Studio Code
 
+Es un editor de código fuente gratuito, ligero y multiplataforma desarrollado por Microsoft.
+
 1. Instalar visual studio code (Versión usada: 1.95.2)
 
     `sudo apt-get install code -y`
@@ -282,28 +306,19 @@ Sirve para gestionar sesiones de terminal
 
 ##### Blueman
 
+Es un administrador de Bluetooth para sistemas Linux.
+
 1. Instalar blueman (Versión usada: 2.2.4)
     
     `sudo apt-get install code -y`
 
 ##### Thonny (Opcional)
 
-1. Instalar thonny (Versión usada: )
+Es un entorno de desarrollo integrado (IDE) diseñado para programar en Python.
+
+1. Instalar thonny (Versión usada: 2.1.21)
     
     `sudo apt install thonny`
-
-
-
-
-1.  Descargar sdk para Raspberry Pi Principios
- > Desacargar [pico.sh](https://github.com/kejoperezde/Servicio/blob/3e0f7b95ebaf8ff6d712780103dedfb72edc734b/PICO/pico.sh)
- >
- > `chmod +x pico.sh`
-
-1.  Ejecutar creador de proyectos C
-  > `cd /pico/pico-project-generator`
-  >
-  > `./pico_project.py --gui`
 
 ### 4.2. Programación en Python
 
