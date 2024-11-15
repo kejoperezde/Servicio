@@ -47,12 +47,12 @@ def iniciar_lectura_serial(ventana, etiqueta):
             inicio = time.time()
             escritor_csv.writerow(["Seg", "mV"])  # Escribir encabezados    
 
-            while time.time() - inicio <= 10.04:  # Dura 10.04 segundos
+            while time.time() - inicio <= 10:  # Dura 10 segundos
                 if ser.in_waiting > 0:
                     dato = ser.readline().decode('utf-8').strip()
                     tiempo_transcurrido = time.time() - inicio
-                    if tiempo_transcurrido > 0.01:
-                        escritor_csv.writerow([round(tiempo_transcurrido-0.02, 2), dato])
+                    if tiempo_transcurrido > 0.02:
+                        escritor_csv.writerow([round(tiempo_transcurrido, 2), dato])
                         print("Dato guardado")
 
         print("Toma de muestras finalizada.")
@@ -61,6 +61,8 @@ def iniciar_lectura_serial(ventana, etiqueta):
         etiqueta.config(text="Error de puerto")
     except Exception as e:
         etiqueta.config(text=f"Ocurrió un error: {str(e)}")
+    finally:
+        ser.close()
     
     ventana.after(1000, ventana.destroy)  # Cierra la ventana después de 1 segundo
 

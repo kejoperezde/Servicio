@@ -33,7 +33,7 @@
         - [Screen](#screen)
         - [Dispositivos conectados](#dispositivos-conectados)
       - [4.1.2. Instalación y configuración](#412-instalación-y-configuración)
-        - [Sistema](#sistema)
+        - [Pop OS](#pop-os)
         - [Python](#python)
         - [Visual Studio Code](#visual-studio-code)
         - [Blueman](#blueman)
@@ -72,6 +72,8 @@
     - [10.3. Documentación adicional](#103-documentación-adicional)
     - [10.4. Resultados adicionales de pruebas](#104-resultados-adicionales-de-pruebas)
     - [10.5. Diagramas y gráficos](#105-diagramas-y-gráficos)
+  - [11. Solución de problemas](#11-solución-de-problemas)
+    - [11.1. Problemas de bluetooth](#111-problemas-de-bluetooth)
 
 
 ## 1. Introducción
@@ -230,6 +232,8 @@ Sirve para gestionar sesiones de terminal
 
 #### 4.1.2. Instalación y configuración
 
+Texto
+
 ##### Pop OS
 
 Es una distribución de Linux desarrollada por System76. Está diseñada para ser una opción confiable y eficiente para desarrolladores, creadores y usuarios de STEM (ciencia, tecnología, ingeniería y matemáticas).
@@ -310,7 +314,7 @@ Es un administrador de Bluetooth para sistemas Linux.
 
 1. Instalar blueman (Versión usada: 2.2.4)
     
-    `sudo apt-get install code -y`
+    `sudo apt install blueman`
 
 ##### Thonny (Opcional)
 
@@ -414,3 +418,24 @@ Imágenes [One Drive](https://1drv.ms/f/s!AsP3n41dk7dYgeCnVOpamzrRtiJD-2o?e=4rbq
 ### 10.4. Resultados adicionales de pruebas
 
 ### 10.5. Diagramas y gráficos
+
+## 11. Solución de problemas
+
+### 11.1. Problemas de bluetooth
+
+1. Descripción
+
+    - El sistema operativo reconocé el dispositivo pero el mismo o el programa no recibe ninguna muestra
+    - Es inestable la conexión entre el sitema operativo y el dispositivo bluetooth
+
+2. Solución
+
+    1. Instalar de nuevo [Blueman](#blueman)
+    2. En la parte de [Pop OS](#pop-os), sección "Actualizar linux firmware", actualizar a la versión más reciente
+    3. Actualizar de nuevo el sistema
+        
+        `sudo apt update && sudo apt upgrade -y`
+
+    4. Desconectar y volver a conectar el dispositivo
+
+
