@@ -288,7 +288,7 @@ Python es un lenguaje de programación de alto nivel, interpretado y de propósi
 
 3. Problemas al instalar pybluez (En caso de no tener ningún problema omitir)
 
-    1. `pip3 isntall setuptools==57.0.0`
+    1. `pip3 install setuptools==57.0.0`
 
     2. `sudo apt-get install python3-devel`
 

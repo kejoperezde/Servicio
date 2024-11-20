@@ -38,8 +38,10 @@ def iniciar_lectura_serial(ventana, etiqueta):
     ruta_archivo = './muestras.csv'
     try:
         ser = serial.Serial(puerto_serie, baudrate)
+        ser.open()
+        # ser = serial.Serial(puerto_serie, baudrate)
         print(f'Conectado a {puerto_serie} a {baudrate} bps')
-        time.sleep(2)  # Esperar a que se establezca la conexión
+        time.sleep(5)  # Esperar a que se establezca la conexión
 
         with open(ruta_archivo, 'w', newline='') as archivo_csv:
             escritor_csv = csv.writer(archivo_csv)
@@ -57,12 +59,11 @@ def iniciar_lectura_serial(ventana, etiqueta):
 
         print("Toma de muestras finalizada.")
         etiqueta.config(text="Muestras guardadas")
+        ser.close()
     except serial.SerialException as e:
-        etiqueta.config(text="Error de puerto")
+        etiqueta.config(text="Error al tomar datos")
     except Exception as e:
         etiqueta.config(text=f"Ocurrió un error: {str(e)}")
-    finally:
-        ser.close()
     
     ventana.after(1000, ventana.destroy)  # Cierra la ventana después de 1 segundo
 

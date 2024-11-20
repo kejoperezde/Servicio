@@ -1054,6 +1054,10 @@ Discarded input sections
                 0x0000000000000000        0xa CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .text.__wrap___aeabi_fcmpun
                 0x0000000000000000       0x18 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .text.__wrap___aeabi_ui2f
+                0x0000000000000000        0xa CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .text.__wrap___aeabi_i2f
+                0x0000000000000000       0x44 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .text.__wrap___aeabi_f2iz
                 0x0000000000000000       0x4e CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .text.float2int
@@ -1085,6 +1089,8 @@ Discarded input sections
  .text.__wrap___aeabi_f2ulz
                 0x0000000000000000       0x14 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .text.float2ufix64
+                0x0000000000000000       0x14 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .text.__wrap___aeabi_f2d
                 0x0000000000000000       0x14 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .text.__wrap_sqrtf
                 0x0000000000000000       0x20 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
@@ -1200,6 +1206,8 @@ Discarded input sections
                 0x0000000000000000       0x4c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
  .text.d2fix_a_float
                 0x0000000000000000       0x5c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+ .text.float2double_shim
+                0x0000000000000000       0x30 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
  .text          0x0000000000000000        0x0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
@@ -1464,9 +1472,9 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .text          0x0000000000000000        0x0 /tmp/cc7wjgMd.o
- .data          0x0000000000000000        0x0 /tmp/cc7wjgMd.o
- .bss           0x0000000000000000        0x0 /tmp/cc7wjgMd.o
+ .text          0x0000000000000000        0x0 /tmp/ccqM096F.o
+ .data          0x0000000000000000        0x0 /tmp/ccqM096F.o
+ .bss           0x0000000000000000        0x0 /tmp/ccqM096F.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-atexit.o)
@@ -2341,11 +2349,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/cc7wjgMd.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccqM096F.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0x3f90
+.text           0x0000000010000100     0x3ef0
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
@@ -2408,345 +2416,331 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x0000000010000288       0x98 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .text.startup.main
-                0x0000000010000320      0x100 CMakeFiles/PruebaUSB.dir/PruebaUSB.c.obj
+                0x0000000010000320       0xf4 CMakeFiles/PruebaUSB.dir/PruebaUSB.c.obj
                 0x0000000010000320                main
  .text.gpio_set_function
-                0x0000000010000420       0x34 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000420                gpio_set_function
+                0x0000000010000414       0x34 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000414                gpio_set_function
  .text.gpio_set_pulls
-                0x0000000010000454       0x34 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000454                gpio_set_pulls
+                0x0000000010000448       0x34 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000448                gpio_set_pulls
  .text.gpio_set_input_enabled
-                0x0000000010000488       0x28 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000488                gpio_set_input_enabled
- .text.panic    0x00000000100004b0       0x30 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
-                0x00000000100004b0                panic
+                0x000000001000047c       0x28 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x000000001000047c                gpio_set_input_enabled
+ .text.panic    0x00000000100004a4       0x30 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x00000000100004a4                panic
  .text.hw_claim_or_assert
-                0x00000000100004e0       0x44 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
-                0x00000000100004e0                hw_claim_or_assert
+                0x00000000100004d4       0x44 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+                0x00000000100004d4                hw_claim_or_assert
  .text.next_striped_spin_lock_num
-                0x0000000010000524       0x18 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000524                next_striped_spin_lock_num
+                0x0000000010000518       0x18 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000518                next_striped_spin_lock_num
  .text.spin_locks_reset
-                0x000000001000053c       0x1c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
-                0x000000001000053c                spin_locks_reset
+                0x0000000010000530       0x1c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x0000000010000530                spin_locks_reset
  .text.runtime_init_per_core_irq_priorities
-                0x0000000010000558       0x24 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000558                runtime_init_per_core_irq_priorities
+                0x000000001000054c       0x24 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000054c                runtime_init_per_core_irq_priorities
  .text.irq_set_enabled
-                0x000000001000057c       0x24 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x000000001000057c                irq_set_enabled
+                0x0000000010000570       0x24 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000570                irq_set_enabled
  .text.irq_set_exclusive_handler
-                0x00000000100005a0       0x54 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100005a0                irq_set_exclusive_handler
+                0x0000000010000594       0x54 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000594                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x00000000100005f4      0x1c4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100005f4                irq_remove_handler
+                0x00000000100005e8      0x1c4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100005e8                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x00000000100007b8       0xb4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100007b8                irq_add_tail_to_free_list
+                0x00000000100007ac       0xb4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100007ac                irq_add_tail_to_free_list
  .text.lock_init
-                0x000000001000086c       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x000000001000086c                lock_init
+                0x0000000010000860       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x0000000010000860                lock_init
  .text.runtime_init_mutex
-                0x000000001000087c       0x58 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x000000001000087c                runtime_init_mutex
+                0x0000000010000870       0x58 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010000870                runtime_init_mutex
  .text.sleep_until_callback
-                0x00000000100008d4       0x30 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100008c8       0x30 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_irq_handler
-                0x0000000010000904      0x2e4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100008f8      0x2e4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.runtime_init_default_alarm_pool
-                0x0000000010000be8       0xdc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000be8                runtime_init_default_alarm_pool
+                0x0000000010000bdc       0xdc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000bdc                runtime_init_default_alarm_pool
  .text.alarm_pool_add_alarm_at_force_in_context
-                0x0000000010000cc4       0xb0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000cc4                alarm_pool_add_alarm_at_force_in_context
+                0x0000000010000cb8       0xb0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000cb8                alarm_pool_add_alarm_at_force_in_context
  .text.alarm_pool_cancel_alarm
-                0x0000000010000d74       0x7c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000d74                alarm_pool_cancel_alarm
+                0x0000000010000d68       0x7c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000d68                alarm_pool_cancel_alarm
  .text.sleep_until
-                0x0000000010000df0       0xd0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000df0                sleep_until
+                0x0000000010000de4       0xd0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000de4                sleep_until
  .text.sleep_ms
-                0x0000000010000ec0       0x34 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000ec0                sleep_ms
+                0x0000000010000eb4       0x34 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000eb4                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x0000000010000ef4      0x11c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000ef4                best_effort_wfe_or_timeout
+                0x0000000010000ee8      0x11c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000ee8                best_effort_wfe_or_timeout
  .text.timer_hardware_alarm_claim
-                0x0000000010001010       0x14 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001010                timer_hardware_alarm_claim
+                0x0000000010001004       0x14 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001004                timer_hardware_alarm_claim
  .text.timer_time_us_64
-                0x0000000010001024       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001024                timer_time_us_64
+                0x0000000010001018       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001018                timer_time_us_64
  .text.time_us_64
-                0x0000000010001034       0x14 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001034                time_us_64
+                0x0000000010001028       0x14 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001028                time_us_64
  .text.busy_wait_us
-                0x0000000010001048       0x54 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001048                busy_wait_us
+                0x000000001000103c       0x54 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000001000103c                busy_wait_us
  .text.busy_wait_until
-                0x000000001000109c       0x20 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x000000001000109c                busy_wait_until
+                0x0000000010001090       0x20 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001090                busy_wait_until
  .text.uart_init
-                0x00000000100010bc      0x11c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x00000000100010bc                uart_init
+                0x00000000100010b0      0x11c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x00000000100010b0                uart_init
  .text.clock_configure_int_divider
-                0x00000000100011d8       0xf4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x00000000100011d8                clock_configure_int_divider
+                0x00000000100011cc       0xf4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000100011cc                clock_configure_int_divider
  .text.clock_configure_undivided
-                0x00000000100012cc       0xe8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x00000000100012cc                clock_configure_undivided
+                0x00000000100012c0       0xe8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000100012c0                clock_configure_undivided
  .text.clock_get_hz
-                0x00000000100013b4        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x00000000100013b4                clock_get_hz
+                0x00000000100013a8        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000100013a8                clock_get_hz
  .text.pll_init
-                0x00000000100013c0       0xa0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x00000000100013c0                pll_init
+                0x00000000100013b4       0xa0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x00000000100013b4                pll_init
  .text.tick_start
-                0x0000000010001460       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
-                0x0000000010001460                tick_start
+                0x0000000010001454       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x0000000010001454                tick_start
  .text.xosc_init
-                0x0000000010001470       0x28 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x0000000010001470                xosc_init
+                0x0000000010001464       0x28 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000000010001464                xosc_init
  .text.first_per_core_initializer
-                0x0000000010001498        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000000001000148c        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .text.hard_assertion_failure
-                0x000000001000149c        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x000000001000149c                hard_assertion_failure
+                0x0000000010001490        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001490                hard_assertion_failure
  .text.runtime_run_initializers
-                0x00000000100014a8       0x28 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100014a8                runtime_run_initializers
+                0x000000001000149c       0x28 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000000001000149c                runtime_run_initializers
  .text.runtime_init_early_resets
-                0x00000000100014d0       0x2c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x00000000100014d0                runtime_init_early_resets
+                0x00000000100014c4       0x2c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x00000000100014c4                runtime_init_early_resets
  .text.runtime_init_usb_power_down
-                0x00000000100014fc       0x1c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x00000000100014fc                runtime_init_usb_power_down
+                0x00000000100014f0       0x1c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x00000000100014f0                runtime_init_usb_power_down
  .text.runtime_init_post_clock_resets
-                0x0000000010001518       0x20 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x0000000010001518                runtime_init_post_clock_resets
+                0x000000001000150c       0x20 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x000000001000150c                runtime_init_post_clock_resets
  .text.runtime_init_rp2040_gpio_ie_disable
-                0x0000000010001538       0x14 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x0000000010001538                runtime_init_rp2040_gpio_ie_disable
+                0x000000001000152c       0x14 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x000000001000152c                runtime_init_rp2040_gpio_ie_disable
  .text.runtime_init_spin_locks_reset
-                0x000000001000154c        0x8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x000000001000154c                runtime_init_spin_locks_reset
+                0x0000000010001540        0x8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x0000000010001540                runtime_init_spin_locks_reset
  .text.runtime_init_install_ram_vector_table
-                0x0000000010001554       0x1c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x0000000010001554                runtime_init_install_ram_vector_table
+                0x0000000010001548       0x1c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x0000000010001548                runtime_init_install_ram_vector_table
  .text.runtime_init_clocks
-                0x0000000010001570       0xd8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
-                0x0000000010001570                runtime_init_clocks
- .text          0x0000000010001648       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000010001564       0xd8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x0000000010001564                runtime_init_clocks
+ .text          0x000000001000163c       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x0000000010001658       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010001658                rom_func_lookup
+                0x000000001000164c       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x000000001000164c                rom_func_lookup
  .text.rom_data_lookup
-                0x0000000010001668       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010001668                rom_data_lookup
+                0x000000001000165c       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x000000001000165c                rom_data_lookup
  .text.rom_funcs_lookup
-                0x0000000010001678       0x44 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010001678                rom_funcs_lookup
+                0x000000001000166c       0x44 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x000000001000166c                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x00000000100016bc       0x50 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
-                0x00000000100016bc                __wrap___aeabi_idivmod
-                0x00000000100016bc                divmod_s32s32
-                0x00000000100016bc                div_s32s32
-                0x00000000100016bc                __wrap___aeabi_idiv
-                0x00000000100016c4                divmod_s32s32_unsafe
-                0x00000000100016f0                divmod_s32s32_savestate
+                0x00000000100016b0       0x50 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x00000000100016b0                __wrap___aeabi_idivmod
+                0x00000000100016b0                divmod_s32s32
+                0x00000000100016b0                div_s32s32
+                0x00000000100016b0                __wrap___aeabi_idiv
+                0x00000000100016b8                divmod_s32s32_unsafe
+                0x00000000100016e4                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x000000001000170c       0x4c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
-                0x000000001000170c                __wrap___aeabi_uidiv
-                0x000000001000170c                __wrap___aeabi_uidivmod
-                0x000000001000170c                div_u32u32
-                0x000000001000170c                divmod_u32u32
-                0x0000000010001714                divmod_u32u32_unsafe
-                0x000000001000173c                divmod_u32u32_savestate
+                0x0000000010001700       0x4c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x0000000010001700                __wrap___aeabi_uidiv
+                0x0000000010001700                __wrap___aeabi_uidivmod
+                0x0000000010001700                div_u32u32
+                0x0000000010001700                divmod_u32u32
+                0x0000000010001708                divmod_u32u32_unsafe
+                0x0000000010001730                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x0000000010001758      0x424 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
-                0x0000000010001758                div_s64s64
-                0x0000000010001758                divmod_s64s64
-                0x0000000010001758                __wrap___aeabi_ldivmod
-                0x0000000010001788                div_u64u64
-                0x0000000010001788                divmod_u64u64
-                0x0000000010001788                __wrap___aeabi_uldivmod
-                0x0000000010001798                divmod_u64u64_savestate
-                0x00000000100017b8                divmod_s64s64_unsafe
-                0x0000000010001840                divmod_u64u64_unsafe
+                0x000000001000174c      0x424 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x000000001000174c                div_s64s64
+                0x000000001000174c                divmod_s64s64
+                0x000000001000174c                __wrap___aeabi_ldivmod
+                0x000000001000177c                div_u64u64
+                0x000000001000177c                divmod_u64u64
+                0x000000001000177c                __wrap___aeabi_uldivmod
+                0x000000001000178c                divmod_u64u64_savestate
+                0x00000000100017ac                divmod_s64s64_unsafe
+                0x0000000010001834                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x0000000010001b7c       0x80 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x0000000010001b7c                __wrap___aeabi_drsub
-                0x0000000010001b82                __wrap___aeabi_dsub
-                0x0000000010001b94                __wrap___aeabi_dadd
-                0x0000000010001ba6                __wrap___aeabi_ddiv
-                0x0000000010001be2                __wrap___aeabi_dmul
+                0x0000000010001b70       0x80 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x0000000010001b70                __wrap___aeabi_drsub
+                0x0000000010001b76                __wrap___aeabi_dsub
+                0x0000000010001b88                __wrap___aeabi_dadd
+                0x0000000010001b9a                __wrap___aeabi_ddiv
+                0x0000000010001bd6                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x0000000010001bfc       0x6c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x0000000010001bfc                __wrap___aeabi_cdrcmple
-                0x0000000010001c0c                __wrap___aeabi_cdcmple
-                0x0000000010001c0c                __wrap___aeabi_cdcmpeq
+                0x0000000010001bf0       0x6c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x0000000010001bf0                __wrap___aeabi_cdrcmple
+                0x0000000010001c00                __wrap___aeabi_cdcmple
+                0x0000000010001c00                __wrap___aeabi_cdcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x0000000010001c68        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x0000000010001c68                __wrap___aeabi_dcmplt
+                0x0000000010001c5c        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x0000000010001c5c                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x0000000010001c74       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x0000000010001c74                __wrap___aeabi_dcmple
+                0x0000000010001c68       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x0000000010001c68                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x0000000010001c84       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x0000000010001c84                __wrap___aeabi_dcmpge
+                0x0000000010001c78       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x0000000010001c78                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x0000000010001c94        0xa CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x0000000010001c94                __wrap___aeabi_dcmpgt
+                0x0000000010001c88        0xa CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x0000000010001c88                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x0000000010001c9e       0x18 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x0000000010001c9e                __wrap___aeabi_dcmpun
- *fill*         0x0000000010001cb6        0x2 
+                0x0000000010001c92       0x18 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x0000000010001c92                __wrap___aeabi_dcmpun
+ *fill*         0x0000000010001caa        0x2 
  .text.__wrap___aeabi_i2d
-                0x0000000010001cb8       0x38 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x0000000010001cb8                __wrap___aeabi_ui2d
-                0x0000000010001cc0                __wrap___aeabi_i2d
+                0x0000000010001cac       0x38 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x0000000010001cac                __wrap___aeabi_ui2d
+                0x0000000010001cb4                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x0000000010001cf0       0x48 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x0000000010001cf0                __wrap___aeabi_d2iz
-                0x0000000010001cf0                double2int_z
+                0x0000000010001ce4       0x48 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x0000000010001ce4                __wrap___aeabi_d2iz
+                0x0000000010001ce4                double2int_z
  .text.__wrap___aeabi_d2uiz
-                0x0000000010001d38       0x18 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x0000000010001d38                double2uint
-                0x0000000010001d38                __wrap___aeabi_d2uiz
+                0x0000000010001d2c       0x18 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x0000000010001d2c                double2uint
+                0x0000000010001d2c                __wrap___aeabi_d2uiz
  .text.__aeabi_double_init
-                0x0000000010001d50       0xa0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
-                0x0000000010001d50                __aeabi_double_init
+                0x0000000010001d44       0xa0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x0000000010001d44                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x0000000010001df0       0x2c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x0000000010001df0                double_table_shim_on_use_helper
+                0x0000000010001de4       0x2c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x0000000010001de4                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x0000000010001e1c       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x0000000010001e1c                drsub_shim
-                0x0000000010001e22                dsub_shim
+                0x0000000010001e10       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x0000000010001e10                drsub_shim
+                0x0000000010001e16                dsub_shim
  .text.dadd_shim
-                0x0000000010001e2c      0x15c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x0000000010001e2c                dadd_shim
+                0x0000000010001e20      0x15c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x0000000010001e20                dadd_shim
  .text.dmul_shim
-                0x0000000010001f88      0x15c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x0000000010001f88                dmul_shim
+                0x0000000010001f7c      0x15c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x0000000010001f7c                dmul_shim
  .text.ddiv_shim
-                0x00000000100020e4      0x1b0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x00000000100020e4                ddiv_shim
+                0x00000000100020d8      0x1b0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x00000000100020d8                ddiv_shim
  .text.double2uint_shim
-                0x0000000010002294        0xe CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x0000000010002294                double2uint_shim
-                0x0000000010002296                double2ufix_shim
- *fill*         0x00000000100022a2        0x2 
+                0x0000000010002288        0xe CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x0000000010002288                double2uint_shim
+                0x000000001000228a                double2ufix_shim
+ *fill*         0x0000000010002296        0x2 
  .text.double2uint64_shim
-                0x00000000100022a4       0x70 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x00000000100022a4                double2uint64_shim
-                0x00000000100022a6                double2ufix64_shim
-                0x00000000100022c6                d2fix_a
+                0x0000000010002298       0x70 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x0000000010002298                double2uint64_shim
+                0x000000001000229a                double2ufix64_shim
+                0x00000000100022ba                d2fix_a
  .text.dunpacks
-                0x0000000010002314       0x3c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x0000000010002314                dunpacks
+                0x0000000010002308       0x3c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x0000000010002308                dunpacks
  .text.__aeabi_lmul
-                0x0000000010002350       0x32 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x0000000010002350                __wrap___aeabi_lmul
- .text.__wrap___aeabi_ui2f
-                0x0000000010002382        0xa CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-                0x0000000010002382                uint2float
-                0x0000000010002382                __wrap___aeabi_ui2f
- .text.__wrap___aeabi_i2f
-                0x000000001000238c       0x44 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-                0x000000001000238c                int2float
-                0x000000001000238c                __wrap___aeabi_i2f
- .text.__wrap___aeabi_f2d
-                0x00000000100023d0       0x14 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-                0x00000000100023d0                __wrap___aeabi_f2d
+                0x0000000010002344       0x32 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x0000000010002344                __wrap___aeabi_lmul
+ *fill*         0x0000000010002376        0x2 
  .text.__aeabi_float_init
-                0x00000000100023e4       0x64 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
-                0x00000000100023e4                __aeabi_float_init
+                0x0000000010002378       0x64 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x0000000010002378                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x0000000010002448       0x2c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
-                0x0000000010002448                float_table_shim_on_use_helper
- .text.float2double_shim
-                0x0000000010002474       0x30 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
-                0x0000000010002474                float2double_shim
- .text          0x00000000100024a4       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000100024a4                __aeabi_mem_init
- .text.memcpy   0x00000000100024b4        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000100024b4                __wrap___aeabi_memcpy
-                0x00000000100024b4                __wrap_memcpy
+                0x00000000100023dc       0x2c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+                0x00000000100023dc                float_table_shim_on_use_helper
+ .text          0x0000000010002408       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010002408                __aeabi_mem_init
+ .text.memcpy   0x0000000010002418        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010002418                __wrap___aeabi_memcpy
+                0x0000000010002418                __wrap_memcpy
  .text._out_buffer
-                0x00000000100024c0        0x8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002424        0x8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_null
-                0x00000000100024c8        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x000000001000242c        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x00000000100024cc       0x9c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002430       0x9c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x0000000010002568      0x1cc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100024cc      0x1cc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x0000000010002734       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x0000000010002744      0x44c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x0000000010002b90      0x398 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002698       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x00000000100026a8      0x44c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x0000000010002af4      0x398 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x0000000010002f28      0xb04 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002e8c      0xb04 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_snprintf
-                0x0000000010003a2c       0x28 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x0000000010003a2c                __wrap_snprintf
+                0x0000000010003990       0x28 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010003990                __wrap_snprintf
  .text.weak_raw_vprintf
-                0x0000000010003a54       0x30 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x0000000010003a54                weak_raw_vprintf
- .text._exit    0x0000000010003a84        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x0000000010003a84                _exit
- .text.exit     0x0000000010003a88        0x8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x0000000010003a88                exit
+                0x00000000100039b8       0x30 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100039b8                weak_raw_vprintf
+ .text._exit    0x00000000100039e8        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x00000000100039e8                _exit
+ .text.exit     0x00000000100039ec        0x8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x00000000100039ec                exit
  .text.runtime_init
-                0x0000000010003a90       0x2c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x0000000010003a90                runtime_init
+                0x00000000100039f4       0x2c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x00000000100039f4                runtime_init
  .text.stdio_out_chars_no_crlf
-                0x0000000010003abc       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003a20       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x0000000010003acc       0xb4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003a30       0xb4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string
-                0x0000000010003b80      0x100 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010003b80                stdio_put_string
+                0x0000000010003ae4      0x100 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003ae4                stdio_put_string
  .text.stdio_set_driver_enabled
-                0x0000000010003c80       0x30 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010003c80                stdio_set_driver_enabled
+                0x0000000010003be4       0x30 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003be4                stdio_set_driver_enabled
  .text.stdio_init_all
-                0x0000000010003cb0        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010003cb0                stdio_init_all
+                0x0000000010003c14        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003c14                stdio_init_all
  .text.__wrap_putchar
-                0x0000000010003cbc       0x98 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010003cbc                stdio_putchar
-                0x0000000010003cbc                __wrap_putchar
+                0x0000000010003c20       0x98 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003c20                stdio_putchar
+                0x0000000010003c20                __wrap_putchar
  .text.__wrap_puts
-                0x0000000010003d54       0x3c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010003d54                __wrap_puts
-                0x0000000010003d54                stdio_puts
+                0x0000000010003cb8       0x3c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003cb8                __wrap_puts
+                0x0000000010003cb8                stdio_puts
  .text.stdio_uart_out_chars
-                0x0000000010003d90       0x4c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010003cf4       0x4c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x0000000010003ddc       0x84 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x0000000010003ddc                stdio_uart_in_chars
+                0x0000000010003d40       0x84 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010003d40                stdio_uart_in_chars
  .text.on_uart_rx
-                0x0000000010003e60       0x28 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010003dc4       0x28 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_out_flush
-                0x0000000010003e88       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010003dec       0x10 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_set_chars_available_callback
-                0x0000000010003e98       0x8c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010003dfc       0x8c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_init
-                0x0000000010003f24       0x50 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x0000000010003f24                stdio_uart_init
+                0x0000000010003e88       0x50 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010003e88                stdio_uart_init
  .text.adc_init
-                0x0000000010003f74       0x38 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-                0x0000000010003f74                adc_init
- .text          0x0000000010003fac       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
-                0x0000000010003fac                strlen
+                0x0000000010003ed8       0x38 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+                0x0000000010003ed8                adc_init
+ .text          0x0000000010003f10       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+                0x0000000010003f10                strlen
  *(.fini)
- .fini          0x0000000010004008        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x0000000010004008                _fini
- *fill*         0x000000001000400c        0x4 
- .fini.__stub   0x0000000010004010       0x40 linker stubs
+ .fini          0x0000000010003f6c        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x0000000010003f6c                _fini
+ .fini.__stub   0x0000000010003f70       0x40 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2757,166 +2751,166 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x0000000010004050                . = ALIGN (0x4)
-                0x0000000010004050                PROVIDE (__preinit_array_start = .)
+                0x0000000010003fb0                . = ALIGN (0x4)
+                0x0000000010003fb0                PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00100
-                0x0000000010004050        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x0000000010004050                __pre_init_runtime_init_early_resets
+                0x0000000010003fb0        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x0000000010003fb0                __pre_init_runtime_init_early_resets
  .preinit_array.00101
-                0x0000000010004054        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x0000000010004054                __pre_init_runtime_init_usb_power_down
+                0x0000000010003fb4        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x0000000010003fb4                __pre_init_runtime_init_usb_power_down
  .preinit_array.00275
-                0x0000000010004058        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000010003fb8        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .preinit_array.00300
-                0x000000001000405c        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010003fbc        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .preinit_array.00350
-                0x0000000010004060        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x0000000010003fc0        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .preinit_array.00350
-                0x0000000010004064        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x0000000010003fc4        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .preinit_array.00500
-                0x0000000010004068        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x0000000010004068                __pre_init_runtime_init_clocks
+                0x0000000010003fc8        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x0000000010003fc8                __pre_init_runtime_init_clocks
  .preinit_array.00600
-                0x000000001000406c        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x000000001000406c                __pre_init_runtime_init_post_clock_resets
+                0x0000000010003fcc        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x0000000010003fcc                __pre_init_runtime_init_post_clock_resets
  .preinit_array.00700
-                0x0000000010004070        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x0000000010004070                __pre_init_runtime_init_rp2040_gpio_ie_disable
+                0x0000000010003fd0        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x0000000010003fd0                __pre_init_runtime_init_rp2040_gpio_ie_disable
  .preinit_array.01000
-                0x0000000010004074        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x0000000010004074                __pre_init_runtime_init_spin_locks_reset
+                0x0000000010003fd4        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x0000000010003fd4                __pre_init_runtime_init_spin_locks_reset
  .preinit_array.01100
-                0x0000000010004078        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010004078                __pre_init_runtime_init_mutex
+                0x0000000010003fd8        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010003fd8                __pre_init_runtime_init_mutex
  .preinit_array.10080
-                0x000000001000407c        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x000000001000407c                __pre_init_runtime_init_install_ram_vector_table
+                0x0000000010003fdc        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x0000000010003fdc                __pre_init_runtime_init_install_ram_vector_table
  .preinit_array.11000
-                0x0000000010004080        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010004080                __pre_init_runtime_init_default_alarm_pool
+                0x0000000010003fe0        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010003fe0                __pre_init_runtime_init_default_alarm_pool
  .preinit_array.YYYYY
-                0x0000000010004084        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010004084                __pre_init_first_per_core_initializer
+                0x0000000010003fe4        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010003fe4                __pre_init_first_per_core_initializer
  .preinit_array.ZZZZZ.01200
-                0x0000000010004088        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010004088                __pre_init_runtime_init_per_core_irq_priorities
+                0x0000000010003fe8        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010003fe8                __pre_init_runtime_init_per_core_irq_priorities
  *(.preinit_array)
-                0x000000001000408c                PROVIDE (__preinit_array_end = .)
-                0x000000001000408c                . = ALIGN (0x4)
-                0x000000001000408c                PROVIDE (__init_array_start = .)
+                0x0000000010003fec                PROVIDE (__preinit_array_end = .)
+                0x0000000010003fec                . = ALIGN (0x4)
+                0x0000000010003fec                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x000000001000408c        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010004090                PROVIDE (__init_array_end = .)
-                0x0000000010004090                . = ALIGN (0x4)
-                0x0000000010004090                PROVIDE (__fini_array_start = .)
+ .init_array    0x0000000010003fec        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010003ff0                PROVIDE (__init_array_end = .)
+                0x0000000010003ff0                . = ALIGN (0x4)
+                0x0000000010003ff0                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
-                0x0000000010004090                PROVIDE (__fini_array_end = .)
+                0x0000000010003ff0                PROVIDE (__fini_array_end = .)
  *(.eh_frame*)
- .eh_frame      0x0000000010004090        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010004090                . = ALIGN (0x4)
+ .eh_frame      0x0000000010003ff0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010003ff0                . = ALIGN (0x4)
 
-.glue_7         0x0000000010004090        0x0
- .glue_7        0x0000000010004090        0x0 linker stubs
+.glue_7         0x0000000010003ff0        0x0
+ .glue_7        0x0000000010003ff0        0x0 linker stubs
 
-.glue_7t        0x0000000010004090        0x0
- .glue_7t       0x0000000010004090        0x0 linker stubs
+.glue_7t        0x0000000010003ff0        0x0
+ .glue_7t       0x0000000010003ff0        0x0 linker stubs
 
-.vfp11_veneer   0x0000000010004090        0x0
- .vfp11_veneer  0x0000000010004090        0x0 linker stubs
+.vfp11_veneer   0x0000000010003ff0        0x0
+ .vfp11_veneer  0x0000000010003ff0        0x0 linker stubs
 
-.v4_bx          0x0000000010004090        0x0
- .v4_bx         0x0000000010004090        0x0 linker stubs
+.v4_bx          0x0000000010003ff0        0x0
+ .v4_bx         0x0000000010003ff0        0x0 linker stubs
 
-.iplt           0x0000000010004090        0x0
- .iplt          0x0000000010004090        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000010003ff0        0x0
+ .iplt          0x0000000010003ff0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010004090      0x354
+.rodata         0x0000000010003ff0      0x354
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x0000000010004090        0x4 CMakeFiles/PruebaUSB.dir/PruebaUSB.c.obj
+                0x0000000010003ff0        0x4 CMakeFiles/PruebaUSB.dir/PruebaUSB.c.obj
  .rodata.panic.str1.4
-                0x0000000010004094       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
- *fill*         0x00000000100040a6        0x2 
+                0x0000000010003ff4       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+ *fill*         0x0000000010004006        0x2 
  .rodata.timer_hardware_alarm_claim.str1.4
-                0x00000000100040a8       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x00000000100040ca        0x2 
+                0x0000000010004008       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x000000001000402a        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x00000000100040cc        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000000001000402c        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.str1.4
-                0x00000000100040d8       0x30 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x0000000010004038       0x30 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_26
-                0x0000000010004108        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x0000000010004068        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_34
-                0x0000000010004114        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x0000000010004074        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_42
-                0x0000000010004120        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x0000000010004080        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_48
-                0x000000001000412c        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x000000001000408c        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_54
-                0x0000000010004138        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x0000000010004098        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_84
-                0x0000000010004144        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x00000000100040a4        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata._ftoa.str1.4
-                0x0000000010004150       0x15 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x0000000010004165        0x3 
+                0x00000000100040b0       0x15 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x00000000100040c5        0x3 
  .rodata._vsnprintf
-                0x0000000010004168      0x1e0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100040c8      0x1e0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.0
-                0x0000000010004348       0x50 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100042a8       0x50 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.crlf_str.0
-                0x0000000010004398        0x2 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x000000001000439a        0x2 
+                0x00000000100042f8        0x2 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x00000000100042fa        0x2 
  .rodata.str1.4
-                0x000000001000439c       0x2c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x00000000100042fc       0x2c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_45.4
-                0x00000000100043c8        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010004328        0xc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_49.5
-                0x00000000100043d4        0x8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010004334        0x8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_50.6
-                0x00000000100043dc        0x8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x00000000100043e4                . = ALIGN (0x4)
+                0x000000001000433c        0x8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010004344                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x00000000100043e4                . = ALIGN (0x4)
+                0x0000000010004344                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000100043e4                __exidx_start = .
+                0x0000000010004344                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00000000100043e4                __exidx_end = .
-                0x00000000100043e4                . = ALIGN (0x4)
-                0x00000000100043e4                __binary_info_start = .
+                0x0000000010004344                __exidx_end = .
+                0x0000000010004344                . = ALIGN (0x4)
+                0x0000000010004344                __binary_info_start = .
 
-.binary_info    0x00000000100043e4       0x24
+.binary_info    0x0000000010004344       0x24
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr26
-                0x00000000100043e4        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x0000000010004344        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr34
-                0x00000000100043e8        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x0000000010004348        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr42
-                0x00000000100043ec        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x000000001000434c        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr48
-                0x00000000100043f0        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x0000000010004350        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr54
-                0x00000000100043f4        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x0000000010004354        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr84
-                0x00000000100043f8        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x0000000010004358        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr45
-                0x00000000100043fc        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x000000001000435c        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr49
-                0x0000000010004400        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010004360        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr50
-                0x0000000010004404        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x0000000010004408                __binary_info_end = .
+                0x0000000010004364        0x4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010004368                __binary_info_end = .
 
-.rel.dyn        0x0000000010004408        0x0
- .rel.iplt      0x0000000010004408        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010004408                . = ALIGN (0x4)
+.rel.dyn        0x0000000010004368        0x0
+ .rel.iplt      0x0000000010004368        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010004368                . = ALIGN (0x4)
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -2930,7 +2924,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x00000000200000c0                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.data           0x00000000200000c0      0x180 load address 0x0000000010004408
+.data           0x00000000200000c0      0x180 load address 0x0000000010004368
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2983,23 +2977,23 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000020000240                . = ALIGN (0x4)
 
 .tm_clone_table
-                0x0000000020000240        0x0 load address 0x0000000010004588
+                0x0000000020000240        0x0 load address 0x00000000100044e8
  .tm_clone_table
                 0x0000000020000240        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x0000000020000240        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x0000000020000240        0x0 load address 0x0000000010004588
+.igot.plt       0x0000000020000240        0x0 load address 0x00000000100044e8
  .igot.plt      0x0000000020000240        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.tdata          0x0000000020000240        0x0 load address 0x0000000010004588
+.tdata          0x0000000020000240        0x0 load address 0x00000000100044e8
                 0x0000000020000240                . = ALIGN (0x4)
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x0000000020000240                __tdata_end = .
                 0x0000000020000240                PROVIDE (__data_end__ = .)
-                0x0000000010004408                __etext = LOADADDR (.data)
+                0x0000000010004368                __etext = LOADADDR (.data)
 
-.tbss           0x0000000020000240        0x0 load address 0x0000000010004588
+.tbss           0x0000000020000240        0x0 load address 0x00000000100044e8
                 0x0000000020000240                . = ALIGN (0x4)
                 0x0000000020000240                __bss_start__ = .
                 0x0000000020000240                __tls_base = .
@@ -3007,7 +3001,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.tcommon)
                 0x0000000020000240                __tls_end = .
 
-.bss            0x0000000020000240      0x400 load address 0x0000000010004588
+.bss            0x0000000020000240      0x400 load address 0x00000000100044e8
                 0x0000000020000240                . = ALIGN (0x4)
                 0x0000000020000240                __tbss_end = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
@@ -3048,7 +3042,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *fill*         0x000000002000063d        0x3 
                 0x0000000020000640                __bss_end__ = .
 
-.heap           0x0000000020000640    0x3f9c0 load address 0x0000000010004588
+.heap           0x0000000020000640    0x3f9c0 load address 0x00000000100044e8
                 0x0000000020000640                __end__ = .
                 0x0000000020000640                end = __end__
  *(.heap*)
@@ -3057,19 +3051,19 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *fill*         0x0000000020000e40    0x3f1c0 
                 0x0000000020040000                __HeapLimit = .
 
-.scratch_x      0x0000000020040000        0x0 load address 0x0000000010004588
+.scratch_x      0x0000000020040000        0x0 load address 0x00000000100044e8
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x0000000010004588                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x00000000100044e8                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x0000000010004588
+.scratch_y      0x0000000020041000        0x0 load address 0x00000000100044e8
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x0000000010004588                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x00000000100044e8                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .stack1_dummy   0x0000000020040000        0x0
  *(.stack1*)
@@ -3078,9 +3072,9 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
 
-.flash_end      0x0000000010004588        0x0
+.flash_end      0x00000000100044e8        0x0
  *(.embedded_end_block*)
-                0x0000000010004588                PROVIDE (__flash_binary_end = .)
+                0x00000000100044e8                PROVIDE (__flash_binary_end = .)
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -3153,7 +3147,7 @@ LOAD CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_co
 LOAD CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 LOAD CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-LOAD /tmp/cc7wjgMd.o
+LOAD /tmp/ccqM096F.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -3254,7 +3248,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000648       0x2c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .ARM.attributes
-                0x0000000000000674       0x22 /tmp/cc7wjgMd.o
+                0x0000000000000674       0x22 /tmp/ccqM096F.o
  .ARM.attributes
                 0x0000000000000696       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -3296,116 +3290,116 @@ LOAD linker stubs
  .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
  .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
 
-.debug_info     0x0000000000000000    0x1d004
- .debug_info    0x0000000000000000      0x9ec CMakeFiles/PruebaUSB.dir/PruebaUSB.c.obj
- .debug_info    0x00000000000009ec     0x24d4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x0000000000002ec0      0x19c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_info    0x000000000000305c      0xa39 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
- .debug_info    0x0000000000003a95      0x3dd CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x0000000000003e72      0x242 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_info    0x00000000000040b4     0x21fa CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x00000000000062ae      0x154 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x0000000000006402     0x2a97 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_info    0x0000000000008e99     0x4ac3 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_info    0x000000000000d95c     0x2aa7 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x0000000000010403     0x19c5 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_info    0x0000000000011dc8     0x28de CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x00000000000146a6      0x4f9 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x0000000000014b9f      0x242 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_info    0x0000000000014de1      0x1c5 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x0000000000014fa6      0x208 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x00000000000151ae      0x7c4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_info    0x0000000000015972      0x701 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_info    0x0000000000016073       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x0000000000016095      0x3c2 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x0000000000016457       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_info    0x0000000000016479       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_info    0x000000000001649b      0x211 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_info    0x00000000000166ac       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_info    0x00000000000166ce       0x26 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x00000000000166f4       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_info    0x0000000000016716      0x21b CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_info    0x0000000000016931       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
- .debug_info    0x0000000000016953       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x0000000000016975      0x29a CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_info    0x0000000000016c0f     0x21b1 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x0000000000018dc0       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_info    0x0000000000018de2      0xb4e CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_info    0x0000000000019930     0x1ccb CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x000000000001b5fb     0x14f8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_info    0x000000000001caf3      0x3fd CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_info    0x000000000001cef0       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_info    0x000000000001cf16       0xee /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_info     0x0000000000000000    0x1cfd6
+ .debug_info    0x0000000000000000      0x9be CMakeFiles/PruebaUSB.dir/PruebaUSB.c.obj
+ .debug_info    0x00000000000009be     0x24d4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x0000000000002e92      0x19c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_info    0x000000000000302e      0xa39 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+ .debug_info    0x0000000000003a67      0x3dd CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x0000000000003e44      0x242 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_info    0x0000000000004086     0x21fa CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x0000000000006280      0x154 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x00000000000063d4     0x2a97 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x0000000000008e6b     0x4ac3 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_info    0x000000000000d92e     0x2aa7 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x00000000000103d5     0x19c5 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_info    0x0000000000011d9a     0x28de CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x0000000000014678      0x4f9 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x0000000000014b71      0x242 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_info    0x0000000000014db3      0x1c5 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x0000000000014f78      0x208 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x0000000000015180      0x7c4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_info    0x0000000000015944      0x701 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_info    0x0000000000016045       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x0000000000016067      0x3c2 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x0000000000016429       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_info    0x000000000001644b       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_info    0x000000000001646d      0x211 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_info    0x000000000001667e       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_info    0x00000000000166a0       0x26 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x00000000000166c6       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_info    0x00000000000166e8      0x21b CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_info    0x0000000000016903       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+ .debug_info    0x0000000000016925       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x0000000000016947      0x29a CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_info    0x0000000000016be1     0x21b1 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x0000000000018d92       0x22 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_info    0x0000000000018db4      0xb4e CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_info    0x0000000000019902     0x1ccb CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x000000000001b5cd     0x14f8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_info    0x000000000001cac5      0x3fd CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+ .debug_info    0x000000000001cec2       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x000000000001cee8       0xee /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_abbrev   0x0000000000000000     0x4fb6
- .debug_abbrev  0x0000000000000000      0x31a CMakeFiles/PruebaUSB.dir/PruebaUSB.c.obj
- .debug_abbrev  0x000000000000031a      0x4b6 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_abbrev  0x00000000000007d0       0xf4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_abbrev  0x00000000000008c4      0x2e6 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
- .debug_abbrev  0x0000000000000baa      0x1de CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_abbrev  0x0000000000000d88      0x1b2 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_abbrev  0x0000000000000f3a      0x588 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_abbrev  0x00000000000014c2       0xee CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_abbrev  0x00000000000015b0      0x413 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_abbrev  0x00000000000019c3      0x606 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_abbrev  0x0000000000001fc9      0x4ae CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_abbrev  0x0000000000002477      0x315 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_abbrev  0x000000000000278c      0x49f CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_abbrev  0x0000000000002c2b      0x1c6 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_abbrev  0x0000000000002df1      0x141 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_abbrev  0x0000000000002f32      0x118 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_abbrev  0x000000000000304a      0x16c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_abbrev  0x00000000000031b6      0x20c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_abbrev  0x00000000000033c2      0x246 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_abbrev  0x0000000000003608       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_abbrev  0x000000000000361a      0x1ba CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_abbrev  0x00000000000037d4       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_abbrev  0x00000000000037e6       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_abbrev  0x00000000000037f8      0x15c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_abbrev  0x0000000000003954       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_abbrev  0x0000000000003966       0x14 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_abbrev  0x000000000000397a       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_abbrev  0x000000000000398c      0x15c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_abbrev  0x0000000000003ae8       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
- .debug_abbrev  0x0000000000003afa       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_abbrev  0x0000000000003b0c       0xad CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_abbrev  0x0000000000003bb9      0x517 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_abbrev  0x00000000000040d0       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_abbrev  0x00000000000040e2      0x315 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_abbrev  0x00000000000043f7      0x58d CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_abbrev  0x0000000000004984      0x455 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_abbrev  0x0000000000004dd9      0x13a CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_abbrev  0x0000000000004f13       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_abbrev  0x0000000000004f27       0x8f /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_abbrev   0x0000000000000000     0x4fa9
+ .debug_abbrev  0x0000000000000000      0x30d CMakeFiles/PruebaUSB.dir/PruebaUSB.c.obj
+ .debug_abbrev  0x000000000000030d      0x4b6 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_abbrev  0x00000000000007c3       0xf4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_abbrev  0x00000000000008b7      0x2e6 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+ .debug_abbrev  0x0000000000000b9d      0x1de CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_abbrev  0x0000000000000d7b      0x1b2 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_abbrev  0x0000000000000f2d      0x588 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_abbrev  0x00000000000014b5       0xee CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_abbrev  0x00000000000015a3      0x413 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_abbrev  0x00000000000019b6      0x606 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_abbrev  0x0000000000001fbc      0x4ae CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_abbrev  0x000000000000246a      0x315 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_abbrev  0x000000000000277f      0x49f CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_abbrev  0x0000000000002c1e      0x1c6 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_abbrev  0x0000000000002de4      0x141 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_abbrev  0x0000000000002f25      0x118 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_abbrev  0x000000000000303d      0x16c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_abbrev  0x00000000000031a9      0x20c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_abbrev  0x00000000000033b5      0x246 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_abbrev  0x00000000000035fb       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_abbrev  0x000000000000360d      0x1ba CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_abbrev  0x00000000000037c7       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_abbrev  0x00000000000037d9       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_abbrev  0x00000000000037eb      0x15c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_abbrev  0x0000000000003947       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_abbrev  0x0000000000003959       0x14 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_abbrev  0x000000000000396d       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_abbrev  0x000000000000397f      0x15c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_abbrev  0x0000000000003adb       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+ .debug_abbrev  0x0000000000003aed       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_abbrev  0x0000000000003aff       0xad CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_abbrev  0x0000000000003bac      0x517 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_abbrev  0x00000000000040c3       0x12 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_abbrev  0x00000000000040d5      0x315 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_abbrev  0x00000000000043ea      0x58d CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_abbrev  0x0000000000004977      0x455 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_abbrev  0x0000000000004dcc      0x13a CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+ .debug_abbrev  0x0000000000004f06       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x0000000000004f1a       0x8f /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_loc      0x0000000000000000    0x18537
- .debug_loc     0x0000000000000000      0x2f5 CMakeFiles/PruebaUSB.dir/PruebaUSB.c.obj
- .debug_loc     0x00000000000002f5     0x2956 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_loc     0x0000000000002c4b      0x6c7 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
- .debug_loc     0x0000000000003312      0x154 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_loc     0x0000000000003466       0xb5 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_loc     0x000000000000351b     0x1b3c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_loc     0x0000000000005057       0x4d CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_loc     0x00000000000050a4     0x1b8e CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_loc     0x0000000000006c32     0x40c2 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_loc     0x000000000000acf4     0x24fd CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_loc     0x000000000000d1f1     0x1476 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_loc     0x000000000000e667     0x31ea CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_loc     0x0000000000011851      0x28f CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_loc     0x0000000000011ae0       0x57 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_loc     0x0000000000011b37       0x71 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_loc     0x0000000000011ba8       0xbc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_loc     0x0000000000011c64      0x11c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_loc     0x0000000000011d80       0xa7 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_loc     0x0000000000011e27      0x388 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_loc     0x00000000000121af       0x44 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_loc     0x00000000000121f3       0x82 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_loc     0x0000000000012275     0x3c08 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_loc     0x0000000000015e7d      0x5b1 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_loc     0x000000000001642e     0x1565 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_loc     0x0000000000017993      0xa24 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_loc     0x00000000000183b7       0xf0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_loc     0x00000000000184a7       0x90 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_loc      0x0000000000000000    0x18531
+ .debug_loc     0x0000000000000000      0x2ef CMakeFiles/PruebaUSB.dir/PruebaUSB.c.obj
+ .debug_loc     0x00000000000002ef     0x2956 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_loc     0x0000000000002c45      0x6c7 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+ .debug_loc     0x000000000000330c      0x154 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_loc     0x0000000000003460       0xb5 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_loc     0x0000000000003515     0x1b3c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_loc     0x0000000000005051       0x4d CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_loc     0x000000000000509e     0x1b8e CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_loc     0x0000000000006c2c     0x40c2 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_loc     0x000000000000acee     0x24fd CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_loc     0x000000000000d1eb     0x1476 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_loc     0x000000000000e661     0x31ea CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_loc     0x000000000001184b      0x28f CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_loc     0x0000000000011ada       0x57 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_loc     0x0000000000011b31       0x71 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_loc     0x0000000000011ba2       0xbc CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_loc     0x0000000000011c5e      0x11c CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_loc     0x0000000000011d7a       0xa7 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_loc     0x0000000000011e21      0x388 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_loc     0x00000000000121a9       0x44 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_loc     0x00000000000121ed       0x82 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_loc     0x000000000001226f     0x3c08 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_loc     0x0000000000015e77      0x5b1 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_loc     0x0000000000016428     0x1565 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_loc     0x000000000001798d      0xa24 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_loc     0x00000000000183b1       0xf0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+ .debug_loc     0x00000000000184a1       0x90 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
 .debug_aranges  0x0000000000000000      0xf68
  .debug_aranges
@@ -3524,124 +3518,124 @@ LOAD linker stubs
  .debug_ranges  0x0000000000008f60      0x4c0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .debug_ranges  0x0000000000009420       0x70 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
-.debug_line     0x0000000000000000    0x165e1
- .debug_line    0x0000000000000000      0x6d7 CMakeFiles/PruebaUSB.dir/PruebaUSB.c.obj
- .debug_line    0x00000000000006d7     0x1c9d CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x0000000000002374      0x216 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_line    0x000000000000258a      0x8f5 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
- .debug_line    0x0000000000002e7f      0x480 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00000000000032ff      0x346 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_line    0x0000000000003645     0x1664 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x0000000000004ca9      0x27a CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x0000000000004f23     0x1a7a CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x000000000000699d     0x30d3 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x0000000000009a70     0x1d25 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x000000000000b795     0x116e CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x000000000000c903     0x1c64 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x000000000000e567      0x4e4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x000000000000ea4b      0x2d0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_line    0x000000000000ed1b      0x2fb CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x000000000000f016      0x292 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x000000000000f2a8      0x4ee CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_line    0x000000000000f796      0x510 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_line    0x000000000000fca6      0x142 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x000000000000fde8      0x2ae CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000000000010096      0x2e7 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_line    0x000000000001037d      0x438 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_line    0x00000000000107b5      0x369 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_line    0x0000000000010b1e      0x6b3 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_line    0x00000000000111d1       0xa5 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000000000011276      0x3f2 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_line    0x0000000000011668      0x2c4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_line    0x000000000001192c      0x1d9 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
- .debug_line    0x0000000000011b05       0xcf CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000000000011bd4      0x18a CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_line    0x0000000000011d5e     0x17e5 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000000000013543       0xd3 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_line    0x0000000000013616      0x80e CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_line    0x0000000000013e24     0x14f8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x000000000001531c      0xd51 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_line    0x000000000001606d      0x3a2 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_line    0x000000000001640f       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_line    0x000000000001646f      0x172 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_line     0x0000000000000000    0x165db
+ .debug_line    0x0000000000000000      0x6d1 CMakeFiles/PruebaUSB.dir/PruebaUSB.c.obj
+ .debug_line    0x00000000000006d1     0x1c9d CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x000000000000236e      0x216 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_line    0x0000000000002584      0x8f5 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+ .debug_line    0x0000000000002e79      0x480 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00000000000032f9      0x346 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_line    0x000000000000363f     0x1664 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x0000000000004ca3      0x27a CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x0000000000004f1d     0x1a7a CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x0000000000006997     0x30d3 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x0000000000009a6a     0x1d25 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x000000000000b78f     0x116e CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x000000000000c8fd     0x1c64 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x000000000000e561      0x4e4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x000000000000ea45      0x2d0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_line    0x000000000000ed15      0x2fb CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x000000000000f010      0x292 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x000000000000f2a2      0x4ee CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_line    0x000000000000f790      0x510 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_line    0x000000000000fca0      0x142 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x000000000000fde2      0x2ae CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000000000010090      0x2e7 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_line    0x0000000000010377      0x438 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_line    0x00000000000107af      0x369 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_line    0x0000000000010b18      0x6b3 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_line    0x00000000000111cb       0xa5 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000000000011270      0x3f2 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_line    0x0000000000011662      0x2c4 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_line    0x0000000000011926      0x1d9 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+ .debug_line    0x0000000000011aff       0xcf CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000000000011bce      0x18a CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_line    0x0000000000011d58     0x17e5 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x000000000001353d       0xd3 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_line    0x0000000000013610      0x80e CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_line    0x0000000000013e1e     0x14f8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000000000015316      0xd51 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_line    0x0000000000016067      0x3a2 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+ .debug_line    0x0000000000016409       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000000000016469      0x172 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_str      0x0000000000000000     0x4b6f
- .debug_str     0x0000000000000000      0x454 CMakeFiles/PruebaUSB.dir/PruebaUSB.c.obj
-                                        0x4fc (size before relaxing)
- .debug_str     0x0000000000000454      0x905 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.debug_str      0x0000000000000000     0x4b56
+ .debug_str     0x0000000000000000      0x43b CMakeFiles/PruebaUSB.dir/PruebaUSB.c.obj
+                                        0x4dd (size before relaxing)
+ .debug_str     0x000000000000043b      0x905 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
                                         0xc57 (size before relaxing)
- .debug_str     0x0000000000000d59       0xa0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_str     0x0000000000000d40       0xa0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
                                         0x208 (size before relaxing)
- .debug_str     0x0000000000000df9      0x1c9 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+ .debug_str     0x0000000000000de0      0x1c9 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
                                         0x37c (size before relaxing)
- .debug_str     0x0000000000000fc2       0xda CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_str     0x0000000000000fa9       0xda CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
                                         0x320 (size before relaxing)
- .debug_str     0x000000000000109c       0x70 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_str     0x0000000000001083       0x70 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
                                         0x242 (size before relaxing)
- .debug_str     0x000000000000110c      0x473 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_str     0x00000000000010f3      0x473 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
                                         0x9dd (size before relaxing)
- .debug_str     0x000000000000157f       0x6a CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_str     0x0000000000001566       0x6a CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
                                         0x20e (size before relaxing)
- .debug_str     0x00000000000015e9      0x27a CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_str     0x00000000000015d0      0x27a CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
                                         0x76d (size before relaxing)
- .debug_str     0x0000000000001863      0x9a9 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_str     0x000000000000184a      0x9a9 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/common/pico_time/time.c.obj
                                        0x10fc (size before relaxing)
- .debug_str     0x000000000000220c      0x1f0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_str     0x00000000000021f3      0x1f0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
                                         0x9ab (size before relaxing)
- .debug_str     0x00000000000023fc      0x71b CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_str     0x00000000000023e3      0x71b CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
                                         0xbbd (size before relaxing)
- .debug_str     0x0000000000002b17      0x410 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_str     0x0000000000002afe      0x410 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
                                         0x941 (size before relaxing)
- .debug_str     0x0000000000002f27       0x83 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_str     0x0000000000002f0e       0x83 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
                                         0x455 (size before relaxing)
- .debug_str     0x0000000000002faa       0xd7 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_str     0x0000000000002f91       0xd7 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
                                         0x284 (size before relaxing)
- .debug_str     0x0000000000003081       0x83 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_str     0x0000000000003068       0x83 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
                                         0x239 (size before relaxing)
- .debug_str     0x0000000000003104       0xf8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_str     0x00000000000030eb       0xf8 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                         0x28f (size before relaxing)
- .debug_str     0x00000000000031fc      0x2b9 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_str     0x00000000000031e3      0x2b9 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
                                         0x769 (size before relaxing)
- .debug_str     0x00000000000034b5       0x70 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_str     0x000000000000349c       0x70 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
                                         0x460 (size before relaxing)
- .debug_str     0x0000000000003525       0x61 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_str     0x000000000000350c       0x61 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
                                          0x97 (size before relaxing)
- .debug_str     0x0000000000003586      0x12d CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_str     0x000000000000356d      0x12d CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
                                         0x2ba (size before relaxing)
- .debug_str     0x00000000000036b3       0x58 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_str     0x000000000000369a       0x58 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
                                          0x9a (size before relaxing)
- .debug_str     0x000000000000370b       0x5a CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_str     0x00000000000036f2       0x5a CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
                                          0x9c (size before relaxing)
- .debug_str     0x0000000000003765       0xc9 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_str     0x000000000000374c       0xc9 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
                                         0x282 (size before relaxing)
- .debug_str     0x000000000000382e       0x60 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_str     0x0000000000003815       0x60 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
                                          0xa2 (size before relaxing)
- .debug_str     0x000000000000388e       0x5e CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_str     0x0000000000003875       0x5e CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
                                          0xa0 (size before relaxing)
- .debug_str     0x00000000000038ec       0x58 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_str     0x00000000000038d3       0x58 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
                                          0x9a (size before relaxing)
- .debug_str     0x0000000000003944       0xa0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_str     0x000000000000392b       0xa0 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
                                         0x287 (size before relaxing)
- .debug_str     0x00000000000039e4       0x5e CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+ .debug_str     0x00000000000039cb       0x5e CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
                                          0xa0 (size before relaxing)
- .debug_str     0x0000000000003a42       0x55 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_str     0x0000000000003a29       0x55 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
                                          0x97 (size before relaxing)
- .debug_str     0x0000000000003a97      0x21d CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_str     0x0000000000003a7e      0x21d CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
                                         0x3aa (size before relaxing)
- .debug_str     0x0000000000003cb4      0x298 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_str     0x0000000000003c9b      0x298 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
                                         0x4db (size before relaxing)
- .debug_str     0x0000000000003f4c       0x49 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_str     0x0000000000003f33       0x49 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
                                          0x8b (size before relaxing)
- .debug_str     0x0000000000003f95      0x31d CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_str     0x0000000000003f7c      0x31d CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
                                         0x72e (size before relaxing)
- .debug_str     0x00000000000042b2      0x2f1 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_str     0x0000000000004299      0x2f1 CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
                                         0xd82 (size before relaxing)
- .debug_str     0x00000000000045a3      0x3bf CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_str     0x000000000000458a      0x3bf CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
                                         0xeb6 (size before relaxing)
- .debug_str     0x0000000000004962       0x4b CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+ .debug_str     0x0000000000004949       0x4b CMakeFiles/PruebaUSB.dir/home/kevinperez/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
                                         0x40f (size before relaxing)
- .debug_str     0x00000000000049ad       0xa6 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_str     0x0000000000004a53      0x11c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+ .debug_str     0x0000000000004994       0xa6 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_str     0x0000000000004a3a      0x11c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
                                         0x1c5 (size before relaxing)
 
 .debug_frame    0x0000000000000000     0x1ba8
