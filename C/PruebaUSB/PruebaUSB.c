@@ -33,7 +33,7 @@ int main() {
         uart_puts(UART_ID, buffer);
 
         // Espera 1 ms para incrementar la frecuencia de muestreo
-        sleep_ms(1);  // Esto asegura que tomamos 1000 muestras por segundo
+        sleep_ms(50);  // Esto asegura que tomamos 1000 muestras por segundo
     }
 
     return 0; // Por si acaso
