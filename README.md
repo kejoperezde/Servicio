@@ -37,7 +37,6 @@
         - [Python](#python)
         - [Visual Studio Code](#visual-studio-code)
         - [Blueman](#blueman)
-        - [Thonny (Opcional)](#thonny-opcional)
     - [4.2. Programación en Python](#42-programación-en-python)
       - [4.2.1. Estructura básica del programa](#421-estructura-básica-del-programa)
       - [4.2.2. Adquisición de datos](#422-adquisición-de-datos)
@@ -73,7 +72,6 @@
     - [10.4. Resultados adicionales de pruebas](#104-resultados-adicionales-de-pruebas)
     - [10.5. Diagramas y gráficos](#105-diagramas-y-gráficos)
   - [11. Solución de problemas](#11-solución-de-problemas)
-    - [11.1. Problemas de bluetooth](#111-problemas-de-bluetooth)
 
 
 ## 1. Introducción
@@ -142,7 +140,7 @@ Derivaciones
     
     `cd /pico-project-generator`
   
-    `./pico_project.py --gui`
+    `./pico-project.py --gui`
 
 ### 3.2. Sistemas de adquisición de datos (DAQ)
 
@@ -272,6 +270,8 @@ Python es un lenguaje de programación de alto nivel, interpretado y de propósi
   
     `sudo apt install python3-tk`
 
+    `pip install pycryptodome`
+
 3. Instalar pybluez
 
     1. `pip3 install setuptools==57.0.0`
@@ -279,6 +279,10 @@ Python es un lenguaje de programación de alto nivel, interpretado y de propósi
     2. `sudo apt install libbluetooth-dev`
 
     3. `pip3 install pybluez`
+ 4. sudo apt-get install libsystemd-dev
+4. pip3 install --upgrade systemd-python
+sudo apt-get install python3-dev
+pip3 install scipy
 
   | Librería   | Versión | Descripción |
   | ---------- | ------- |------------ |
@@ -420,21 +424,5 @@ Es un entorno de desarrollo integrado (IDE) diseñado para programar en Python.
     - Extraer contenido del archivo: `tar -xvf nombre_archivo.tar.yz`
     - Reemplazar archivos: `sudo cp -r /linux-firmware-####/* /lib/firmware`
 
-### 11.1. Problemas de bluetooth
-
-1. Descripción
-
-    - El sistema operativo reconocé el dispositivo pero el mismo o el programa no recibe ninguna muestra
-    - Es inestable la conexión entre el sitema operativo y el dispositivo bluetooth
-
-2. Solución
-
-    1. Instalar de nuevo [Blueman](#blueman)
-    2. En la parte de [Pop OS](#pop-os), sección "Actualizar linux firmware", actualizar a la versión más reciente
-    3. Actualizar de nuevo el sistema
-        
-        `sudo apt update && sudo apt upgrade -y`
-
-    4. Desconectar y volver a conectar el dispositivo
 
 

@@ -1,10 +1,13 @@
-#!/usr/bin/env python3
-"""PyBluez advanced example read-local-bdaddr.py
-
-Read the local Bluetooth device address
-"""
 
 import bluetooth
 
-if __name__ == "__main__":
-    print(bluetooth.read_local_bdaddr())
+sock=bluetooth.BluetoothSocket(bluetooth.L2CAP)
+
+bd_addr = "00:06:66:0A:42:5D"
+port = 0x1001
+
+sock.connect((bd_addr, port))
+
+sock.send("1")
+
+sock.close()

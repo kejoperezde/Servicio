@@ -1,3 +1,4 @@
+import os
 import tkinter as tk
 import serial
 import csv
@@ -7,6 +8,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from tkinter import filedialog
 
+# Variables glabales
+puerto_serie = '/dev/rfcomm0'  # Cambiar puerto
+baudrate = 9600
+ruta_archivo = './Muestras/muestras.csv'
+    
 # CENTRAR VENTANA
 def centrar_ventana(ventana, ancho, alto):
     ancho_pantalla = ventana.winfo_screenwidth()
@@ -15,37 +21,31 @@ def centrar_ventana(ventana, ancho, alto):
     y = (alto_pantalla // 2) - (alto // 2)
     ventana.geometry(f"{ancho}x{alto}+{x}+{y}")
 
-def iniciar_cuenta_regresiva():
+# VENTANA TOMAR MUESTRAS
+def tomar_muestras_ventana():
     ventana_cuenta = tk.Toplevel()
-    ventana_cuenta.title("Esperando")
+    ventana_cuenta.title("Relájate")
     ventana_cuenta.geometry("280x60")
     centrar_ventana(ventana_cuenta, 280, 60)
     
     etiqueta = tk.Label(ventana_cuenta, font=("Helvetica", 14))
     etiqueta.pack(pady=20)
 
-    etiqueta.config(text="Tomando muestra... ")
+    etiqueta.config(text="Tomando muestra...")
     
     # Inicia la lectura y luego cierra la ventana
     ventana_cuenta.after(1000, lambda: iniciar_lectura_serial(ventana_cuenta, etiqueta))
 
+# FUNCION TOMAR MUESTRAS
 def iniciar_lectura_serial(ventana, etiqueta):
-    # puerto_serie = '/dev/ttyACM0'  # Cambiar puerto
-    # puerto_serie = '/dev/ttyUSB0'  # Cambiar puerto
-    puerto_serie = '/dev/rfcomm0'  # Cambiar puerto
-    # baudrate = 115200
-    baudrate = 9600
-    ruta_archivo = './muestras.csv'
     try:
         ser = serial.Serial(puerto_serie, baudrate)
-        ser.open()
-        # ser = serial.Serial(puerto_serie, baudrate)
-        print(f'Conectado a {puerto_serie} a {baudrate} bps')
-        time.sleep(5)  # Esperar a que se establezca la conexión
+        print(f'Conexión correcta')
+        ser.write(b'1')     # write a string, manda al dispositivo que envíe datos
 
         with open(ruta_archivo, 'w', newline='') as archivo_csv:
             escritor_csv = csv.writer(archivo_csv)
-            print('Esperando datos...')
+            print('Tomando datos...')
             inicio = time.time()
             escritor_csv.writerow(["Seg", "mV"])  # Escribir encabezados    
 
@@ -53,29 +53,34 @@ def iniciar_lectura_serial(ventana, etiqueta):
                 if ser.in_waiting > 0:
                     dato = ser.readline().decode('utf-8').strip()
                     tiempo_transcurrido = time.time() - inicio
-                    if tiempo_transcurrido > 0.02:
-                        escritor_csv.writerow([round(tiempo_transcurrido, 2), dato])
-                        print("Dato guardado")
+                    escritor_csv.writerow([round(tiempo_transcurrido, 5), int(dato) / 65535.0]) # Normaliza el valor a [0, 1]
+                    # print("Dato guardado")
 
         print("Toma de muestras finalizada.")
         etiqueta.config(text="Muestras guardadas")
-        ser.close()
     except serial.SerialException as e:
-        etiqueta.config(text="Error al tomar datos")
+        etiqueta.config(text=f"Error de conexión")
+        print(f"Error: {str(e)}")
     except Exception as e:
-        etiqueta.config(text=f"Ocurrió un error: {str(e)}")
+        etiqueta.config(text=f"Ocurrió un error")
+        print(f"Error: {str(e)}")
+    finally:
+        ser.write(b'0')     # write a string, manda al dispositivo para que deje de enviar datos
+        ser.close()
     
     ventana.after(1000, ventana.destroy)  # Cierra la ventana después de 1 segundo
 
+# SELECCIONAR ARCHIVO
 def seleccionar_archivo():
     root = tk.Tk()
     root.withdraw()  # Ocultar la ventana principal
     archivo = filedialog.askopenfilename(title="Selecciona un archivo CSV", filetypes=[("CSV files", "*.csv")])
     return archivo
 
+# GRAFICAR DATOS
 def graficar_datos(seleccionar = False):
     # Leer los datos desde el archivo CSV
-    ruta_archivo = seleccionar_archivo() if seleccionar else './muestras.csv'
+    ruta_archivo = seleccionar_archivo() if seleccionar else './Muestras/muestras.csv'
     data = pd.read_csv(ruta_archivo)
 
     # Extraer las columnas
@@ -115,14 +120,18 @@ def graficar_datos(seleccionar = False):
     plt.tight_layout()
     plt.show()          
 
-# Crear la ventana principal
+# CREAR CARPETA PARA GUARDAR MUESTRAS
+if not os.path.exists("Muestras"):
+    os.makedirs("Muestras")
+
+# VENTANA PRINCIPAL CONTENEDORA
 ventana = tk.Tk()
-ventana.title("Interfaz Gráfica")
+ventana.title("ECG")
 ventana.geometry("300x300")
 centrar_ventana(ventana, 300, 300)
 
-# Crear un botón y asignarle la función iniciar_cuenta_regresiva
-boton = tk.Button(ventana, text="Tomar muestra", command=iniciar_cuenta_regresiva)
+# Crear un botón y asignarle la función tomar_muestras_ventana
+boton = tk.Button(ventana, text="Tomar muestra", command=tomar_muestras_ventana)
 boton.pack(pady=20)
 
 btnGraficar = tk.Button(ventana, text="Mostrar Grafica", command=lambda: graficar_datos(seleccionar=False))

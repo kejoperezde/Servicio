@@ -31,11 +31,7 @@ CMakeFiles/Dual.dir/Dual.c.obj: ../Dual.c \
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /usr/include/newlib/string.h \
-  /usr/include/newlib/sys/_locale.h \
-  /usr/include/newlib/strings.h \
-  /usr/include/newlib/sys/string.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
@@ -56,13 +52,17 @@ CMakeFiles/Dual.dir/Dual.c.obj: ../Dual.c \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
@@ -75,18 +75,7 @@ CMakeFiles/Dual.dir/Dual.c.obj: ../Dual.c \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
-  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
+  /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h
 
 CMakeFiles/Dual.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: /home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c \
   /home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
@@ -2448,6 +2437,8 @@ CMakeFiles/Dual.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp:
 
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
+
 /usr/include/newlib/sys/times.h:
 
 /usr/include/newlib/sys/stat.h:
@@ -2534,23 +2525,25 @@ CMakeFiles/Dual.dir/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h:
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
+/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h:
 
 /usr/include/newlib/unistd.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h:
 
@@ -2570,6 +2563,10 @@ generated/pico_base/pico/config_autogen.h:
 
 /usr/include/newlib/stdlib.h:
 
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h:
+
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h:
@@ -2582,22 +2579,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
-
-/usr/include/newlib/sys/_locale.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
-
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
-
 /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h:
 
 /usr/include/newlib/sys/features.h:
@@ -2609,6 +2590,12 @@ generated/pico_base/pico/config_autogen.h:
 /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
 
 generated/pico_base/pico/version.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
+
+/usr/include/newlib/sys/_timeval.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h:
 
@@ -2624,12 +2611,6 @@ generated/pico_base/pico/version.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/include/pico/util/pheap.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h:
-
-/usr/include/newlib/string.h:
-
 /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
@@ -2638,27 +2619,29 @@ generated/pico_base/pico/version.h:
 
 /usr/include/newlib/_newlib_version.h:
 
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
+
 /usr/include/newlib/newlib.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c:
 
 /usr/include/newlib/_ansi.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h:
+/usr/include/newlib/sys/_types.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h:
+/usr/include/newlib/machine/ieeefp.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h:
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
 
-../Dual.c:
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/critical_section.c:
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h:
 
@@ -2670,6 +2653,8 @@ generated/pico_base/pico/version.h:
 
 /usr/include/newlib/sys/_timespec.h:
 
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
+
 /usr/include/newlib/sys/_stdint.h:
 
 /usr/include/newlib/machine/stdlib.h:
@@ -2680,6 +2665,16 @@ generated/pico_base/pico/version.h:
 
 /usr/include/newlib/sys/_pthreadtypes.h:
 
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
+
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
+
 /usr/include/newlib/machine/_endian.h:
 
 /usr/include/newlib/sys/config.h:
@@ -2688,13 +2683,13 @@ generated/pico_base/pico/version.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
 
-/usr/include/newlib/sys/string.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
-
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
 
 /usr/include/newlib/sys/timespec.h:
+
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
 
@@ -2702,31 +2697,27 @@ generated/pico_base/pico/version.h:
 
 /usr/include/newlib/machine/types.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h:
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h:
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
 
-/usr/include/newlib/sys/stdio.h:
+/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h:
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h:
-
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h:
+
+/usr/include/newlib/sys/stdio.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h:
 
@@ -2744,51 +2735,27 @@ generated/pico_base/pico/version.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/time.c:
 
-/usr/include/newlib/c++/10.3.1/cassert:
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h:
 
-/usr/include/newlib/strings.h:
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
-
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
-
-/usr/include/newlib/sys/_types.h:
-
-/usr/include/newlib/machine/ieeefp.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
-
-/usr/include/newlib/sys/_timeval.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h:
+/usr/include/newlib/sys/_locale.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/common/hardware_claim/claim.c:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/datetime.c:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
-
-/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
-
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_util/include/pico/util/datetime.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_time/include/pico/time.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h:
 
@@ -2796,9 +2763,9 @@ generated/pico_base/pico/version.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h:
-
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h:
 
@@ -2820,9 +2787,9 @@ generated/pico_base/pico/version.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h:
 
-/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
-
 /home/kejoperezde/Downloads/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h:
 
@@ -2846,6 +2813,22 @@ generated/pico_base/pico/version.h:
 
 /usr/include/newlib/machine/_time.h:
 
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h:
+
+/usr/include/newlib/string.h:
+
+/usr/include/newlib/c++/10.3.1/cassert:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
+
+/usr/include/newlib/strings.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
+
+/usr/include/newlib/sys/string.h:
+
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c:
@@ -2863,3 +2846,9 @@ generated/pico_base/pico/version.h:
 /usr/include/newlib/stdio.h:
 
 /home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h:
+
+../Dual.c:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h:
+
+/home/kejoperezde/Downloads/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c:

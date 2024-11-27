@@ -120,7 +120,8 @@ def iniciar_lectura_serial(ventana, etiqueta):
     try:
         ser = serial.Serial(puerto_serie, baudrate)
         print(f'Conectado a {puerto_serie} a {baudrate} bps')
-        time.sleep(2)  # Esperar a que se establezca la conexión
+        time.sleep(5)  # Esperar a que se establezca la conexión
+        ser.write(b'1')     # write a string
 
         with open(ruta_archivo, 'w', newline='') as archivo_csv:
             escritor_csv = csv.writer(archivo_csv)
@@ -128,20 +129,24 @@ def iniciar_lectura_serial(ventana, etiqueta):
             inicio = time.time()
             escritor_csv.writerow(["Seg", "mV"])  # Escribir encabezados    
 
-            while time.time() - inicio <= 10.04:  # Dura 10.04 segundos
+            while time.time() - inicio <= 10:  # Dura 10 segundos
                 if ser.in_waiting > 0:
                     dato = ser.readline().decode('utf-8').strip()
                     tiempo_transcurrido = time.time() - inicio
-                    if tiempo_transcurrido > 0.01:
-                        escritor_csv.writerow([round(tiempo_transcurrido-0.02, 2), dato])
-                        print("Dato guardado")
+                    escritor_csv.writerow([round(tiempo_transcurrido, 6), int(dato) / 65535.0]) # Normaliza el valor a [0, 1]
+                    # escritor_csv.writerow([round(tiempo_transcurrido, 6), dato]) # Normaliza el valor a [0, 1]
+                    print("Dato guardado")
 
         print("Toma de muestras finalizada.")
         etiqueta.config(text="Muestras guardadas")
+        ser.write(b'0')     # write a string
+        ser.close()
     except serial.SerialException as e:
-        etiqueta.config(text="Error de puerto")
+        etiqueta.config(text="Error al tomar datos")
+        ser.close()
     except Exception as e:
         etiqueta.config(text=f"Ocurrió un error: {str(e)}")
+        ser.close()
     
     ventana.after(1000, ventana.destroy)  # Cierra la ventana después de 1 segundo
 
