@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from scipy.signal import butter, filtfilt
 
 # Cargar los datos del CSV
-df = pd.read_csv('TopSecret/Kevin/muestra4.csv')
+df = pd.read_csv('Muestras/Kevin/muestra1.csv')
 
 # Filtrado de la señal
 def butter_lowpass(cutoff, fs, order=5):

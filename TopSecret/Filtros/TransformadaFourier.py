@@ -1,9 +1,20 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import tkinter as tk
+from tkinter import filedialog
+
+# SELECCIONAR ARCHIVO
+def seleccionar_archivo():
+    root = tk.Tk()
+    root.withdraw()  # Ocultar la ventana principal
+    archivo = filedialog.askopenfilename(title="Selecciona un archivo CSV", filetypes=[("CSV files", "*.csv")])
+    return archivo
+
+ruta_archivo = seleccionar_archivo()
 
 # Obtener señal
-df = pd.read_csv('TopSecret/Kevin/muestra5.csv')
+df = pd.read_csv(ruta_archivo)
 
 # Extraer las columnas
 tiempo = df['Seg']
@@ -35,7 +46,7 @@ plt.ylabel('Amplitud')
 
 # Graficar la transformada de Fourier
 plt.subplot(2, 1, 2)
-plt.plot(frecuencias[:len(frecuencias)//2], senal_fft[:len(senal_fft)//2])
+plt.plot(frecuencias[:len(frecuencias)//2]*-1, senal_fft[:len(senal_fft)//2]-1)
 plt.title('Transformada de Fourier de la Señal')
 plt.xlabel('Frecuencia (Hz)')
 plt.ylabel('Magnitud')

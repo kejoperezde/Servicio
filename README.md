@@ -283,6 +283,7 @@ Python es un lenguaje de programación de alto nivel, interpretado y de propósi
 4. pip3 install --upgrade systemd-python
 sudo apt-get install python3-dev
 pip3 install scipy
+pysimplegui
 
   | Librería   | Versión | Descripción |
   | ---------- | ------- |------------ |
