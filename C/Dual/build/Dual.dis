@@ -359,7 +359,7 @@ Disassembly of section .text:
 
 10000320 <main>:
 10000320:	b530      	push	{r4, r5, lr}
-10000322:	b087      	sub	sp, #28
+10000322:	b085      	sub	sp, #20
 10000324:	2196      	movs	r1, #150	; 0x96
 10000326:	0189      	lsls	r1, r1, #6
 10000328:	4857      	ldr	r0, [pc, #348]	; (10000488 <main+0x168>)
@@ -457,7 +457,7 @@ Disassembly of section .text:
 100003f0:	041b      	lsls	r3, r3, #16
 100003f2:	0c1b      	lsrs	r3, r3, #16
 100003f4:	4a29      	ldr	r2, [pc, #164]	; (1000049c <main+0x17c>)
-100003f6:	2114      	movs	r1, #20
+100003f6:	210a      	movs	r1, #10
 100003f8:	a801      	add	r0, sp, #4
 100003fa:	f002 ffdd 	bl	100033b8 <__wrap_snprintf>
 100003fe:	2300      	movs	r3, #0

@@ -1,50 +1,34 @@
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
 from scipy.signal import butter, filtfilt
 
-# Cargar los datos del CSV
-df = pd.read_csv('Muestras/Kevin/muestra1.csv')
+class PasoAltoyBajo:
+    
+    def __init__(self, ruta_archivo, t_seg=10):
+        self.ruta_archivo = ruta_archivo
+        self.t_seg = t_seg  # Asignar t_seg como atributo de la clase
 
-# Filtrado de la señal
-def butter_lowpass(cutoff, fs, order=5):
-    nyq = 0.5 * fs
-    normal_cutoff = cutoff / nyq
-    b, a = butter(order, normal_cutoff, btype='low', analog=False)
-    return b, a
+    # Filtrado de la señal (función de la clase debe tener self)
+    def butter_lowpass(self, cutoff, fs, order=5):
+        nyq = 0.5 * fs  # Frecuencia de Nyquist
+        normal_cutoff = cutoff / nyq  # Normalización de la frecuencia de corte
+        b, a = butter(order, normal_cutoff, btype='low', analog=False)  # Coeficientes del filtro
+        return b, a
 
-def lowpass_filter(data, cutoff, fs, order=5):
-    b, a = butter_lowpass(cutoff, fs, order=order)
-    y = filtfilt(b, a, data)
-    return y
+    def lowpass_filter(self, data, cutoff, fs, order=5):
+        b, a = self.butter_lowpass(cutoff, fs, order=order)  # Llamar a butter_lowpass con self
+        y = filtfilt(b, a, data)  # Aplicación del filtro
+        return y
+    
+    def aplicar_filtro(self):
+        # Cargar los datos desde el archivo CSV
+        dataset = pd.read_csv(self.ruta_archivo)
+        
+        signal = dataset['mV']
+        # Configuración del filtro
+        fs = len(signal) / self.t_seg  # Frecuencia de muestreo ajustada (190 Hz)
+        cutoff = 40.0  # Frecuencia de corte ajustada (40 Hz)
 
-# Configuración del filtro
-fs = 100  # Frecuencia de muestreo (ajusta según sea necesario)
-cutoff = 3.0  # Frecuencia de corte
-
-# Filtrar la señal
-filtered_signal = lowpass_filter(df['mV'], cutoff, fs)
-
-# Graficar las señales
-plt.figure(figsize=(12, 10))
-
-# Gráfica de la señal original
-plt.subplot(2, 1, 1)
-plt.plot(df['Seg'], df['mV'], label='Señal Original', color='blue')
-plt.title('Señal Original')
-plt.xlabel('Tiempo (Segundos)')
-plt.ylabel('mV')
-plt.grid()
-plt.legend()
-
-# Gráfica de la señal filtrada
-plt.subplot(2, 1, 2)
-plt.plot(df['Seg'], filtered_signal, label='Señal Filtrada', color='orange')
-plt.title('Señal Filtrada')
-plt.xlabel('Tiempo (Segundos)')
-plt.ylabel('mV')
-plt.grid()
-plt.legend()
-
-plt.tight_layout()
-plt.show()
+        # Filtrar la señal
+        filtered_signal = self.lowpass_filter(signal, cutoff, fs)  # Llamar a lowpass_filter con self
+        
+        return filtered_signal

@@ -1,10 +1,43 @@
-import pandas as pd
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 import tkinter as tk
 from tkinter import filedialog
 
-# SELECCIONAR ARCHIVO
+class FourierTransform:
+    
+    def __init__(self, ruta_archivo, fs=190):
+        """
+        Inicializa la clase con la ruta del archivo y la frecuencia de muestreo (190 Hz en este caso).
+        - ruta_archivo: Ruta del archivo CSV con los datos.
+        - fs: Frecuencia de muestreo de la señal (190 Hz en este caso).
+        """
+        self.ruta_archivo = ruta_archivo
+        self.fs = fs  # Frecuencia de muestreo (190 Hz)
+    
+    def aplicar_transformada_fourier(self):
+        """
+        Aplica la transformada de Fourier a la señal ECG y obtiene el espectro de frecuencia.
+        """
+        # Cargar los datos desde el archivo CSV
+        dataset = pd.read_csv(self.ruta_archivo)
+        
+        # Obtener la señal de la columna 'mV' (suponiendo que el archivo tiene esta columna)
+        signal = dataset['mV'].values
+        
+        # Aplicar la Transformada de Fourier
+        N = len(signal)  # Número de muestras (1900)
+        fft_signal = np.fft.fft(signal)
+        
+        # Calcular el espectro de magnitudes (solo la mitad positiva)
+        fft_magnitude = np.abs(fft_signal)[:N // 2]
+        
+        # Calcular las frecuencias correspondientes a cada coeficiente de Fourier
+        fft_frequency = np.fft.fftfreq(N, d=1/self.fs)[:N // 2]
+        
+        return fft_magnitude, fft_frequency
+
+# Uso de la clase
 def seleccionar_archivo():
     root = tk.Tk()
     root.withdraw()  # Ocultar la ventana principal
@@ -12,43 +45,28 @@ def seleccionar_archivo():
     return archivo
 
 ruta_archivo = seleccionar_archivo()
+transformada_fourier = FourierTransform(ruta_archivo, fs=190)  # Frecuencia de muestreo 190 Hz
+fft_magnitude, fft_frequency = transformada_fourier.aplicar_transformada_fourier()
 
-# Obtener señal
-df = pd.read_csv(ruta_archivo)
-
-# Extraer las columnas
-tiempo = df['Seg']
-voltaje = df['mV']
-
-# umpy arrays
-tiempo = np.array(tiempo)
-voltaje = np.array(voltaje)
-
-# Frecuencia de muestreo, calcula la frecuencia de muestreo a partir del tiempo
-fs = 1 / np.mean(np.diff(tiempo))
-
-# Calcular la transformada de Fourier
-senal_fft = np.fft.fft(voltaje)
-frecuencias = np.fft.fftfreq(len(voltaje), d=1/fs)
-
-# Obtener solo la mitad positiva del espectro
-idx = np.argsort(frecuencias)
-frecuencias = frecuencias[idx]
-senal_fft = np.abs(senal_fft[idx])
-
-# Graficar la señal original
+# Graficar la señal original y su espectro de frecuencia
+dataset = pd.read_csv(ruta_archivo)
 plt.figure(figsize=(12, 6))
-plt.subplot(2, 1, 1)
-plt.plot(tiempo, voltaje)
-plt.title('Señal de Frecuencia Cardíaca')
-plt.xlabel('Tiempo (s)')
-plt.ylabel('Amplitud')
 
-# Graficar la transformada de Fourier
+# Graficar señal original
+plt.subplot(2, 1, 1)
+plt.plot(dataset['Seg'], dataset['mV'], label='Señal Original', color='blue')
+plt.title('Señal Original')
+plt.xlabel('Tiempo (Segundos)')
+plt.ylabel('mV')
+plt.grid()
+
+# Graficar el espectro de frecuencia
 plt.subplot(2, 1, 2)
-plt.plot(frecuencias[:len(frecuencias)//2]*-1, senal_fft[:len(senal_fft)//2]-1)
-plt.title('Transformada de Fourier de la Señal')
+plt.plot(fft_frequency, fft_magnitude, label='Espectro de Frecuencia', color='orange')
+plt.title('Espectro de Frecuencia de la Señal ECG')
 plt.xlabel('Frecuencia (Hz)')
 plt.ylabel('Magnitud')
+plt.grid()
+
 plt.tight_layout()
 plt.show()

@@ -58,7 +58,7 @@ int main() {
             uint16_t adc_value = adc_read();  // Lee el valor del ADC (0-4095)
             
             // Formatea el valor del ADC como cadena y lo envía por UART
-            char buffer[20];
+            char buffer[10];
             snprintf(buffer, sizeof(buffer), "%u\n", adc_value);  // Formato como entero sin signo
 
             uart_puts(UART_ID, buffer);  // Envía el valor del ADC
