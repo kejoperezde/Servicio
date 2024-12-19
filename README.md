@@ -427,3 +427,20 @@ Es un entorno de desarrollo integrado (IDE) diseñado para programar en Python.
 
 
 
+CUDA
+https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local
+
+Cudnn cuda-12
+https://developer.nvidia.com/cudnn-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local
+
+Sklearn
+https://scikit-learn.org/1.5/install.html
+
+TensorRT
+https://developer.nvidia.com/downloads/compute/machine-learning/tensorrt/10.7.0/local_repo/nv-tensorrt-local-repo-ubuntu2204-10.7.0-cuda-12.6_1.0-1_amd64.deb
+
+Pytorch
+
+nvidia-smi
+nvtop
+sudo apt install nvtop

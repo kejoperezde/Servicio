@@ -6,7 +6,7 @@ from Funciones import *
 
 # Variables glabales
 puerto_serie = '/dev/rfcomm0'  # Cambiar puerto
-baudrate = 9600 
+baudrate = 9600
 
 def medir():
     archivo_path = crear_carpeta_y_archivo(entryName, labelN)
