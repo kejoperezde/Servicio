@@ -3,6 +3,12 @@
 # Índice
 
 - [Índice](#índice)
+- [---------------- Sección artículo ----------------](#-----------------sección-artículo-----------------)
+  - [Introducción](#introducción)
+  - [Metodología](#metodología)
+    - [2.1 **Transmisor**](#21-transmisor)
+    - [2.2 **Transmisión de datos**](#22-transmisión-de-datos)
+- [---------------- Sección artículo ----------------](#-----------------sección-artículo------------------1)
   - [1. Introducción](#1-introducción)
     - [1.1. Objetivos del proyecto](#11-objetivos-del-proyecto)
     - [1.2. Importancia de la adquisición de señales ECG](#12-importancia-de-la-adquisición-de-señales-ecg)
@@ -22,10 +28,6 @@
       - [3.3.2. Lenguaje C en sistemas embebidos](#332-lenguaje-c-en-sistemas-embebidos)
   - [3. Diseño del Sistema](#3-diseño-del-sistema)
     - [3.1. Selección de componentes](#31-selección-de-componentes)
-      - [3.1.1. Microcontroladores y circuitos integrados](#311-microcontroladores-y-circuitos-integrados)
-      - [3.1.2. Módulos de comunicación](#312-módulos-de-comunicación)
-      - [3.1.3. Sensores y electrodos](#313-sensores-y-electrodos)
-    - [3.2. Requisitos del sistema](#32-requisitos-del-sistema)
     - [3.3. Esquema del sistema](#33-esquema-del-sistema)
   - [4. Desarrollo del Software](#4-desarrollo-del-software)
     - [4.1. Entorno de desarrollo](#41-entorno-de-desarrollo)
@@ -72,6 +74,44 @@
     - [10.4. Resultados adicionales de pruebas](#104-resultados-adicionales-de-pruebas)
     - [10.5. Diagramas y gráficos](#105-diagramas-y-gráficos)
   - [11. Solución de problemas](#11-solución-de-problemas)
+
+
+# ---------------- Sección artículo ----------------
+
+## Introducción
+
+## Metodología
+
+Texto
+
+### 2.1 **Transmisor**
+
+- Raspberry Pi Pico
+> Es una microcontroladora compacta basada en el chip RP2040, Cuenta con un procesador ARM Cortex-M0+ de doble núcleo, 26 pines GPIO, y soporte para interfaces como I2C, SPI, y UART. Es compatible con MicroPython y C/C++.
+
+- AD8232
+> Es un módulo de sensor de señal bioeléctrica diseñado para medir la actividad eléctrica del corazón mediante un electrocardiograma (ECG)
+
+- Módulo Bluetooth: RN-41-FLY-477
+> El módulo RN-41-FLY-477 es un módulo Bluetooth de clase 1 diseñado para aplicaciones industriales y de bajo consumo
+
+- Capacitor de poliéster de  0.1 uF a 250 volts
+> Para transferir señales de un circuito a otro sin permitir que pase corriente continua, lo que permite que solo pase la señal alterna
+
+- Electrodos: Ambiderm T715
+> Electrodo Desechable autoadheible para monitoreo cardiaco con broche redondo Ambiderm, espuma de Polietileno, redondo, diámetro 55mm
+
+- Cable de electródo DC 3.5
+> Permite transmitir las señales captadas por los electrodos al adc mediante una conexión 3.5
+
+- Requisitos del DAD
+> Alimentación 5v (En este caso la amientación se dio mediante la conección usb tipo c de la raspberry pi pico)
+ 
+### 2.2 **Transmisión de datos**
+
+-
+
+# ---------------- Sección artículo ----------------
 
 
 ## 1. Introducción
@@ -160,31 +200,6 @@ Derivaciones
 ## 3. Diseño del Sistema
 
 ### 3.1. Selección de componentes
-
-#### 3.1.1. Microcontroladores y circuitos integrados
-
-- AD8232
-
-> Es un módulo de sensor de señal bioeléctrica diseñado para medir la actividad eléctrica del corazón mediante un electrocardiograma (ECG)
-
-- Raspberry Pi Pico
-
-> Es una microcontroladora compacta basada en el chip RP2040, Cuenta con un procesador ARM Cortex-M0+ de doble núcleo, 26 pines GPIO, y soporte para interfaces como I2C, SPI, y UART. Es compatible con MicroPython y C/C++.
-
-#### 3.1.2. Módulos de comunicación
-
-- Bluetooth módulo: RN-41-FLY-477
-> El módulo RN-41-FLY-477 es un módulo Bluetooth de clase 1 diseñado para aplicaciones industriales y de bajo consumo
-
-#### 3.1.3. Sensores y electrodos
-
-- Ambiderm T715
-
-> Electrodo Desechable autoadheible para monitoreo cardiaco con broche redondo Ambiderm, espuma de Polietileno, redondo, diámetro 55mm
-
-### 3.2. Requisitos del sistema
-
-- Alimentación 5v (En este caso la amientación se dio mediante la conección usb tipo c de la raspberry pi pico)
 
 ### 3.3. Esquema del sistema
 
@@ -444,3 +459,4 @@ Pytorch
 nvidia-smi
 nvtop
 sudo apt install nvtop
+
