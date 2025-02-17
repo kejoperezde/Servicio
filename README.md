@@ -4,12 +4,14 @@
 
 - [Índice](#índice)
 - [---------------- Sección artículo ----------------](#-----------------sección-artículo-----------------)
-  - [Introducción](#introducción)
-  - [Metodología](#metodología)
-    - [2.1 **Transmisor**](#21-transmisor)
-    - [2.2 **Transmisión de datos**](#22-transmisión-de-datos)
-- [---------------- Sección artículo ----------------](#-----------------sección-artículo------------------1)
   - [1. Introducción](#1-introducción)
+  - [2. Metodología](#2-metodología)
+    - [2.1 **Transmisor**](#21-transmisor)
+    - [2.2 \*\*\*\*](#22-)
+    - [2.2 **Transmisión de datos**](#22-transmisión-de-datos)
+    - [2.3 **Receptor y Sistema de Procesamiento**](#23-receptor-y-sistema-de-procesamiento)
+- [---------------- Sección artículo ----------------](#-----------------sección-artículo------------------1)
+  - [1. Introducción](#1-introducción-1)
     - [1.1. Objetivos del proyecto](#11-objetivos-del-proyecto)
     - [1.2. Importancia de la adquisición de señales ECG](#12-importancia-de-la-adquisición-de-señales-ecg)
     - [1.3. Alcance del proyecto](#13-alcance-del-proyecto)
@@ -74,17 +76,22 @@
     - [10.4. Resultados adicionales de pruebas](#104-resultados-adicionales-de-pruebas)
     - [10.5. Diagramas y gráficos](#105-diagramas-y-gráficos)
   - [11. Solución de problemas](#11-solución-de-problemas)
+- [Cochinero util](#cochinero-util)
 
 
 # ---------------- Sección artículo ----------------
 
-## Introducción
+## 1. Introducción
 
-## Metodología
+## 2. Metodología
 
 Texto
 
 ### 2.1 **Transmisor**
+
+El transmisor permite capturar la señal cardíaca y enviarla inalámbricamente
+
+* Esquema, integrando todo lo siguiente
 
 - Raspberry Pi Pico
 > Es una microcontroladora compacta basada en el chip RP2040, Cuenta con un procesador ARM Cortex-M0+ de doble núcleo, 26 pines GPIO, y soporte para interfaces como I2C, SPI, y UART. Es compatible con MicroPython y C/C++.
@@ -106,10 +113,21 @@ Texto
 
 - Requisitos del DAD
 > Alimentación 5v (En este caso la amientación se dio mediante la conección usb tipo c de la raspberry pi pico)
- 
+
+### 2.2 ****
+
 ### 2.2 **Transmisión de datos**
 
--
+General, tipos de transmisión de datos y el por que de cada uno
+
+- Adquisicón
+  
+- UART (Universal Asynchronous Receiver/Transmitter)
+  
+- Bluetooth
+  
+
+### 2.3 **Receptor y Sistema de Procesamiento**
 
 # ---------------- Sección artículo ----------------
 
@@ -460,3 +478,10 @@ nvidia-smi
 nvtop
 sudo apt install nvtop
 
+# Cochinero util
+2. Procesamiento de señales con Wavelets
+
+from pywt import wavedec
+
+    pywt.wavedec: Función de la biblioteca PyWavelets que realiza la descomposición wavelet discreta.
+        Esto se usa para descomponer una señal en diferentes niveles de detalle y obtener coeficientes wavelet.
