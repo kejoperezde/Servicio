@@ -9,10 +9,11 @@ numeracion = [
 ]
 
 # Cargar el archivo .mat
-data = sio.loadmat('datos_ecg/datos_234.mat')
+data = sio.loadmat('datos_ecg/datos_101.mat')
 
 # Info
 print(data.keys())
+print(data)
 print(data['diseases'])
 print(data['lpdiezseg'])
 
