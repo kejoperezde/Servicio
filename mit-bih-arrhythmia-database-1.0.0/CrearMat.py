@@ -121,6 +121,7 @@ def datos_create(numeracion):
 
             # Datos a guardar
             data = {
+                "original": original,
                 "normalizado": normalizado,
                 "secciones": secciones,
                 "sex": sex,

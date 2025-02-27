@@ -12,6 +12,8 @@ from Filtros.ButterWorth import ButterWorth
 from Filtros.PasoAltoyBajo import PasoAltoyBajo
 from Filtros.PromedioMovil import PromedioMovil
 from Filtros.Wavelet import Wavelet
+# Video
+import subprocess
 
 # CENTRAR VENTANA
 def centrar_ventana(ventana, ancho, alto):
@@ -105,62 +107,28 @@ def graficar_datos(ax, canvas, ruta_archivo):
     ax.plot(tiempo, voltaje, marker='', color='red')
     canvas.draw()  # Redibujar el gráfico
 
-# FUNCION TOMAR MUESTRAS DEL SERIAL PASAR A ARREGLO (MISMAS MUESTRAS)
-def iniciar_lectura_serial_arreglo(ventana, etiqueta, archivo_path, puerto_serie, baudrate):
-    arreglo = []
-    try:
-        ser = serial.Serial(puerto_serie, baudrate)
-        print(f'Conexión correcta')
-        ser.write(b'1')     # write a string, manda al dispositivo que envíe datos
-
-        print('Tomando datos...')
-        #inicio = time.time()
-        
-        count = 1
-        
-        #while time.time() - inicio <= 10:  # Dura 10 segundos
-        while count <= 1912:  # Dura 10 segundos
-            if ser.in_waiting > 0:
-                arreglo.append(ser.readline())
-                count += 1
-
-        print('Longitud del arreglo: ' + str(len(arreglo)))
-        
-        print("Toma de muestras finalizada.")
-        etiqueta.config(text="Muestras guardadas")
-    except serial.SerialException as e:
-        etiqueta.config(text=f"Error de conexión")
-        print(f"Error: {str(e)}")
-    except Exception as e:
-        etiqueta.config(text=f"Ocurrió un error")
-        print(f"Error: {str(e)}")
-    finally:
-        ser.write(b'0')     # write a string, manda al dispositivo para que deje de enviar datos
-        ser.close()
-    
-    ventana.after(1000, ventana.destroy)  # Cierra la ventana después de 1 segundo
-
 # FUNCION TOMAR MUESTRAS DEL SERIAL
-def iniciar_lectura_serial(ventana, etiqueta, archivo_path, puerto_serie, baudrate):
+def iniciar_lectura_serial(ventana, etiqueta, archivo_paths, puerto_serie, baudrate, selected_fase):
+    
     try:
         ser = serial.Serial(puerto_serie, baudrate)
-        print(f'Conexión correcta')
-        ser.write(b'1')     # write a string, manda al dispositivo que envíe datos
-
-        with open(archivo_path, 'w', newline='') as archivo_csv:
+        print(f'Conexión correcta, tomando datos...')
+        ser.write(b'1') # write a string, manda al dispositivo que envíe datos
+        
+        # CSV de Parte A
+        datos = []
+        inicio = time.time()
+        while time.time() - inicio <= 30:  # Dura 10 segundos
+            if ser.in_waiting > 0:
+                dato = ser.readline().decode('utf-8').strip()
+                tiempo_transcurrido = time.time() - inicio
+                datos.append([round(tiempo_transcurrido, 8), int(dato) / 65535.0])  # Almacena en la lista
+        # Guardar los datos en el CSV después de recolectarlos
+        with open(archivo_paths[0], 'w', newline='') as archivo_csv:
             escritor_csv = csv.writer(archivo_csv)
-            print('Tomando datos...')
-            inicio = time.time()
-            escritor_csv.writerow(["Seg", "mV"])  # Escribir encabezados    
-
-            while time.time() - inicio <= 10:  # Dura 10 segundos
-                if ser.in_waiting > 0:
-                    dato = ser.readline().decode('utf-8').strip()
-                    tiempo_transcurrido = time.time() - inicio
-                    #escritor_csv.writerow([0, int(dato) / 65535.0]) # Normaliza el valor a [0, 1]
-                    escritor_csv.writerow([round(tiempo_transcurrido, 8), int(dato) / 65535.0]) # Normaliza el valor a [0, 1]
-                    # print("Dato guardado")
-
+            escritor_csv.writerow(["Seg", "mV"])  # Escribir encabezados
+            escritor_csv.writerows(datos)  # Escribir todos los datos de la lista
+                            
         print("Toma de muestras finalizada.")
         etiqueta.config(text="Muestras guardadas")
         
@@ -177,7 +145,7 @@ def iniciar_lectura_serial(ventana, etiqueta, archivo_path, puerto_serie, baudra
     ventana.after(1000, ventana.destroy)
    
 # VENTANA TOMAR MUESTRAS
-def tomar_muestras(archivo_path, puerto_serie, baudrate):
+def tomar_muestras(archivo_path, puerto_serie, baudrate, selected_fase):
     ventana_cuenta = tk.Toplevel()
     ventana_cuenta.title("Relájate")
     ventana_cuenta.geometry("280x60")
@@ -191,7 +159,7 @@ def tomar_muestras(archivo_path, puerto_serie, baudrate):
     # Inicia la lectura y luego cierra la ventana
     # ventana_cuenta.after(1000, iniciar_lectura_serial_arreglo(ventana_cuenta, etiqueta, archivo_path, puerto_serie, baudrate))
     
-    iniciar_lectura_serial(ventana_cuenta, etiqueta, archivo_path, puerto_serie, baudrate)
+    iniciar_lectura_serial(ventana_cuenta, etiqueta, archivo_path, puerto_serie, baudrate, selected_fase)
     
 # FUNCIÓN PARA OBTENER EL SIGUIENTE NÚMERO DISPONIBLE PARA EL ARCHIVO EN FORMATO _n.csv
 def obtener_siguiente_numero(carpeta_path, nombre):
@@ -217,54 +185,69 @@ def obtener_siguiente_numero(carpeta_path, nombre):
     return siguiente_numero
 
 # Función para crear carpeta y archivo
-def crear_carpeta_y_archivo(entry, label):
-    if not entry.get().strip():  # Verifica si el campo está vacío
-        messagebox.showwarning("Advertencia", "Ponle un nombre a la muestra")
-        return  # No hace nada si está vacío
-    
+def crear_carpeta_y_archivo(entry, data, label):
     # Obtener el nombre ingresado en el campo de entrada
-    nombre = entry.get().lower()
+    nombre = entry.lower()
 
-    # Convertir el nombre a minúsculas para verificar si ya existe una carpeta con el mismo nombre
-    nombre_normalizado = nombre
-
-    # Ruta de la carpeta "Muestras"
+    # Crear carpeta si no existe "Muestras"
     carpeta_base = os.path.join(os.getcwd(), "Muestras")
-
-    # Verificar si la carpeta "Muestras" existe
     if not os.path.exists(carpeta_base):
-        # Si no existe, la creamos
         os.makedirs(carpeta_base)
 
-    # Obtener lista de carpetas en "Muestras"
+    # Validar carpeta "Muestras/Nombre"
     carpetas_existentes = [carpeta.lower() for carpeta in os.listdir(carpeta_base) if os.path.isdir(os.path.join(carpeta_base, carpeta))]
-
-    # Verificar si ya existe una carpeta con el mismo nombre (sin importar mayúsculas/minúsculas)
-    if nombre_normalizado in carpetas_existentes:
-        # Mostrar una ventana de confirmación con opciones de "Continuar" o "Cancelar"
+    if nombre in carpetas_existentes:
         respuesta = messagebox.askyesno("Advertencia", f"Ya existe una carpeta con el nombre '{nombre}'. ¿Deseas continuar?")
-        
-        # Si el usuario elige "Cancelar" (No)
         if not respuesta:
-            return  # No continuar si elige "Cancelar"
-        
-        # Si elige "Continuar", verificamos el siguiente número disponible
+            return
         carpeta_path = os.path.join(carpeta_base, nombre)
-        siguiente_numero = obtener_siguiente_numero(carpeta_path, nombre)
+        siguiente_numero = obtener_siguiente_numero(carpeta_path, nombre) # Numeracion
     else:
-        # Si la carpeta no existe, creamos una nueva y empezamos desde el número 2
         carpeta_path = os.path.join(carpeta_base, nombre)
         os.makedirs(carpeta_path)
-        siguiente_numero = 1
+        siguiente_numero = 1 # Numeracion
 
-    # Crear el archivo .txt dentro de la nueva carpeta con el siguiente número
-    archivo_path = os.path.join(carpeta_path, f"{nombre}_{siguiente_numero}.csv")
-    with open(archivo_path, 'w') as archivo:
-        archivo.write("")  # Escribir el nombre y el número en el archivo
-        # archivo.write(f"{nombre}_{siguiente_numero}")  # Escribir el nombre y el número en el archivo
+    # Crear el archivo .csv dentro de la nueva carpeta con el siguiente número
+    archivo_path_A = os.path.join(carpeta_path, f"{nombre}-A_{siguiente_numero}.csv")
+    with open(archivo_path_A, 'w') as archivo:
+        archivo.write("")  # Crear archivo}
+        
+    # Crear el archivo .csv dentro de la nueva carpeta con el siguiente número
+    archivo_path_B = os.path.join(carpeta_path, f"{nombre}-B_{siguiente_numero}.csv")
+    with open(archivo_path_B, 'w') as archivo:
+        archivo.write("")  # Crear archivo
+        
+    # Crear el archivo .csv dentro de la nueva carpeta con el siguiente número
+    archivo_path_C = os.path.join(carpeta_path, f"{nombre}-C_{siguiente_numero}.csv")
+    with open(archivo_path_C, 'w') as archivo:
+        archivo.write("")  # Crear archivo
+        
+    # Crear el archivo .csv dentro de la nueva carpeta con el siguiente número
+    archivo_path_D = os.path.join(carpeta_path, f"{nombre}-D_{siguiente_numero}.csv")
+    with open(archivo_path_C, 'w') as archivo:
+        archivo.write("")  # Crear archivo
 
     # Actualizar la etiqueta para mostrar el número actual
     label.config(text=f"#{siguiente_numero + 1}")  # Actualizar el texto de la etiqueta
     
-    return archivo_path
+    return [archivo_path_A, archivo_path_B, archivo_path_C, archivo_path_D]
 
+def open_video(fase):
+    
+    fase_map = {
+        "1. Baseline": "Videos/Baseline.mp4",
+        "2. Stroop": "Videos/StroopColor1.mp4",
+        "3. Pausa": "Videos/Pausa.mp4",
+        "4. Respiracion": "Videos/Respiracion.mp4"
+    }
+    
+    file_path = fase_map.get(fase, "") 
+    
+    if file_path and file_path != "":
+        try:
+            if os.name == "nt":  # Windows
+                os.startfile(file_path)
+            else:  # macOS y Linux
+                subprocess.run(["open" if os.uname().sysname == "Darwin" else "xdg-open", file_path])
+        except Exception as e:
+            print(f"Error al abrir el video: {e}")

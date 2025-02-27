@@ -153,7 +153,7 @@ def iniciar_lectura_serial(ventana, etiqueta, archivo_path, puerto_serie, baudra
             inicio = time.time()
             escritor_csv.writerow(["Seg", "mV"])  # Escribir encabezados    
 
-            while time.time() - inicio <= 10:  # Dura 10 segundos
+            while time.time() - inicio <= 180:  # Dura 10 segundos
                 if ser.in_waiting > 0:
                     dato = ser.readline().decode('utf-8').strip()
                     tiempo_transcurrido = time.time() - inicio
