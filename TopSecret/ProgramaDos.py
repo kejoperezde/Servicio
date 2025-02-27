@@ -28,10 +28,6 @@ class ECGApp:
         self.entry_name = tk.Entry(frame_controles, font=("Arial", 12))
         self.entry_name.grid(row=0, column=1, padx=5, pady=5)
         
-        # Etiqueta de número de muestra
-        self.label_n = tk.Label(frame_controles, text="#1", bg="#ffffff", font=("Arial", 12, "bold"))
-        self.label_n.grid(row=0, column=2, padx=5, pady=5)
-        
         # Etiqueta y entrada de edad
         tk.Label(frame_controles, text="Edad:", bg="#ffffff", font=("Arial", 12)).grid(row=1, column=0, padx=5, pady=5, sticky="w")
         self.entry_age = tk.Entry(frame_controles, font=("Arial", 12))
@@ -82,13 +78,13 @@ class ECGApp:
         self.canvas.draw()
         self.canvas.get_tk_widget().pack()
     
-    def medir(self):
-        """ Realiza la medición y grafica los datos """
-        selected_fase = self.selected_option.get()
-        nombre = self.entry_name.get().strip()
-        edad = self.entry_age.get()
-        genero = self.selected_genero.get()
-        data = []
+    def medir(self): # Metodo perro
+        # Recuperar datos
+        selected_fase = self.selected_option.get() # Fase: ["0. Prueba", "1. Baseline", "2. Stroop", "3. Pausa", "4. Respiracion"]
+        nombre = self.entry_name.get().strip() # Nombre
+        edad = self.entry_age.get() # Edad
+        genero = self.selected_genero.get() # Género: ["Masculino", "Femenino"]
+        data = [] # Array de edad y genero: [21, "kevin"]
         
         # Validacion
         if not nombre:
@@ -102,14 +98,14 @@ class ECGApp:
             messagebox.showwarning("Advertencia", "La edad debe estar en rango")
             return
         
-        data.append([edad, genero])
-        open_video(selected_fase)
-         
-        #archivo_path = crear_carpeta_y_archivo(nombre, data, self.label_n)
-        #if archivo_path:
-        #    tomar_muestras(archivo_path, PUERTO_SERIE, BAUDRATE, selected_fase)
-            # graficar_datos(self.ax, self.canvas, archivo_path)
-    
+        path_archivo = crear_carpeta_y_archivo(nombre, selected_fase)
+        
+        if path_archivo != None:
+            data.append([edad, genero])
+            open_video(selected_fase)
+            iniciar_lectura_serial(path_archivo, PUERTO_SERIE, BAUDRATE, selected_fase)
+            graficar_datos(self.ax, self.canvas, path_archivo)
+            
     def seleccionar(self):
         """ Permite seleccionar un archivo y graficar sus datos """
         archivo_path = seleccionar_archivo()
