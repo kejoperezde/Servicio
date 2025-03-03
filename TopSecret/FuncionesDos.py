@@ -7,7 +7,7 @@ import csv
 import pandas as pd
 import time
 import subprocess
-
+from Filtros.ButterWorthN import ButterWorthN
 
 
 ### ===========================  FUNCIONES DE INTERFAZ GRÁFICA  =========================== ###
@@ -103,12 +103,24 @@ def crear_carpeta_y_archivo(nombre, fase):
 def graficar_datos(ax, canvas, ruta_archivo):
     """Graficar los datos de un archivo CSV."""
     ax.clear()
-    ax.set_title("Señal ECG")
+    ax.set_title("Señal ECG Filtro ButterWorth")
     ax.set_ylabel("Amplitud")
     ax.set_xlabel("Segundos")
 
+    # Cargar datos del archivo CSV
     data = pd.read_csv(ruta_archivo)
-    ax.plot(data['Seg'], data['mV'], marker='', color='red')
+
+    # Crear instancia del filtro Butterworth
+    filtro = ButterWorthN(fs=192)  # Asegúrate de usar la misma frecuencia de muestreo
+
+    # Aplicar filtro a la columna de mV
+    señal_filtrada = filtro.apply_filter(data['mV'])
+
+    # Graficar la señal filtrada
+    ax.plot(data['Seg'], señal_filtrada, marker='', color='red', label="ECG Filtrado")  
+    ax.legend()
+
+    # Redibujar el canvas de Tkinter
     canvas.draw()
 
 import serial
@@ -141,22 +153,19 @@ def iniciar_lectura_serial(archivo_path, puerto_serie, baudrate, selected_fase):
 
         ser.write(b'1')  # Inicia la transmisión de datos desde el dispositivo
 
-        datos = []
         inicio = time.time()
-        while time.time() - inicio <= duracion:
-            if ser.in_waiting > 0:
-                dato = ser.readline().decode('utf-8').strip()
-                tiempo_transcurrido = time.time() - inicio
-                try:
-                    datos.append([round(tiempo_transcurrido, 8), int(dato) / 65535.0])
-                except ValueError:
-                    print(f"Advertencia: Dato no válido recibido -> {dato}")
-
-        # Guardar los datos en el CSV
+        
         with open(archivo_path, 'w', newline='') as archivo_csv:
             escritor_csv = csv.writer(archivo_csv)
-            escritor_csv.writerow(["Seg", "mV"])
-            escritor_csv.writerows(datos)
+            print('Tomando datos...')
+            inicio = time.time()
+            escritor_csv.writerow(["Seg", "mV"])  # Escribir encabezados    
+
+            while time.time() - inicio <= duracion:  # Dura 10 segundos
+                if ser.in_waiting > 0:
+                    dato = ser.readline().decode('utf-8').strip()
+                    tiempo_transcurrido = time.time() - inicio
+                    escritor_csv.writerow([round(tiempo_transcurrido, 8), int(dato) / 65535.0]) # Normaliza el valor a [0, 1]
 
         mensaje_fin = f"Toma de muestras finalizada para la fase '{selected_fase}'."
         messagebox.showinfo("Fin de Toma de Muestras", mensaje_fin)

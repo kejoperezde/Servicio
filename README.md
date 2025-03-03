@@ -114,6 +114,8 @@ El transmisor permite capturar la señal cardíaca y enviarla inalámbricamente
 - Requisitos del DAD
 > Alimentación 5v (En este caso la amientación se dio mediante la conección usb tipo c de la raspberry pi pico)
 
+
+
 ### 2.2 ****
 
 ### 2.2 **Transmisión de datos**
