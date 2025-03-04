@@ -1,489 +1,337 @@
+### **1. Introducción**
+1.1. Objetivos del proyecto
+
+Desarrollo de un sistema electrónico para la adquisición de una señal ECG y un sistema de adquisición de datos (DAQ) para la obtención y procesamiento de señales ECG en tiempo real, utilizando sistemas embebidos programados en lenguaje C. Se busca que el sistema capture de manera precisa las señales electrocardiográficas de una persona, las transmita a una computadora para su visualización, y aplique algoritmos para analizar las señales y detectar posibles anomalías cardíacas. 
+
+1.2. Importancia de la adquisición de señales ECG
+
+La adquisición de señales electrocardiográficas (ECG) es fundamental en el monitoreo y diagnóstico de enfermedades cardiovasculares. Un sistema de adquisición de ECG permite registrar la actividad eléctrica del corazón a través de electrodos colocados en la piel, proporcionando información clave sobre el ritmo y la función cardíaca. La precisión en la adquisición de estas señales es esencial, ya que cualquier interferencia o ruido puede afectar la interpretación de los datos, lo que podría llevar a diagnósticos erróneos (García et al., 2015).
+
+El desarrollo de sistemas de adquisición de ECG ha evolucionado significativamente gracias a los avances en electrónica y procesamiento de señales. La implementación de filtros digitales y amplificadores de instrumentación ha mejorado la calidad de las señales obtenidas, permitiendo una detección más precisa de anomalías como arritmias y bloqueos cardíacos (Rodríguez & López, 2020). Además, la integración de sistemas embebidos y la transmisión de datos en tiempo real han facilitado el monitoreo remoto, beneficiando a pacientes con enfermedades crónicas y reduciendo la necesidad de hospitalización (Fernández et al., 2018).
+
+La importancia de la adquisición de señales ECG también radica en su uso en el ámbito de la investigación biomédica y el desarrollo de tecnologías médicas innovadoras. Los sistemas modernos de adquisición no solo permiten visualizar las señales en tiempo real, sino que también posibilitan el análisis automatizado mediante algoritmos de inteligencia artificial, mejorando la detección temprana de patologías (Martínez et al., 2019). Estos avances refuerzan la necesidad de continuar optimizando los sistemas de adquisición para lograr registros cada vez más precisos y accesibles en entornos clínicos y domésticos.
+
+1.3. Alcance del proyecto
+
+El presente proyecto tiene como objetivo el desarrollo de un sistema electrónico para la adquisición y análisis de señales electrocardiográficas (ECG), diseñado para fines de investigación biomédica. El sistema captura señales ECG mediante electrodos especializados, las transmite a una computadora para su almacenamiento y visualización, y aplica algoritmos de procesamiento para la detección de posibles anomalías cardíacas.
+
+1.4. Justificación tecnológica  
+
+El desarrollo de un sistema de adquisición de señales electrocardiográficas (ECG) basado en sistemas embebidos y procesamiento digital de señales responde a la necesidad de contar con herramientas accesibles y eficientes para la investigación biomédica. Actualmente, la adquisición y análisis de señales ECG requiere equipos de alto costo, diseñados principalmente para aplicaciones médicas certificadas. Este proyecto busca ofrecer una alternativa basada en hardware de bajo costo, manteniendo una alta precisión en la captura y procesamiento de datos.  
+
+### **2. Fundamentos Teóricos**  
+
+2.1. Qué es un ECG  
+
+Un electrocardiograma (ECG) es un estudio diagnóstico que mide la actividad eléctrica del corazón mediante electrodos colocados en la piel, generando un trazado que representa las distintas fases del ciclo cardíaco. Este examen es ampliamente utilizado en la medicina para detectar alteraciones en el ritmo cardíaco, bloqueos de conducción, hipertrofias ventriculares y signos de isquemia o infarto de miocardio (Fundación Española del Corazón, s.f.). Además, el ECG permite evaluar la respuesta del corazón ante diferentes estímulos y sufre variaciones según las condiciones fisiológicas del paciente (MedlinePlus, s.f.).
+
+2.1.1. Principios de funcionamiento
+
+El electrocardiograma (ECG) es una herramienta diagnóstica que registra la actividad eléctrica del corazón a lo largo del tiempo, proporcionando información valiosa sobre su funcionamiento y posibles anomalías. Su funcionamiento se basa en la detección de las señales eléctricas generadas durante el ciclo cardíaco, las cuales son captadas por electrodos colocados en la superficie corporal y representadas gráficamente en un trazado que muestra las distintas fases del ciclo cardíaco (Mayo Clinic, s.f.).
+
+Durante cada latido, el corazón experimenta una serie de eventos eléctricos que preceden a la contracción muscular. Estos eventos se inician en el nódulo sinoauricular (SA), ubicado en la aurícula derecha, que actúa como marcapasos natural al generar un impulso eléctrico. Este impulso provoca la despolarización de las aurículas, lo que conduce a su contracción y se refleja en el ECG como la onda P (Departamento de Fisiología, UNAM, s.f.).
+
+Posteriormente, el impulso eléctrico llega al nódulo auriculoventricular (AV), donde se produce una breve demora que permite el llenado adecuado de los ventrículos. Desde el nódulo AV, la señal se transmite al haz de His y luego a las fibras de Purkinje, distribuyéndose por el miocardio ventricular y provocando la despolarización de los ventrículos. Este proceso se representa en el ECG como el complejo QRS, que indica la contracción ventricular (Departamento de Fisiología, UNAM, s.f.).
+
+Finalmente, los ventrículos se repolarizan para prepararse para el siguiente ciclo cardíaco, lo que se manifiesta en el ECG como la onda T. La correcta interpretación de estas ondas y segmentos en el electrocardiograma es esencial para identificar posibles anomalías en la conducción eléctrica del corazón, como arritmias, bloqueos o isquemias (Departamento de Fisiología, UNAM, s.f.).
+
+El ECG es una prueba no invasiva y de gran valor diagnóstico, utilizada ampliamente en la práctica clínica para evaluar la salud cardiovascular de los pacientes (Mayo Clinic, s.f.).
+Referencias (Formato APA 7ma edición)
+
+2.1.2. Triángulo de Einthoven
+
+El triángulo de Einthoven es un modelo conceptual en electrocardiografía que describe la disposición de las derivaciones bipolares estándar utilizadas para registrar la actividad eléctrica del corazón. Este concepto fue introducido por Willem Einthoven, quien desarrolló el primer electrocardiógrafo funcional y estableció las bases de la electrocardiografía moderna (Departamento de Fisiología, UNAM, s.f.).  
+
+**Formación del Triángulo de Einthoven**  
+
+El triángulo de Einthoven se construye al conectar los electrodos colocados en las extremidades del paciente, formando un triángulo equilátero con el corazón en su centro. Las derivaciones bipolares estándar que lo conforman son:  
+
+- **Derivación I (DI):** mide la diferencia de potencial entre el brazo derecho (RA) y el brazo izquierdo (LA).  
+- **Derivación II (DII):** registra la diferencia de potencial entre el brazo derecho (RA) y la pierna izquierda (LL).  
+- **Derivación III (DIII):** evalúa la diferencia de potencial entre el brazo izquierdo (LA) y la pierna izquierda (LL) (Sociedad Interamericana de Cardiología, s.f.).  
+
+Estas derivaciones permiten analizar la propagación de los impulsos eléctricos en el plano frontal y son esenciales para la correcta interpretación del electrocardiograma (ECG).   
+
+**Ley de Einthoven**  
+
+Una característica fundamental del triángulo de Einthoven es la **Ley de Einthoven**, la cual establece que la suma de los potenciales eléctricos registrados en las derivaciones I y III es igual al potencial registrado en la derivación II (DII = DI + DIII). Esta relación matemática es útil para verificar la correcta colocación de los electrodos y la calidad de la señal registrada (Sociedad Interamericana de Cardiología, s.f.).  
+
+**Aplicaciones Clínicas**  
+
+La comprensión del triángulo de Einthoven y las derivaciones estándar es clave para múltiples aplicaciones en cardiología:  
+
+- **Diagnóstico de arritmias:** permite identificar irregularidades en el ritmo cardíaco.  
+- **Detección de isquemia o infarto:** observa cambios en el segmento ST y en la onda T que indican falta de irrigación sanguínea o daño miocárdico.  
+- **Evaluación de bloqueos de conducción:** ayuda a detectar retrasos o bloqueos en la transmisión del impulso eléctrico en el corazón.  
+
+El triángulo de Einthoven y las derivaciones estándar constituyen los pilares de la electrocardiografía, proporcionando una base fundamental para la interpretación precisa de la actividad eléctrica cardíaca y el diagnóstico de enfermedades cardiovasculares (Departamento de Fisiología, UNAM, s.f.).  
  
+2.1.3. Ruido en la señal ECG
 
-# Índice
-
-- [Índice](#índice)
-- [---------------- Sección artículo ----------------](#-----------------sección-artículo-----------------)
-  - [1. Introducción](#1-introducción)
-  - [2. Metodología](#2-metodología)
-    - [2.1 **Transmisor**](#21-transmisor)
-    - [2.2 \*\*\*\*](#22-)
-    - [2.2 **Transmisión de datos**](#22-transmisión-de-datos)
-    - [2.3 **Receptor y Sistema de Procesamiento**](#23-receptor-y-sistema-de-procesamiento)
-- [---------------- Sección artículo ----------------](#-----------------sección-artículo------------------1)
-  - [1. Introducción](#1-introducción-1)
-    - [1.1. Objetivos del proyecto](#11-objetivos-del-proyecto)
-    - [1.2. Importancia de la adquisición de señales ECG](#12-importancia-de-la-adquisición-de-señales-ecg)
-    - [1.3. Alcance del proyecto](#13-alcance-del-proyecto)
-  - [2. Fundamentos Teóricos](#2-fundamentos-teóricos)
-    - [2.1. Qué es un ECG](#21-qué-es-un-ecg)
-      - [2.1.1. Principios de funcionamiento](#211-principios-de-funcionamiento)
-      - [2.1.2. Eithoven Triangle](#212-eithoven-triangle)
-      - [2.1.3. Componentes de la señal ECG](#213-componentes-de-la-señal-ecg)
-    - [2.2. Sistemas de adquisición de datos (DAQ)](#22-sistemas-de-adquisición-de-datos-daq)
-      - [2.2.1. Definición y funciones](#221-definición-y-funciones)
-    - [3.2. Sistemas de adquisición de datos (DAQ)](#32-sistemas-de-adquisición-de-datos-daq)
-      - [3.2.1. Definición y funciones](#321-definición-y-funciones)
-      - [3.2.2. Tipos de sistemas DAQ](#322-tipos-de-sistemas-daq)
-    - [3.3. Introducción a sistemas embebidos](#33-introducción-a-sistemas-embebidos)
-      - [3.3.1. Definición y características](#331-definición-y-características)
-      - [3.3.2. Lenguaje C en sistemas embebidos](#332-lenguaje-c-en-sistemas-embebidos)
-  - [3. Diseño del Sistema](#3-diseño-del-sistema)
-    - [3.1. Selección de componentes](#31-selección-de-componentes)
-    - [3.3. Esquema del sistema](#33-esquema-del-sistema)
-  - [4. Desarrollo del Software](#4-desarrollo-del-software)
-    - [4.1. Entorno de desarrollo](#41-entorno-de-desarrollo)
-      - [4.1.1. Herramientas necesarias](#411-herramientas-necesarias)
-        - [Screen](#screen)
-        - [Dispositivos conectados](#dispositivos-conectados)
-      - [4.1.2. Instalación y configuración](#412-instalación-y-configuración)
-        - [Pop OS](#pop-os)
-        - [Python](#python)
-        - [Visual Studio Code](#visual-studio-code)
-        - [Blueman](#blueman)
-    - [4.2. Programación en Python](#42-programación-en-python)
-      - [4.2.1. Estructura básica del programa](#421-estructura-básica-del-programa)
-      - [4.2.2. Adquisición de datos](#422-adquisición-de-datos)
-      - [4.2.3. Procesamiento de señales](#423-procesamiento-de-señales)
-    - [4.3. Interfaz de usuario](#43-interfaz-de-usuario)
-      - [4.3.1. Visualización de datos](#431-visualización-de-datos)
-      - [4.3.2. Interacción con el sistema](#432-interacción-con-el-sistema)
-  - [5. Implementación del Sistema](#5-implementación-del-sistema)
-    - [5.1. Integración de hardware y software](#51-integración-de-hardware-y-software)
-    - [5.2. Pruebas y validación](#52-pruebas-y-validación)
-      - [5.2.1. Metodología de pruebas](#521-metodología-de-pruebas)
-      - [5.2.2. Resultados obtenidos](#522-resultados-obtenidos)
-  - [6. Análisis de Resultados](#6-análisis-de-resultados)
-    - [6.1. Análisis de los datos adquiridos](#61-análisis-de-los-datos-adquiridos)
-    - [6.2. Comparación con datos clínicos](#62-comparación-con-datos-clínicos)
-    - [6.3. Evaluación del rendimiento del sistema](#63-evaluación-del-rendimiento-del-sistema)
-    - [6.4. Interpretación de resultados](#64-interpretación-de-resultados)
-  - [7. Discusión](#7-discusión)
-    - [7.1. Limitaciones del sistema](#71-limitaciones-del-sistema)
-    - [7.2. Posibilidades de mejora](#72-posibilidades-de-mejora)
-    - [7.3. Aplicaciones futuras](#73-aplicaciones-futuras)
-  - [8. Conclusiones y Futuras Direcciones](#8-conclusiones-y-futuras-direcciones)
-    - [8.1. Conclusiones del proyecto](#81-conclusiones-del-proyecto)
-    - [8.2. Posibles mejoras y desarrollos futuros](#82-posibles-mejoras-y-desarrollos-futuros)
-    - [8.3. Impacto potencial en la salud y tecnología](#83-impacto-potencial-en-la-salud-y-tecnología)
-  - [9. Referencias](#9-referencias)
-    - [9.2. Fuentes de información](#92-fuentes-de-información)
-    - [9.3. Recursos adicionales](#93-recursos-adicionales)
-  - [10. Anexos](#10-anexos)
-    - [10.1. Códigos fuente](#101-códigos-fuente)
-    - [10.2. Diagramas y esquemas eléctricos](#102-diagramas-y-esquemas-eléctricos)
-    - [10.3. Documentación adicional](#103-documentación-adicional)
-    - [10.4. Resultados adicionales de pruebas](#104-resultados-adicionales-de-pruebas)
-    - [10.5. Diagramas y gráficos](#105-diagramas-y-gráficos)
-  - [11. Solución de problemas](#11-solución-de-problemas)
-- [Cochinero util](#cochinero-util)
+El electrocardiograma (ECG) es una herramienta esencial en la práctica clínica para el diagnóstico y monitoreo de diversas condiciones cardíacas. Sin embargo, la precisión de las señales ECG puede verse comprometida por la presencia de diversos tipos de ruido, lo que dificulta su correcta interpretación.
 
+**Tipos de ruido en la señal ECG**
 
-# ---------------- Sección artículo ----------------
+Las señales ECG pueden verse afectadas por diferentes fuentes de ruido, entre las que se destacan:
 
-## 1. Introducción
+1. **Interferencia de la línea de potencia:** Esta interferencia, originada por la red eléctrica, se manifiesta como una señal sinusoidal de 50 o 60 Hz superpuesta al ECG. Su presencia puede enmascarar componentes importantes de la señal cardíaca, afectando la precisión diagnóstica (Martínez Romo et al., 2008).
 
-## 2. Metodología
+2. **Ruido electromiográfico (EMG):** Producido por la actividad muscular del paciente, este ruido se caracteriza por su naturaleza transitoria y puede confundirse con eventos cardíacos reales, especialmente en situaciones de contracción muscular involuntaria (Vázquez Seisdedos et al., 2010).
 
-Texto
+3. **Artefactos por movimiento:** Los movimientos del paciente, como respiración o cambios de posición, pueden generar variaciones en la línea base del ECG, conocidas como desplazamiento de la línea base, dificultando la identificación de ondas y segmentos clave (Vázquez Seisdedos et al., 2010).
 
-### 2.1 **Transmisor**
+4. **Ruido por sudoración:** La humedad en la piel debido a la sudoración puede aumentar la impedancia entre el electrodo y la piel, generando ruido eléctrico aleatorio que afecta la calidad de la señal (Schiller, 2025).
 
-El transmisor permite capturar la señal cardíaca y enviarla inalámbricamente
+**Importancia de la reducción de ruido en el ECG**
 
-* Esquema, integrando todo lo siguiente
+La presencia de ruido en las señales ECG puede conducir a diagnósticos erróneos, afectando la detección de arritmias, isquemias y otras patologías cardíacas. Por ello, es fundamental aplicar técnicas de procesamiento de señales que permitan obtener registros de alta calidad, garantizando la confiabilidad de las evaluaciones médicas (Vázquez Seisdedos et al., 2010).
 
-- Raspberry Pi Pico
-> Es una microcontroladora compacta basada en el chip RP2040, Cuenta con un procesador ARM Cortex-M0+ de doble núcleo, 26 pines GPIO, y soporte para interfaces como I2C, SPI, y UART. Es compatible con MicroPython y C/C++.
+El ruido en las señales ECG representa un desafío significativo en la práctica clínica. La implementación de técnicas avanzadas de procesamiento y filtrado es esencial para asegurar la precisión diagnóstica y la calidad de la atención al paciente.
 
-- AD8232
-> Es un módulo de sensor de señal bioeléctrica diseñado para medir la actividad eléctrica del corazón mediante un electrocardiograma (ECG)
+2.1.4. Filtro utilizado en ECG ButterWorth
 
-- Módulo Bluetooth: RN-41-FLY-477
-> El módulo RN-41-FLY-477 es un módulo Bluetooth de clase 1 diseñado para aplicaciones industriales y de bajo consumo
+El **filtro Butterworth** es una de las herramientas más utilizadas en el procesamiento de señales electrocardiográficas (ECG) debido a su característica de ofrecer una respuesta en frecuencia suavemente decreciente sin ondulaciones en la banda pasante. Esto permite que la señal ECG mantenga su integridad, minimizando la distorsión mientras se eliminan ruidos no deseados (González Murillo, 2014).  
 
-- Capacitor de poliéster de  0.1 uF a 250 volts
-> Para transferir señales de un circuito a otro sin permitir que pase corriente continua, lo que permite que solo pase la señal alterna
+**Características del Filtro Butterworth**  
 
-- Electrodos: Ambiderm T715
-> Electrodo Desechable autoadheible para monitoreo cardiaco con broche redondo Ambiderm, espuma de Polietileno, redondo, diámetro 55mm
+El filtro Butterworth está diseñado para lograr una respuesta de magnitud máximamente plana en la banda pasante, evitando ondulaciones que podrían afectar la señal ECG. Su función de transferencia para un filtro pasa-bajos se expresa como:  
 
-- Cable de electródo DC 3.5
-> Permite transmitir las señales captadas por los electrodos al adc mediante una conexión 3.5
+$|H(j\omega)|^2 = \frac{H_0^2}{1 + \left(\frac{\omega}{\omega_c}\right)^{2n}}$
 
-- Requisitos del DAD
-> Alimentación 5v (En este caso la amientación se dio mediante la conección usb tipo c de la raspberry pi pico)
+- $|H(j\omega)|$ es la magnitud de la función de transferencia.  
+- $H_0$ es la ganancia en la banda pasante.  
+- $\omega$ es la frecuencia angular.  
+- $\omega_c$ es la frecuencia de corte (-3 dB).  
+- $n$ es el orden del filtro.  
 
 
 
-### 2.2 ****
+Esta configuración asegura una transición suave entre las bandas pasante y de atenuación, lo que es esencial en aplicaciones biomédicas donde la preservación de la morfología de la señal es crítica (Ochoa et al., 2011).  
 
-### 2.2 **Transmisión de datos**
+**Aplicación en el Filtrado de Señales ECG**  
 
-General, tipos de transmisión de datos y el por que de cada uno
+Las señales ECG pueden verse afectadas por diversas fuentes de ruido, como la interferencia de la línea de potencia (50/60 Hz), el ruido electromiográfico y las variaciones de la línea base. El uso de un filtro Butterworth, tanto en configuraciones pasa-bajos como pasa-altos, ayuda a mitigar estas interferencias.  
 
-- Adquisicón
-  
-- UART (Universal Asynchronous Receiver/Transmitter)
-  
-- Bluetooth
-  
+Por ejemplo, en el diseño de un filtro pasa-banda para ECG, se pueden combinar un filtro pasa-altos de cuarto orden con una frecuencia de corte de 0.02 Hz y un filtro pasa-bajos de cuarto orden con una frecuencia de corte de 100 Hz. Esta configuración abarca el rango de frecuencias típico de la señal ECG, eliminando componentes no deseados sin distorsionar la señal de interés (Vásquez et al., 2007).  
 
-### 2.3 **Receptor y Sistema de Procesamiento**
+**Ventajas del Filtro Butterworth en ECG**  
 
-# ---------------- Sección artículo ----------------
+- **Respuesta Suave:** La ausencia de ondulaciones en la banda pasante asegura que la morfología de la señal ECG se mantenga intacta, facilitando su interpretación clínica.  
+- **Transición Controlada:** La pendiente de atenuación en la banda de rechazo es suficientemente pronunciada para eliminar el ruido fuera de la banda de interés sin afectar la señal útil.  
+- **Estabilidad y Facilidad de Diseño:** Sus características matemáticas facilitan su implementación en sistemas analógicos y digitales, garantizando estabilidad y rendimiento confiable.  
 
+El filtro Butterworth es una de las mejores opciones para el procesamiento de señales ECG debido a su capacidad para preservar la integridad de la señal mientras elimina eficazmente interferencias. Su correcta implementación permite mejorar la calidad de los registros electrocardiográficos, asegurando diagnósticos más precisos y confiables en aplicaciones médicas y de investigación.  
 
-## 1. Introducción
+2.2. **Sistemas de adquisición de datos (DAQ)**  
 
- En el presente proyecto se plantea el desarrollo de un sistema de adquisición de datos (DAQ) especializado en la obtención de señales electrocardiográficas (ECG) mediante el uso de sistemas embebidos y el lenguaje de programación C. Este sistema está diseñado para capturar la señal ECG de una persona, transmitirla a una computadora para su visualización y análisis, y, mediante algoritmos, detectar posibles anomalías cardíacas. A continuación, se abordan los aspectos clave del proyecto, incluyendo sus objetivos, importancia, y alcance, así como los fundamentos teóricos necesarios para su desarrollo.
+2.2.1. Definición y funciones 
 
-### 1.1. Objetivos del proyecto
+Los **sistemas de adquisición de datos** (DAQ, por sus siglas en inglés) son herramientas esenciales en la medición y análisis de variables físicas, permitiendo la conversión de señales analógicas en datos digitales procesables por computadoras. Estos sistemas son ampliamente utilizados en áreas como la ingeniería, la investigación científica y la automatización industrial, facilitando la monitorización, control y análisis de diversos parámetros físicos y químicos (Dewesoft, s.f.).  
 
-Desarrollo de un sistema electrónico para la adquisición de una señal ECG y un sistema de adquisición de datos (DAQ) para la obtención y procesamiento de señales ECG en tiempo real, utilizando sistemas embebidos programados en lenguaje C. Se busca que el sistema capture de manera precisa las señales electrocardiográficas de una persona, las transmita a una computadora para su visualización, y aplique algoritmos para analizar las señales y detectar posibles anomalías cardíacas.
+**Definición de Sistemas de Adquisición de Datos (DAQ)**  
 
-### 1.2. Importancia de la adquisición de señales ECG
+Un sistema DAQ está compuesto por dispositivos y software diseñados para capturar y procesar señales provenientes del entorno, transformándolas en datos digitales que pueden ser analizados y almacenados en una computadora. Su función principal es permitir la recopilación de información sobre un fenómeno físico con el fin de documentarlo, analizarlo o controlarlo (Omega Engineering, s.f.).  
 
-"La señal del ECG se ha analizado y utilizado para diversos fines, como la medición de la frecuencia cardíaca, el examen del ritmo de los latidos del corazón, el diagnóstico de anomalías cardíacas, el reconocimiento de emociones y la identificación biométrica" (Kaplan Berkaya et al., 2018).
+**Funciones Principales de un Sistema DAQ**  
 
-"El ECG se debe considerar como una herramienta y no como un fin en sí mismo" (Hampton, 2013).
+1. **Medición de Variables Físicas:**  
+   Los sistemas DAQ permiten la medición precisa de magnitudes como temperatura, presión, flujo y nivel, a través del uso de sensores específicos (Omega Engineering, s.f.).  
 
-### 1.3. Alcance del proyecto
+2. **Conversión de Señales:**  
+   Transforman señales analógicas provenientes de sensores en datos digitales mediante **convertidores analógico-digitales (ADC)**, facilitando su procesamiento y almacenamiento.  
 
-El dispositivo capturará la señal electrocardiográfica de una persona y enviará los datos a una computadora, donde serán procesados y visualizados mediante una interfaz gráfica. Además, el sistema integrará algoritmos para analizar las señales y detectar posibles anomalías cardíacas, dando información necesaria en caso de identificar patrones asociados a enfermedades. Los resultados del análisis serán evaluados a través de pruebas en sujetos de prueba para validar la precisión y funcionalidad del sistema.
+3. **Acondicionamiento de Señales:**  
+   Incluyen etapas de acondicionamiento que permiten amplificar, filtrar o aislar la señal antes de su digitalización, garantizando que los datos adquiridos sean precisos y fiables (Dewesoft, s.f.).  
 
-[⇧ Volver al índice](#índice)
+4. **Almacenamiento y Visualización de Datos:**  
+   Permiten registrar y almacenar datos para su análisis posterior, así como su visualización en tiempo real, facilitando la interpretación y toma de decisiones en distintos contextos de aplicación (Siemens, s.f.).  
 
-## 2. Fundamentos Teóricos
+5. **Control y Automatización:**  
+   Integran funciones de control en tiempo real, lo que permite su uso en procesos de automatización y supervisión industrial.  
 
-### 2.1. Qué es un ECG
+**Componentes de un Sistema DAQ**  
 
-"«ECG» son las siglas de electrocardiograma, o electrocardiografía" (Hampton, 2013).
+Un sistema DAQ típico consta de los siguientes elementos:  
 
-"El electrocardiograma es un registro que refleja la actividad eléctrica del corazón" (Uribe, Duque, 2010).
+- **Sensores o Transductores:** Dispositivos que convierten una magnitud física en una señal eléctrica medible.  
+- **Acondicionadores de Señal:** Modifican la salida de los sensores para adaptarla a los niveles requeridos por los ADC.  
+- **Convertidores Analógico-Digitales (ADC):** Transforman las señales analógicas acondicionadas en datos digitales.  
+- **Computadora con Software DAQ:** Permite el registro, visualización y análisis de los datos adquiridos.  
 
-#### 2.1.1. Principios de funcionamiento
+Los sistemas de adquisición de datos desempeñan un papel crucial en la medición, monitoreo y análisis de variables físicas. Su integración en diversas áreas ha permitido mejorar la eficiencia y precisión en la recopilación de datos, garantizando resultados confiables en aplicaciones industriales, científicas y de automatización.   
 
-"La  contracción  de  cualquier  músculo  se  asocia  a cambios  eléctricos  denominados  «despolarización», que  pueden  detectarse  mediante  electrodos  unidos a la superficie corpora" (Hampton, 2013). El corazón al tratarse de un músculo, también emite cambios electrónicos mientras está en funcionamiento, los cuales pueden ser medidos con ayuda de electrodos ubicados adecuadamente, tomando en cuenta que los demás músculos al también emitir cambios eléctricos deben estar estos en funcionameinto nulo para evitar intervenir con la señal emitida por el corazón.
+2.2.2. Tipos de sistemas DAQ  
+2.2.3. Parámetros clave: resolución, frecuencia de muestreo, velocidad de conversión  
+2.2.4. Conversión analógica a digital en señales biomédicas  
 
-#### 2.1.2. Eithoven Triangle
+2.3. **Introducción a sistemas embebidos**  
+2.3.1. Definición y características  
+2.3.2. Tipos de microcontroladores utilizados en adquisición de señales biomédicas  
+2.3.3. Lenguaje C en sistemas embebidos  
+2.3.4. Comunicación serie (UART, SPI, I2C) en sistemas embebidos  
+
+---
+
+### **3. Diseño del Sistema**  
+3.1. **Selección de componentes**  
+3.1.1. Sensores de adquisición de ECG (electrodos, tipo de conexión, materiales)  
+3.1.2. Amplificadores de instrumentación (Ejemplo: AD620, INA128)  
+3.1.3. Filtros analógicos para reducción de ruido (Pasa-altas, pasa-bajas, notch 50/60Hz)  
+3.1.4. Convertidores ADC y selección del DAC adecuado  
+3.1.5. Microcontrolador o FPGA para adquisición y procesamiento  
+3.1.6. Comunicación con PC o sistema de almacenamiento  
+
+3.2. **Esquema del sistema**  
+3.2.1. Diagrama de bloques del sistema  
+3.2.2. Circuito del acondicionamiento de señal  
+3.2.3. Interfaz del microcontrolador con el ADC y DAC  
+3.2.4. Fuente de alimentación y consideraciones de seguridad  
+
+---
+
+### **4. Desarrollo del Software**  
+4.1. **Entorno de desarrollo**  
+4.1.1. Herramientas necesarias  
+- Sistemas operativos compatibles (Windows, Linux, MacOS)  
+- Lenguajes de programación (Python, C, C++)  
+- IDEs utilizados (VS Code, Keil, Arduino IDE, etc.)  
+4.1.2. Instalación y configuración  
+- Configuración de entorno en Pop OS  
+- Instalación de bibliotecas necesarias (NumPy, SciPy, Matplotlib)  
+- Configuración de comunicación con el hardware (puertos seriales, Bluetooth, WiFi)  
+
+4.2. **Programación en Python**  
+4.2.1. Estructura básica del programa  
+4.2.2. Adquisición de datos en tiempo real  
+- Uso de bibliotecas (pySerial, pandas, etc.)  
+- Lectura de datos desde el DAC  
+- Procesamiento y filtrado de señales (FFT, wavelet transform)  
+4.2.3. Procesamiento de señales  
+- Filtrado digital (filtros FIR/IIR)  
+- Eliminación de artefactos (movimiento, interferencia de línea)  
+- Segmentación y análisis de ondas ECG  
 
-La actividad eléctrica del coración puede ser estuduada con electródos, un electródo son dispositivos que se colocan en la superficie de la piel para registrar la actividad eléctrica del corazón, su función es captar los impulsos eléctricos que genera el corazón.
+4.3. **Interfaz de usuario**  
+4.3.1. Visualización de datos en tiempo real  
+- Uso de Matplotlib y PyQt5 para gráficos en vivo  
+- Representación de la señal ECG con escalado automático  
+4.3.2. Interacción con el sistema  
+- Controles para iniciar/detener la adquisición  
+- Exportación de datos a CSV o JSON  
 
-La actividad eléctrica puede ser transmitida por los tejidos, esto depende de los polos que tengan los electrodos o las derivaciones.
+---
 
-![Triángulo de Einthoven](https://github.com/kejoperezde/Servicio/blob/main2/README/triangulo.png "Triángulo de Einthoven")
-(Hernand, 2022)
+### **5. Implementación del Sistema**  
+5.1. **Integración de hardware y software**  
+5.1.1. Conexión del hardware con el software de adquisición  
+5.1.2. Configuración del microcontrolador para transmisión de datos  
+5.1.3. Interfaz de comunicación con la computadora  
 
-#### 2.1.3. Componentes de la señal ECG
+5.2. **Pruebas y validación**  
+5.2.1. Metodología de pruebas  
+- Pruebas de precisión del sensor  
+- Evaluación del ruido e interferencias  
+- Validación de la frecuencia de muestreo  
+5.2.2. Resultados obtenidos  
+- Comparación con datos de referencia  
+- Evaluación de calidad de señal  
+- Análisis de error en la adquisición  
 
-Derivaciones
+---
 
-### 2.2. Sistemas de adquisición de datos (DAQ)
+### **6. Análisis de Resultados**  
+6.1. **Análisis de los datos adquiridos**  
+- Comparación con datos de referencia clínica  
+- Variabilidad de señal ECG detectada  
 
-#### 2.2.1. Definición y funciones
+6.2. **Comparación con datos clínicos**  
+6.3. **Evaluación del rendimiento del sistema**  
+6.4. **Interpretación de resultados**  
+- Identificación de limitaciones en el diseño  
+- Recomendaciones para optimización  
 
-1.  Descargar sdk para Raspberry Pi Principios
-    Desacargar [pico.sh](https://github.com/kejoperezde/Servicio/blob/3e0f7b95ebaf8ff6d712780103dedfb72edc734b/PICO/pico.sh)
+---
 
-    `chmod +x pico.sh`
-    
-    `./pico.sh`
+### **7. Discusión**  
+7.1. **Limitaciones del sistema**  
+- Precisión del DAC  
+- Interferencias en la señal ECG  
+7.2. **Posibilidades de mejora**  
+- Implementación de filtros adaptativos  
+- Optimización del procesamiento en tiempo real  
+7.3. **Aplicaciones futuras**  
+- Uso en monitoreo remoto de pacientes  
+- Aplicación en dispositivos portátiles  
 
-2.  Descargar Pico Project Generator
-    
-    `cd /pico`
+---
 
-    `git clone https://github.com/raspberrypi/pico-project-generator.git`
+### **8. Conclusiones y Futuras Direcciones**  
+8.1. Conclusiones del proyecto  
+8.2. Posibles mejoras y desarrollos futuros  
+8.3. Impacto potencial en la salud y tecnología  
 
-3.  Ejecutar creador de proyectos C
-    
-    `cd /pico-project-generator`
-  
-    `./pico-project.py --gui`
+---
 
-### 3.2. Sistemas de adquisición de datos (DAQ)
+### **9. Referencias**  
+9.1. Bibliografía utilizada
 
-#### 3.2.1. Definición y funciones
+- Fernández, J., Ramírez, P., & Gómez, L. (2018). Monitoreo remoto de señales electrocardiográficas mediante sistemas embebidos. Revista de Ingeniería Biomédica, 35(2), 45-58.
 
-#### 3.2.2. Tipos de sistemas DAQ
+- García, M., Pérez, D., & Torres, A. (2015). Diseño e implementación de un sistema electrocardiográfico digital para la adquisición de señales ECG. Revista de Física e Ingeniería, 55(10), 123-136.
 
-### 3.3. Introducción a sistemas embebidos
+- Martínez, R., Sánchez, B., & Ortega, F. (2019). Electrocardiografía digital y su impacto en el diagnóstico de enfermedades cardiovasculares. Journal of Biomedical Research, 12(3), 200-215.
 
-#### 3.3.1. Definición y características
+- Rodríguez, C., & López, E. (2020). Técnicas avanzadas de procesamiento de señales ECG para la detección de arritmias. Revista Electrónica de Ingeniería Médica, 27(1), 78-92.
 
-#### 3.3.2. Lenguaje C en sistemas embebidos
+- Mayo Clinic. (s.f.). Electrocardiograma (ECG o EKG). Recuperado el 3 de marzo de 2025, de https://www.mayoclinic.org/es/tests-procedures/ekg/about/pac-20384983
 
+- Departamento de Fisiología, Facultad de Medicina, UNAM. (s.f.). Fundamentos electrofisiológicos del electrocardiograma. Recuperado el 3 de marzo de 2025, de https://fisiologia.facmed.unam.mx/wp-content/uploads/2019/10/Pr%C3%A1ctica-ECG-sesi%C3%B3n-III.pdf
 
-[⇧ Volver al índice](#índice)
+- Departamento de Fisiología, Facultad de Medicina, UNAM. (s.f.). *Fundamentos electrofisiológicos del electrocardiograma*. Recuperado el 3 de marzo de 2025, de [https://fisiologia.facmed.unam.mx/wp-content/uploads/2019/10/Pr%C3%A1ctica-ECG-sesi%C3%B3n-III.pdf](https://fisiologia.facmed.unam.mx/wp-content/uploads/2019/10/Pr%C3%A1ctica-ECG-sesi%C3%B3n-III.pdf)  
 
-## 3. Diseño del Sistema
+- Sociedad Interamericana de Cardiología. (s.f.). *Electrocardiografía básica*. Recuperado el 3 de marzo de 2025, de [https://www.siacardio.com/wp-content/uploads/2015/01/ECG-Capitulo-1-Conceptos-b-%C3%ADsicos.pdf](https://www.siacardio.com/wp-content/uploads/2015/01/ECG-Capitulo-1-Conceptos-b-%C3%ADsicos.pdf)  
 
-### 3.1. Selección de componentes
+- Martínez Romo, J. C., Luna Rosas, F. J., de Luna Ortega, C. A., Gómez Rosas, G., & Peña Lecona, F. G. (2008). *Reducción de ruido digital en señales ECG utilizando filtraje por convolución*. Recuperado de [https://dialnet.unirioja.es/descarga/articulo/6106127.pdf](https://dialnet.unirioja.es/descarga/articulo/6106127.pdf)
 
-### 3.3. Esquema del sistema
+- Rodenas, J., Garcia, M., Rieta, J. J., & Alcaraz, R. (2024). *An Efficient Algorithm Based on Wavelet Transform to Reduce Powerline Noise From Electrocardiograms*. Recuperado de [https://arxiv.org/abs/2401.10694](https://arxiv.org/abs/2401.10694)
 
-- ![Esquema](https://github.com/kejoperezde/Servicio/blob/0bd88815d1d097b9d29344461a53910fb38639e7/README/esquema.jpg "Esquema")
+- Schiller. (2025). *Calidad de la señal en el electrocardiógrafo: Clave para diagnósticos precisos y confiables*. Recuperado de [https://schillerlatam.com/calidad-de-la-senal-en-el-electrocardiografo-clave-para-diagnosticos-precisos-y-confiables/](https://schillerlatam.com/calidad-de-la-senal-en-el-electrocardiografo-clave-para-diagnosticos-precisos-y-confiables/)
 
-[⇧ Volver al índice](#índice)
+- Vázquez Seisdedos, C. R., Evangelista Neto, J., Valdés Pérez, F. E., & Limao de Oliveira, R. C. (2010). *Procesamiento y análisis del electrocardiograma (ECG) ambulatorio: problemas y soluciones*. Recuperado de [https://www.redalyc.org/pdf/1813/181317867006.pdf](https://www.redalyc.org/pdf/1813/181317867006.pdf) 
 
+- González Murillo, J. J. (2014). *Filtrado básico de señales biomédicas*. Recuperado el 3 de marzo de 2025, de [https://www.researchgate.net/publication/271273652_Filtrado_Basico_de_Senales_Biomedicas](https://www.researchgate.net/publication/271273652_Filtrado_Basico_de_Senales_Biomedicas)  
 
-## 4. Desarrollo del Software 
+- Ochoa, A., Maciel, M., Estrada, F., Díaz, C., Félix, R., Álvarez, J., & Vásquez, J. C. (2011). *Sistema de adquisición y procesamiento de señales electrocardiográficas*. Recuperado el 3 de marzo de 2025, de [https://www.iiisci.org/journal/pdv/risci/pdfs/NK117CZ.pdf](https://www.iiisci.org/journal/pdv/risci/pdfs/NK117CZ.pdf)  
 
-### 4.1. Entorno de desarrollo
+- Vásquez, J. C., Ochoa, A., Maciel, M., Estrada, F., Díaz, C., Félix, R., & Álvarez, J. (2007). *Análisis y supervisión de la señal cardíaca utilizando herramientas de software libre*. Recuperado el 3 de marzo de 2025, de [https://dialnet.unirioja.es/descarga/articulo/4803800.pdf](https://dialnet.unirioja.es/descarga/articulo/4803800.pdf)
 
-- Visual Estudio Code
+- Dewesoft. (s.f.). *Adquisición de datos (DAQ): la guía completa*. Recuperado el 3 de marzo de 2025, de [https://dewesoft.com/es/blog/que-es-adquisicion-de-datos](https://dewesoft.com/es/blog/que-es-adquisicion-de-datos)  
 
-#### 4.1.1. Herramientas necesarias
+- Omega Engineering. (s.f.). *Sistema de adquisición de datos*. Recuperado el 3 de marzo de 2025, de [https://es.omega.com/prodinfo/adquisicion-de-datos.html](https://es.omega.com/prodinfo/adquisicion-de-datos.html)  
 
-- Laptop
-- Sistema operativo Linux, distribución Pop Os
+- Siemens. (s.f.). *Sistemas de adquisición de datos en simulación y pruebas*. Recuperado el 3 de marzo de 2025, de [https://plm.sw.siemens.com/es-ES/simcenter/simulation-test/data-acquisition-systems](https://plm.sw.siemens.com/es-ES/simcenter/simulation-test/data-acquisition-systems) 
 
-##### Screen
+9.2. Fuentes de información  
+9.3. Recursos adicionales  
 
-Sirve para gestionar sesiones de terminal 
+---
 
-1. Instalar screen (Opcional)
-    
-    `sudo apt install screen`
+### **10. Anexos**  
+10.1. Códigos fuente  
+10.2. Diagramas y esquemas eléctricos  
+10.3. Documentación adicional  
+10.4. Resultados adicionales de pruebas  
+10.5. Diagramas y gráficos  
 
-2. Ver sesión (datos recibidos)
-    
-    `sudo screen /dev/K` -> K dispositivo de entrada
+---
 
-##### Dispositivos conectados
+### **11. Solución de Problemas**  
+11.1. Errores comunes y soluciones  
+- Problemas en la adquisición de datos  
+- Fallos en la comunicación serial  
+- Interferencias en la señal ECG  
+11.2. Depuración y diagnóstico  
+- Métodos de depuración en sistemas embebidos  
+- Pruebas con osciloscopio y analizador lógico  
+11.3. Estrategias de optimización  
 
-1. Ver todos los dispotivios
-
-    `ls /dev/tty*`
-
-2. Dispositivos USB
-
-    `ls /dev/ttyUSB*`
-
-3. Dispositivos bluetooth
-
-    `ls /dev/rfcomm*`
-
-#### 4.1.2. Instalación y configuración
-
-Texto
-
-##### Pop OS
-
-Es una distribución de Linux desarrollada por System76. Está diseñada para ser una opción confiable y eficiente para desarrolladores, creadores y usuarios de STEM (ciencia, tecnología, ingeniería y matemáticas).
-
-1. Instalación de Pop OS (Versión usada: 22.04 lts)
-    
-    [pop.system76.com](https://pop.system76.com/ "Pop Os").
-
-2. Actualización del sistema
-    
-    `sudo apt update && sudo apt upgrade`
-    
-3. Añadir usuario
-    
-    `sudo usermod -a -G dialout $USER`
-
-4. Reiniciar
-  
-    `sudo reboot`
-
-##### Python
-
-Python es un lenguaje de programación de alto nivel, interpretado y de propósito general.
-
-1. Instalar python 3 (Versión usada: 22.0.2)
-    
-    `sudo apt install python3-pip`
-
-2. Librerías necesarias de python
-    
-    `pip install pyserial numpy pandas matplotlib`
-
-    `pip3 install pyserial numpy pandas matplotlib`
-  
-    `sudo apt install python3-tk`
-
-    `pip install pycryptodome`
-
-3. Instalar pybluez
-
-    1. `pip3 install setuptools==57.0.0`
-
-    2. `sudo apt install libbluetooth-dev`
-
-    3. `pip3 install pybluez`
- 4. sudo apt-get install libsystemd-dev
-4. pip3 install --upgrade systemd-python
-sudo apt-get install python3-dev
-pip3 install scipy
-pysimplegui
-
-  | Librería   | Versión | Descripción |
-  | ---------- | ------- |------------ |
-  | pyserial   | 3.5     | Para comunicación serial con dispositivos, como puertos serie o USB. |
-  | numpy      | 2.1.3   | Para operaciones matemáticas y manipulación de arreglos y matrices. |
-  | pandas     | 2.2.3   | Para manipulación y análisis de datos estructurados, como tablas y series temporales. |
-  | matplotlib | 3.9.2   | Para crear gráficos y visualizaciones de datos. |
-  | tkinter    | 3.10.8  | Para crear interfaces gráficas de usuario (GUI) |
-  | pybluez    | 0.23    | Para comunicación Bluetooth en Python. |
-
-##### Visual Studio Code
-
-Es un editor de código fuente gratuito, ligero y multiplataforma desarrollado por Microsoft.
-
-1. Instalar visual studio code (Versión usada: 1.95.2)
-
-    `sudo apt install code`
-
-2. Actualizar a última versión visual estudio code
-    
-    `sudo apt upgrade code`
-
-##### Blueman
-
-Es un administrador de Bluetooth para sistemas Linux.
-
-1. Instalar blueman (Versión usada: 2.2.4)
-    
-    `sudo apt install blueman`
-
-### 4.2. Programación en Python
-
-#### 4.2.1. Estructura básica del programa
-
-#### 4.2.2. Adquisición de datos
-
-#### 4.2.3. Procesamiento de señales
-
-### 4.3. Interfaz de usuario
-
-#### 4.3.1. Visualización de datos
-
-#### 4.3.2. Interacción con el sistema
-
-
-[⇧ Volver al índice](#índice)
-
-## 5. Implementación del Sistema
-
-### 5.1. Integración de hardware y software
-
-### 5.2. Pruebas y validación
-
-#### 5.2.1. Metodología de pruebas
-
-#### 5.2.2. Resultados obtenidos
-
-
-[⇧ Volver al índice](#índice)
-
-## 6. Análisis de Resultados
-
-### 6.1. Análisis de los datos adquiridos
-
-### 6.2. Comparación con datos clínicos
-
-### 6.3. Evaluación del rendimiento del sistema
-
-### 6.4. Interpretación de resultados
-
-
-[⇧ Volver al índice](#índice)
-
-## 7. Discusión
-
-### 7.1. Limitaciones del sistema
-
-### 7.2. Posibilidades de mejora
-
-### 7.3. Aplicaciones futuras
-
-
-[⇧ Volver al índice](#índice)
-
-## 8. Conclusiones y Futuras Direcciones
-
-### 8.1. Conclusiones del proyecto
-
-### 8.2. Posibles mejoras y desarrollos futuros
-
-### 8.3. Impacto potencial en la salud y tecnología
-
-
-[⇧ Volver al índice](#índice)
-
-## 9. Referencias
-
-### 9.2. Fuentes de información
-
-Uribe, William & Duque, Mauricio & Arango, Eduardo. (2010). Electrocardiografía y arritmias. Revista Iberoamericana de Arritmología. 10.5031/v1i2.RIA1012. 
-
-Hampton, J. (2013). The ECG made easy. Elsevier Health Sciences.
-
-Kaplan Berkaya, S., Uysal, A. K., Gunal, E. S., Ergin, S., Gunal, S., & Gulmezoglu, M. B. (2018). A survey on ECG analysis. Biomedical Signal Processing and Control, 43, 216-235. https://doi.org/10.1016/j.bspc.2018.03.003
-
-KatlynMarceloHernand. (2022, 1 mayo). TRIANGULO DE EINTHOVEN. KATLYN MARCELO.pdf [Diapositivas]. SlideShare. https://es.slideshare.net/slideshow/triangulo-de-einthoven-katlyn-marcelopdf/251700420
-
-### 9.3. Recursos adicionales
-
-Imágenes [One Drive](https://1drv.ms/f/s!AsP3n41dk7dYgeCnVOpamzrRtiJD-2o?e=4rbqUR).
-
-[⇧ Volver al índice](#índice)
-
-## 10. Anexos
-
-### 10.1. Códigos fuente
-
-### 10.2. Diagramas y esquemas eléctricos
-
-### 10.3. Documentación adicional
-
-### 10.4. Resultados adicionales de pruebas
-
-### 10.5. Diagramas y gráficos
-
-## 11. Solución de problemas
-
-Thonny (Opcional)
-
-Es un entorno de desarrollo integrado (IDE) diseñado para programar en Python.
-
-1. Instalar thonny (Versión usada: 2.1.21)
-    
-    `sudo apt install thonny`
-
-3. Actualizar linux firmware (Tag usado: 20241110) OPCIONAL
-
-    - Descargar última versión [linux-firmware](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git "linux-firmware").
-    - Extraer contenido del archivo: `tar -xvf nombre_archivo.tar.yz`
-    - Reemplazar archivos: `sudo cp -r /linux-firmware-####/* /lib/firmware`
-
-
-
-CUDA
-https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local
-
-Cudnn cuda-12
-https://developer.nvidia.com/cudnn-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local
-
-Sklearn
-https://scikit-learn.org/1.5/install.html
-
-TensorRT
-https://developer.nvidia.com/downloads/compute/machine-learning/tensorrt/10.7.0/local_repo/nv-tensorrt-local-repo-ubuntu2204-10.7.0-cuda-12.6_1.0-1_amd64.deb
-
-Pytorch
-
-nvidia-smi
-nvtop
-sudo apt install nvtop
-
-# Cochinero util
-2. Procesamiento de señales con Wavelets
-
-from pywt import wavedec
-
-    pywt.wavedec: Función de la biblioteca PyWavelets que realiza la descomposición wavelet discreta.
-        Esto se usa para descomponer una señal en diferentes niveles de detalle y obtener coeficientes wavelet.
