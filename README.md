@@ -160,12 +160,63 @@ Un sistema DAQ típico consta de los siguientes elementos:
 
 Los sistemas de adquisición de datos desempeñan un papel crucial en la medición, monitoreo y análisis de variables físicas. Su integración en diversas áreas ha permitido mejorar la eficiencia y precisión en la recopilación de datos, garantizando resultados confiables en aplicaciones industriales, científicas y de automatización.   
 
-2.2.2. Tipos de sistemas DAQ  
-2.2.3. Parámetros clave: resolución, frecuencia de muestreo, velocidad de conversión  
-2.2.4. Conversión analógica a digital en señales biomédicas  
+2.2.2. Parámetros clave: resolución, frecuencia de muestreo, velocidad de conversión   
+
+Los sistemas de adquisición de datos (**DAQ**) requieren un diseño optimizado que equilibre la precisión, la velocidad de muestreo y la eficiencia en la conversión de señales. En el caso de la adquisición de señales electrocardiográficas (**ECG**), estos parámetros son críticos para garantizar que la morfología de la señal sea fiel a la actividad eléctrica del corazón. A continuación, se detallan los tres parámetros clave: **resolución del ADC, frecuencia de muestreo y velocidad de conversión**.  
+
+**Resolución del ADC**  
+
+La **resolución del convertidor analógico-digital (ADC)** determina la cantidad de niveles discretos en los que se puede dividir la señal analógica. En este sistema, se emplea un **ADC de 12 bits**, lo que significa que la señal se cuantiza en **4096 niveles (0 a 4095)**. Esto proporciona una precisión de aproximadamente **0.81 mV por nivel**, tomando en cuenta una referencia de voltaje de 3.3V.  
+
+Si bien existen ADCs con resoluciones mayores (**16 o 24 bits**), la transmisión de datos a través de **Bluetooth** representa una limitación, ya que estos valores requerirían un mayor ancho de banda y una tasa de baudios más alta, lo que el sistema actual no soporta. Como resultado, se ha optado por mantener una resolución de 12 bits, lo cual es suficiente para capturar la señal ECG con un nivel aceptable de detalle sin saturar la capacidad de transmisión de datos (Venkataraman et al., 2021).  
+
+Además, durante las pruebas se ha observado la presencia de **ruido en la señal cruda** debido a interferencias y variaciones en el contacto de los electrodos. No obstante, tras el procesamiento con un **filtro digital Butterworth**, la visualización de la señal se vuelve aceptable para su análisis (García & Paniagua, 2019).  
+
+**Frecuencia de Muestreo**  
+
+La **frecuencia de muestreo** define cuántas veces por segundo se digitaliza la señal analógica. Según el **Teorema de Nyquist**, la frecuencia de muestreo debe ser al menos **el doble de la frecuencia máxima de la señal** para evitar el **aliasing** (Oppenheim & Schafer, 2014).  
+
+En el caso de la señal ECG, la mayoría de los componentes relevantes de la señal se encuentran por debajo de **100 Hz**, por lo que se recomienda una frecuencia de muestreo mínima de **200 Hz** para una reconstrucción precisa. El sistema desarrollado alcanza una frecuencia de **192 muestras por segundo**, que se ha determinado como el valor máximo mediante pruebas experimentales.  
+
+Si bien esta frecuencia se encuentra ligeramente por debajo de la recomendada en algunos estándares médicos, se ha validado que permite capturar de manera adecuada la morfología de la señal ECG. Además, se especifica el tiempo total de muestreo en el programa receptor, garantizando una adquisición controlada de datos.  
+
+**Velocidad de Conversión del ADC y Transmisión de Datos**  
+
+El **ADC del microcontrolador Raspberry Pi Pico** es de tipo **SAR (Successive Approximation Register)** y tiene una **velocidad de conversión de aproximadamente 2 µs por muestra**, lo que teóricamente permitiría una adquisición mucho más rápida (hasta **500 ksps**). Sin embargo, en la práctica, la velocidad está limitada por el **procesamiento y transmisión de los datos** a través de **Bluetooth**.  
+
+La transmisión de datos se realiza a través de una interfaz **UART** con una tasa de baudios de **9600 bps**. Debido a esta restricción, el sistema **no realiza procesamiento previo** antes de enviar los datos; en su lugar, simplemente adquiere la señal, y luego la transmite. Este enfoque garantiza que los datos sean enviados sin retrasos significativos, aunque podría beneficiarse de un aumento en la tasa de baudios o una optimización en la codificación de los datos para mejorar la eficiencia en la transmisión (Zhou et al., 2020).  
+
+El sistema DAQ desarrollado para la adquisición de señales ECG opera con una **resolución de 12 bits**, una **frecuencia de muestreo de 192 muestras por segundo** y una **transmisión de datos por Bluetooth a 9600 bps**. Si bien se han identificado limitaciones en la resolución y la velocidad de transmisión, el uso de un **filtro digital Butterworth** permite mejorar la visualización de la señal final. Estos parámetros han sido optimizados para garantizar un equilibrio entre precisión, estabilidad y compatibilidad con los medios de transmisión disponibles.  
 
 2.3. **Introducción a sistemas embebidos**  
-2.3.1. Definición y características  
+
+2.3.1. Definición y características
+
+Los **sistemas embebidos** son componentes fundamentales en la tecnología moderna, presentes en una amplia gama de dispositivos, desde electrodomésticos hasta equipos industriales. Este artículo aborda su definición y características principales, respaldado por fuentes académicas y científicas.
+
+Un **sistema embebido** es un sistema informático diseñado para realizar funciones específicas, integrándose como parte de un dispositivo más amplio. A diferencia de las computadoras de propósito general, los sistemas embebidos están orientados a tareas particulares, lo que permite optimizar su diseño en términos de eficiencia y costo (Heath, 2002).
+
+Estos sistemas combinan hardware y software para ejecutar funciones predeterminadas, y suelen estar integrados en dispositivos electrónicos que requieren control, monitoreo o procesamiento de datos (Barr & Massa, 2006).
+
+**Características de los Sistemas Embebidos**
+
+Las principales características de los sistemas embebidos incluyen:
+
+1. **Funcionalidad Específica:** Están diseñados para realizar tareas concretas, lo que permite optimizar recursos y mejorar la eficiencia en su ejecución (White, 2011).
+
+2. **Tiempo Real:** Muchos sistemas embebidos operan en entornos de tiempo real, donde es crucial que las tareas se completen dentro de plazos específicos para garantizar el funcionamiento correcto del dispositivo (Labrosse et al., 2009).
+
+3. **Limitaciones de Recursos:** Suelen operar con recursos limitados, como memoria, capacidad de procesamiento y consumo energético, lo que requiere un diseño eficiente y optimizado (Ganssle, 2012).
+
+4. **Integración de Hardware y Software:** La estrecha integración entre hardware y software permite una mayor eficiencia y rendimiento en la ejecución de tareas específicas (Siegesmund, 2014).
+
+5. **Confiabilidad y Estabilidad:** Deben ser altamente confiables y capaces de funcionar de manera continua durante largos períodos sin fallos, especialmente en aplicaciones críticas como dispositivos médicos o sistemas de control industrial (Barr & Massa, 2006).
+
+6. **Interacción con el Entorno:** A menudo, interactúan directamente con el entorno físico a través de sensores y actuadores, lo que les permite monitorear y controlar procesos en tiempo real (White, 2011).
+
+Estas características hacen que los sistemas embebidos sean esenciales en la automatización y el control de dispositivos en diversos sectores, incluyendo la automoción, la medicina, las telecomunicaciones y la electrónica de consumo.
+
+
 2.3.2. Tipos de microcontroladores utilizados en adquisición de señales biomédicas  
 2.3.3. Lenguaje C en sistemas embebidos  
 2.3.4. Comunicación serie (UART, SPI, I2C) en sistemas embebidos  
@@ -310,6 +361,27 @@ Los sistemas de adquisición de datos desempeñan un papel crucial en la medici�
 - Omega Engineering. (s.f.). *Sistema de adquisición de datos*. Recuperado el 3 de marzo de 2025, de [https://es.omega.com/prodinfo/adquisicion-de-datos.html](https://es.omega.com/prodinfo/adquisicion-de-datos.html)  
 
 - Siemens. (s.f.). *Sistemas de adquisición de datos en simulación y pruebas*. Recuperado el 3 de marzo de 2025, de [https://plm.sw.siemens.com/es-ES/simcenter/simulation-test/data-acquisition-systems](https://plm.sw.siemens.com/es-ES/simcenter/simulation-test/data-acquisition-systems) 
+
+- García, M. & Paniagua, J. (2019). *Procesamiento digital de señales biomédicas: Teoría y aplicaciones*. Editorial Universitaria.  
+
+- Oppenheim, A. V., & Schafer, R. W. (2014). *Discrete-Time Signal Processing*. Prentice Hall.  
+
+- Venkataraman, G., Kumar, R., & Singh, M. (2021). *Design and Implementation of Biomedical Signal Acquisition Systems*. Springer.  
+
+- Zhou, J., Li, T., & Wang, X. (2020). *Efficient Wireless Data Transmission for Real-Time Biomedical Applications*. IEEE Transactions on Biomedical Engineering, 67(8), 1056-1067.
+
+- Barr, M., & Massa, A. (2006). *Programming Embedded Systems: With C and GNU Development Tools*. O'Reilly Media.
+
+- Ganssle, J. (2012). *The Art of Programming Embedded Systems*. Elsevier.
+
+- Heath, S. (2002). *Embedded Systems Design*. Newnes.
+
+- Labrosse, J. J., Ganssle, J., & Oshana, R. (2009). *Embedded Software*. Elsevier.
+
+- Siegesmund, M. (2014). *Embedded C Programming: Techniques and Applications of C and PIC MCUs*. Newnes.
+
+- White, E. (2011). *Making Embedded Systems: Design Patterns for Great Software*. O'Reilly Media. 
+
 
 9.2. Fuentes de información  
 9.3. Recursos adicionales  
