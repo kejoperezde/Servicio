@@ -217,9 +217,28 @@ Las principales características de los sistemas embebidos incluyen:
 Estas características hacen que los sistemas embebidos sean esenciales en la automatización y el control de dispositivos en diversos sectores, incluyendo la automoción, la medicina, las telecomunicaciones y la electrónica de consumo.
 
 
-2.3.2. Tipos de microcontroladores utilizados en adquisición de señales biomédicas  
-2.3.3. Lenguaje C en sistemas embebidos  
-2.3.4. Comunicación serie (UART, SPI, I2C) en sistemas embebidos  
+2.3.2. Lenguaje C en sistemas embebidos  
+
+**El Lenguaje C en Sistemas Embebidos**
+
+El lenguaje de programación C ha sido fundamental en el desarrollo de sistemas embebidos debido a su eficiencia, flexibilidad y capacidad para interactuar directamente con el hardware. Desde su creación en la década de 1970, C se ha consolidado como una herramienta esencial para ingenieros y desarrolladores en el ámbito de la programación de bajo nivel (Heath, 2002). Su uso se ha extendido en múltiples industrias debido a su compatibilidad con diversas arquitecturas de microcontroladores y procesadores (Barr & Massa, 2006).  
+
+**Características del Lenguaje C en Sistemas Embebidos**  
+
+El lenguaje C posee varias características que lo hacen especialmente adecuado para sistemas embebidos:  
+
+1. **Eficiencia y Control de Recursos:** C permite una gestión precisa de la memoria y los recursos del sistema, lo cual es crucial en entornos con limitaciones de hardware (Ganssle, 2008).  
+
+2. **Acceso Directo al Hardware:** La capacidad de manipular registros y puertos directamente facilita la programación de dispositivos periféricos y la implementación de controladores (Pont, 2002).  
+
+3. **Portabilidad:** Aunque C está estrechamente ligado al hardware, su estandarización permite que el código sea relativamente portable entre diferentes plataformas de microcontroladores (Heath, 2002).  
+
+4. **Amplia Disponibilidad de Herramientas:** Existen numerosos compiladores, depuradores y entornos de desarrollo integrados (IDE) que soportan C, lo que facilita el proceso de desarrollo (Barr & Massa, 2006).  
+
+El lenguaje C continúa siendo una herramienta indispensable en el desarrollo de sistemas embebidos debido a su capacidad para ofrecer un equilibrio óptimo entre control de hardware y eficiencia del software. Su adopción generalizada y la disponibilidad de recursos y herramientas lo consolidan como la opción preferida para proyectos que requieren un rendimiento confiable en entornos con recursos limitados. Su versatilidad y optimización lo convierten en la mejor opción para aplicaciones críticas en la industria y en la investigación (Heath, 2002).  
+
+
+2.3.3. Comunicación serie (UART, SPI, I2C) en sistemas embebidos  
 
 ---
 
@@ -381,6 +400,16 @@ Estas características hacen que los sistemas embebidos sean esenciales en la au
 - Siegesmund, M. (2014). *Embedded C Programming: Techniques and Applications of C and PIC MCUs*. Newnes.
 
 - White, E. (2011). *Making Embedded Systems: Design Patterns for Great Software*. O'Reilly Media. 
+
+- Barr, M., & Massa, A. (2006). *Programming Embedded Systems: With C and GNU Development Tools*. O'Reilly Media.  
+
+- Ganssle, J. (2008). *The Art of Designing Embedded Systems*. Newnes.  
+
+- Heath, S. (2002). *Embedded Systems Design*. Newnes.  
+
+- Labrosse, J. J. (2009). *MicroC/OS-II: The Real-Time Kernel*. CMP Books.  
+
+- Pont, M. J. (2002). *Embedded C*. Addison-Wesley.
 
 
 9.2. Fuentes de información  
