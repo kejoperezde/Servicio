@@ -1,0 +1,2 @@
+Parámetros clave: resolución, frecuencia de muestreo, velocidad de conversión  
+- Filtro digital utilizado
