@@ -218,10 +218,6 @@ Estas librerías no requieren instalación adicional:
 
 ---
 
-Aquí tienes el contenido con un diseño más profesional para tu archivo **Markdown**. Añadí iconos, tablas donde era útil, y bloques de código bien presentados. Además, organicé la información en secciones claras para mayor legibilidad.
-
----
-
 ## 🛠️ 4.7 Utilidades
 
 Aquí se detallan las utilidades instaladas y configuradas para facilitar el desarrollo y la administración del entorno de trabajo.
