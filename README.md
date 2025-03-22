@@ -56,7 +56,7 @@ Desarrollo de un sistema electrónico para la adquisición de una señal ECG y u
 
 ---
 
-# 📦 Configuración del Entorno de Desarrollo
+# 📦 4. Configuración del Entorno de Desarrollo
 
 ---
 
@@ -218,71 +218,90 @@ Estas librerías no requieren instalación adicional:
 
 ---
 
-### 4.7 Utilidades
-
-**Blueman**
-
-Es un administrador de Bluetooth para sistemas Linux.
-
-1. Instalar blueman (Versión usada: 2.2.4)
-    
-    `sudo apt install blueman`
-
-**Screen**
-
-Sirve para gestionar sesiones de terminal.
-
-1. Instalar screen
-    
-    `sudo apt install screen`
-
-2. Ver sesión (datos recibidos)
-    
-    `sudo screen /dev/K` -> K dispositivo de entrada
-
-**Thonny**
-
-Es un entorno de desarrollo integrado (IDE) diseñado para programar en Python.
-
-1. Instalar thonny
-    
-    `sudo apt install thonny`
-
-**Actualizar linux firmware**
-
-1. Descargar última versión
-    
-    [linux-firmware](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git "linux-firmware").
-
-2. Extraer contenido del archivo:
-    
-    `tar -xvf nombre_archivo.tar.yz`
-
-3. Reemplazar archivos: 
-    
-    `sudo cp -r /linux-firmware-####/* /lib/firmware`
-
-**Ver dispositivos conectados**
-
-1. Ver todos los dispotivios
-
-    `ls /dev/tty*`
-
-2. Dispositivos USB
-
-    `ls /dev/ttyUSB*`
-
-3. Dispositivos bluetooth
-
-    `ls /dev/rfcomm*`
-
-# PyTorch con GPU NVIDIA 🔥
-
-Guía básica para instalar los componentes necesarios para usar **PyTorch** con soporte de **GPU NVIDIA** en Linux (Ubuntu 22.04).
+Aquí tienes el contenido con un diseño más profesional para tu archivo **Markdown**. Añadí iconos, tablas donde era útil, y bloques de código bien presentados. Además, organicé la información en secciones claras para mayor legibilidad.
 
 ---
 
-## 1. CUDA Toolkit
+## 🛠️ 4.7 Utilidades
+
+Aquí se detallan las utilidades instaladas y configuradas para facilitar el desarrollo y la administración del entorno de trabajo.
+
+---
+
+### 📡 **Blueman**  
+> Administrador de **Bluetooth** para sistemas **Linux**.
+
+- **Versión utilizada:** `2.2.4`
+
+#### 🔧 Instalación
+```bash
+sudo apt install blueman
+```
+
+---
+
+### 🔲 **Screen**  
+> Herramienta para gestionar sesiones de terminal, ideal para la comunicación en **puertos serie**.
+
+#### 🔧 Instalación
+```bash
+sudo apt install screen
+```
+
+#### 📡 Visualización de sesión (datos recibidos)
+```bash
+sudo screen /dev/K
+```
+> `K` es el nombre del dispositivo de entrada.
+
+---
+
+### 🐍 **Thonny**  
+> Entorno de Desarrollo Integrado (**IDE**) diseñado para programar en **Python**, especialmente útil con **MicroPython**.
+
+#### 🔧 Instalación
+```bash
+sudo apt install thonny
+```
+
+---
+
+### 🐧 **Actualizar Linux Firmware**  
+> Proceso para mantener el firmware de Linux actualizado, asegurando compatibilidad y soporte con hardware reciente.
+
+#### 📥 Descargar última versión
+👉 [linux-firmware](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git "linux-firmware")
+
+#### 📦 Extraer contenido del archivo descargado
+```bash
+tar -xvf nombre_archivo.tar.yz
+```
+
+#### 📂 Reemplazar archivos de firmware
+```bash
+sudo cp -r /linux-firmware-####/* /lib/firmware
+```
+> Sustituir `####` por el número de versión correspondiente al firmware descargado.
+
+---
+
+### 🔌 **Ver Dispositivos Conectados**
+
+| **Acción**                          | **Comando**               |
+|-------------------------------------|---------------------------|
+| Ver todos los dispositivos `tty`    | `ls /dev/tty*`            |
+| Ver dispositivos USB `ttyUSB`       | `ls /dev/ttyUSB*`         |
+| Ver dispositivos Bluetooth `rfcomm` | `ls /dev/rfcomm*`         |
+
+---
+
+## PyTorch con GPU NVIDIA 🔥
+
+Guía básica para instalar los componentes necesarios para usar **PyTorch** con soporte de **GPU NVIDIA** en Linux.
+
+---
+
+### 1. CUDA Toolkit
 
 🔗 [Descargar CUDA para Ubuntu 22.04 (x86_64, deb local)](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local)
 
@@ -290,7 +309,7 @@ Guía básica para instalar los componentes necesarios para usar **PyTorch** con
 
 ---
 
-## 2. cuDNN (CUDA Deep Neural Network Library)
+### 2. cuDNN (CUDA Deep Neural Network Library)
 
 🔗 [Descargar cuDNN para CUDA 12 (Ubuntu 22.04, x86_64, deb local)](https://developer.nvidia.com/cudnn-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local)
 
@@ -298,49 +317,58 @@ Guía básica para instalar los componentes necesarios para usar **PyTorch** con
 
 ---
 
-## 3. Scikit-learn (opcional pero útil)
+### 3. Scikit-learn (opcional)
 
 🔗 [Guía de instalación de Scikit-learn 1.5](https://scikit-learn.org/1.5/install.html)
 
 bash
 pip install scikit-learn
 
+---
 
+# 🖥️ 5. Programación del Sistema Embebido: C
 
+---
 
+## 🔧 5.1 Lectura y Adquisición de Datos
 
-## 5. Programación del sistema embebido: C
+Primero se inicializa en C, el **ADC** del microcontrolador, después se configura el pin de la entrada analógica, que en este caso es el `GPIO 26`, y se selecciona el canal 0 del ADC que corresponde al `GPIO 26`.
 
-### 5.1 Lectura y adquisición de datos  
+Hay un bucle principal, que cuando la variable que recibe la señal que hace que envíe datos es verdadera, hace la lectura del **ADC** de forma constante, lee el valor digitalizado del ADC, aquí se realiza una conversión analógica-digital, y deja de tomar la lectura cuando la variable es falsa. Específicamente toma la tensión presente del pin `GPIO 26` y la convierte en un valor numérico digital de **12 bits**, que puede ir de `0` a `4095`, donde `0` representa `0V` (el voltaje mínimo del rango del ADC), y `4095` representa `3.3V` (el voltaje de referencia máximo en el ADC del Raspberry Pi Pico).
 
-Primero se inicializa en C, el ADC del microcontrolador, después se configura el pin de la entrada analógica, que en este caso es el `GPIO 26`, y se selecciona el canal 0 del ADC que corresponde al `GPIO 26`.
+---
 
-Hay un bucle principal, que cuando la variable que recibe la señal que hace que envíe datos es verdadera, hace la lectura del ADC de forma constante, lee el valor digitalizado del ADC, aquí se realiza una conversión analógica-digital, y deja de tomar la lectura cuando la variable es falsa. Especificamente toma la tensión presente del pin `GPIO 26` y la convierte en un valor numértico digital de 12 bits, que puede ir de 0 a 4095, que 0 representa 0V (el voltaje mínimo del rango del ADC), y 4095 representa 3,3V (el voltaje de referencia mázximo en el ADC del Raspberry Pi Pico).
+## 📡 5.2 Transmisión de Datos: Comunicación en Serie / Bluetooth
 
+La transmisión de datos se realiza de la siguiente forma: primeramente se inicializan variables que son la **UART**, el **ADC** y el **LED**, después entra a un bucle infinito que verifica constantemente si recibe el valor de `'1'` o `'0'`. En caso de que reciba un `'1'`, empieza a enviar el valor capturado por el **ADC** y enciende el **LED** como método físico de verificación de que se está haciendo el envío de datos. Si recibe un `'0'`, detiene el envío de datos y apaga el **LED**.
 
-### 5.2 Transmisión de datos: Comunicación en serie / bluetooth
+El envío de datos se realiza mediante **UART** al módulo **Bluetooth**, que a su vez se encarga de enviarlo al sistema operativo al que fue conectado por este mismo protocolo.
 
-La transmisión de datos re realiza de la siguiente forma, primeramente se inicilaizan variables que son la UART, el ADC y el LED, despúes entra a un bule infinito que verifica constante mente si recibe el valor de `'1'` o `'0'`, en caso de que reciba un `'1'`, empieza a enviar el valor capturado por el adc y enciende el led como método físico de verificación de que se está haciendo el envío de datos, si recibe un `'0'`, detiene el envío de datos y apaga el led. El envío de datos se realiza mediante UART al módulo bluetooth, que este a su vez se encarga de enviarlo al sistema operativo al que fue conectado.
+En un inicio estaba programado para que constantemente enviara los datos, pero esto generaba la desconexión del Bluetooth. Investigando y haciendo pruebas, se descubrió que el hecho de que el sistema operativo (en este caso **PopOS** y **Ubuntu**, que fue en los dos probados), al identificar que inmediatamente un dispositivo Bluetooth enviaba una gran cantidad de datos después de haber sido conectado, lo desconectaba. Por lo que se optó que primero el dispositivo esperara a recibir un `'1'`, para que posteriormente empezara a enviar datos, y después recibir un `'0'` para que dejara de enviar.
 
-En un inicio estaba programado para que constantemente enviara los datos pero esto generaba la desconexión del bluetooth. Investigando y haciendo pruebas, se descubrió que el hecho de que el sistema operativo (en este caso PopOs y Ubuntu, que fue en los dos probados), al identificar que inmediatamente un dispositivo bluetooth enviaba una gran cantidad de datos después de haber sido conectado, lo desconectaba. Por lo que se optó que primero el dispositivo esperara a recibir un `'1'`, para que posteriormente empezara a enviar datos, y despúes recibir un `'0'` para que dejara de enviar.
+---
 
-### 5.3 Resolución, frecuencia de muestreo
+## ⚙️ 5.3 Resolución, Frecuencia de Muestreo
 
-Resolución del ADC: 12 bits (la conversión analógica-digital puesde tomar valores de 0-4095)  
-Frecuencia de muestreo: 192 Hz  
-Tasa de baudios (UART): 9600 bps  
-Bits por muestra: 50 bits (envío de muestra)
+- **Resolución del ADC:** 12 bits (la conversión analógica-digital puede tomar valores de `0` a `4095`)  
+- **Frecuencia de muestreo:** 192 Hz  
+- **Tasa de baudios (UART):** 9600 bps  
+- **Bits por muestra:** 50 bits (envío de muestra)
 
-La velocidad depente de las capacidades del microcontrolador, ejecución del adc_read(), snprintf() y uart_puts() y el ancho de banda de UART. 
+La velocidad depende de las capacidades del microcontrolador, ejecución del `adc_read()`, `snprintf()` y `uart_puts()`, y el ancho de banda de **UART**.
 
-Se uso ese valor de baudios ya que al posteriormente los datos son enviados por bluetooth
+Se usó ese valor de baudios ya que posteriormente los datos son enviados por Bluetooth.
 
+```plaintext
 5 caracteres × 10 bits = 50 bits por muestra  
 9600 bits por segundo / 50 bits por muestra = 192 muestras por segundo
-
-### 5.4 Pseudocódigo
-
 ```
+
+---
+
+## 📝 5.4 Pseudocódigo
+
+```plaintext
 // Inicialización del hardware
 Inicializar UART en BAUD_RATE (9600)
 Configurar pines UART_TX_PIN (16) y UART_RX_PIN (17)
@@ -387,6 +415,8 @@ FIN MIENTRAS
 
 FIN
 ```
+
+---
 
 ## 6. Desarrollo de la aplicación en Python
 ### 6.1 Estructura del programa  
