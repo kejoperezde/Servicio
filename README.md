@@ -20,39 +20,49 @@ Desarrollo de un sistema electrónico para la adquisición de una señal ECG y u
 ### 2.6 Sistemas de Adquisición de Datos (DAQ)  
 ### 2.7 Comunicación serie UART/Bluetooth
 
-## 3. Diseño del DAC
+# 3. DAQ
 
-* Esquema, integrando todo los componentes
+<img src="README/images/principiodac.jpeg" alt="Diseño DAC"/>
 
-### 3.1 Componentes  
+## 3.1 Componentes  
 
-- AD8232
-> Es un módulo de sensor de señal bioeléctrica diseñado para medir la actividad eléctrica del corazón mediante un electrocardiograma (ECG)
+Electrodos: Ambiderm T715  
+Electrodo Desechable autoadheible para monitoreo cardiaco con broche redondo Ambiderm, espuma de Polietileno, redondo, diámetro 55mm
 
-- Módulo Bluetooth: RN-41-FLY-477
-> El módulo RN-41-FLY-477 es un módulo Bluetooth de clase 1 diseñado para aplicaciones industriales y de bajo consumo
+Cable de electródo DC 3.5  
+Permite transmitir las señales captadas por los electrodos al adc mediante una conexión 3.5
 
-- Capacitor de poliéster de  0.1 uF a 250 volts
-> Para transferir señales de un circuito a otro sin permitir que pase corriente continua, lo que permite que solo pase la señal alterna
+AD8232  
+Es un módulo de sensor de señal bioeléctrica diseñado para medir la actividad eléctrica del corazón mediante un electrocardiograma (ECG)
 
-- Electrodos: Ambiderm T715
-> Electrodo Desechable autoadheible para monitoreo cardiaco con broche redondo Ambiderm, espuma de Polietileno, redondo, diámetro 55mm
+Módulo Bluetooth: RN-41-FLY-477  
+El módulo RN-41-FLY-477 es un módulo Bluetooth de clase 1 diseñado para aplicaciones industriales y de bajo consumo
 
-- Cable de electródo DC 3.5
-> Permite transmitir las señales captadas por los electrodos al adc mediante una conexión 3.5
+Capacitor de poliéster de  0.1 uF a 250 volts  
+Para transferir señales de un circuito a otro sin permitir que pase corriente continua, lo que permite que solo pase la señal alterna
 
-### 3.2 Microcontrolador  
+## 3.2 Microcontrolador  
 
-- Raspberry Pi Pico
-> Es una microcontroladora compacta basada en el chip RP2040, Cuenta con un procesador ARM Cortex-M0+ de doble núcleo, 26 pines GPIO, y soporte para interfaces como I2C, SPI, y UART. Es compatible con MicroPython y C/C++.
+Raspberry Pi Pico
+Es una microcontroladora compacta basada en el chip RP2040, Cuenta con un procesador ARM Cortex-M0+ de doble núcleo, 26 pines GPIO, y soporte para interfaces como I2C, SPI, y UART. Es compatible con MicroPython y C/C++.
 
-### 3.3 Fuente de alimentación  
+## 3.3 Fuente de alimentación  
 
-- Requisitos del DAD
-> Alimentación 5v (En este caso la amientación se dio mediante la conección usb tipo c de la raspberry pi pico)
+Para el correcto funcionameinto del DAQ, es necesario una fuente de alimentación de **5V**, esta se suministra mediante el **puerto USB tipo C** de la propia **Raspberry Pi Pico**. En las pruebas se alimentó directamende de un puerto USB, posteriormente de alimentó desde una powerbank.
 
-### 3.4 Diagrama  
-### 3.5 Arquitectura del sistema
+## 3.4 Conexión de componentes  
+
+<img src="README/images/conexionesdac.jpeg" alt="Conexiones DAQ"/>
+
+## 3.5 Diseño de placa
+
+<img src="README/images/placa.jpeg" alt="Diseño base de placa"/>
+
+<img src="README/images/dac.jpeg" alt="Placa con los componentes"/>
+
+## 3.6 Funcionamiento
+
+El módulo AD8232 obtiene la señal...
 
 ---
 
@@ -291,13 +301,13 @@ sudo cp -r /linux-firmware-####/* /lib/firmware
 
 ---
 
-## PyTorch con GPU NVIDIA 🔥
+### 🔥 PyTorch con GPU NVIDIA 
 
 Guía básica para instalar los componentes necesarios para usar **PyTorch** con soporte de **GPU NVIDIA** en Linux.
 
 ---
 
-### 1. CUDA Toolkit
+#### 1. CUDA Toolkit
 
 🔗 [Descargar CUDA para Ubuntu 22.04 (x86_64, deb local)](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local)
 
@@ -305,7 +315,7 @@ Guía básica para instalar los componentes necesarios para usar **PyTorch** con
 
 ---
 
-### 2. cuDNN (CUDA Deep Neural Network Library)
+#### 2. cuDNN (CUDA Deep Neural Network Library)
 
 🔗 [Descargar cuDNN para CUDA 12 (Ubuntu 22.04, x86_64, deb local)](https://developer.nvidia.com/cudnn-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local)
 
@@ -313,7 +323,7 @@ Guía básica para instalar los componentes necesarios para usar **PyTorch** con
 
 ---
 
-### 3. Scikit-learn (opcional)
+#### 3. Scikit-learn (opcional)
 
 🔗 [Guía de instalación de Scikit-learn 1.5](https://scikit-learn.org/1.5/install.html)
 
