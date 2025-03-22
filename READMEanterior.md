@@ -6,9 +6,6 @@
 - [---------------- Sección artículo ----------------](#-----------------sección-artículo-----------------)
   - [1. Introducción](#1-introducción)
   - [2. Metodología](#2-metodología)
-    - [2.1 **Transmisor**](#21-transmisor)
-    - [2.2 \*\*\*\*](#22-)
-    - [2.2 **Transmisión de datos**](#22-transmisión-de-datos)
     - [2.3 **Receptor y Sistema de Procesamiento**](#23-receptor-y-sistema-de-procesamiento)
 - [---------------- Sección artículo ----------------](#-----------------sección-artículo------------------1)
   - [1. Introducción](#1-introducción-1)
@@ -31,16 +28,6 @@
   - [3. Diseño del Sistema](#3-diseño-del-sistema)
     - [3.1. Selección de componentes](#31-selección-de-componentes)
     - [3.3. Esquema del sistema](#33-esquema-del-sistema)
-  - [4. Desarrollo del Software](#4-desarrollo-del-software)
-    - [4.1. Entorno de desarrollo](#41-entorno-de-desarrollo)
-      - [4.1.1. Herramientas necesarias](#411-herramientas-necesarias)
-        - [Screen](#screen)
-        - [Dispositivos conectados](#dispositivos-conectados)
-      - [4.1.2. Instalación y configuración](#412-instalación-y-configuración)
-        - [Pop OS](#pop-os)
-        - [Python](#python)
-        - [Visual Studio Code](#visual-studio-code)
-        - [Blueman](#blueman)
     - [4.2. Programación en Python](#42-programación-en-python)
       - [4.2.1. Estructura básica del programa](#421-estructura-básica-del-programa)
       - [4.2.2. Adquisición de datos](#422-adquisición-de-datos)
@@ -76,7 +63,6 @@
     - [10.4. Resultados adicionales de pruebas](#104-resultados-adicionales-de-pruebas)
     - [10.5. Diagramas y gráficos](#105-diagramas-y-gráficos)
   - [11. Solución de problemas](#11-solución-de-problemas)
-- [Cochinero util](#cochinero-util)
 
 
 # ---------------- Sección artículo ----------------
@@ -87,47 +73,6 @@
 
 Texto
 
-### 2.1 **Transmisor**
-
-El transmisor permite capturar la señal cardíaca y enviarla inalámbricamente
-
-* Esquema, integrando todo lo siguiente
-
-- Raspberry Pi Pico
-> Es una microcontroladora compacta basada en el chip RP2040, Cuenta con un procesador ARM Cortex-M0+ de doble núcleo, 26 pines GPIO, y soporte para interfaces como I2C, SPI, y UART. Es compatible con MicroPython y C/C++.
-
-- AD8232
-> Es un módulo de sensor de señal bioeléctrica diseñado para medir la actividad eléctrica del corazón mediante un electrocardiograma (ECG)
-
-- Módulo Bluetooth: RN-41-FLY-477
-> El módulo RN-41-FLY-477 es un módulo Bluetooth de clase 1 diseñado para aplicaciones industriales y de bajo consumo
-
-- Capacitor de poliéster de  0.1 uF a 250 volts
-> Para transferir señales de un circuito a otro sin permitir que pase corriente continua, lo que permite que solo pase la señal alterna
-
-- Electrodos: Ambiderm T715
-> Electrodo Desechable autoadheible para monitoreo cardiaco con broche redondo Ambiderm, espuma de Polietileno, redondo, diámetro 55mm
-
-- Cable de electródo DC 3.5
-> Permite transmitir las señales captadas por los electrodos al adc mediante una conexión 3.5
-
-- Requisitos del DAD
-> Alimentación 5v (En este caso la amientación se dio mediante la conección usb tipo c de la raspberry pi pico)
-
-
-
-### 2.2 ****
-
-### 2.2 **Transmisión de datos**
-
-General, tipos de transmisión de datos y el por que de cada uno
-
-- Adquisicón
-  
-- UART (Universal Asynchronous Receiver/Transmitter)
-  
-- Bluetooth
-  
 
 ### 2.3 **Receptor y Sistema de Procesamiento**
 
@@ -183,24 +128,7 @@ Derivaciones
 
 #### 2.2.1. Definición y funciones
 
-1.  Descargar sdk para Raspberry Pi Principios
-    Desacargar [pico.sh](https://github.com/kejoperezde/Servicio/blob/3e0f7b95ebaf8ff6d712780103dedfb72edc734b/PICO/pico.sh)
 
-    `chmod +x pico.sh`
-    
-    `./pico.sh`
-
-2.  Descargar Pico Project Generator
-    
-    `cd /pico`
-
-    `git clone https://github.com/raspberrypi/pico-project-generator.git`
-
-3.  Ejecutar creador de proyectos C
-    
-    `cd /pico-project-generator`
-  
-    `./pico-project.py --gui`
 
 ### 3.2. Sistemas de adquisición de datos (DAQ)
 
@@ -226,128 +154,6 @@ Derivaciones
 - ![Esquema](https://github.com/kejoperezde/Servicio/blob/0bd88815d1d097b9d29344461a53910fb38639e7/README/esquema.jpg "Esquema")
 
 [⇧ Volver al índice](#índice)
-
-
-## 4. Desarrollo del Software 
-
-### 4.1. Entorno de desarrollo
-
-- Visual Estudio Code
-
-#### 4.1.1. Herramientas necesarias
-
-- Laptop
-- Sistema operativo Linux, distribución Pop Os
-
-##### Screen
-
-Sirve para gestionar sesiones de terminal 
-
-1. Instalar screen (Opcional)
-    
-    `sudo apt install screen`
-
-2. Ver sesión (datos recibidos)
-    
-    `sudo screen /dev/K` -> K dispositivo de entrada
-
-##### Dispositivos conectados
-
-1. Ver todos los dispotivios
-
-    `ls /dev/tty*`
-
-2. Dispositivos USB
-
-    `ls /dev/ttyUSB*`
-
-3. Dispositivos bluetooth
-
-    `ls /dev/rfcomm*`
-
-#### 4.1.2. Instalación y configuración
-
-Texto
-
-##### Pop OS
-
-Es una distribución de Linux desarrollada por System76. Está diseñada para ser una opción confiable y eficiente para desarrolladores, creadores y usuarios de STEM (ciencia, tecnología, ingeniería y matemáticas).
-
-1. Instalación de Pop OS (Versión usada: 22.04 lts)
-    
-    [pop.system76.com](https://pop.system76.com/ "Pop Os").
-
-2. Actualización del sistema
-    
-    `sudo apt update && sudo apt upgrade`
-    
-3. Añadir usuario
-    
-    `sudo usermod -a -G dialout $USER`
-
-4. Reiniciar
-  
-    `sudo reboot`
-
-##### Python
-
-Python es un lenguaje de programación de alto nivel, interpretado y de propósito general.
-
-1. Instalar python 3 (Versión usada: 22.0.2)
-    
-    `sudo apt install python3-pip`
-
-2. Librerías necesarias de python
-    
-    `pip install pyserial numpy pandas matplotlib`
-
-    `pip3 install pyserial numpy pandas matplotlib`
-  
-    `sudo apt install python3-tk`
-
-    `pip install pycryptodome`
-
-3. Instalar pybluez
-
-    1. `pip3 install setuptools==57.0.0`
-
-    2. `sudo apt install libbluetooth-dev`
-
-    3. `pip3 install pybluez`
- 4. sudo apt-get install libsystemd-dev
-4. pip3 install --upgrade systemd-python
-sudo apt-get install python3-dev
-pip3 install scipy
-pysimplegui
-
-  | Librería   | Versión | Descripción |
-  | ---------- | ------- |------------ |
-  | pyserial   | 3.5     | Para comunicación serial con dispositivos, como puertos serie o USB. |
-  | numpy      | 2.1.3   | Para operaciones matemáticas y manipulación de arreglos y matrices. |
-  | pandas     | 2.2.3   | Para manipulación y análisis de datos estructurados, como tablas y series temporales. |
-  | matplotlib | 3.9.2   | Para crear gráficos y visualizaciones de datos. |
-  | tkinter    | 3.10.8  | Para crear interfaces gráficas de usuario (GUI) |
-  | pybluez    | 0.23    | Para comunicación Bluetooth en Python. |
-
-##### Visual Studio Code
-
-Es un editor de código fuente gratuito, ligero y multiplataforma desarrollado por Microsoft.
-
-1. Instalar visual studio code (Versión usada: 1.95.2)
-
-    `sudo apt install code`
-
-2. Actualizar a última versión visual estudio code
-    
-    `sudo apt upgrade code`
-
-##### Blueman
-
-Es un administrador de Bluetooth para sistemas Linux.
-
-1. Instalar blueman (Versión usada: 2.2.4)
-    
-    `sudo apt install blueman`
 
 ### 4.2. Programación en Python
 
@@ -446,19 +252,7 @@ Imágenes [One Drive](https://1drv.ms/f/s!AsP3n41dk7dYgeCnVOpamzrRtiJD-2o?e=4rbq
 
 ## 11. Solución de problemas
 
-Thonny (Opcional)
 
-Es un entorno de desarrollo integrado (IDE) diseñado para programar en Python.
-
-1. Instalar thonny (Versión usada: 2.1.21)
-    
-    `sudo apt install thonny`
-
-3. Actualizar linux firmware (Tag usado: 20241110) OPCIONAL
-
-    - Descargar última versión [linux-firmware](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git "linux-firmware").
-    - Extraer contenido del archivo: `tar -xvf nombre_archivo.tar.yz`
-    - Reemplazar archivos: `sudo cp -r /linux-firmware-####/* /lib/firmware`
 
 
 
@@ -476,14 +270,8 @@ https://developer.nvidia.com/downloads/compute/machine-learning/tensorrt/10.7.0/
 
 Pytorch
 
+Para ver versión de cuda
 nvidia-smi
 nvtop
 sudo apt install nvtop
 
-# Cochinero util
-2. Procesamiento de señales con Wavelets
-
-from pywt import wavedec
-
-    pywt.wavedec: Función de la biblioteca PyWavelets que realiza la descomposición wavelet discreta.
-        Esto se usa para descomponer una señal en diferentes niveles de detalle y obtener coeficientes wavelet.

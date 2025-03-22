@@ -14,7 +14,6 @@ bool sending_data = false;
 
 int main() {
     // Inicializa el hardware
-    // stdio_init_all();
     
     // Configura el UART
     uart_init(UART_ID, BAUD_RATE);  // Configura la UART
@@ -32,7 +31,6 @@ int main() {
     gpio_put(LED_PIN, 0);  // Configurar el led en estado apagado
     
     char received_char;
-
     
     // Bucle principal
     while (true) {
@@ -63,8 +61,6 @@ int main() {
 
             uart_puts(UART_ID, buffer);  // Envía el valor del ADC
 
-            // Espera 1 ms antes de tomar otra lectura
-            // sleep_ms(1);
         }
     }
 
