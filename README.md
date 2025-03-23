@@ -64,6 +64,8 @@ Para el correcto funcionameinto del DAQ, es necesario una fuente de alimentació
 
 El módulo AD8232 obtiene la señal...
 
+## 3.7 Conexión para muestra
+
 ---
 
 # 📦 4. Configuración del Entorno de Desarrollo
