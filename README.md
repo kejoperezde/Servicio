@@ -1,24 +1,33 @@
 # Índice
-## 1. Introducción
+# 1. Introducción
 
-### 1.1. Objetivos del proyecto  
+ En el presente proyecto se plantea el desarrollo de un sistema de adquisición de datos (DAQ) especializado en la obtención de señales electrocardiográficas (ECG) mediante el uso de sistemas embebidos y el lenguaje de programación C. Este sistema está diseñado para capturar la señal ECG de una persona, transmitirla a una computadora para su visualización y análisis, y, mediante algoritmos, detectar posibles anomalías cardíacas. A continuación, se abordan los aspectos clave del proyecto, incluyendo sus objetivos, importancia, y alcance, así como los fundamentos teóricos necesarios para su desarrollo.
+
+## 1.1. Objetivos del proyecto  
 
 Desarrollo de un sistema electrónico para la adquisición de una señal ECG y un sistema de adquisición de datos (DAQ) para la obtención y procesamiento de señales ECG en tiempo real, utilizando sistemas embebidos programados en lenguaje C. Se busca que el sistema capture de manera precisa las señales electrocardiográficas de una persona, las transmita a una computadora para su visualización, y aplique algoritmos para analizar las señales y detectar posibles anomalías cardíacas. 
 
-### 1.2. Justificación  
-### 1.3. Importancia de la adquisición de señales ECG  
+## 1.2. Justificación  
 
-## 2. Fundamentos Teóricos
-### 2.1 Frecuencia cardiaca  
+El desarrollo de un sistema de adquisición de señales electrocardiográficas (ECG) basado en sistemas embebidos y procesamiento digital de señales responde a la necesidad de contar con herramientas accesibles y eficientes para la investigación biomédica. Actualmente, la adquisición y análisis de señales ECG requiere equipos de alto costo, diseñados principalmente para aplicaciones médicas certificadas. Este proyecto busca ofrecer una alternativa basada en hardware de bajo costo, manteniendo una alta precisión en la captura y procesamiento de datos.  
 
+## 1.3. Importancia de la adquisición de señales ECG  
 
+La adquisición de señales electrocardiográficas (ECG) es fundamental en el monitoreo y diagnóstico de enfermedades cardiovasculares. Un sistema de adquisición de ECG permite registrar la actividad eléctrica del corazón a través de electrodos colocados en la piel, proporcionando información clave sobre el ritmo y la función cardíaca. La precisión en la adquisición de estas señales es esencial, ya que cualquier interferencia o ruido puede afectar la interpretación de los datos, lo que podría llevar a diagnósticos erróneos (García et al., 2015).
 
-### 2.2 Triángulo de Einthoven  
-### 2.3 Electrocardiograma (ECG)  
-### 2.4 Filtros digitales    
-### 2.5 Convertidor ADC  
-### 2.6 Sistemas de Adquisición de Datos (DAQ)  
-### 2.7 Comunicación serie UART/Bluetooth
+El desarrollo de sistemas de adquisición de ECG ha evolucionado significativamente gracias a los avances en electrónica y procesamiento de señales. La implementación de filtros digitales y amplificadores de instrumentación ha mejorado la calidad de las señales obtenidas, permitiendo una detección más precisa de anomalías como arritmias y bloqueos cardíacos (Rodríguez & López, 2020). Además, la integración de sistemas embebidos y la transmisión de datos en tiempo real han facilitado el monitoreo remoto, beneficiando a pacientes con enfermedades crónicas y reduciendo la necesidad de hospitalización (Fernández et al., 2018).
+
+La importancia de la adquisición de señales ECG también radica en su uso en el ámbito de la investigación biomédica y el desarrollo de tecnologías médicas innovadoras. Los sistemas modernos de adquisición no solo permiten visualizar las señales en tiempo real, sino que también posibilitan el análisis automatizado mediante algoritmos de inteligencia artificial, mejorando la detección temprana de patologías (Martínez et al., 2019). Estos avances refuerzan la necesidad de continuar optimizando los sistemas de adquisición para lograr registros cada vez más precisos y accesibles en entornos clínicos y domésticos.
+
+# 2. Fundamentos Teóricos
+
+## 2.1 Frecuencia cardiaca  
+## 2.2 Triángulo de Einthoven  
+## 2.3 Electrocardiograma (ECG)  
+## 2.4 Filtros digitales    
+## 2.5 Convertidor ADC  
+## 2.6 Sistemas de Adquisición de Datos (DAQ)  
+## 2.7 Comunicación serie UART/Bluetooth
 
 ---
 
@@ -576,6 +585,8 @@ int main(){
 }
 ```
 ### 10.2 Gráficos adicionales  
+
+Imágenes [One Drive](https://1drv.ms/f/s!AsP3n41dk7dYgeCnVOpamzrRtiJD-2o?e=4rbqUR).
 
 ## 11. Errores comunes y soluciones
 ### 11.1 Problemas en la adquisición de datos  
