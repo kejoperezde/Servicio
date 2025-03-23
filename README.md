@@ -20,51 +20,131 @@ Desarrollo de un sistema electrónico para la adquisición de una señal ECG y u
 ### 2.6 Sistemas de Adquisición de Datos (DAQ)  
 ### 2.7 Comunicación serie UART/Bluetooth
 
-# 3. DAQ
+¡Claro! Aquí te dejo la **reestructura** de tu contenido para que sea **más legible, ordenado y técnico**, respetando la redacción y añadiendo una presentación más clara para tu documento:
 
-<img src="README/images/principiodac.jpeg" alt="Diseño DAC"/>
+---
 
-## 3.1 Componentes  
+# ⚙️ 3. DAQ
 
-Electrodos: Ambiderm T715  
-Electrodo Desechable autoadheible para monitoreo cardiaco con broche redondo Ambiderm, espuma de Polietileno, redondo, diámetro 55mm
+![Diseño DAC](README/images/principiodac.jpeg)
 
-Cable de electródo DC 3.5  
-Permite transmitir las señales captadas por los electrodos al adc mediante una conexión 3.5
+---
 
-AD8232  
-Es un módulo de sensor de señal bioeléctrica diseñado para medir la actividad eléctrica del corazón mediante un electrocardiograma (ECG)
+## 🔩 3.1 Componentes
 
-Módulo Bluetooth: RN-41-FLY-477  
-El módulo RN-41-FLY-477 es un módulo Bluetooth de clase 1 diseñado para aplicaciones industriales y de bajo consumo
+### ➤ **Electrodos: Ambiderm T715**  
+Electrodos desechables autoadheribles diseñados para la adquisición de señales bioeléctricas.  
+- Fabricados en espuma de **polietileno**.  
+- Incorporan un broche de conexión metálico tipo botón que facilita su integración con cables de monitoreo.  
+- Diseño redondo de **55 mm** de diámetro.
 
-Capacitor de poliéster de  0.1 uF a 250 volts  
-Para transferir señales de un circuito a otro sin permitir que pase corriente continua, lo que permite que solo pase la señal alterna
+---
 
-## 3.2 Microcontrolador  
+### ➤ **Cable de Electrodo DC 3.5 mm**  
+Cable de transmisión de señales bioeléctricas utilizado para conectar los electrodos al módulo de acondicionamiento y conversión analógica-digital.  
+- Dispone de un conector **3.5 mm tipo jack**.  
+- Su función principal es transportar las señales captadas por los electrodos al módulo **AD8232**, minimizando el ruido en la transmisión.
 
-Raspberry Pi Pico
-Es una microcontroladora compacta basada en el chip RP2040, Cuenta con un procesador ARM Cortex-M0+ de doble núcleo, 26 pines GPIO, y soporte para interfaces como I2C, SPI, y UART. Es compatible con MicroPython y C/C++.
+---
 
-## 3.3 Fuente de alimentación  
+### ➤ **Módulo AD8232**  
+Módulo de adquisición de señales bioeléctricas especializado en la medición de la actividad eléctrica del corazón.  
+- Integra un **amplificador de instrumentación**.  
+- Incluye filtros **pasa bajos** y **pasa altos**.  
+- Sistema de rechazo de **modo común** para minimizar interferencias.  
 
-Para el correcto funcionameinto del DAQ, es necesario una fuente de alimentación de **5V**, esta se suministra mediante el **puerto USB tipo C** de la propia **Raspberry Pi Pico**. En las pruebas se alimentó directamende de un puerto USB, posteriormente de alimentó desde una powerbank.
+---
 
-## 3.4 Conexión de componentes  
+### ➤ **Módulo Bluetooth RN-41-FLY-477**  
+Módulo de comunicación inalámbrica **Bluetooth Clase 1**, ideal para transmisión de datos a larga distancia.  
+- Alcance de hasta **100 metros**.  
+- Interfaz de comunicación **UART**.  
+- Bajo consumo energético.
 
-<img src="README/images/conexionesdac.jpeg" alt="Conexiones DAQ"/>
+---
 
-## 3.5 Diseño de placa
+### ➤ **Capacitor de Poliéster 0.1 µF a 250V**  
+Componente pasivo utilizado para **acoplamiento capacitivo**.  
+- Bloquea la corriente continua (**DC**).  
+- Permite el paso de la señal alterna (**AC**), aislando diferentes etapas del sistema.  
+- Elimina **offsets** no deseados y reduce el ruido generado por la componente continua de la señal.
 
-<img src="README/images/placa.jpeg" alt="Diseño base de placa"/>
+---
 
-<img src="README/images/dac.jpeg" alt="Placa con los componentes"/>
+## 🧠 3.2 Microcontrolador
 
-## 3.6 Funcionamiento
+### ➤ **Raspberry Pi Pico**  
+La **Raspberry Pi Pico** es una placa de desarrollo compacta basada en el **microcontrolador RP2040**, diseñado por Raspberry Pi.  
+Integra un procesador **ARM Cortex-M0+ de doble núcleo**, operando a una frecuencia de hasta **133 MHz**, proporcionando un excelente balance entre rendimiento y bajo consumo energético.
 
-El módulo AD8232 obtiene la señal...
+---
 
-## 3.7 Conexión para muestra
+#### 📌 **Características principales:**
+
+- **Memoria**:  
+  - 264 KB de **SRAM**.  
+  - Soporte para hasta **16 MB** de memoria **Flash externa** mediante interfaz **QSPI**.  
+
+- **Entradas/Salidas (GPIO)**:  
+  - 26 pines **GPIO** multifunción.  
+  - 3 pines configurables como entradas analógicas para el **ADC de 12 bits**.  
+
+- **Interfaces de comunicación**:  
+  - **UART (2)**: Comunicación serial asíncrona.  
+  - **SPI (2)**: Comunicación síncrona de alta velocidad.  
+  - **I2C (2)**: Comunicación en bus compartido para múltiples dispositivos.  
+
+- **Conversores Analógico-Digital (ADC)**:  
+  - 3 canales **ADC** de **12 bits**, útiles para la adquisición de señales analógicas.
+
+---
+
+#### 📌 **Programación y compatibilidad:**  
+- Compatible con **MicroPython** y **C/C++**.  
+- Soporte en entornos de desarrollo como **Thonny**.  
+- Dispone de **SDK oficial** para C/C++, facilitando la implementación de aplicaciones en sistemas embebidos.
+
+---
+
+## 🔋 3.3 Fuente de Alimentación  
+
+Para el correcto funcionamiento del **DAQ**, es necesario suministrar una fuente de alimentación de **5V**, la cual se entrega a través del **puerto USB tipo C** de la **Raspberry Pi Pico**.
+
+✅ Durante las pruebas:  
+- Se alimentó directamente desde un puerto **USB** de PC.  
+- Posteriormente, se alimentó desde una **powerbank**, asegurando la portabilidad del sistema.
+
+---
+
+## 🔌 3.4 Conexión de Componentes  
+
+![Conexiones DAQ](README/images/conexionesdac.jpeg)
+
+---
+
+## 🖨️ 3.5 Diseño de Placa
+
+| **Diseño Base**                             | **Montaje de Componentes**                      |
+|---------------------------------------------|-------------------------------------------------|
+| ![Diseño base de placa](README/images/placa.jpeg) | ![Placa con los componentes](README/images/dac.jpeg) |
+
+---
+
+## ⚡ 3.6 Funcionamiento
+
+1. Los **electrodos desechables Ambiderm T715** se colocan sobre la piel del paciente según el **Triángulo de Einthoven**. Estos electrodos recogen las pequeñas variaciones de potencial generadas por la actividad eléctrica cardiaca.
+
+2. El **cable de electrodo DC 3.5 mm**, con sus tres terminaciones, se conecta de acuerdo al Triángulo de Einthoven. El cable transmite la señal desde los electrodos hacia el módulo **AD8232**.
+
+3. El módulo **AD8232** procesa la señal captada:
+   - **Filtra** la señal para eliminar el ruido de alta frecuencia.
+   - **Amplifica** la señal bioeléctrica.
+   - Reduce el ruido gracias al **capacitor de poliéster de 0.1 µF**, que realiza el acoplamiento de señal, bloqueando la corriente continua (**DC**) y permitiendo el paso de la componente alterna (**AC**).
+
+4. La señal, ya filtrada y amplificada, se envía al microcontrolador **Raspberry Pi Pico** a través del **pin GPIO 26 (A0)**.  
+   El **ADC** de la Raspberry Pi Pico convierte esta señal analógica en valores digitales de **12 bits** para su posterior procesamiento.
+
+5. Una vez digitalizada y procesada, la señal es transmitida vía **UART** a través de los pines **TX y RX**. Estos pines están conectados al módulo **Bluetooth RN-41-FLY-477**, que envía los datos de manera inalámbrica al sistema operativo receptor.
 
 ---
 
@@ -232,7 +312,7 @@ Estas librerías no requieren instalación adicional:
 
 ## 🛠️ 4.7 Utilidades
 
-Aquí se detallan las utilidades instaladas y configuradas para facilitar el desarrollo y la administración del entorno de trabajo.
+Herramientas para facilitar el desarrollo y la administración del entorno de trabajo.
 
 ---
 
@@ -374,7 +454,11 @@ Se usó ese valor de baudios ya que posteriormente los datos son enviados por Bl
 
 ---
 
-## 📝 5.4 Pseudocódigo
+## 🔧 5.4 Diagrama de flujo
+
+<img src="README/images/diagramaflujo.jpeg" alt="Placa con los componentes"/>
+
+## 📝 5.5 Pseudocódigo
 
 ```plaintext
 // Inicialización del hardware
