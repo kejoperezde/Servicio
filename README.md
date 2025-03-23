@@ -514,17 +514,19 @@ FIN MIENTRAS
 
 FIN
 ```
-
 ---
 
-## 6. Desarrollo de la aplicación en Python
-### 6.1 Estructura del programa  
-### 6.2 Lectura de datos transmitidos desde el DAC  
-### 6.3 Interfaz de usuario
-### 6.4 Controles de interacción (inicio/detención de adquisición)  
-### 6.5 Guardado de datos a CSV
-### 6.6 Filtrado digital (Butterworth)  
-### 6.7 Visualización de datos
+# 6. Desarrollo de la aplicación en Python
+## 6.1 Estructura del programa  
+
+
+
+## 6.2 Lectura de datos transmitidos desde el DAC  
+## 6.3 Interfaz de usuario
+## 6.4 Controles de interacción (inicio/detención de adquisición)  
+## 6.5 Guardado de datos a CSV
+## 6.6 Filtrado digital (Butterworth)  
+## 6.7 Visualización de datos
 
 ## 7. BD MIT BIH
 ### 7.1 Obtención de datos
