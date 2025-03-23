@@ -1,269 +1,209 @@
 import os
 import serial
 import tkinter as tk
-from tkinter import filedialog
-from tkinter import messagebox
+from tkinter import filedialog, messagebox
 import matplotlib.pyplot as plt
 import csv
 import pandas as pd
 import time
-# Filtros
-from Filtros.ButterWorth import ButterWorth
-from Filtros.PasoAltoyBajo import PasoAltoyBajo
-from Filtros.PromedioMovil import PromedioMovil
-from Filtros.Wavelet import Wavelet
+import subprocess
+from ButterWorth import ButterWorth
 
-# CENTRAR VENTANA
+
+### ===========================  FUNCIONES DE INTERFAZ GRÁFICA  =========================== ###
+
 def centrar_ventana(ventana, ancho, alto):
+    """Centrar ventana en la pantalla."""
     ancho_pantalla = ventana.winfo_screenwidth()
     alto_pantalla = ventana.winfo_screenheight()
     x = (ancho_pantalla // 2) - (ancho // 2)
     y = (alto_pantalla // 2) - (alto // 2)
     ventana.geometry(f"{ancho}x{alto}+{x}+{y}")
-    
-# SELECCIONAR ARCHIVO
+
 def seleccionar_archivo():
+    """Abrir un cuadro de diálogo para seleccionar un archivo CSV."""
     root = tk.Tk()
     root.withdraw()  # Ocultar la ventana principal
     archivo = filedialog.askopenfilename(title="Selecciona un archivo CSV", filetypes=[("CSV files", "*.csv")])
     return archivo
 
-# RETORNAR SOLO SEÑAL
-def get_signal(ruta_archivo):
-    dataset = pd.read_csv(ruta_archivo)
-    signal = dataset['mV']
-    return signal
+### ===========================  FUNCIONES PARA MANEJO DE ARCHIVOS  =========================== ###
 
-# GRAFICAR DATOS
-def graficar_filtros(ruta_archivo):
-    # Leer los datos desde el archivo CSV
-    data = pd.read_csv(ruta_archivo)
+def crear_carpeta_y_archivo(nombre, fase):
+    """
+    Crea una carpeta dentro de 'Muestras' con el nombre del usuario y 
+    un archivo CSV único basado en la fase seleccionada.
 
-    # Extraer las columnas
-    tiempo = data['Seg']
-    voltaje = data['mV']
+    Parámetros:
+    - nombre (str): Nombre del usuario (subcarpeta).
+    - fase (str): Fase seleccionada.
 
-    # Crear la figura y las subgráficas
-    fig, axs = plt.subplots(4, 1, figsize=(10, 10))
+    Retorna:
+    - str: Ruta del archivo CSV creado o None si se cancela.
+    """
 
-    # ButterWorth
-    butterWorth = ButterWorth(ruta_archivo)
-    # Gráfica
-    axs[0].plot(tiempo, butterWorth.aplicar_filtro(), label='Voltaje (mV)', color='red', marker='')
-    axs[0].set_title('Butter Worth')
-    axs[0].set_xlabel('Tiempo (s)')
-    axs[0].set_ylabel('Voltaje (mV)')
-    axs[0].grid()
-    
-    # PasoAltoyBajo
-    pasoAltoyBajo = PasoAltoyBajo(ruta_archivo)
-    # Gráfica
-    axs[1].plot(tiempo, pasoAltoyBajo.aplicar_filtro(), label='Voltaje (mV)', color='red', marker='')
-    axs[1].set_title('Paso Alto y Bajo')
-    axs[1].set_xlabel('Tiempo (s)')
-    axs[1].set_ylabel('Voltaje (mV)')
-    axs[1].grid()
-    
-    # PromedioMovil
-    promedioMovil = PromedioMovil(ruta_archivo)
-    # Gráfica
-    axs[2].plot(tiempo, promedioMovil.aplicar_filtro(), label='Voltaje (mV)', color='red', marker='')
-    axs[2].set_title('Promedio Móvil')
-    axs[2].set_xlabel('Tiempo (s)')
-    axs[2].set_ylabel('Voltaje (mV)')
-    axs[2].grid()
-    
-    # Wavelet
-    wavelet = Wavelet(ruta_archivo)
-    axs[3].plot(tiempo, wavelet.aplicar_filtro(), label='Voltaje (mV)', color='red', marker='')
-    axs[3].set_title('Wavelet')
-    axs[3].set_xlabel('Tiempo (s)')
-    axs[3].set_ylabel('Voltaje (mV)')
-    axs[3].grid()
+    # Mapeo de fases a nombres de archivos
+    fase_map = {
+        "0. Prueba": "N",
+        "1. Baseline": "A",
+        "2. Stroop": "B",
+        "3. Pausa": "C",
+        "4. Respiracion": "D"
+    }
 
-    # Ajustar el layout
-    plt.tight_layout()
-    plt.show()  
+    # Normalizar nombre
+    nombreLow = nombre.lower().strip()
+    carpeta_base = os.path.join(os.getcwd(), "Muestras")
 
-# GRAFICAR DATOS DE MUESTRA
+    # Crear carpeta base si no existe
+    if not os.path.exists(carpeta_base):
+        os.makedirs(carpeta_base)
+
+    # Ruta de la subcarpeta del usuario
+    carpeta_path = os.path.join(carpeta_base, nombreLow)
+
+    # Crear subcarpeta si no existe
+    if not os.path.exists(carpeta_path):
+        os.makedirs(carpeta_path)
+    else:
+        respuesta = messagebox.askyesno("Advertencia", f"La carpeta '{nombreLow}' ya existe. ¿Deseas continuar?")
+        if not respuesta:
+            return None  # Cancelar la operación
+
+    # Obtener nombre base del archivo basado en la fase
+    nombre_fase = fase_map.get(fase)
+
+    # Buscar archivos existentes con la misma fase
+    archivos_existentes = [archivo for archivo in os.listdir(carpeta_path) if archivo.startswith(f"{nombreLow}_{nombre_fase}") and archivo.endswith(".csv")]
+    numeros_existentes = []
+
+    for archivo in archivos_existentes:
+        try:
+            numero = int(archivo.split('_')[-1].split('.')[0])  # Extraer el número final
+            numeros_existentes.append(numero)
+        except (IndexError, ValueError):
+            continue
+
+    # Determinar el siguiente número disponible
+    siguiente_numero = max(numeros_existentes, default=0) + 1
+    archivo_csv = f"{nombreLow}_{nombre_fase}_{siguiente_numero}.csv"
+    archivo_path = os.path.join(carpeta_path, archivo_csv)
+
+    # Crear el archivo CSV con encabezados
+    with open(archivo_path, 'w', newline='') as archivo:
+        escritor = csv.writer(archivo)
+        escritor.writerow(["Seg", "mV"])  # Encabezados del CSV
+
+    print(f"Archivo creado: {archivo_path}")
+    return archivo_path
+
+
+### ===========================  FUNCIONES PARA PROCESAMIENTO DE DATOS  =========================== ###
+
 def graficar_datos(ax, canvas, ruta_archivo):
+    """Graficar los datos de un archivo CSV."""
     ax.clear()
-    
-    # Etiquetas y título
-    ax.set_title("Señal ECG")
+    ax.set_title("Señal ECG Filtro ButterWorth")
     ax.set_ylabel("Amplitud")
     ax.set_xlabel("Segundos")
-    
-     # Leer los datos desde el archivo CSV
+
+    # Cargar datos del archivo CSV
     data = pd.read_csv(ruta_archivo)
 
-    # Extraer las columnas
-    tiempo = data['Seg']
-    voltaje = data['mV']
-    
-    # Redibujar la gráfica con el nuevo punto
-    ax.plot(tiempo, voltaje, marker='', color='red')
-    canvas.draw()  # Redibujar el gráfico
+    # Crear instancia del filtro Butterworth
+    filtro = ButterWorth(fs=192)  # Asegúrate de usar la misma frecuencia de muestreo
 
-# FUNCION TOMAR MUESTRAS DEL SERIAL PASAR A ARREGLO (MISMAS MUESTRAS)
-def iniciar_lectura_serial_arreglo(ventana, etiqueta, archivo_path, puerto_serie, baudrate):
-    arreglo = []
+    # Aplicar filtro a la columna de mV
+    señal_filtrada = filtro.apply_filter(data['mV'])
+
+    # Graficar la señal filtrada
+    ax.plot(data['Seg'], señal_filtrada, marker='', color='red', label="ECG Filtrado")  
+    ax.legend()
+
+    # Redibujar el canvas de Tkinter
+    canvas.draw()
+
+import serial
+import csv
+import time
+import tkinter as tk
+from tkinter import messagebox
+
+def iniciar_lectura_serial(archivo_path, puerto_serie, baudrate, selected_fase):
+    """
+    Inicia la lectura del puerto serial y guarda los datos en un archivo CSV.
+    """
+    
+    # Duraciones según la fase seleccionada
+    duracion_map = {
+        "0. Prueba": 10,
+        "1. Baseline": 180,
+        "2. Stroop": 180,
+        "3. Pausa": 60,
+        "4. Respiracion": 180
+    }
+    duracion = duracion_map.get(selected_fase, 30)  # Valor por defecto de 30 segundos si la fase no se encuentra
+
+    # Crear ventana de Tkinter oculta para mostrar los alertas sin una interfaz gráfica visible
+    root = tk.Tk()
+    root.withdraw()
+
     try:
         ser = serial.Serial(puerto_serie, baudrate)
-        print(f'Conexión correcta')
-        ser.write(b'1')     # write a string, manda al dispositivo que envíe datos
 
-        print('Tomando datos...')
-        #inicio = time.time()
+        ser.write(b'1')  # Inicia la transmisión de datos desde el dispositivo
+
+        inicio = time.time()
         
-        count = 1
-        
-        #while time.time() - inicio <= 10:  # Dura 10 segundos
-        while count <= 10:  # Dura 10 segundos
-            if ser.in_waiting > 0:
-                arreglo.append(ser.readline())
-                count += 1
-
-        print('Longitud del arreglo: ' + str(len(arreglo)))
-        
-        print("Toma de muestras finalizada.")
-        etiqueta.config(text="Muestras guardadas")
-    except serial.SerialException as e:
-        etiqueta.config(text=f"Error de conexión")
-        print(f"Error: {str(e)}")
-    except Exception as e:
-        etiqueta.config(text=f"Ocurrió un error")
-        print(f"Error: {str(e)}")
-    finally:
-        ser.write(b'0')     # write a string, manda al dispositivo para que deje de enviar datos
-        ser.close()
-    
-    ventana.after(1000, ventana.destroy)  # Cierra la ventana después de 1 segundo
-
-# FUNCION TOMAR MUESTRAS DEL SERIAL
-def iniciar_lectura_serial(ventana, etiqueta, archivo_path, puerto_serie, baudrate):
-    try:
-        ser = serial.Serial(puerto_serie, baudrate)
-        print(f'Conexión correcta')
-        ser.write(b'1')     # write a string, manda al dispositivo que envíe datos
-
         with open(archivo_path, 'w', newline='') as archivo_csv:
             escritor_csv = csv.writer(archivo_csv)
             print('Tomando datos...')
             inicio = time.time()
             escritor_csv.writerow(["Seg", "mV"])  # Escribir encabezados    
 
-            while time.time() - inicio <= 10:  # Dura 10 segundos
+            while time.time() - inicio <= duracion:  # Dura 10 segundos
                 if ser.in_waiting > 0:
                     dato = ser.readline().decode('utf-8').strip()
                     tiempo_transcurrido = time.time() - inicio
-                    #escritor_csv.writerow([0, int(dato) / 65535.0]) # Normaliza el valor a [0, 1]
                     escritor_csv.writerow([round(tiempo_transcurrido, 8), int(dato) / 65535.0]) # Normaliza el valor a [0, 1]
-                    # print("Dato guardado")
 
-        print("Toma de muestras finalizada.")
-        etiqueta.config(text="Muestras guardadas")
-        
+        mensaje_fin = f"Toma de muestras finalizada para la fase '{selected_fase}'."
+        messagebox.showinfo("Fin de Toma de Muestras", mensaje_fin)
+
     except serial.SerialException as e:
-        etiqueta.config(text=f"Error de conexión")
-        print(f"Error: {str(e)}")
+        messagebox.showerror("Error de Conexión", f"No se pudo abrir el puerto serial.\nError: {str(e)}")
+        print(f"Error de conexión serial: {str(e)}")
     except Exception as e:
-        etiqueta.config(text=f"Ocurrió un error")
-        print(f"Error: {str(e)}")
+        messagebox.showerror("Error", f"Ocurrió un error inesperado.\nError: {str(e)}")
+        print(f"Error inesperado: {str(e)}")
     finally:
-        ser.write(b'0')     # write a string, manda al dispositivo para que deje de enviar datos
-        ser.close()
-        
-    ventana.after(1000, ventana.destroy)
-   
-# VENTANA TOMAR MUESTRAS
-def tomar_muestras(archivo_path, puerto_serie, baudrate):
-    ventana_cuenta = tk.Toplevel()
-    ventana_cuenta.title("Relájate")
-    ventana_cuenta.geometry("280x60")
-    centrar_ventana(ventana_cuenta, 280, 60)
-    
-    etiqueta = tk.Label(ventana_cuenta, font=("Helvetica", 14))
-    etiqueta.pack(pady=20)
+        if 'ser' in locals() and ser.is_open:
+            try:
+                ser.write(b'0')  # Detener la transmisión de datos
+                ser.close()
+                print("Conexión serial cerrada.")
+            except Exception:
+                pass
 
-    etiqueta.config(text="Tomando muestra...")
+### ===========================  FUNCIÓN PARA REPRODUCIR VIDEO  =========================== ###
 
-    # Inicia la lectura y luego cierra la ventana
-    # ventana_cuenta.after(1000, iniciar_lectura_serial_arreglo(ventana_cuenta, etiqueta, archivo_path, puerto_serie, baudrate))
+def open_video(fase):
+    """Abrir un video según la fase seleccionada."""
+    fase_map = {
+        "1. Baseline": "Videos/Baseline.mp4",
+        "2. Stroop": "Videos/StroopColor1.mp4",
+        "3. Pausa": "Videos/Pausa.mp4",
+        "4. Respiracion": "Videos/Respiracion.mp4"
+    }
+
+    file_path = fase_map.get(fase)
     
-    iniciar_lectura_serial(ventana_cuenta, etiqueta, archivo_path, puerto_serie, baudrate)
-    
-# FUNCIÓN PARA OBTENER EL SIGUIENTE NÚMERO DISPONIBLE PARA EL ARCHIVO EN FORMATO _n.csv
-def obtener_siguiente_numero(carpeta_path, nombre):
-    # Listar todos los archivos dentro de la carpeta
-    archivos = os.listdir(carpeta_path)
-    
-    # Filtrar los archivos que sigan el patrón de nombre_n.txt
-    archivos_filtrados = [archivo for archivo in archivos if archivo.startswith(f"{nombre}_") and archivo.endswith(".csv")]
-    
-    # Obtener los números existentes en los archivos (por ejemplo, 1, 2, 3, ...)
-    numeros_existentes = []
-    for archivo in archivos_filtrados:
+    if file_path:
         try:
-            # Extraer el número del archivo (por ejemplo, de "nombre_1.txt" extraemos "1")
-            numero = int(archivo.split('_')[1].split('.')[0])
-            numeros_existentes.append(numero)
-        except ValueError:
-            continue  # Si no se puede convertir a número, lo ignoramos
-    
-    # Si hay archivos con números, obtenemos el siguiente número (máximo + 1)
-    siguiente_numero = max(numeros_existentes, default=0) + 1
-    
-    return siguiente_numero
+            if os.name == "nt":  # Windows
+                os.startfile(file_path)
+            else:  # macOS y Linux
+                subprocess.run(["open" if os.uname().sysname == "Darwin" else "xdg-open", file_path])
+        except Exception as e:
+            print(f"Error al abrir el video: {e}")
 
-# Función para crear carpeta y archivo
-def crear_carpeta_y_archivo(entry, label):
-    if not entry.get().strip():  # Verifica si el campo está vacío
-        messagebox.showwarning("Advertencia", "Ponle un nombre a la muestra")
-        return  # No hace nada si está vacío
-    
-    # Obtener el nombre ingresado en el campo de entrada
-    nombre = entry.get().lower()
-
-    # Convertir el nombre a minúsculas para verificar si ya existe una carpeta con el mismo nombre
-    nombre_normalizado = nombre
-
-    # Ruta de la carpeta "Muestras"
-    carpeta_base = os.path.join(os.getcwd(), "Muestras")
-
-    # Verificar si la carpeta "Muestras" existe
-    if not os.path.exists(carpeta_base):
-        # Si no existe, la creamos
-        os.makedirs(carpeta_base)
-
-    # Obtener lista de carpetas en "Muestras"
-    carpetas_existentes = [carpeta.lower() for carpeta in os.listdir(carpeta_base) if os.path.isdir(os.path.join(carpeta_base, carpeta))]
-
-    # Verificar si ya existe una carpeta con el mismo nombre (sin importar mayúsculas/minúsculas)
-    if nombre_normalizado in carpetas_existentes:
-        # Mostrar una ventana de confirmación con opciones de "Continuar" o "Cancelar"
-        respuesta = messagebox.askyesno("Advertencia", f"Ya existe una carpeta con el nombre '{nombre}'. ¿Deseas continuar?")
-        
-        # Si el usuario elige "Cancelar" (No)
-        if not respuesta:
-            return  # No continuar si elige "Cancelar"
-        
-        # Si elige "Continuar", verificamos el siguiente número disponible
-        carpeta_path = os.path.join(carpeta_base, nombre)
-        siguiente_numero = obtener_siguiente_numero(carpeta_path, nombre)
-    else:
-        # Si la carpeta no existe, creamos una nueva y empezamos desde el número 2
-        carpeta_path = os.path.join(carpeta_base, nombre)
-        os.makedirs(carpeta_path)
-        siguiente_numero = 1
-
-    # Crear el archivo .txt dentro de la nueva carpeta con el siguiente número
-    archivo_path = os.path.join(carpeta_path, f"{nombre}_{siguiente_numero}.csv")
-    with open(archivo_path, 'w') as archivo:
-        archivo.write("")  # Escribir el nombre y el número en el archivo
-        # archivo.write(f"{nombre}_{siguiente_numero}")  # Escribir el nombre y el número en el archivo
-
-    # Actualizar la etiqueta para mostrar el número actual
-    label.config(text=f"#{siguiente_numero + 1}")  # Actualizar el texto de la etiqueta
-    
-    return archivo_path

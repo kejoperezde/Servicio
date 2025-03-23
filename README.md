@@ -516,10 +516,139 @@ FIN
 ```
 ---
 
-# 6. Desarrollo de la aplicación en Python
-## 6.1 Estructura del programa  
+# 🖥️ 6. Desarrollo de la Aplicación en Python
 
+---
 
+## 📁 6.1 Estructura General del Proyecto  
+
+![Carpetas](README/imagessoftware/carpetas.png)
+
+### 📌 **1. Programa.py**  
+
+Este es el programa principal, el que se debe ejecutar si se quiere correr la aplicación:  
+```bash
+python3 Programa.py
+```
+Se encarga de la **interacción con el usuario** y del **control del proceso de adquisición de datos, visualización y selección de muestras** a mostrar.
+
+#### 🔹 **Funciones**:
+1. Ingreso de datos del usuario  
+2. Selección de la fase de la prueba  
+3. Botón de **"Medir"**  
+4. Botón de **"Seleccionar"**  
+5. Gráfica integrada  
+
+---
+
+### 🛠️ **2. Funciones.py**  
+
+Se puede considerar como el **backend** de la aplicación, ya que gestiona el **manejo de archivos, procesamiento de datos, lectura serial** y la **reproducción de video**.
+
+#### 🔹 **Funciones**:
+1. Crear la carpeta y archivos donde se guardan las muestras  
+2. Graficar los datos cargando los archivos CSV generados  
+3. Leer los datos desde el puerto **serial**  
+4. Abrir el video correspondiente a la toma de la muestra  
+
+---
+
+### 📊 **3. ButterWorth.py**  
+
+Clase encargada de **crear y aplicar el filtro Butterworth**. Se utiliza para filtrar la señal **ECG**.  
+Este filtro **solo se aplica al momento de mostrar los datos** y **no se aplica al guardarlos**, por lo que los datos almacenados en los archivos **CSV** se guardan tal cual son recibidos desde el **puerto serial** vía **Bluetooth**.
+
+#### 🔹 **Funciones**:
+1. Aplicar el filtro **Butterworth**  
+2. Si se ejecuta individualmente, grafica la señal original y filtrada  
+
+---
+
+### 📂 **4. Muestras**  
+
+Esta carpeta contiene las subcarpetas donde se almacenan las muestras adquiridas.  
+El programa realiza un **mapeo automático** para guardarlas según el tipo de muestra, con la siguiente nomenclatura:
+
+| **Tipo de Muestra** | **Formato de Archivo** |
+|---------------------|-----------------------|
+| **Prueba**         | `nombre_N_1.csv`       |
+| **Baseline**       | `nombre_A_1.csv`       |
+| **Stroop**         | `nombre_B_1.csv`       |
+| **Pausa**         | `nombre_C_1.csv`       |
+| **Respiración**    | `nombre_D_1.csv`       |
+
+📌 **Nota:** La numeración **aumenta progresivamente** según el número de muestra tomada con el mismo nombre.
+
+---
+
+### 🎥 **5. Videos**  
+
+Carpeta donde se almacenan los **videos mostrados al tomar la muestra** (cuando se presiona el botón **"Medir"** en la aplicación).
+
+| **Tipo de Muestra** | **Ruta del Video** | **Duración** |
+|---------------------|-------------------|-------------|
+| **Prueba**         | _No contiene video_ | `10 Segundos` |
+| **Baseline**       | `"Videos/Baseline.mp4"` | `180 Segundos` |
+| **Stroop**         | `"Videos/StroopColor1.mp4"` | `180 Segundos` |
+| **Pausa**         | `"Videos/Pausa.mp4"` | `60 Segundos` |
+| **Respiración**    | `"Videos/Respiracion.mp4"` | `180 Segundos` |
+
+---
+
+## ⚙️ 6.2 Estructura del Programa  
+
+### 📂 **Interfaz General**  
+![Interfaz](README/imagessoftware/interfaz.png)
+
+---
+
+### 📝 **Datos a Ingresar**  
+![Datos](README/imagessoftware/datos.png)
+
+- **Nombre:** El nombre con el que se va a guardar la muestra  
+- **Edad:** Edad de la persona  
+- **Género:** Selección entre **Masculino** o **Femenino**  
+
+📌 **Nota:** El ingreso de datos está validado para evitar errores.
+
+---
+
+### 🎛️ **Panel de Opciones**  
+![Panel](README/imagessoftware/panel.png)
+
+- **Selector de Tipo de Muestra:** Permite elegir entre `Prueba`, `Baseline`, `Stroop`, `Pausa` y `Respiración`.  
+- **Medir:**  
+  - Si la muestra tiene un **video asociado**, lo muestra antes de la adquisición.  
+  - Inicia la captura de datos desde el **puerto serial** durante el tiempo correspondiente a la muestra.  
+  - Guarda los datos en un **archivo CSV** y los **muestra en la gráfica**.  
+- **Seleccionar:**  
+  - Permite **seleccionar una muestra** previamente guardada.  
+  - **Aplica el filtro Butterworth** y muestra la señal **filtrada** en la gráfica.  
+
+---
+
+### 📈 **Gráfica de Datos**  
+![Gráfica](README/imagessoftware/grafica.png)
+
+Se muestra la **gráfica lineal** de los datos adquiridos o seleccionados.
+
+---
+
+## 📊 **Ejemplos de Muestras**  
+
+### 📌 **Toma de Prueba**  
+![Toma de Prueba](README/imagessoftware/TomaN.png)
+
+### 📌 **Toma de Stroop**  
+![Toma de Stroop](README/imagessoftware/TomaB.png)
+
+### 📌 **Toma de Pausa**  
+![Toma de Pausa](README/imagessoftware/TomaC.png)
+
+### 📌 **Toma de Respiración**  
+![Toma de Respiración](README/imagessoftware/TomaD.png)
+
+---
 
 ## 6.2 Lectura de datos transmitidos desde el DAC  
 ## 6.3 Interfaz de usuario
@@ -541,8 +670,7 @@ FIN
 ## 10. Anexos
 ### 10.1 Códigos fuente  
 
-C
-
+Programa en C
 ```C
 #include <stdio.h>
 #include "hardware/uart.h"
@@ -586,6 +714,329 @@ int main(){
     }
 }
 ```
+
+Programa.py
+```python
+import tkinter as tk
+from tkinter import messagebox
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from Funciones import *
+
+PUERTO_SERIE = '/dev/rfcomm0'
+BAUDRATE = 9600
+
+class ECGApp:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Programa ECG")
+        centrar_ventana(self.root, 1500, 480)
+        self.root.configure(bg="#f0f0f0")
+        
+        self.crear_widgets()
+        self.crear_grafico()
+    
+    def crear_widgets(self):
+        frame_controles = tk.Frame(self.root, bg="#ffffff", padx=20, pady=20)
+        frame_controles.grid(row=0, column=0, padx=20, pady=20, sticky="w")
+        
+        tk.Label(frame_controles, text="Nombre:", bg="#ffffff", font=("Arial", 12)).grid(row=0, column=0, padx=5, pady=5, sticky="w")
+        self.entry_name = tk.Entry(frame_controles, font=("Arial", 12))
+        self.entry_name.grid(row=0, column=1, padx=5, pady=5)
+        
+        tk.Label(frame_controles, text="Edad:", bg="#ffffff", font=("Arial", 12)).grid(row=1, column=0, padx=5, pady=5, sticky="w")
+        self.entry_age = tk.Entry(frame_controles, font=("Arial", 12))
+        self.entry_age.grid(row=1, column=1, padx=5, pady=5)
+        
+        tk.Label(frame_controles, text="Género:", bg="#ffffff", font=("Arial", 12)).grid(row=2, column=0, padx=5, pady=5, sticky="w")
+        self.generos = ["Masculino", "Femenino"]
+        self.selected_genero = tk.StringVar(self.root)
+        self.selected_genero.set(self.generos[0])
+        self.menu_genero = tk.OptionMenu(frame_controles, self.selected_genero, *self.generos)
+        self.menu_genero.grid(row=2, column=1, padx=5, pady=5)
+        
+        boton_frame = tk.Frame(self.root, bg="#ffffff", pady=10)
+        boton_frame.grid(row=1, column=0, padx=20, pady=10, sticky="w")
+        
+        tk.Label(boton_frame, text="Fase:", bg="#ffffff", font=("Arial", 12)).grid(row=0, column=0, padx=5, pady=5, sticky="w")
+        self.opciones = ["0. Prueba", "1. Baseline", "2. Stroop", "3. Pausa", "4. Respiracion"]
+        self.selected_option = tk.StringVar(self.root)
+        self.selected_option.set(self.opciones[0])
+        self.menu_opciones = tk.OptionMenu(boton_frame, self.selected_option, *self.opciones)
+        self.menu_opciones.grid(row=0, column=1, padx=5, pady=5)
+        
+        boton_medir = tk.Button(boton_frame, text="Medir", bg="#28a745", fg="white", font=("Arial", 12, "bold"), width=15, command=self.medir)
+        boton_medir.grid(row=1, column=0, padx=10, pady=10)
+        
+        boton_seleccionar = tk.Button(boton_frame, text="Seleccionar", bg="#fd7e14", fg="white", font=("Arial", 12, "bold"), width=15, command=self.seleccionar)
+        boton_seleccionar.grid(row=1, column=1, padx=10, pady=10)
+        
+    def crear_grafico(self):
+        frame_grafico = tk.Frame(self.root, bg="#ffffff", padx=20, pady=20)
+        frame_grafico.grid(row=0, column=1, rowspan=2, padx=20, pady=20)
+        
+        self.fig, self.ax = plt.subplots(figsize=(10, 4), facecolor='white')
+        self.ax.set_xlim(0, 10)
+        self.ax.set_ylim(0, 0.08)
+        self.ax.set_title("Señal ECG", fontsize=14, fontweight='bold')
+        self.ax.set_ylabel("Amplitud", fontsize=12)
+        self.ax.set_xlabel("Segundos", fontsize=12)
+        
+        self.canvas = FigureCanvasTkAgg(self.fig, master=frame_grafico)
+        self.canvas.draw()
+        self.canvas.get_tk_widget().pack()
+    
+    def medir(self):
+        selected_fase = self.selected_option.get()
+        nombre = self.entry_name.get().strip()
+        edad = self.entry_age.get()
+        genero = self.selected_genero.get()
+        data = []
+        
+        if not nombre:
+            messagebox.showwarning("Advertencia", "Ponle un nombre a la muestra")
+            return
+        if not edad.isdigit():
+            messagebox.showwarning("Advertencia", "La edad debe ser un número válido")
+            return
+        edad = int(edad)
+        if edad < 1 or edad > 120:
+            messagebox.showwarning("Advertencia", "La edad debe estar en rango")
+            return
+        
+        path_archivo = crear_carpeta_y_archivo(nombre, selected_fase)
+        
+        if path_archivo != None:
+            data.append([edad, genero])
+            open_video(selected_fase)
+            iniciar_lectura_serial(path_archivo, PUERTO_SERIE, BAUDRATE, selected_fase)
+            graficar_datos(self.ax, self.canvas, path_archivo)
+            
+    def seleccionar(self):
+        archivo_path = seleccionar_archivo()
+        if archivo_path:
+            graficar_datos(self.ax, self.canvas, archivo_path)
+    
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = ECGApp(root)
+    root.mainloop()
+```
+
+Funciones.py
+
+```python
+import os
+import serial
+import tkinter as tk
+from tkinter import filedialog, messagebox
+import matplotlib.pyplot as plt
+import csv
+import pandas as pd
+import time
+import subprocess
+from ButterWorth import ButterWorth
+
+def centrar_ventana(ventana, ancho, alto):
+    ancho_pantalla = ventana.winfo_screenwidth()
+    alto_pantalla = ventana.winfo_screenheight()
+    x = (ancho_pantalla // 2) - (ancho // 2)
+    y = (alto_pantalla // 2) - (alto // 2)
+    ventana.geometry(f"{ancho}x{alto}+{x}+{y}")
+
+def seleccionar_archivo():
+    root = tk.Tk()
+    root.withdraw()
+    archivo = filedialog.askopenfilename(title="Selecciona un archivo CSV", filetypes=[("CSV files", "*.csv")])
+    return archivo
+
+def crear_carpeta_y_archivo(nombre, fase):
+    fase_map = {
+        "0. Prueba": "N",
+        "1. Baseline": "A",
+        "2. Stroop": "B",
+        "3. Pausa": "C",
+        "4. Respiracion": "D"
+    }
+
+    nombreLow = nombre.lower().strip()
+    carpeta_base = os.path.join(os.getcwd(), "Muestras")
+
+    if not os.path.exists(carpeta_base):
+        os.makedirs(carpeta_base)
+
+    carpeta_path = os.path.join(carpeta_base, nombreLow)
+
+    if not os.path.exists(carpeta_path):
+        os.makedirs(carpeta_path)
+    else:
+        respuesta = messagebox.askyesno("Advertencia", f"La carpeta '{nombreLow}' ya existe. ¿Deseas continuar?")
+        if not respuesta:
+            return None
+
+    nombre_fase = fase_map.get(fase)
+
+    archivos_existentes = [archivo for archivo in os.listdir(carpeta_path) if archivo.startswith(f"{nombreLow}_{nombre_fase}") and archivo.endswith(".csv")]
+    numeros_existentes = []
+
+    for archivo in archivos_existentes:
+        try:
+            numero = int(archivo.split('_')[-1].split('.')[0])
+            numeros_existentes.append(numero)
+        except (IndexError, ValueError):
+            continue
+
+    siguiente_numero = max(numeros_existentes, default=0) + 1
+    archivo_csv = f"{nombreLow}_{nombre_fase}_{siguiente_numero}.csv"
+    archivo_path = os.path.join(carpeta_path, archivo_csv)
+
+    with open(archivo_path, 'w', newline='') as archivo:
+        escritor = csv.writer(archivo)
+        escritor.writerow(["Seg", "mV"])
+
+    print(f"Archivo creado: {archivo_path}")
+    return archivo_path
+
+def graficar_datos(ax, canvas, ruta_archivo):
+    ax.clear()
+    ax.set_title("Señal ECG Filtro ButterWorth")
+    ax.set_ylabel("Amplitud")
+    ax.set_xlabel("Segundos")
+
+    data = pd.read_csv(ruta_archivo)
+
+    filtro = ButterWorth(fs=192)
+
+    señal_filtrada = filtro.apply_filter(data['mV'])
+
+    ax.plot(data['Seg'], señal_filtrada, marker='', color='red', label="ECG Filtrado")  
+    ax.legend()
+
+    canvas.draw()
+
+import serial
+import csv
+import time
+import tkinter as tk
+from tkinter import messagebox
+
+def iniciar_lectura_serial(archivo_path, puerto_serie, baudrate, selected_fase):
+    duracion_map = {
+        "0. Prueba": 10,
+        "1. Baseline": 180,
+        "2. Stroop": 180,
+        "3. Pausa": 60,
+        "4. Respiracion": 180
+    }
+    duracion = duracion_map.get(selected_fase, 30)
+
+    root = tk.Tk()
+    root.withdraw()
+
+    try:
+        ser = serial.Serial(puerto_serie, baudrate)
+
+        ser.write(b'1')
+
+        inicio = time.time()
+        
+        with open(archivo_path, 'w', newline='') as archivo_csv:
+            escritor_csv = csv.writer(archivo_csv)
+            print('Tomando datos...')
+            inicio = time.time()
+            escritor_csv.writerow(["Seg", "mV"])
+
+            while time.time() - inicio <= duracion:
+                if ser.in_waiting > 0:
+                    dato = ser.readline().decode('utf-8').strip()
+                    tiempo_transcurrido = time.time() - inicio
+                    escritor_csv.writerow([round(tiempo_transcurrido, 8), int(dato) / 65535.0])
+
+        mensaje_fin = f"Toma de muestras finalizada para la fase '{selected_fase}'."
+        messagebox.showinfo("Fin de Toma de Muestras", mensaje_fin)
+
+    except serial.SerialException as e:
+        messagebox.showerror("Error de Conexión", f"No se pudo abrir el puerto serial.\nError: {str(e)}")
+        print(f"Error de conexión serial: {str(e)}")
+    except Exception as e:
+        messagebox.showerror("Error", f"Ocurrió un error inesperado.\nError: {str(e)}")
+        print(f"Error inesperado: {str(e)}")
+    finally:
+        if 'ser' in locals() and ser.is_open:
+            try:
+                ser.write(b'0')
+                ser.close()
+                print("Conexión serial cerrada.")
+            except Exception:
+                pass
+
+def open_video(fase):
+    fase_map = {
+        "1. Baseline": "Videos/Baseline.mp4",
+        "2. Stroop": "Videos/StroopColor1.mp4",
+        "3. Pausa": "Videos/Pausa.mp4",
+        "4. Respiracion": "Videos/Respiracion.mp4"
+    }
+
+    file_path = fase_map.get(fase)
+    
+    if file_path:
+        try:
+            if os.name == "nt":
+                os.startfile(file_path)
+            else:
+                subprocess.run(["open" if os.uname().sysname == "Darwin" else "xdg-open", file_path])
+        except Exception as e:
+            print(f"Error al abrir el video: {e}")
+```
+
+ButterWorth.py
+
+```python
+import numpy as np
+import scipy.signal as signal
+import matplotlib.pyplot as plt
+
+class ButterWorth:
+    def __init__(self, fs=192, lowcut=0.5, highcut=40.0, order=4):
+        self.fs = fs
+        self.lowcut = lowcut
+        self.highcut = highcut
+        self.order = order
+        self.nyquist = 0.5 * self.fs
+
+        low = self.lowcut / self.nyquist
+        high = self.highcut / self.nyquist
+        self.b, self.a = signal.butter(self.order, [low, high], btype='band')
+
+    def apply_filter(self, signal_data):
+        return signal.filtfilt(self.b, self.a, signal_data)
+
+    def plot_signals(self, original_signal, filtered_signal, duration=10):
+        t = np.linspace(0, duration, duration * self.fs, endpoint=False)
+
+        plt.figure(figsize=(10, 5))
+        plt.plot(t, original_signal, label="ECG con ruido", alpha=0.5)
+        plt.plot(t, filtered_signal, label="ECG Filtrado", linewidth=2)
+        plt.xlabel("Tiempo (s)")
+        plt.ylabel("Amplitud")
+        plt.legend()
+        plt.title("Filtrado de Señal ECG - Butterworth")
+        plt.show()
+
+if __name__ == "__main__":
+    fs = 192
+    duration = 10
+    t = np.linspace(0, duration, duration * fs, endpoint=False)
+
+    ecg_signal = np.sin(1.2 * 2 * np.pi * t) + 0.25 * np.random.randn(len(t))
+
+    filtro = ButterWorth(fs=fs)
+    filtered_signal = filtro.apply_filter(ecg_signal)
+
+    filtro.plot_signals(ecg_signal, filtered_signal, duration)
+```
+
 ### 10.2 Gráficos adicionales  
 
 Imágenes [One Drive](https://1drv.ms/f/s!AsP3n41dk7dYgeCnVOpamzrRtiJD-2o?e=4rbqUR).
