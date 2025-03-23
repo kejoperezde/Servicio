@@ -50,13 +50,13 @@ Electrodos desechables autoadheribles diseñados para la adquisición de señale
 ### ➤ **Cable de Electrodo DC 3.5 mm**  
 Cable de transmisión de señales bioeléctricas utilizado para conectar los electrodos al módulo de acondicionamiento y conversión analógica-digital.  
 - Dispone de un conector **3.5 mm tipo jack**.  
-- Su función principal es transportar las señales captadas por los electrodos al módulo **AD8232**, minimizando el ruido en la transmisión.
+- Su función es transportar las señales captadas por los electrodos al módulo **AD8232**.
 
 ---
 
 ### ➤ **Módulo AD8232**  
 Módulo de adquisición de señales bioeléctricas especializado en la medición de la actividad eléctrica del corazón.  
-- Integra un **amplificador de instrumentación**.  
+- Integra un **amplificador**.  
 - Incluye filtros **pasa bajos** y **pasa altos**.  
 - Sistema de rechazo de **modo común** para minimizar interferencias.  
 
@@ -82,7 +82,7 @@ Componente pasivo utilizado para **acoplamiento capacitivo**.
 
 ### ➤ **Raspberry Pi Pico**  
 La **Raspberry Pi Pico** es una placa de desarrollo compacta basada en el **microcontrolador RP2040**, diseñado por Raspberry Pi.  
-Integra un procesador **ARM Cortex-M0+ de doble núcleo**, operando a una frecuencia de hasta **133 MHz**, proporcionando un excelente balance entre rendimiento y bajo consumo energético.
+Integra un procesador **ARM Cortex-M0+ de doble núcleo**, operando a una frecuencia de hasta **133 MHz**.
 
 ---
 
@@ -268,7 +268,7 @@ Para la generación del proyecto se utilizó **Pico Project Generator**. Para es
 
 ## 🐍 4.6 Instalación y Utilización de Librerías en Python
 
-A continuación, las librerías utilizadas en el desarrollo Python, tanto para **procesamiento de datos**, **comunicación serie**, como para la **creación de interfaces gráficas**.
+Las librerías utilizadas en el desarrollo Python, tanto para **procesamiento de datos**, **comunicación serie**, como para la **creación de interfaces gráficas**.
 
 ---
 
