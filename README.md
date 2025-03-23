@@ -20,8 +20,6 @@ Desarrollo de un sistema electrónico para la adquisición de una señal ECG y u
 ### 2.6 Sistemas de Adquisición de Datos (DAQ)  
 ### 2.7 Comunicación serie UART/Bluetooth
 
-¡Claro! Aquí te dejo la **reestructura** de tu contenido para que sea **más legible, ordenado y técnico**, respetando la redacción y añadiendo una presentación más clara para tu documento:
-
 ---
 
 # ⚙️ 3. DAQ
