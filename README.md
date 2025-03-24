@@ -1,4 +1,105 @@
-# Índice
+- [1. Introducción](#1-introducción)
+  - [1.1. Objetivos del proyecto](#11-objetivos-del-proyecto)
+  - [1.2. Justificación](#12-justificación)
+  - [1.3. Importancia de la adquisición de señales ECG](#13-importancia-de-la-adquisición-de-señales-ecg)
+- [2. Fundamentos Teóricos](#2-fundamentos-teóricos)
+  - [2.1 Frecuencia cardiaca](#21-frecuencia-cardiaca)
+  - [2.2 Triángulo de Einthoven](#22-triángulo-de-einthoven)
+  - [2.3 Electrocardiograma (ECG)](#23-electrocardiograma-ecg)
+  - [2.4 Filtros digitales](#24-filtros-digitales)
+  - [2.5 Convertidor ADC](#25-convertidor-adc)
+  - [2.6 Sistemas de Adquisición de Datos (DAQ)](#26-sistemas-de-adquisición-de-datos-daq)
+  - [2.7 Comunicación serie UART/Bluetooth](#27-comunicación-serie-uartbluetooth)
+- [⚙️ 3. DAQ](#️-3-daq)
+  - [🔩 3.1 Componentes](#-31-componentes)
+    - [➤ **Electrodos: Ambiderm T715**](#-electrodos-ambiderm-t715)
+    - [➤ **Cable de Electrodo DC 3.5 mm**](#-cable-de-electrodo-dc-35-mm)
+    - [➤ **Módulo AD8232**](#-módulo-ad8232)
+    - [➤ **Módulo Bluetooth RN-41-FLY-477**](#-módulo-bluetooth-rn-41-fly-477)
+    - [➤ **Capacitor de Poliéster 0.1 µF a 250V**](#-capacitor-de-poliéster-01-µf-a-250v)
+  - [🧠 3.2 Microcontrolador](#-32-microcontrolador)
+    - [➤ **Raspberry Pi Pico**](#-raspberry-pi-pico)
+      - [📌 **Características principales:**](#-características-principales)
+      - [📌 **Programación y compatibilidad:**](#-programación-y-compatibilidad)
+  - [🔋 3.3 Fuente de Alimentación](#-33-fuente-de-alimentación)
+  - [🔌 3.4 Conexión de Componentes](#-34-conexión-de-componentes)
+  - [🖨️ 3.5 Diseño de Placa](#️-35-diseño-de-placa)
+  - [⚡ 3.6 Funcionamiento](#-36-funcionamiento)
+- [📦 4. Configuración del Entorno de Desarrollo](#-4-configuración-del-entorno-de-desarrollo)
+  - [⚙️ 4.1 Hardware para el Desarrollo](#️-41-hardware-para-el-desarrollo)
+  - [🐧 4.2 Sistema Operativo: Pop!\_OS](#-42-sistema-operativo-pop_os)
+    - [🔗 Instalación de Pop!\_OS](#-instalación-de-pop_os)
+    - [🛠️ Pasos posteriores a la instalación:](#️-pasos-posteriores-a-la-instalación)
+  - [📝 4.3 IDE: Visual Studio Code](#-43-ide-visual-studio-code)
+    - [⚡ Instalación y actualización:](#-instalación-y-actualización)
+  - [💻 4.4 Lenguajes de Programación: C y Python](#-44-lenguajes-de-programación-c-y-python)
+    - [🐍 Instalación de Python 3 y pip:](#-instalación-de-python-3-y-pip)
+  - [⚙️ 4.5 Generación de Proyecto en C](#️-45-generación-de-proyecto-en-c)
+    - [📝 Pasos para la creación del proyecto en C:](#-pasos-para-la-creación-del-proyecto-en-c)
+  - [🐍 4.6 Instalación y Utilización de Librerías en Python](#-46-instalación-y-utilización-de-librerías-en-python)
+    - [📦 Librerías que requieren instalación](#-librerías-que-requieren-instalación)
+    - [📚 Librerías incluidas en la biblioteca estándar de Python](#-librerías-incluidas-en-la-biblioteca-estándar-de-python)
+    - [📝 Descripción y uso de las librerías](#-descripción-y-uso-de-las-librerías)
+  - [🛠️ 4.7 Utilidades](#️-47-utilidades)
+    - [📡 **Blueman**](#-blueman)
+      - [🔧 Instalación](#-instalación)
+    - [🔲 **Screen**](#-screen)
+      - [🔧 Instalación](#-instalación-1)
+      - [📡 Visualización de sesión (datos recibidos)](#-visualización-de-sesión-datos-recibidos)
+    - [🐍 **Thonny**](#-thonny)
+      - [🔧 Instalación](#-instalación-2)
+    - [🐧 **Actualizar Linux Firmware**](#-actualizar-linux-firmware)
+      - [📥 Descargar última versión](#-descargar-última-versión)
+      - [📦 Extraer contenido del archivo descargado](#-extraer-contenido-del-archivo-descargado)
+      - [📂 Reemplazar archivos de firmware](#-reemplazar-archivos-de-firmware)
+    - [🔌 **Ver Dispositivos Conectados**](#-ver-dispositivos-conectados)
+    - [🔥 PyTorch con GPU NVIDIA](#-pytorch-con-gpu-nvidia)
+      - [1. CUDA Toolkit](#1-cuda-toolkit)
+      - [2. cuDNN (CUDA Deep Neural Network Library)](#2-cudnn-cuda-deep-neural-network-library)
+      - [3. Scikit-learn (opcional)](#3-scikit-learn-opcional)
+- [🖥️ 5. Programación del Sistema Embebido: C](#️-5-programación-del-sistema-embebido-c)
+  - [🔧 5.1 Lectura y Adquisición de Datos](#-51-lectura-y-adquisición-de-datos)
+  - [📡 5.2 Transmisión de Datos: Comunicación en Serie / Bluetooth](#-52-transmisión-de-datos-comunicación-en-serie--bluetooth)
+  - [⚙️ 5.3 Resolución, Frecuencia de Muestreo](#️-53-resolución-frecuencia-de-muestreo)
+  - [🔧 5.4 Diagrama de flujo](#-54-diagrama-de-flujo)
+  - [📝 5.5 Pseudocódigo](#-55-pseudocódigo)
+- [🖥️ 6. Desarrollo de la Aplicación en Python](#️-6-desarrollo-de-la-aplicación-en-python)
+  - [📁 6.1 Estructura General del Proyecto](#-61-estructura-general-del-proyecto)
+    - [📌 **1. Programa.py**](#-1-programapy)
+      - [🔹 **Funciones**:](#-funciones)
+    - [🛠️ **2. Funciones.py**](#️-2-funcionespy)
+      - [🔹 **Funciones**:](#-funciones-1)
+    - [📊 **3. ButterWorth.py**](#-3-butterworthpy)
+      - [🔹 **Funciones**:](#-funciones-2)
+    - [📂 **4. Muestras**](#-4-muestras)
+    - [🎥 **5. Videos**](#-5-videos)
+  - [⚙️ 6.2 Estructura del Programa](#️-62-estructura-del-programa)
+    - [📂 **Interfaz General**](#-interfaz-general)
+    - [📝 **Datos a Ingresar**](#-datos-a-ingresar)
+    - [🎛️ **Panel de Opciones**](#️-panel-de-opciones)
+    - [📈 **Gráfica de Datos**](#-gráfica-de-datos)
+  - [📊 **6.3 Visualización de datos**](#-63-visualización-de-datos)
+    - [📌 **Toma de Prueba**](#-toma-de-prueba)
+    - [📌 **Toma de Stroop**](#-toma-de-stroop)
+    - [📌 **Toma de Pausa**](#-toma-de-pausa)
+    - [📌 **Toma de Respiración**](#-toma-de-respiración)
+  - [7. BD MIT BIH](#7-bd-mit-bih)
+    - [7.1 Obtención de datos](#71-obtención-de-datos)
+    - [7.2 WFDB2MAT](#72-wfdb2mat)
+    - [7.3 Procesado y guardado de muestras](#73-procesado-y-guardado-de-muestras)
+    - [7.4 Obtención de datos muestras](#74-obtención-de-datos-muestras)
+  - [8. Resultados](#8-resultados)
+  - [9. Referencias](#9-referencias)
+  - [10. Anexos](#10-anexos)
+    - [10.1 Códigos fuente](#101-códigos-fuente)
+    - [10.2 Gráficos adicionales](#102-gráficos-adicionales)
+  - [11. Errores comunes y soluciones](#11-errores-comunes-y-soluciones)
+    - [11.1 Problemas en la adquisición de datos](#111-problemas-en-la-adquisición-de-datos)
+    - [11.2 Fallos en la comunicación serie/Bluetooth](#112-fallos-en-la-comunicación-seriebluetooth)
+    - [11.3 Interferencias en la señal ECG](#113-interferencias-en-la-señal-ecg)
+
+
+
 # 1. Introducción
 
  En el presente proyecto se plantea el desarrollo de un sistema de adquisición de datos (DAQ) especializado en la obtención de señales electrocardiográficas (ECG) mediante el uso de sistemas embebidos y el lenguaje de programación C. Este sistema está diseñado para capturar la señal ECG de una persona, transmitirla a una computadora para su visualización y análisis, y, mediante algoritmos, detectar posibles anomalías cardíacas. A continuación, se abordan los aspectos clave del proyecto, incluyendo sus objetivos, importancia, y alcance, así como los fundamentos teóricos necesarios para su desarrollo.
@@ -33,7 +134,7 @@ La importancia de la adquisición de señales ECG también radica en su uso en e
 
 # ⚙️ 3. DAQ
 
-![Diseño DAC](README/images/principiodac.jpeg)
+![Diseño DAC](README/imgdaq/principiodac.jpeg)
 
 ---
 
@@ -125,7 +226,7 @@ Para el correcto funcionamiento del **DAQ**, es necesario suministrar una fuente
 
 ## 🔌 3.4 Conexión de Componentes  
 
-![Conexiones DAQ](README/images/conexionesdac.jpeg)
+![Conexiones DAQ](README/imgdaq/conexionesdac.jpeg)
 
 ---
 
@@ -133,7 +234,7 @@ Para el correcto funcionamiento del **DAQ**, es necesario suministrar una fuente
 
 | **Diseño Base**                             | **Montaje de Componentes**                      |
 |---------------------------------------------|-------------------------------------------------|
-| ![Diseño base de placa](README/images/placa.jpeg) | ![Placa con los componentes](README/images/dac.jpeg) |
+| ![Diseño base de placa](README/imgdaq/placa.jpeg) | ![Placa con los componentes](README/imgdaq/dac.jpeg) |
 
 ---
 
@@ -463,7 +564,7 @@ Se usó ese valor de baudios ya que posteriormente los datos son enviados por Bl
 
 ## 🔧 5.4 Diagrama de flujo
 
-<img src="README/images/diagramaflujo.jpeg" alt="Placa con los componentes"/>
+![Placa con los componentes](README/imgc/diagramaflujo.jpeg)
 
 ## 📝 5.5 Pseudocódigo
 
@@ -518,11 +619,13 @@ FIN
 
 # 🖥️ 6. Desarrollo de la Aplicación en Python
 
+![Carpetas](README/imgsoftware/principalsoftware.jpeg)
+
 ---
 
 ## 📁 6.1 Estructura General del Proyecto  
 
-![Carpetas](README/imagessoftware/carpetas.png)
+![Carpetas](README/imgsoftware/carpetas.png)
 
 ### 📌 **1. Programa.py**  
 
@@ -570,11 +673,11 @@ Esta carpeta contiene las subcarpetas donde se almacenan las muestras adquiridas
 El programa realiza un **mapeo automático** para guardarlas según el tipo de muestra, con la siguiente nomenclatura:
 
 | **Tipo de Muestra** | **Formato de Archivo** |
-|---------------------|-----------------------|
+|---------------------|------------------------|
 | **Prueba**         | `nombre_N_1.csv`       |
 | **Baseline**       | `nombre_A_1.csv`       |
 | **Stroop**         | `nombre_B_1.csv`       |
-| **Pausa**         | `nombre_C_1.csv`       |
+| **Pausa**          | `nombre_C_1.csv`       |
 | **Respiración**    | `nombre_D_1.csv`       |
 
 📌 **Nota:** La numeración **aumenta progresivamente** según el número de muestra tomada con el mismo nombre.
@@ -586,24 +689,24 @@ El programa realiza un **mapeo automático** para guardarlas según el tipo de m
 Carpeta donde se almacenan los **videos mostrados al tomar la muestra** (cuando se presiona el botón **"Medir"** en la aplicación).
 
 | **Tipo de Muestra** | **Ruta del Video** | **Duración** |
-|---------------------|-------------------|-------------|
-| **Prueba**         | _No contiene video_ | `10 Segundos` |
-| **Baseline**       | `"Videos/Baseline.mp4"` | `180 Segundos` |
-| **Stroop**         | `"Videos/StroopColor1.mp4"` | `180 Segundos` |
-| **Pausa**         | `"Videos/Pausa.mp4"` | `60 Segundos` |
-| **Respiración**    | `"Videos/Respiracion.mp4"` | `180 Segundos` |
+|---------------------|--------------------|--------------|
+| **Prueba**          | _No contiene video_         | `10 Segundos`  |
+| **Baseline**        | `"Videos/Baseline.mp4"`     | `180 Segundos` |
+| **Stroop**          | `"Videos/StroopColor1.mp4"` | `180 Segundos` |
+| **Pausa**           | `"Videos/Pausa.mp4"`        | `60 Segundos`  |
+| **Respiración**     | `"Videos/Respiracion.mp4"`  | `180 Segundos` |
 
 ---
 
 ## ⚙️ 6.2 Estructura del Programa  
 
 ### 📂 **Interfaz General**  
-![Interfaz](README/imagessoftware/interfaz.png)
+![Interfaz](README/imgsoftware/interfaz.png)
 
 ---
 
 ### 📝 **Datos a Ingresar**  
-![Datos](README/imagessoftware/datos.png)
+![Datos](README/imgsoftware/datos.png)
 
 - **Nombre:** El nombre con el que se va a guardar la muestra  
 - **Edad:** Edad de la persona  
@@ -614,11 +717,22 @@ Carpeta donde se almacenan los **videos mostrados al tomar la muestra** (cuando 
 ---
 
 ### 🎛️ **Panel de Opciones**  
-![Panel](README/imagessoftware/panel.png)
+![Panel](README/imgsoftware/panel.png)
 
-- **Selector de Tipo de Muestra:** Permite elegir entre `Prueba`, `Baseline`, `Stroop`, `Pausa` y `Respiración`.  
+- **Selector de Tipo de Muestra:** Permite elegir entre `Prueba`, `Baseline`, `Stroop`, `Pausa` y `Respiración`. 
+
+    | **Fase** | **Descripción** |
+    |---------------------|-----------------------|
+    | **Prueba**         | **Verificar** si se están capturando los datos correctamente.       |
+    | **Baseline**       | **Estado actual del paciente**. Antes de realizar cualquier tipo de muestra.       |
+    | **Stroop**         | Estresa al paciente mediante la prueba **Stroop Color**,       |
+    | **Pausa**         | En lo que se estabiliza el paciente. |
+    | **Respiración**    | Inhalar en 4s, sostener 2s, exhalar en 4s. Tranquiliza a el paciente.       | 
+
+    📌 **Nota:** En todas las fases se realiza la captura y el guardado de los datos.
+
 - **Medir:**  
-  - Si la muestra tiene un **video asociado**, lo muestra antes de la adquisición.  
+  - Si la muestra tiene un **video asociado**, lo muestra junto la adquisición.  
   - Inicia la captura de datos desde el **puerto serial** durante el tiempo correspondiente a la muestra.  
   - Guarda los datos en un **archivo CSV** y los **muestra en la gráfica**.  
 - **Seleccionar:**  
@@ -628,34 +742,27 @@ Carpeta donde se almacenan los **videos mostrados al tomar la muestra** (cuando 
 ---
 
 ### 📈 **Gráfica de Datos**  
-![Gráfica](README/imagessoftware/grafica.png)
+![Gráfica](README/imgsoftware/grafica.png)
 
 Se muestra la **gráfica lineal** de los datos adquiridos o seleccionados.
 
 ---
 
-## 📊 **Ejemplos de Muestras**  
+## 📊 **6.3 Visualización de datos**  
 
 ### 📌 **Toma de Prueba**  
-![Toma de Prueba](README/imagessoftware/TomaN.png)
+![Toma de Prueba](README/imgsoftware/TomaN.png)
 
 ### 📌 **Toma de Stroop**  
-![Toma de Stroop](README/imagessoftware/TomaB.png)
+![Toma de Stroop](README/imgsoftware/TomaB.png)
 
 ### 📌 **Toma de Pausa**  
-![Toma de Pausa](README/imagessoftware/TomaC.png)
+![Toma de Pausa](README/imgsoftware/TomaC.png)
 
 ### 📌 **Toma de Respiración**  
-![Toma de Respiración](README/imagessoftware/TomaD.png)
+![Toma de Respiración](README/imgsoftware/TomaD.png)
 
 ---
-
-## 6.2 Lectura de datos transmitidos desde el DAC  
-## 6.3 Interfaz de usuario
-## 6.4 Controles de interacción (inicio/detención de adquisición)  
-## 6.5 Guardado de datos a CSV
-## 6.6 Filtrado digital (Butterworth)  
-## 6.7 Visualización de datos
 
 ## 7. BD MIT BIH
 ### 7.1 Obtención de datos
