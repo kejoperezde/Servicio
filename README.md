@@ -12,15 +12,15 @@
   - [2.7 Comunicación serie UART/Bluetooth](#27-comunicación-serie-uartbluetooth)
 - [⚙️ 3. DAQ](#️-3-daq)
   - [🔩 3.1 Componentes](#-31-componentes)
-    - [➤ **Electrodos: Ambiderm T715**](#-electrodos-ambiderm-t715)
-    - [➤ **Cable de Electrodo DC 3.5 mm**](#-cable-de-electrodo-dc-35-mm)
-    - [➤ **Módulo AD8232**](#-módulo-ad8232)
-    - [➤ **Módulo Bluetooth RN-41-FLY-477**](#-módulo-bluetooth-rn-41-fly-477)
-    - [➤ **Capacitor de Poliéster 0.1 µF a 250V**](#-capacitor-de-poliéster-01-µf-a-250v)
+    - [➤ Electrodos: Ambiderm T715](#-electrodos-ambiderm-t715)
+    - [➤ Cable de Electrodo DC 3.5 mm](#-cable-de-electrodo-dc-35-mm)
+    - [➤ Módulo AD8232](#-módulo-ad8232)
+    - [➤ Módulo Bluetooth RN-41-FLY-477](#-módulo-bluetooth-rn-41-fly-477)
+    - [➤ Capacitor de Poliéster 0.1 µF a 250V](#-capacitor-de-poliéster-01-µf-a-250v)
   - [🧠 3.2 Microcontrolador](#-32-microcontrolador)
-    - [➤ **Raspberry Pi Pico**](#-raspberry-pi-pico)
-      - [📌 **Características principales:**](#-características-principales)
-      - [📌 **Programación y compatibilidad:**](#-programación-y-compatibilidad)
+    - [➤ Raspberry Pi Pico](#-raspberry-pi-pico)
+      - [📌 Características:](#-características)
+      - [📌 Programación y compatibilidad:](#-programación-y-compatibilidad)
   - [🔋 3.3 Fuente de Alimentación](#-33-fuente-de-alimentación)
   - [🔌 3.4 Conexión de Componentes](#-34-conexión-de-componentes)
   - [🖨️ 3.5 Diseño de Placa](#️-35-diseño-de-placa)
@@ -41,18 +41,18 @@
     - [📚 Librerías incluidas en la biblioteca estándar de Python](#-librerías-incluidas-en-la-biblioteca-estándar-de-python)
     - [📝 Descripción y uso de las librerías](#-descripción-y-uso-de-las-librerías)
   - [🛠️ 4.7 Utilidades](#️-47-utilidades)
-    - [📡 **Blueman**](#-blueman)
+    - [📡 Blueman](#-blueman)
       - [🔧 Instalación](#-instalación)
-    - [🔲 **Screen**](#-screen)
+    - [🔲 Screen](#-screen)
       - [🔧 Instalación](#-instalación-1)
       - [📡 Visualización de sesión (datos recibidos)](#-visualización-de-sesión-datos-recibidos)
-    - [🐍 **Thonny**](#-thonny)
+    - [🐍 Thonny](#-thonny)
       - [🔧 Instalación](#-instalación-2)
-    - [🐧 **Actualizar Linux Firmware**](#-actualizar-linux-firmware)
+    - [🐧 Actualizar Linux Firmware](#-actualizar-linux-firmware)
       - [📥 Descargar última versión](#-descargar-última-versión)
       - [📦 Extraer contenido del archivo descargado](#-extraer-contenido-del-archivo-descargado)
       - [📂 Reemplazar archivos de firmware](#-reemplazar-archivos-de-firmware)
-    - [🔌 **Ver Dispositivos Conectados**](#-ver-dispositivos-conectados)
+    - [🔌 Ver Dispositivos Conectados](#-ver-dispositivos-conectados)
     - [🔥 PyTorch con GPU NVIDIA](#-pytorch-con-gpu-nvidia)
       - [1. CUDA Toolkit](#1-cuda-toolkit)
       - [2. cuDNN (CUDA Deep Neural Network Library)](#2-cudnn-cuda-deep-neural-network-library)
@@ -65,24 +65,21 @@
   - [📝 5.5 Pseudocódigo](#-55-pseudocódigo)
 - [🖥️ 6. Desarrollo de la Aplicación en Python](#️-6-desarrollo-de-la-aplicación-en-python)
   - [📁 6.1 Estructura General del Proyecto](#-61-estructura-general-del-proyecto)
-    - [📌 **1. Programa.py**](#-1-programapy)
-      - [🔹 **Funciones**:](#-funciones)
-    - [🛠️ **2. Funciones.py**](#️-2-funcionespy)
-      - [🔹 **Funciones**:](#-funciones-1)
-    - [📊 **3. ButterWorth.py**](#-3-butterworthpy)
-      - [🔹 **Funciones**:](#-funciones-2)
-    - [📂 **4. Muestras**](#-4-muestras)
-    - [🎥 **5. Videos**](#-5-videos)
+    - [📌 1. Programa.py](#-1-programapy)
+    - [🛠️ 2. Funciones.py](#️-2-funcionespy)
+    - [📊 3. ButterWorth.py](#-3-butterworthpy)
+    - [📂 4. Muestras](#-4-muestras)
+    - [🎥 5. Videos](#-5-videos)
   - [⚙️ 6.2 Estructura del Programa](#️-62-estructura-del-programa)
-    - [📂 **Interfaz General**](#-interfaz-general)
-    - [📝 **Datos a Ingresar**](#-datos-a-ingresar)
-    - [🎛️ **Panel de Opciones**](#️-panel-de-opciones)
-    - [📈 **Gráfica de Datos**](#-gráfica-de-datos)
-  - [📊 **6.3 Visualización de datos**](#-63-visualización-de-datos)
-    - [📌 **Toma de Prueba**](#-toma-de-prueba)
-    - [📌 **Toma de Stroop**](#-toma-de-stroop)
-    - [📌 **Toma de Pausa**](#-toma-de-pausa)
-    - [📌 **Toma de Respiración**](#-toma-de-respiración)
+    - [📂 Interfaz General](#-interfaz-general)
+    - [📝 Datos a Ingresar](#-datos-a-ingresar)
+    - [🎛️ Panel de Opciones](#️-panel-de-opciones)
+    - [📈 Gráfica de Datos](#-gráfica-de-datos)
+  - [📊 6.3 Visualización de datos](#-63-visualización-de-datos)
+    - [📌 Toma de Prueba](#-toma-de-prueba)
+    - [📌 Toma de Stroop](#-toma-de-stroop)
+    - [📌 Toma de Pausa](#-toma-de-pausa)
+    - [📌 Toma de Respiración](#-toma-de-respiración)
   - [7. BD MIT BIH](#7-bd-mit-bih)
     - [7.1 Obtención de datos](#71-obtención-de-datos)
     - [7.2 WFDB2MAT](#72-wfdb2mat)
@@ -140,7 +137,7 @@ La importancia de la adquisición de señales ECG también radica en su uso en e
 
 ## 🔩 3.1 Componentes
 
-### ➤ **Electrodos: Ambiderm T715**  
+### ➤ Electrodos: Ambiderm T715 
 Electrodos desechables autoadheribles diseñados para la adquisición de señales bioeléctricas.  
 - Fabricados en espuma de **polietileno**.  
 - Incorporan un broche de conexión metálico tipo botón que facilita su integración con cables de monitoreo.  
@@ -148,14 +145,14 @@ Electrodos desechables autoadheribles diseñados para la adquisición de señale
 
 ---
 
-### ➤ **Cable de Electrodo DC 3.5 mm**  
+### ➤ Cable de Electrodo DC 3.5 mm  
 Cable de transmisión de señales bioeléctricas utilizado para conectar los electrodos al módulo de acondicionamiento y conversión analógica-digital.  
 - Dispone de un conector **3.5 mm tipo jack**.  
 - Su función es transportar las señales captadas por los electrodos al módulo **AD8232**.
 
 ---
 
-### ➤ **Módulo AD8232**  
+### ➤ Módulo AD8232  
 Módulo de adquisición de señales bioeléctricas especializado en la medición de la actividad eléctrica del corazón.  
 - Integra un **amplificador**.  
 - Incluye filtros **pasa bajos** y **pasa altos**.  
@@ -163,7 +160,7 @@ Módulo de adquisición de señales bioeléctricas especializado en la medición
 
 ---
 
-### ➤ **Módulo Bluetooth RN-41-FLY-477**  
+### ➤ Módulo Bluetooth RN-41-FLY-477  
 Módulo de comunicación inalámbrica **Bluetooth Clase 1**, ideal para transmisión de datos a larga distancia.  
 - Alcance de hasta **100 metros**.  
 - Interfaz de comunicación **UART**.  
@@ -171,7 +168,7 @@ Módulo de comunicación inalámbrica **Bluetooth Clase 1**, ideal para transmis
 
 ---
 
-### ➤ **Capacitor de Poliéster 0.1 µF a 250V**  
+### ➤ Capacitor de Poliéster 0.1 µF a 250V  
 Componente pasivo utilizado para **acoplamiento capacitivo**.  
 - Bloquea la corriente continua (**DC**).  
 - Permite el paso de la señal alterna (**AC**), aislando diferentes etapas del sistema.  
@@ -181,13 +178,13 @@ Componente pasivo utilizado para **acoplamiento capacitivo**.
 
 ## 🧠 3.2 Microcontrolador
 
-### ➤ **Raspberry Pi Pico**  
+### ➤ Raspberry Pi Pico  
 La **Raspberry Pi Pico** es una placa de desarrollo compacta basada en el **microcontrolador RP2040**, diseñado por Raspberry Pi.  
 Integra un procesador **ARM Cortex-M0+ de doble núcleo**, operando a una frecuencia de hasta **133 MHz**.
 
 ---
 
-#### 📌 **Características principales:**
+#### 📌 Características:
 
 - **Memoria**:  
   - 264 KB de **SRAM**.  
@@ -207,7 +204,7 @@ Integra un procesador **ARM Cortex-M0+ de doble núcleo**, operando a una frecue
 
 ---
 
-#### 📌 **Programación y compatibilidad:**  
+#### 📌 Programación y compatibilidad:  
 - Compatible con **MicroPython** y **C/C++**.  
 - Soporte en entornos de desarrollo como **Thonny**.  
 - Dispone de **SDK oficial** para C/C++, facilitando la implementación de aplicaciones en sistemas embebidos.
@@ -424,7 +421,7 @@ Herramientas para facilitar el desarrollo y la administración del entorno de tr
 
 ---
 
-### 📡 **Blueman**  
+### 📡 Blueman  
 > Administrador de **Bluetooth** para sistemas **Linux**.
 
 - **Versión utilizada:** `2.2.4`
@@ -436,7 +433,7 @@ sudo apt install blueman
 
 ---
 
-### 🔲 **Screen**  
+### 🔲 Screen  
 > Herramienta para gestionar sesiones de terminal, ideal para la comunicación en **puertos serie**.
 
 #### 🔧 Instalación
@@ -452,7 +449,7 @@ sudo screen /dev/K
 
 ---
 
-### 🐍 **Thonny**  
+### 🐍 Thonny  
 > Entorno de Desarrollo Integrado (**IDE**) diseñado para programar en **Python**, especialmente útil con **MicroPython**.
 
 #### 🔧 Instalación
@@ -462,7 +459,7 @@ sudo apt install thonny
 
 ---
 
-### 🐧 **Actualizar Linux Firmware**  
+### 🐧 Actualizar Linux Firmware  
 > Proceso para mantener el firmware de Linux actualizado, asegurando compatibilidad y soporte con hardware reciente.
 
 #### 📥 Descargar última versión
@@ -481,7 +478,7 @@ sudo cp -r /linux-firmware-####/* /lib/firmware
 
 ---
 
-### 🔌 **Ver Dispositivos Conectados**
+### 🔌 Ver Dispositivos Conectados
 
 | **Acción**                          | **Comando**               |
 |-------------------------------------|---------------------------|
@@ -627,7 +624,7 @@ FIN
 
 ![Carpetas](README/imgsoftware/carpetas.png)
 
-### 📌 **1. Programa.py**  
+### 📌 1. Programa.py  
 
 Este es el programa principal, el que se debe ejecutar si se quiere correr la aplicación:  
 ```bash
@@ -635,7 +632,7 @@ python3 Programa.py
 ```
 Se encarga de la **interacción con el usuario** y del **control del proceso de adquisición de datos, visualización y selección de muestras** a mostrar.
 
-#### 🔹 **Funciones**:
+**Funciones**:
 1. Ingreso de datos del usuario  
 2. Selección de la fase de la prueba  
 3. Botón de **"Medir"**  
@@ -644,11 +641,11 @@ Se encarga de la **interacción con el usuario** y del **control del proceso de 
 
 ---
 
-### 🛠️ **2. Funciones.py**  
+### 🛠️ 2. Funciones.py  
 
 Se puede considerar como el **backend** de la aplicación, ya que gestiona el **manejo de archivos, procesamiento de datos, lectura serial** y la **reproducción de video**.
 
-#### 🔹 **Funciones**:
+**Funciones**:
 1. Crear la carpeta y archivos donde se guardan las muestras  
 2. Graficar los datos cargando los archivos CSV generados  
 3. Leer los datos desde el puerto **serial**  
@@ -656,18 +653,18 @@ Se puede considerar como el **backend** de la aplicación, ya que gestiona el **
 
 ---
 
-### 📊 **3. ButterWorth.py**  
+### 📊 3. ButterWorth.py  
 
 Clase encargada de **crear y aplicar el filtro Butterworth**. Se utiliza para filtrar la señal **ECG**.  
 Este filtro **solo se aplica al momento de mostrar los datos** y **no se aplica al guardarlos**, por lo que los datos almacenados en los archivos **CSV** se guardan tal cual son recibidos desde el **puerto serial** vía **Bluetooth**.
 
-#### 🔹 **Funciones**:
+**Funciones**:
 1. Aplicar el filtro **Butterworth**  
 2. Si se ejecuta individualmente, grafica la señal original y filtrada  
 
 ---
 
-### 📂 **4. Muestras**  
+### 📂 4. Muestras  
 
 Esta carpeta contiene las subcarpetas donde se almacenan las muestras adquiridas.  
 El programa realiza un **mapeo automático** para guardarlas según el tipo de muestra, con la siguiente nomenclatura:
@@ -684,7 +681,7 @@ El programa realiza un **mapeo automático** para guardarlas según el tipo de m
 
 ---
 
-### 🎥 **5. Videos**  
+### 🎥 5. Videos  
 
 Carpeta donde se almacenan los **videos mostrados al tomar la muestra** (cuando se presiona el botón **"Medir"** en la aplicación).
 
@@ -700,12 +697,12 @@ Carpeta donde se almacenan los **videos mostrados al tomar la muestra** (cuando 
 
 ## ⚙️ 6.2 Estructura del Programa  
 
-### 📂 **Interfaz General**  
+### 📂 Interfaz General  
 ![Interfaz](README/imgsoftware/interfaz.png)
 
 ---
 
-### 📝 **Datos a Ingresar**  
+### 📝 Datos a Ingresar  
 ![Datos](README/imgsoftware/datos.png)
 
 - **Nombre:** El nombre con el que se va a guardar la muestra  
@@ -716,7 +713,7 @@ Carpeta donde se almacenan los **videos mostrados al tomar la muestra** (cuando 
 
 ---
 
-### 🎛️ **Panel de Opciones**  
+### 🎛️ Panel de Opciones  
 ![Panel](README/imgsoftware/panel.png)
 
 - **Selector de Tipo de Muestra:** Permite elegir entre `Prueba`, `Baseline`, `Stroop`, `Pausa` y `Respiración`. 
@@ -741,25 +738,25 @@ Carpeta donde se almacenan los **videos mostrados al tomar la muestra** (cuando 
 
 ---
 
-### 📈 **Gráfica de Datos**  
+### 📈 Gráfica de Datos  
 ![Gráfica](README/imgsoftware/grafica.png)
 
 Se muestra la **gráfica lineal** de los datos adquiridos o seleccionados.
 
 ---
 
-## 📊 **6.3 Visualización de datos**  
+## 📊 6.3 Visualización de datos  
 
-### 📌 **Toma de Prueba**  
+### 📌 Toma de Prueba  
 ![Toma de Prueba](README/imgsoftware/TomaN.png)
 
-### 📌 **Toma de Stroop**  
+### 📌 Toma de Stroop  
 ![Toma de Stroop](README/imgsoftware/TomaB.png)
 
-### 📌 **Toma de Pausa**  
+### 📌 Toma de Pausa  
 ![Toma de Pausa](README/imgsoftware/TomaC.png)
 
-### 📌 **Toma de Respiración**  
+### 📌 Toma de Respiración  
 ![Toma de Respiración](README/imgsoftware/TomaD.png)
 
 ---
