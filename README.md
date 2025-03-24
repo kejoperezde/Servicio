@@ -12,13 +12,13 @@
   - [2.7 Comunicación serie UART/Bluetooth](#27-comunicación-serie-uartbluetooth)
 - [⚙️ 3. DAQ](#️-3-daq)
   - [🔩 3.1 Componentes](#-31-componentes)
-    - [➤ Electrodos: Ambiderm T715](#-electrodos-ambiderm-t715)
-    - [➤ Cable de Electrodo DC 3.5 mm](#-cable-de-electrodo-dc-35-mm)
-    - [➤ Módulo AD8232](#-módulo-ad8232)
-    - [➤ Módulo Bluetooth RN-41-FLY-477](#-módulo-bluetooth-rn-41-fly-477)
-    - [➤ Capacitor de Poliéster 0.1 µF a 250V](#-capacitor-de-poliéster-01-µf-a-250v)
+    - [🔘 Electrodos: Ambiderm T715](#-electrodos-ambiderm-t715)
+    - [🔗 Cable de Electrodo DC 3.5 mm](#-cable-de-electrodo-dc-35-mm)
+    - [❤️‍🩹 Módulo AD8232](#️-módulo-ad8232)
+    - [📶 Módulo Bluetooth RN-41-FLY-477](#-módulo-bluetooth-rn-41-fly-477)
+    - [🔋 Capacitor de Poliéster 0.1 µF a 250V](#-capacitor-de-poliéster-01-µf-a-250v)
   - [🧠 3.2 Microcontrolador](#-32-microcontrolador)
-    - [➤ Raspberry Pi Pico](#-raspberry-pi-pico)
+    - [🔧 Raspberry Pi Pico](#-raspberry-pi-pico)
       - [📌 Características:](#-características)
       - [📌 Programación y compatibilidad:](#-programación-y-compatibilidad)
   - [🔋 3.3 Fuente de Alimentación](#-33-fuente-de-alimentación)
@@ -137,7 +137,7 @@ La importancia de la adquisición de señales ECG también radica en su uso en e
 
 ## 🔩 3.1 Componentes
 
-### ➤ Electrodos: Ambiderm T715 
+### 🔘 Electrodos: Ambiderm T715 
 Electrodos desechables autoadheribles diseñados para la adquisición de señales bioeléctricas.  
 - Fabricados en espuma de **polietileno**.  
 - Incorporan un broche de conexión metálico tipo botón que facilita su integración con cables de monitoreo.  
@@ -145,14 +145,14 @@ Electrodos desechables autoadheribles diseñados para la adquisición de señale
 
 ---
 
-### ➤ Cable de Electrodo DC 3.5 mm  
+### 🔗 Cable de Electrodo DC 3.5 mm  
 Cable de transmisión de señales bioeléctricas utilizado para conectar los electrodos al módulo de acondicionamiento y conversión analógica-digital.  
 - Dispone de un conector **3.5 mm tipo jack**.  
 - Su función es transportar las señales captadas por los electrodos al módulo **AD8232**.
 
 ---
 
-### ➤ Módulo AD8232  
+### ❤️‍🩹 Módulo AD8232  
 Módulo de adquisición de señales bioeléctricas especializado en la medición de la actividad eléctrica del corazón.  
 - Integra un **amplificador**.  
 - Incluye filtros **pasa bajos** y **pasa altos**.  
@@ -160,7 +160,7 @@ Módulo de adquisición de señales bioeléctricas especializado en la medición
 
 ---
 
-### ➤ Módulo Bluetooth RN-41-FLY-477  
+### 📶 Módulo Bluetooth RN-41-FLY-477  
 Módulo de comunicación inalámbrica **Bluetooth Clase 1**, ideal para transmisión de datos a larga distancia.  
 - Alcance de hasta **100 metros**.  
 - Interfaz de comunicación **UART**.  
@@ -168,7 +168,7 @@ Módulo de comunicación inalámbrica **Bluetooth Clase 1**, ideal para transmis
 
 ---
 
-### ➤ Capacitor de Poliéster 0.1 µF a 250V  
+### 🔋 Capacitor de Poliéster 0.1 µF a 250V  
 Componente pasivo utilizado para **acoplamiento capacitivo**.  
 - Bloquea la corriente continua (**DC**).  
 - Permite el paso de la señal alterna (**AC**), aislando diferentes etapas del sistema.  
@@ -178,7 +178,7 @@ Componente pasivo utilizado para **acoplamiento capacitivo**.
 
 ## 🧠 3.2 Microcontrolador
 
-### ➤ Raspberry Pi Pico  
+### 🔧 Raspberry Pi Pico  
 La **Raspberry Pi Pico** es una placa de desarrollo compacta basada en el **microcontrolador RP2040**, diseñado por Raspberry Pi.  
 Integra un procesador **ARM Cortex-M0+ de doble núcleo**, operando a una frecuencia de hasta **133 MHz**.
 
