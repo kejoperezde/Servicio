@@ -138,5 +138,5 @@ def datos_create(numeracion):
         except Exception as e:
             print(f"Error procesando {num}: {e}")
 
-# comando_wfdb2mat(numeracion)
+comando_wfdb2mat(numeracion)
 datos_create(numeracion)

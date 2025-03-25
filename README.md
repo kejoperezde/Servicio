@@ -80,20 +80,20 @@
     - [📌 Toma de Stroop](#-toma-de-stroop)
     - [📌 Toma de Pausa](#-toma-de-pausa)
     - [📌 Toma de Respiración](#-toma-de-respiración)
-  - [7. BD MIT BIH](#7-bd-mit-bih)
-    - [7.1 Obtención de datos](#71-obtención-de-datos)
-    - [7.2 WFDB2MAT](#72-wfdb2mat)
-    - [7.3 Procesado y guardado de muestras](#73-procesado-y-guardado-de-muestras)
-    - [7.4 Obtención de datos muestras](#74-obtención-de-datos-muestras)
-  - [8. Resultados](#8-resultados)
-  - [9. Referencias](#9-referencias)
-  - [10. Anexos](#10-anexos)
-    - [10.1 Códigos fuente](#101-códigos-fuente)
-    - [10.2 Gráficos adicionales](#102-gráficos-adicionales)
-  - [11. Errores comunes y soluciones](#11-errores-comunes-y-soluciones)
-    - [11.1 Problemas en la adquisición de datos](#111-problemas-en-la-adquisición-de-datos)
-    - [11.2 Fallos en la comunicación serie/Bluetooth](#112-fallos-en-la-comunicación-seriebluetooth)
-    - [11.3 Interferencias en la señal ECG](#113-interferencias-en-la-señal-ecg)
+- [🧬 7. BD MIT-BIH](#-7-bd-mit-bih)
+  - [📚 7.1 Numeración disponible](#-71-numeración-disponible)
+  - [🔄 7.2 WFDB2MAT](#-72-wfdb2mat)
+    - [✅ Características:](#-características-1)
+    - [🧪 Entrada:](#-entrada)
+    - [📦 Salida:](#-salida)
+    - [🔧 Instalación en Linux:](#-instalación-en-linux)
+  - [🔽 7.3 Pasos para la obtención de datos](#-73-pasos-para-la-obtención-de-datos)
+  - [⚙️ 7.4 Procesado y guardado de muestras](#️-74-procesado-y-guardado-de-muestras)
+- [8. Resultados](#8-resultados)
+- [9. Referencias](#9-referencias)
+- [10. Anexos](#10-anexos)
+  - [10.1 Códigos fuente](#101-códigos-fuente)
+  - [10.2 Carpeta de imágenes](#102-carpeta-de-imágenes)
 
 
 
@@ -761,18 +761,94 @@ Se muestra la **gráfica lineal** de los datos adquiridos o seleccionados.
 
 ---
 
-## 7. BD MIT BIH
-### 7.1 Obtención de datos
-### 7.2 WFDB2MAT
-### 7.3 Procesado y guardado de muestras
-### 7.4 Obtención de datos muestras
+Claro, aquí tienes la sección **7. BD MIT-BIH** completamente complementada, con formato técnico, claridad en los procesos y coherencia con el resto del documento. Se incluyen explicaciones clave sobre el flujo de trabajo, procesamiento de datos y uso de scripts.
 
-## 8. Resultados
+---
 
-## 9. Referencias
+# 🧬 7. BD MIT-BIH
 
-## 10. Anexos
-### 10.1 Códigos fuente  
+La base de datos utilizada en este proyecto fue la **MIT-BIH Arrhythmia Database**, una de las más reconocidas y utilizadas para la investigación en análisis de señales ECG. Esta base de datos está disponible públicamente a través del repositorio **PhysioNet**, y contiene registros electrocardiográficos anotados que permiten el estudio de diferentes tipos de arritmias.
+
+> Esta base contiene señales de ECG reales, registradas a una frecuencia de muestreo de **360 Hz**, con anotaciones médicas que indican el tipo de latido y eventos fisiológicos.
+
+---
+
+## 📚 7.1 Numeración disponible
+
+Los registros seleccionados para su análisis en este proyecto fueron los siguientes:
+
+```
+100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 111, 112, 113, 114, 115, 116,
+117, 118, 119, 121, 122, 123, 124, 200, 201, 202, 203, 205, 207, 208, 209, 210,
+212, 213, 214, 215, 217, 219, 220, 221, 222, 223, 228, 230, 231, 232, 233, 234
+```
+
+Cada uno de estos registros está compuesto por dos archivos clave:
+
+- `.dat` → Contiene la señal binaria cruda (ECG).
+- `.hea` → Contiene el encabezado con metadatos: frecuencia de muestreo, canales, edad, sexo y observaciones clínicas.
+
+---
+
+## 🔄 7.2 WFDB2MAT
+
+[`wfdb2mat`](https://physionet.org/physiotools/wag/wfdb2mat-1.htm) es una utilidad del paquete **WFDB (Waveform Database)** que permite convertir señales del formato nativo de PhysioNet (`.dat` + `.hea`) al formato **`.mat`**, compatible con **MATLAB** y **Octave**.
+
+### ✅ Características:
+- Convierte señales fisiológicas como **ECG, PPG, EMG** al formato `.mat`.
+- Permite seleccionar canales, intervalos de tiempo y duración de señal.
+- Genera archivos `.m.mat` y `.m.hea` para su análisis posterior.
+
+### 🧪 Entrada:
+- `archivo.hea`
+- `archivo.dat`
+
+### 📦 Salida:
+- `archivo.m.mat` → Datos de señal en formato MATLAB.
+- `archivo.m.hea` → Encabezado con metainformación.
+
+### 🔧 Instalación en Linux:
+```bash
+sudo apt install wfdb-tools
+```
+
+---
+
+## 🔽 7.3 Pasos para la obtención de datos
+
+1. **Descargar y descomprimir** la base de datos desde PhysioNet.
+2. **Instalar `wfdb-tools`** para contar con la utilidad `wfdb2mat`.
+3. **Ubicar los scripts** `CrearMat.py` y `InfoMat.py`, que automatizan el procesamiento.
+4. **Mover los scripts** a la carpeta donde se encuentran los archivos `.dat` y `.hea`.
+5. Ejecutar `CrearMat.py`:
+   - Este script convierte múltiples registros `.dat` a `.mat` utilizando `wfdb2mat`.
+   - Además, organiza los archivos resultantes en una carpeta `wfdb_output`.
+
+6. Ejecutar `InfoMat.py`:
+   - Este script en Python tiene como objetivo cargar, analizar y visualizar gráficamente señales ECG previamente procesadas y almacenadas en archivos .mat.
+
+---
+
+## ⚙️ 7.4 Procesado y guardado de muestras
+
+El procesamiento de cada muestra incluye los siguientes pasos técnicos:
+
+- **Carga de la señal original** desde `.mat`.
+- **Remuestreo** desde 360 Hz a **192 Hz** usando `scipy.signal.resample`.
+- **Normalización** de la señal entre 0 y 1.
+- **Cálculo de LPM** y estimación de latidos en 10 segundos.
+- **División en secciones**, cada una correspondiente a un latido estimado.
+- **Extracción de metadatos clínicos** (edad, sexo, enfermedades).
+- **Almacenamiento estructurado** en la carpeta `datos_ecg/`, con archivos tipo `datos_100.mat`, `datos_101.mat`, etc.
+
+---
+
+# 8. Resultados
+
+# 9. Referencias
+
+# 10. Anexos
+## 10.1 Códigos fuente  
 
 Programa en C
 ```C
@@ -1141,12 +1217,174 @@ if __name__ == "__main__":
     filtro.plot_signals(ecg_signal, filtered_signal, duration)
 ```
 
-### 10.2 Gráficos adicionales  
+CrearMat.py
+
+```python
+import os
+import scipy.io as sio
+import scipy.signal as signal
+import numpy as np
+import subprocess
+import shutil
+import math
+
+numeracion = [
+    100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 111, 112, 113, 114, 115, 116, 
+    117, 118, 119, 121, 122, 123, 124, 200, 201, 202, 203, 205, 207, 208, 209, 210, 
+    212, 213, 214, 215, 217, 219, 220, 221, 222, 223, 228, 230, 231, 232, 233, 234
+]
+
+def ecgmain(path):
+    data = sio.loadmat(path)
+    return data['val'].squeeze()
+
+def resample(signal_ecg, original_fs=360, target_fs=192):
+    num_samples = int(len(signal_ecg) * (target_fs / original_fs))
+    return signal.resample(signal_ecg, num_samples)
+
+def normalizar(signal):
+    return (signal - np.min(signal)) / (np.max(signal) - np.min(signal))
+
+def latidos(normalizado):
+    sampling_rate = 360
+    peaks, _ = signal.find_peaks(normalizado, height=0.6, distance=sampling_rate*0.6)
+    if len(peaks) > 1:
+        rr_intervals = np.diff(peaks) / sampling_rate
+        avg_rr = np.mean(rr_intervals)
+        lpmaprox = 60 / avg_rr
+        lpdiezseg = lpmaprox * (10 / 60)
+        return lpmaprox, lpdiezseg
+    else:
+        return 60, 10
+
+def div_secciones(arr, num_secciones):
+    parte_entera = int(num_secciones)
+    parte_decimal = num_secciones - parte_entera
+    num_secciones = parte_entera if parte_decimal <= 0.4 else parte_entera + 1
+    n = len(arr)
+    tamaño_seccion = n // num_secciones
+    sobrante = n % num_secciones
+    secciones = []
+    inicio = 0
+    for i in range(num_secciones):
+        extra = 1 if i < sobrante else 0
+        fin = inicio + tamaño_seccion + extra
+        secciones.append(arr[inicio:fin])
+        inicio = fin
+    return secciones
+
+def encabezado(path):
+    with open(path + '.hea', 'r') as file:
+        lines = file.readlines()
+        age, sex, diseases = "Desconocida", "Desconocido", []
+        for i, line in enumerate(lines):
+            if line.startswith("#"):
+                parts = line.split()
+                if len(parts) >= 3 and parts[1].lstrip('-').isdigit():
+                    age = parts[1] if int(parts[1]) > 0 else "Desconocida"
+                    sex = "Masculino" if parts[2] == "M" else "Femenino"
+                if i == 3 and len(parts) > 1:
+                    diseases = [d.strip(',') for d in parts[1:]]
+        return age, sex, diseases
+
+def comando_wfdb2mat(numeracion):
+    output_dir = "wfdb_output"
+    os.makedirs(output_dir, exist_ok=True)
+    for num in numeracion:
+        command = f"wfdb2mat -r {num} -s 0 -f 00:00:00 -l 00:00:10"
+        try:
+            subprocess.run(command, shell=True, check=True)
+            for ext in ["m.mat", "m.hea"]:
+                source_file = f"{num}{ext}"
+                if os.path.exists(source_file):
+                    shutil.move(source_file, os.path.join(output_dir, source_file))
+        except subprocess.CalledProcessError as e:
+            print(f"Error ejecutando wfdb2mat para {num}: {e}")
+
+def datos_create(numeracion):
+    output_dir = "datos_ecg"
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    for num in numeracion:
+        path_m = f"wfdb_output/{num}m"
+        try:
+            original = ecgmain(f"{path_m}.mat")
+            resampled = resample(original, 360, 192)
+            normalizado = normalizar(resampled)
+            lpmaprox, lpdiezseg = latidos(normalizar(original))
+            secciones = div_secciones(normalizado, lpdiezseg)
+            age, sex, diseases = encabezado(path_m)
+            data = {
+                "original": original,
+                "normalizado": normalizado,
+                "secciones": secciones,
+                "sex": sex,
+                "age": age,
+                "diseases": diseases,
+                "lpdiezseg": lpdiezseg,
+            }
+            save_path = os.path.join(output_dir, f"datos_{num}.mat")
+            sio.savemat(save_path, data)
+            print(f"Archivo guardado: {save_path}")
+        except Exception as e:
+            print(f"Error procesando {num}: {e}")
+
+comando_wfdb2mat(numeracion)
+datos_create(numeracion)
+```
+
+InfoMat.py
+
+```python
+import scipy.io as sio
+import matplotlib.pyplot as plt
+import numpy as np
+
+numeracion = [
+    100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 111, 112, 113, 114, 115, 116, 
+    117, 118, 119, 121, 122, 123, 124, 200, 201, 202, 203, 205, 207, 208, 209, 210, 
+    212, 213, 214, 215, 217, 219, 220, 221, 222, 223, 228, 230, 231, 232, 233, 234
+]
+
+data = sio.loadmat('datos_ecg/datos_114.mat')
+
+print(data.keys())
+print(data)
+print(data['diseases'])
+print(data['lpdiezseg'])
+
+val = data['normalizado'].squeeze()
+x = np.arange(len(val))
+
+plt.figure(figsize=(10, 5))
+plt.plot(x, val, label='Señal normalizada del archivo 100m.mat', color='b')
+plt.xlabel('Muestras')
+plt.ylabel('Amplitud normalizada')
+plt.title('Visualización de datos normalizados desde 100m.mat')
+plt.legend()
+plt.grid()
+plt.show()
+
+secciones = data['secciones'][0] if len(data['secciones']) == 1 else data['secciones']
+num_secciones = len(secciones)
+
+fig, axes = plt.subplots(num_secciones, 1, figsize=(10, 2 * num_secciones), sharex=True)
+
+for i, seccion in enumerate(secciones):
+    if isinstance(seccion, np.ndarray):
+        seccion = seccion.flatten()
+
+    x = np.arange(len(seccion))
+    axes[i].plot(x, seccion, label=f'Sección {i+1}', color='b')
+    axes[i].legend()
+    axes[i].grid()
+
+plt.xlabel('Muestras')
+plt.suptitle('Visualización de datos normalizados')
+plt.tight_layout()
+plt.show()
+```
+
+## 10.2 Carpeta de imágenes 
 
 Imágenes [One Drive](https://1drv.ms/f/s!AsP3n41dk7dYgeCnVOpamzrRtiJD-2o?e=4rbqUR).
-
-## 11. Errores comunes y soluciones
-### 11.1 Problemas en la adquisición de datos  
-### 11.2 Fallos en la comunicación serie/Bluetooth  
-### 11.3 Interferencias en la señal ECG  
-
