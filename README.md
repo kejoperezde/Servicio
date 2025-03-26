@@ -3,13 +3,15 @@
   - [1.2. Justificación](#12-justificación)
   - [1.3. Importancia de la adquisición de señales ECG](#13-importancia-de-la-adquisición-de-señales-ecg)
 - [2. Fundamentos Teóricos](#2-fundamentos-teóricos)
-  - [2.1 Frecuencia cardiaca](#21-frecuencia-cardiaca)
-  - [2.2 Triángulo de Einthoven](#22-triángulo-de-einthoven)
-  - [2.3 Electrocardiograma (ECG)](#23-electrocardiograma-ecg)
-  - [2.4 Filtros digitales](#24-filtros-digitales)
-  - [2.5 Convertidor ADC](#25-convertidor-adc)
-  - [2.6 Sistemas de Adquisición de Datos (DAQ)](#26-sistemas-de-adquisición-de-datos-daq)
-  - [2.7 Comunicación serie UART/Bluetooth](#27-comunicación-serie-uartbluetooth)
+  - [2.1. Qué es un ECG](#21-qué-es-un-ecg)
+  - [2.2 Principio de funcionamiento](#22-principio-de-funcionamiento)
+  - [2.3 Frecuencia cardiaca](#23-frecuencia-cardiaca)
+  - [2.4 Triángulo de Einthoven](#24-triángulo-de-einthoven)
+  - [2.5 Electrocardiograma (ECG)](#25-electrocardiograma-ecg)
+  - [2.6 Filtros digitales](#26-filtros-digitales)
+  - [2.7 Convertidor ADC](#27-convertidor-adc)
+  - [2.8 Sistemas de Adquisición de Datos (DAQ)](#28-sistemas-de-adquisición-de-datos-daq)
+  - [2.9 Comunicación serie UART/Bluetooth](#29-comunicación-serie-uartbluetooth)
 - [⚙️ 3. DAQ](#️-3-daq)
   - [🔩 3.1 Componentes](#-31-componentes)
     - [🔘 Electrodos: Ambiderm T715](#-electrodos-ambiderm-t715)
@@ -80,6 +82,7 @@
     - [📌 Toma de Stroop](#-toma-de-stroop)
     - [📌 Toma de Pausa](#-toma-de-pausa)
     - [📌 Toma de Respiración](#-toma-de-respiración)
+- [Implementación del software](#implementación-del-software)
 - [🧬 7. BD MIT-BIH](#-7-bd-mit-bih)
   - [📚 7.1 Numeración disponible](#-71-numeración-disponible)
   - [🔄 7.2 WFDB2MAT](#-72-wfdb2mat)
@@ -94,6 +97,7 @@
 - [10. Anexos](#10-anexos)
   - [10.1 Códigos fuente](#101-códigos-fuente)
   - [10.2 Carpeta de imágenes](#102-carpeta-de-imágenes)
+  - [Solución de posibles errores](#solución-de-posibles-errores)
 
 
 
@@ -117,15 +121,28 @@ El desarrollo de sistemas de adquisición de ECG ha evolucionado significativame
 
 La importancia de la adquisición de señales ECG también radica en su uso en el ámbito de la investigación biomédica y el desarrollo de tecnologías médicas innovadoras. Los sistemas modernos de adquisición no solo permiten visualizar las señales en tiempo real, sino que también posibilitan el análisis automatizado mediante algoritmos de inteligencia artificial, mejorando la detección temprana de patologías (Martínez et al., 2019). Estos avances refuerzan la necesidad de continuar optimizando los sistemas de adquisición para lograr registros cada vez más precisos y accesibles en entornos clínicos y domésticos.
 
+"La señal del ECG se ha analizado y utilizado para diversos fines, como la medición de la frecuencia cardíaca, el examen del ritmo de los latidos del corazón, el diagnóstico de anomalías cardíacas, el reconocimiento de emociones y la identificación biométrica" (Kaplan Berkaya et al., 2018).
+
+"El ECG se debe considerar como una herramienta y no como un fin en sí mismo" (Hampton, 2013).
+
 # 2. Fundamentos Teóricos
 
-## 2.1 Frecuencia cardiaca  
-## 2.2 Triángulo de Einthoven  
-## 2.3 Electrocardiograma (ECG)  
-## 2.4 Filtros digitales    
-## 2.5 Convertidor ADC  
-## 2.6 Sistemas de Adquisición de Datos (DAQ)  
-## 2.7 Comunicación serie UART/Bluetooth
+## 2.1. Qué es un ECG
+
+"«ECG» son las siglas de electrocardiograma, o electrocardiografía" (Hampton, 2013).   
+"El electrocardiograma es un registro que refleja la actividad eléctrica del corazón" (Uribe, Duque, 2010).
+
+## 2.2 Principio de funcionamiento
+
+"La  contracción  de  cualquier  músculo  se  asocia  a cambios  eléctricos  denominados  «despolarización», que  pueden  detectarse  mediante  electrodos  unidos a la superficie corpora" (Hampton, 2013). El corazón al tratarse de un músculo, también emite cambios electrónicos mientras está en funcionamiento, los cuales pueden ser medidos con ayuda de electrodos ubicados adecuadamente, tomando en cuenta que los demás músculos al también emitir cambios eléctricos deben estar estos en funcionameinto nulo para evitar intervenir con la señal emitida por el corazón.
+
+## 2.3 Frecuencia cardiaca  
+## 2.4 Triángulo de Einthoven  
+## 2.5 Electrocardiograma (ECG)  
+## 2.6 Filtros digitales    
+## 2.7 Convertidor ADC  
+## 2.8 Sistemas de Adquisición de Datos (DAQ)  
+## 2.9 Comunicación serie UART/Bluetooth
 
 ---
 
@@ -517,6 +534,11 @@ Guía básica para instalar los componentes necesarios para usar **PyTorch** con
 bash
 pip install scikit-learn
 
+nvidia-smi
+nvtop
+sudo apt install nvtop
+
+
 ---
 
 # 🖥️ 5. Programación del Sistema Embebido: C
@@ -759,9 +781,7 @@ Se muestra la **gráfica lineal** de los datos adquiridos o seleccionados.
 ### 📌 Toma de Respiración  
 ![Toma de Respiración](README/imgsoftware/TomaD.png)
 
----
-
-Claro, aquí tienes la sección **7. BD MIT-BIH** completamente complementada, con formato técnico, claridad en los procesos y coherencia con el resto del documento. Se incluyen explicaciones clave sobre el flujo de trabajo, procesamiento de datos y uso de scripts.
+# Implementación del software
 
 ---
 
@@ -838,6 +858,7 @@ El procesamiento de cada muestra incluye los siguientes pasos técnicos:
 - **Normalización** de la señal entre 0 y 1.
 - **Cálculo de LPM** y estimación de latidos en 10 segundos.
 - **División en secciones**, cada una correspondiente a un latido estimado.
+    ![Placa con los componentes](README/secciones.png)
 - **Extracción de metadatos clínicos** (edad, sexo, enfermedades).
 - **Almacenamiento estructurado** en la carpeta `datos_ecg/`, con archivos tipo `datos_100.mat`, `datos_101.mat`, etc.
 
@@ -847,7 +868,12 @@ El procesamiento de cada muestra incluye los siguientes pasos técnicos:
 
 # 9. Referencias
 
+Uribe, William & Duque, Mauricio & Arango, Eduardo. (2010). Electrocardiografía y arritmias. Revista Iberoamericana de Arritmología. 10.5031/v1i2.RIA1012. 
+
+Hampton, J. (2013). The ECG made easy. Elsevier Health Sciences.
+
 # 10. Anexos
+
 ## 10.1 Códigos fuente  
 
 Programa en C
@@ -1388,3 +1414,5 @@ plt.show()
 ## 10.2 Carpeta de imágenes 
 
 Imágenes [One Drive](https://1drv.ms/f/s!AsP3n41dk7dYgeCnVOpamzrRtiJD-2o?e=4rbqUR).
+
+## Solución de posibles errores

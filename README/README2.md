@@ -1,25 +1,12 @@
 
 
 ### **1. Introducción**
-1.1. Objetivos del proyecto
 
-Desarrollo de un sistema electrónico para la adquisición de una señal ECG y un sistema de adquisición de datos (DAQ) para la obtención y procesamiento de señales ECG en tiempo real, utilizando sistemas embebidos programados en lenguaje C. Se busca que el sistema capture de manera precisa las señales electrocardiográficas de una persona, las transmita a una computadora para su visualización, y aplique algoritmos para analizar las señales y detectar posibles anomalías cardíacas. 
-
-1.2. Importancia de la adquisición de señales ECG
-
-La adquisición de señales electrocardiográficas (ECG) es fundamental en el monitoreo y diagnóstico de enfermedades cardiovasculares. Un sistema de adquisición de ECG permite registrar la actividad eléctrica del corazón a través de electrodos colocados en la piel, proporcionando información clave sobre el ritmo y la función cardíaca. La precisión en la adquisición de estas señales es esencial, ya que cualquier interferencia o ruido puede afectar la interpretación de los datos, lo que podría llevar a diagnósticos erróneos (García et al., 2015).
-
-El desarrollo de sistemas de adquisición de ECG ha evolucionado significativamente gracias a los avances en electrónica y procesamiento de señales. La implementación de filtros digitales y amplificadores de instrumentación ha mejorado la calidad de las señales obtenidas, permitiendo una detección más precisa de anomalías como arritmias y bloqueos cardíacos (Rodríguez & López, 2020). Además, la integración de sistemas embebidos y la transmisión de datos en tiempo real han facilitado el monitoreo remoto, beneficiando a pacientes con enfermedades crónicas y reduciendo la necesidad de hospitalización (Fernández et al., 2018).
-
-La importancia de la adquisición de señales ECG también radica en su uso en el ámbito de la investigación biomédica y el desarrollo de tecnologías médicas innovadoras. Los sistemas modernos de adquisición no solo permiten visualizar las señales en tiempo real, sino que también posibilitan el análisis automatizado mediante algoritmos de inteligencia artificial, mejorando la detección temprana de patologías (Martínez et al., 2019). Estos avances refuerzan la necesidad de continuar optimizando los sistemas de adquisición para lograr registros cada vez más precisos y accesibles en entornos clínicos y domésticos.
 
 1.3. Alcance del proyecto
 
 El presente proyecto tiene como objetivo el desarrollo de un sistema electrónico para la adquisición y análisis de señales electrocardiográficas (ECG), diseñado para fines de investigación biomédica. El sistema captura señales ECG mediante electrodos especializados, las transmite a una computadora para su almacenamiento y visualización, y aplica algoritmos de procesamiento para la detección de posibles anomalías cardíacas.
 
-1.4. Justificación tecnológica  
-
-El desarrollo de un sistema de adquisición de señales electrocardiográficas (ECG) basado en sistemas embebidos y procesamiento digital de señales responde a la necesidad de contar con herramientas accesibles y eficientes para la investigación biomédica. Actualmente, la adquisición y análisis de señales ECG requiere equipos de alto costo, diseñados principalmente para aplicaciones médicas certificadas. Este proyecto busca ofrecer una alternativa basada en hardware de bajo costo, manteniendo una alta precisión en la captura y procesamiento de datos.  
 
 ### **2. Fundamentos Teóricos**  
 
@@ -105,8 +92,6 @@ $|H(j\omega)|^2 = \frac{H_0^2}{1 + \left(\frac{\omega}{\omega_c}\right)^{2n}}$
 - $\omega$ es la frecuencia angular.  
 - $\omega_c$ es la frecuencia de corte (-3 dB).  
 - $n$ es el orden del filtro.  
-
-
 
 Esta configuración asegura una transición suave entre las bandas pasante y de atenuación, lo que es esencial en aplicaciones biomédicas donde la preservación de la morfología de la señal es crítica (Ochoa et al., 2011).  
 
@@ -244,71 +229,11 @@ El lenguaje C continúa siendo una herramienta indispensable en el desarrollo de
 
 ---
 
-### **3. Diseño del Sistema**  
-3.1. **Selección de componentes**  
-3.1.1. Sensores de adquisición de ECG (electrodos, tipo de conexión, materiales)  
-3.1.2. Amplificadores de instrumentación (Ejemplo: AD620, INA128)  
-3.1.3. Filtros analógicos para reducción de ruido (Pasa-altas, pasa-bajas, notch 50/60Hz)  
-3.1.4. Convertidores ADC y selección del DAC adecuado  
-3.1.5. Microcontrolador o FPGA para adquisición y procesamiento  
-3.1.6. Comunicación con PC o sistema de almacenamiento  
-
-3.2. **Esquema del sistema**  
-3.2.1. Diagrama de bloques del sistema  
-3.2.2. Circuito del acondicionamiento de señal  
-3.2.3. Interfaz del microcontrolador con el ADC y DAC  
-3.2.4. Fuente de alimentación y consideraciones de seguridad  
-
----
-
-### **4. Desarrollo del Software**  
-4.1. **Entorno de desarrollo**  
-4.1.1. Herramientas necesarias  
-- Sistemas operativos compatibles (Windows, Linux, MacOS)  
-- Lenguajes de programación (Python, C, C++)  
-- IDEs utilizados (VS Code, Keil, Arduino IDE, etc.)  
-4.1.2. Instalación y configuración  
-- Configuración de entorno en Pop OS  
-- Instalación de bibliotecas necesarias (NumPy, SciPy, Matplotlib)  
-- Configuración de comunicación con el hardware (puertos seriales, Bluetooth, WiFi)  
-
-4.2. **Programación en Python**  
-4.2.1. Estructura básica del programa  
-4.2.2. Adquisición de datos en tiempo real  
-- Uso de bibliotecas (pySerial, pandas, etc.)  
-- Lectura de datos desde el DAC  
-- Procesamiento y filtrado de señales (FFT, wavelet transform)  
-4.2.3. Procesamiento de señales  
-- Filtrado digital (filtros FIR/IIR)  
-- Eliminación de artefactos (movimiento, interferencia de línea)  
-- Segmentación y análisis de ondas ECG  
-
-4.3. **Interfaz de usuario**  
-4.3.1. Visualización de datos en tiempo real  
-- Uso de Matplotlib y PyQt5 para gráficos en vivo  
-- Representación de la señal ECG con escalado automático  
-4.3.2. Interacción con el sistema  
-- Controles para iniciar/detener la adquisición  
-- Exportación de datos a CSV o JSON  
-
----
-
 ### **5. Implementación del Sistema**  
 5.1. **Integración de hardware y software**  
 5.1.1. Conexión del hardware con el software de adquisición  
 5.1.2. Configuración del microcontrolador para transmisión de datos  
 5.1.3. Interfaz de comunicación con la computadora  
-
-5.2. **Pruebas y validación**  
-5.2.1. Metodología de pruebas  
-- Pruebas de precisión del sensor  
-- Evaluación del ruido e interferencias  
-- Validación de la frecuencia de muestreo  
-5.2.2. Resultados obtenidos  
-- Comparación con datos de referencia  
-- Evaluación de calidad de señal  
-- Análisis de error en la adquisición  
-
 ---
 
 ### **6. Análisis de Resultados**  
@@ -321,28 +246,6 @@ El lenguaje C continúa siendo una herramienta indispensable en el desarrollo de
 6.4. **Interpretación de resultados**  
 - Identificación de limitaciones en el diseño  
 - Recomendaciones para optimización  
-
----
-
-### **7. Discusión**  
-7.1. **Limitaciones del sistema**  
-- Precisión del DAC  
-- Interferencias en la señal ECG  
-7.2. **Posibilidades de mejora**  
-- Implementación de filtros adaptativos  
-- Optimización del procesamiento en tiempo real  
-7.3. **Aplicaciones futuras**  
-- Uso en monitoreo remoto de pacientes  
-- Aplicación en dispositivos portátiles  
-
----
-
-### **8. Conclusiones y Futuras Direcciones**  
-8.1. Conclusiones del proyecto  
-8.2. Posibles mejoras y desarrollos futuros  
-8.3. Impacto potencial en la salud y tecnología  
-
----
 
 ### **9. Referencias**  
 9.1. Bibliografía utilizada
@@ -412,29 +315,3 @@ El lenguaje C continúa siendo una herramienta indispensable en el desarrollo de
 - Labrosse, J. J. (2009). *MicroC/OS-II: The Real-Time Kernel*. CMP Books.  
 
 - Pont, M. J. (2002). *Embedded C*. Addison-Wesley.
-
-
-9.2. Fuentes de información  
-9.3. Recursos adicionales  
-
----
-
-### **10. Anexos**  
-10.1. Códigos fuente  
-10.2. Diagramas y esquemas eléctricos  
-10.3. Documentación adicional  
-10.4. Resultados adicionales de pruebas  
-10.5. Diagramas y gráficos  
-
----
-
-### **11. Solución de Problemas**  
-11.1. Errores comunes y soluciones  
-- Problemas en la adquisición de datos  
-- Fallos en la comunicación serial  
-- Interferencias en la señal ECG  
-11.2. Depuración y diagnóstico  
-- Métodos de depuración en sistemas embebidos  
-- Pruebas con osciloscopio y analizador lógico  
-11.3. Estrategias de optimización  
-
